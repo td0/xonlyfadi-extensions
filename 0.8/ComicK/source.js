@@ -6,165 +6,217 @@ var _Sources = (() => {
   var __getOwnPropNames = Object.getOwnPropertyNames;
   var __getProtoOf = Object.getPrototypeOf;
   var __hasOwnProp = Object.prototype.hasOwnProperty;
-  var __commonJS = (cb, mod) => function __require() {
-    return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
-  };
+  var __commonJS = (cb, mod) =>
+    function __require() {
+      return (
+        mod ||
+          (0, cb[__getOwnPropNames(cb)[0]])(
+            (mod = { exports: {} }).exports,
+            mod
+          ),
+        mod.exports
+      );
+    };
   var __export = (target, all2) => {
     for (var name2 in all2)
       __defProp(target, name2, { get: all2[name2], enumerable: true });
   };
   var __copyProps = (to, from, except, desc) => {
-    if (from && typeof from === "object" || typeof from === "function") {
+    if ((from && typeof from === "object") || typeof from === "function") {
       for (let key of __getOwnPropNames(from))
         if (!__hasOwnProp.call(to, key) && key !== except)
-          __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+          __defProp(to, key, {
+            get: () => from[key],
+            enumerable:
+              !(desc = __getOwnPropDesc(from, key)) || desc.enumerable,
+          });
     }
     return to;
   };
-  var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
-    // If the importer is in node compatibility mode or this is not an ESM
-    // file that has been converted to a CommonJS file using a Babel-
-    // compatible transform (i.e. "__esModule" has not been set), then set
-    // "default" to the CommonJS "module.exports" for node compatibility.
-    isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
-    mod
-  ));
-  var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+  var __toESM = (mod, isNodeMode, target) => (
+    (target = mod != null ? __create(__getProtoOf(mod)) : {}),
+    __copyProps(
+      // If the importer is in node compatibility mode or this is not an ESM
+      // file that has been converted to a CommonJS file using a Babel-
+      // compatible transform (i.e. "__esModule" has not been set), then set
+      // "default" to the CommonJS "module.exports" for node compatibility.
+      isNodeMode || !mod || !mod.__esModule
+        ? __defProp(target, "default", { value: mod, enumerable: true })
+        : target,
+      mod
+    )
+  );
+  var __toCommonJS = (mod) =>
+    __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
   // node_modules/@paperback/types/lib/generated/DynamicUI/Exports/DUIBinding.js
   var require_DUIBinding = __commonJS({
-    "node_modules/@paperback/types/lib/generated/DynamicUI/Exports/DUIBinding.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/DynamicUI/Exports/DUIBinding.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/DynamicUI/Exports/DUIForm.js
   var require_DUIForm = __commonJS({
-    "node_modules/@paperback/types/lib/generated/DynamicUI/Exports/DUIForm.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/DynamicUI/Exports/DUIForm.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/DynamicUI/Exports/DUIFormRow.js
   var require_DUIFormRow = __commonJS({
-    "node_modules/@paperback/types/lib/generated/DynamicUI/Exports/DUIFormRow.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/DynamicUI/Exports/DUIFormRow.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/DynamicUI/Exports/DUISection.js
   var require_DUISection = __commonJS({
-    "node_modules/@paperback/types/lib/generated/DynamicUI/Exports/DUISection.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/DynamicUI/Exports/DUISection.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUIButton.js
   var require_DUIButton = __commonJS({
-    "node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUIButton.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUIButton.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUIHeader.js
   var require_DUIHeader = __commonJS({
-    "node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUIHeader.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUIHeader.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUIInputField.js
   var require_DUIInputField = __commonJS({
-    "node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUIInputField.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUIInputField.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUILabel.js
   var require_DUILabel = __commonJS({
-    "node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUILabel.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUILabel.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUILink.js
   var require_DUILink = __commonJS({
-    "node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUILink.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUILink.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUIMultilineLabel.js
   var require_DUIMultilineLabel = __commonJS({
-    "node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUIMultilineLabel.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUIMultilineLabel.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUINavigationButton.js
   var require_DUINavigationButton = __commonJS({
-    "node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUINavigationButton.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUINavigationButton.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUIOAuthButton.js
   var require_DUIOAuthButton = __commonJS({
-    "node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUIOAuthButton.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUIOAuthButton.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUISecureInputField.js
   var require_DUISecureInputField = __commonJS({
-    "node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUISecureInputField.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUISecureInputField.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUISelect.js
   var require_DUISelect = __commonJS({
-    "node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUISelect.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUISelect.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUIStepper.js
   var require_DUIStepper = __commonJS({
-    "node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUIStepper.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUIStepper.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUISwitch.js
   var require_DUISwitch = __commonJS({
-    "node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUISwitch.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/DynamicUI/Rows/Exports/DUISwitch.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/ChapterDetails.js
   var require_ChapterDetails = __commonJS({
-    "node_modules/@paperback/types/lib/generated/Exports/ChapterDetails.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/Exports/ChapterDetails.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/Chapter.js
@@ -172,7 +224,7 @@ var _Sources = (() => {
     "node_modules/@paperback/types/lib/generated/Exports/Chapter.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/Cookie.js
@@ -180,15 +232,17 @@ var _Sources = (() => {
     "node_modules/@paperback/types/lib/generated/Exports/Cookie.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/HomeSection.js
   var require_HomeSection = __commonJS({
-    "node_modules/@paperback/types/lib/generated/Exports/HomeSection.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/Exports/HomeSection.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/IconText.js
@@ -196,39 +250,47 @@ var _Sources = (() => {
     "node_modules/@paperback/types/lib/generated/Exports/IconText.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/MangaInfo.js
   var require_MangaInfo = __commonJS({
-    "node_modules/@paperback/types/lib/generated/Exports/MangaInfo.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/Exports/MangaInfo.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/MangaProgress.js
   var require_MangaProgress = __commonJS({
-    "node_modules/@paperback/types/lib/generated/Exports/MangaProgress.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/Exports/MangaProgress.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/PartialSourceManga.js
   var require_PartialSourceManga = __commonJS({
-    "node_modules/@paperback/types/lib/generated/Exports/PartialSourceManga.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/Exports/PartialSourceManga.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/MangaUpdates.js
   var require_MangaUpdates = __commonJS({
-    "node_modules/@paperback/types/lib/generated/Exports/MangaUpdates.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/Exports/MangaUpdates.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/PBCanvas.js
@@ -236,7 +298,7 @@ var _Sources = (() => {
     "node_modules/@paperback/types/lib/generated/Exports/PBCanvas.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/PBImage.js
@@ -244,15 +306,17 @@ var _Sources = (() => {
     "node_modules/@paperback/types/lib/generated/Exports/PBImage.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/PagedResults.js
   var require_PagedResults = __commonJS({
-    "node_modules/@paperback/types/lib/generated/Exports/PagedResults.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/Exports/PagedResults.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/RawData.js
@@ -260,7 +324,7 @@ var _Sources = (() => {
     "node_modules/@paperback/types/lib/generated/Exports/RawData.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/Request.js
@@ -268,23 +332,27 @@ var _Sources = (() => {
     "node_modules/@paperback/types/lib/generated/Exports/Request.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/SourceInterceptor.js
   var require_SourceInterceptor = __commonJS({
-    "node_modules/@paperback/types/lib/generated/Exports/SourceInterceptor.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/Exports/SourceInterceptor.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/RequestManager.js
   var require_RequestManager = __commonJS({
-    "node_modules/@paperback/types/lib/generated/Exports/RequestManager.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/Exports/RequestManager.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/Response.js
@@ -292,55 +360,67 @@ var _Sources = (() => {
     "node_modules/@paperback/types/lib/generated/Exports/Response.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/SearchField.js
   var require_SearchField = __commonJS({
-    "node_modules/@paperback/types/lib/generated/Exports/SearchField.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/Exports/SearchField.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/SearchRequest.js
   var require_SearchRequest = __commonJS({
-    "node_modules/@paperback/types/lib/generated/Exports/SearchRequest.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/Exports/SearchRequest.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/SourceCookieStore.js
   var require_SourceCookieStore = __commonJS({
-    "node_modules/@paperback/types/lib/generated/Exports/SourceCookieStore.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/Exports/SourceCookieStore.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/SourceManga.js
   var require_SourceManga = __commonJS({
-    "node_modules/@paperback/types/lib/generated/Exports/SourceManga.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/Exports/SourceManga.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/SecureStateManager.js
   var require_SecureStateManager = __commonJS({
-    "node_modules/@paperback/types/lib/generated/Exports/SecureStateManager.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/Exports/SecureStateManager.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/SourceStateManager.js
   var require_SourceStateManager = __commonJS({
-    "node_modules/@paperback/types/lib/generated/Exports/SourceStateManager.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/Exports/SourceStateManager.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/Tag.js
@@ -348,53 +428,78 @@ var _Sources = (() => {
     "node_modules/@paperback/types/lib/generated/Exports/Tag.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/TagSection.js
   var require_TagSection = __commonJS({
-    "node_modules/@paperback/types/lib/generated/Exports/TagSection.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/Exports/TagSection.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/TrackedMangaChapterReadAction.js
   var require_TrackedMangaChapterReadAction = __commonJS({
-    "node_modules/@paperback/types/lib/generated/Exports/TrackedMangaChapterReadAction.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/Exports/TrackedMangaChapterReadAction.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/Exports/TrackerActionQueue.js
   var require_TrackerActionQueue = __commonJS({
-    "node_modules/@paperback/types/lib/generated/Exports/TrackerActionQueue.js"(exports) {
+    "node_modules/@paperback/types/lib/generated/Exports/TrackerActionQueue.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/generated/_exports.js
   var require_exports = __commonJS({
     "node_modules/@paperback/types/lib/generated/_exports.js"(exports) {
       "use strict";
-      var __createBinding = exports && exports.__createBinding || (Object.create ? function(o2, m, k, k2) {
-        if (k2 === void 0) k2 = k;
-        var desc = Object.getOwnPropertyDescriptor(m, k);
-        if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
-          desc = { enumerable: true, get: function() {
-            return m[k];
-          } };
-        }
-        Object.defineProperty(o2, k2, desc);
-      } : function(o2, m, k, k2) {
-        if (k2 === void 0) k2 = k;
-        o2[k2] = m[k];
-      });
-      var __exportStar = exports && exports.__exportStar || function(m, exports2) {
-        for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports2, p)) __createBinding(exports2, m, p);
-      };
+      var __createBinding =
+        (exports && exports.__createBinding) ||
+        (Object.create
+          ? function (o2, m, k, k2) {
+              if (k2 === void 0) k2 = k;
+              var desc = Object.getOwnPropertyDescriptor(m, k);
+              if (
+                !desc ||
+                ("get" in desc
+                  ? !m.__esModule
+                  : desc.writable || desc.configurable)
+              ) {
+                desc = {
+                  enumerable: true,
+                  get: function () {
+                    return m[k];
+                  },
+                };
+              }
+              Object.defineProperty(o2, k2, desc);
+            }
+          : function (o2, m, k, k2) {
+              if (k2 === void 0) k2 = k;
+              o2[k2] = m[k];
+            });
+      var __exportStar =
+        (exports && exports.__exportStar) ||
+        function (m, exports2) {
+          for (var p in m)
+            if (
+              p !== "default" &&
+              !Object.prototype.hasOwnProperty.call(exports2, p)
+            )
+              __createBinding(exports2, m, p);
+        };
       Object.defineProperty(exports, "__esModule", { value: true });
       __exportStar(require_DUIBinding(), exports);
       __exportStar(require_DUIForm(), exports);
@@ -439,7 +544,7 @@ var _Sources = (() => {
       __exportStar(require_TagSection(), exports);
       __exportStar(require_TrackedMangaChapterReadAction(), exports);
       __exportStar(require_TrackerActionQueue(), exports);
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/base/Source.js
@@ -492,7 +597,7 @@ var _Sources = (() => {
         return ret;
       }
       exports.urlEncodeObject = urlEncodeObject;
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/base/ByteArray.js
@@ -500,7 +605,7 @@ var _Sources = (() => {
     "node_modules/@paperback/types/lib/base/ByteArray.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/base/Badge.js
@@ -510,92 +615,125 @@ var _Sources = (() => {
       Object.defineProperty(exports, "__esModule", { value: true });
       exports.BadgeColor = void 0;
       var BadgeColor2;
-      (function(BadgeColor3) {
+      (function (BadgeColor3) {
         BadgeColor3["BLUE"] = "default";
         BadgeColor3["GREEN"] = "success";
         BadgeColor3["GREY"] = "info";
         BadgeColor3["YELLOW"] = "warning";
         BadgeColor3["RED"] = "danger";
-      })(BadgeColor2 = exports.BadgeColor || (exports.BadgeColor = {}));
-    }
+      })((BadgeColor2 = exports.BadgeColor || (exports.BadgeColor = {})));
+    },
   });
 
   // node_modules/@paperback/types/lib/base/interfaces/ChapterProviding.js
   var require_ChapterProviding = __commonJS({
-    "node_modules/@paperback/types/lib/base/interfaces/ChapterProviding.js"(exports) {
+    "node_modules/@paperback/types/lib/base/interfaces/ChapterProviding.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/base/interfaces/CloudflareBypassRequestProviding.js
   var require_CloudflareBypassRequestProviding = __commonJS({
-    "node_modules/@paperback/types/lib/base/interfaces/CloudflareBypassRequestProviding.js"(exports) {
+    "node_modules/@paperback/types/lib/base/interfaces/CloudflareBypassRequestProviding.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/base/interfaces/HomePageSectionsProviding.js
   var require_HomePageSectionsProviding = __commonJS({
-    "node_modules/@paperback/types/lib/base/interfaces/HomePageSectionsProviding.js"(exports) {
+    "node_modules/@paperback/types/lib/base/interfaces/HomePageSectionsProviding.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/base/interfaces/MangaProgressProviding.js
   var require_MangaProgressProviding = __commonJS({
-    "node_modules/@paperback/types/lib/base/interfaces/MangaProgressProviding.js"(exports) {
+    "node_modules/@paperback/types/lib/base/interfaces/MangaProgressProviding.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/base/interfaces/MangaProviding.js
   var require_MangaProviding = __commonJS({
-    "node_modules/@paperback/types/lib/base/interfaces/MangaProviding.js"(exports) {
+    "node_modules/@paperback/types/lib/base/interfaces/MangaProviding.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/base/interfaces/RequestManagerProviding.js
   var require_RequestManagerProviding = __commonJS({
-    "node_modules/@paperback/types/lib/base/interfaces/RequestManagerProviding.js"(exports) {
+    "node_modules/@paperback/types/lib/base/interfaces/RequestManagerProviding.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/base/interfaces/SearchResultsProviding.js
   var require_SearchResultsProviding = __commonJS({
-    "node_modules/@paperback/types/lib/base/interfaces/SearchResultsProviding.js"(exports) {
+    "node_modules/@paperback/types/lib/base/interfaces/SearchResultsProviding.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/base/interfaces/index.js
   var require_interfaces = __commonJS({
     "node_modules/@paperback/types/lib/base/interfaces/index.js"(exports) {
       "use strict";
-      var __createBinding = exports && exports.__createBinding || (Object.create ? function(o2, m, k, k2) {
-        if (k2 === void 0) k2 = k;
-        var desc = Object.getOwnPropertyDescriptor(m, k);
-        if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
-          desc = { enumerable: true, get: function() {
-            return m[k];
-          } };
-        }
-        Object.defineProperty(o2, k2, desc);
-      } : function(o2, m, k, k2) {
-        if (k2 === void 0) k2 = k;
-        o2[k2] = m[k];
-      });
-      var __exportStar = exports && exports.__exportStar || function(m, exports2) {
-        for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports2, p)) __createBinding(exports2, m, p);
-      };
+      var __createBinding =
+        (exports && exports.__createBinding) ||
+        (Object.create
+          ? function (o2, m, k, k2) {
+              if (k2 === void 0) k2 = k;
+              var desc = Object.getOwnPropertyDescriptor(m, k);
+              if (
+                !desc ||
+                ("get" in desc
+                  ? !m.__esModule
+                  : desc.writable || desc.configurable)
+              ) {
+                desc = {
+                  enumerable: true,
+                  get: function () {
+                    return m[k];
+                  },
+                };
+              }
+              Object.defineProperty(o2, k2, desc);
+            }
+          : function (o2, m, k, k2) {
+              if (k2 === void 0) k2 = k;
+              o2[k2] = m[k];
+            });
+      var __exportStar =
+        (exports && exports.__exportStar) ||
+        function (m, exports2) {
+          for (var p in m)
+            if (
+              p !== "default" &&
+              !Object.prototype.hasOwnProperty.call(exports2, p)
+            )
+              __createBinding(exports2, m, p);
+        };
       Object.defineProperty(exports, "__esModule", { value: true });
       __exportStar(require_ChapterProviding(), exports);
       __exportStar(require_CloudflareBypassRequestProviding(), exports);
@@ -604,7 +742,7 @@ var _Sources = (() => {
       __exportStar(require_MangaProviding(), exports);
       __exportStar(require_RequestManagerProviding(), exports);
       __exportStar(require_SearchResultsProviding(), exports);
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/base/SourceInfo.js
@@ -614,21 +752,30 @@ var _Sources = (() => {
       Object.defineProperty(exports, "__esModule", { value: true });
       exports.ContentRating = exports.SourceIntents = void 0;
       var SourceIntents2;
-      (function(SourceIntents3) {
-        SourceIntents3[SourceIntents3["MANGA_CHAPTERS"] = 1] = "MANGA_CHAPTERS";
-        SourceIntents3[SourceIntents3["MANGA_TRACKING"] = 2] = "MANGA_TRACKING";
-        SourceIntents3[SourceIntents3["HOMEPAGE_SECTIONS"] = 4] = "HOMEPAGE_SECTIONS";
-        SourceIntents3[SourceIntents3["COLLECTION_MANAGEMENT"] = 8] = "COLLECTION_MANAGEMENT";
-        SourceIntents3[SourceIntents3["CLOUDFLARE_BYPASS_REQUIRED"] = 16] = "CLOUDFLARE_BYPASS_REQUIRED";
-        SourceIntents3[SourceIntents3["SETTINGS_UI"] = 32] = "SETTINGS_UI";
-      })(SourceIntents2 = exports.SourceIntents || (exports.SourceIntents = {}));
+      (function (SourceIntents3) {
+        SourceIntents3[(SourceIntents3["MANGA_CHAPTERS"] = 1)] =
+          "MANGA_CHAPTERS";
+        SourceIntents3[(SourceIntents3["MANGA_TRACKING"] = 2)] =
+          "MANGA_TRACKING";
+        SourceIntents3[(SourceIntents3["HOMEPAGE_SECTIONS"] = 4)] =
+          "HOMEPAGE_SECTIONS";
+        SourceIntents3[(SourceIntents3["COLLECTION_MANAGEMENT"] = 8)] =
+          "COLLECTION_MANAGEMENT";
+        SourceIntents3[(SourceIntents3["CLOUDFLARE_BYPASS_REQUIRED"] = 16)] =
+          "CLOUDFLARE_BYPASS_REQUIRED";
+        SourceIntents3[(SourceIntents3["SETTINGS_UI"] = 32)] = "SETTINGS_UI";
+      })(
+        (SourceIntents2 = exports.SourceIntents || (exports.SourceIntents = {}))
+      );
       var ContentRating2;
-      (function(ContentRating3) {
+      (function (ContentRating3) {
         ContentRating3["EVERYONE"] = "EVERYONE";
         ContentRating3["MATURE"] = "MATURE";
         ContentRating3["ADULT"] = "ADULT";
-      })(ContentRating2 = exports.ContentRating || (exports.ContentRating = {}));
-    }
+      })(
+        (ContentRating2 = exports.ContentRating || (exports.ContentRating = {}))
+      );
+    },
   });
 
   // node_modules/@paperback/types/lib/base/HomeSectionType.js
@@ -638,43 +785,67 @@ var _Sources = (() => {
       Object.defineProperty(exports, "__esModule", { value: true });
       exports.HomeSectionType = void 0;
       var HomeSectionType2;
-      (function(HomeSectionType3) {
+      (function (HomeSectionType3) {
         HomeSectionType3["singleRowNormal"] = "singleRowNormal";
         HomeSectionType3["singleRowLarge"] = "singleRowLarge";
         HomeSectionType3["doubleRow"] = "doubleRow";
         HomeSectionType3["featured"] = "featured";
-      })(HomeSectionType2 = exports.HomeSectionType || (exports.HomeSectionType = {}));
-    }
+      })(
+        (HomeSectionType2 =
+          exports.HomeSectionType || (exports.HomeSectionType = {}))
+      );
+    },
   });
 
   // node_modules/@paperback/types/lib/base/PaperbackExtensionBase.js
   var require_PaperbackExtensionBase = __commonJS({
-    "node_modules/@paperback/types/lib/base/PaperbackExtensionBase.js"(exports) {
+    "node_modules/@paperback/types/lib/base/PaperbackExtensionBase.js"(
+      exports
+    ) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/base/index.js
   var require_base = __commonJS({
     "node_modules/@paperback/types/lib/base/index.js"(exports) {
       "use strict";
-      var __createBinding = exports && exports.__createBinding || (Object.create ? function(o2, m, k, k2) {
-        if (k2 === void 0) k2 = k;
-        var desc = Object.getOwnPropertyDescriptor(m, k);
-        if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
-          desc = { enumerable: true, get: function() {
-            return m[k];
-          } };
-        }
-        Object.defineProperty(o2, k2, desc);
-      } : function(o2, m, k, k2) {
-        if (k2 === void 0) k2 = k;
-        o2[k2] = m[k];
-      });
-      var __exportStar = exports && exports.__exportStar || function(m, exports2) {
-        for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports2, p)) __createBinding(exports2, m, p);
-      };
+      var __createBinding =
+        (exports && exports.__createBinding) ||
+        (Object.create
+          ? function (o2, m, k, k2) {
+              if (k2 === void 0) k2 = k;
+              var desc = Object.getOwnPropertyDescriptor(m, k);
+              if (
+                !desc ||
+                ("get" in desc
+                  ? !m.__esModule
+                  : desc.writable || desc.configurable)
+              ) {
+                desc = {
+                  enumerable: true,
+                  get: function () {
+                    return m[k];
+                  },
+                };
+              }
+              Object.defineProperty(o2, k2, desc);
+            }
+          : function (o2, m, k, k2) {
+              if (k2 === void 0) k2 = k;
+              o2[k2] = m[k];
+            });
+      var __exportStar =
+        (exports && exports.__exportStar) ||
+        function (m, exports2) {
+          for (var p in m)
+            if (
+              p !== "default" &&
+              !Object.prototype.hasOwnProperty.call(exports2, p)
+            )
+              __createBinding(exports2, m, p);
+        };
       Object.defineProperty(exports, "__esModule", { value: true });
       __exportStar(require_Source(), exports);
       __exportStar(require_ByteArray(), exports);
@@ -683,7 +854,7 @@ var _Sources = (() => {
       __exportStar(require_SourceInfo(), exports);
       __exportStar(require_HomeSectionType(), exports);
       __exportStar(require_PaperbackExtensionBase(), exports);
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/compat/DyamicUI.js
@@ -691,34 +862,53 @@ var _Sources = (() => {
     "node_modules/@paperback/types/lib/compat/DyamicUI.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-    }
+    },
   });
 
   // node_modules/@paperback/types/lib/index.js
   var require_lib = __commonJS({
     "node_modules/@paperback/types/lib/index.js"(exports) {
       "use strict";
-      var __createBinding = exports && exports.__createBinding || (Object.create ? function(o2, m, k, k2) {
-        if (k2 === void 0) k2 = k;
-        var desc = Object.getOwnPropertyDescriptor(m, k);
-        if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
-          desc = { enumerable: true, get: function() {
-            return m[k];
-          } };
-        }
-        Object.defineProperty(o2, k2, desc);
-      } : function(o2, m, k, k2) {
-        if (k2 === void 0) k2 = k;
-        o2[k2] = m[k];
-      });
-      var __exportStar = exports && exports.__exportStar || function(m, exports2) {
-        for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports2, p)) __createBinding(exports2, m, p);
-      };
+      var __createBinding =
+        (exports && exports.__createBinding) ||
+        (Object.create
+          ? function (o2, m, k, k2) {
+              if (k2 === void 0) k2 = k;
+              var desc = Object.getOwnPropertyDescriptor(m, k);
+              if (
+                !desc ||
+                ("get" in desc
+                  ? !m.__esModule
+                  : desc.writable || desc.configurable)
+              ) {
+                desc = {
+                  enumerable: true,
+                  get: function () {
+                    return m[k];
+                  },
+                };
+              }
+              Object.defineProperty(o2, k2, desc);
+            }
+          : function (o2, m, k, k2) {
+              if (k2 === void 0) k2 = k;
+              o2[k2] = m[k];
+            });
+      var __exportStar =
+        (exports && exports.__exportStar) ||
+        function (m, exports2) {
+          for (var p in m)
+            if (
+              p !== "default" &&
+              !Object.prototype.hasOwnProperty.call(exports2, p)
+            )
+              __createBinding(exports2, m, p);
+        };
       Object.defineProperty(exports, "__esModule", { value: true });
       __exportStar(require_exports(), exports);
       __exportStar(require_base(), exports);
       __exportStar(require_DyamicUI(), exports);
-    }
+    },
   });
 
   // node_modules/deepmerge/dist/cjs.js
@@ -733,10 +923,16 @@ var _Sources = (() => {
       }
       function isSpecial(value) {
         var stringValue = Object.prototype.toString.call(value);
-        return stringValue === "[object RegExp]" || stringValue === "[object Date]" || isReactElement(value);
+        return (
+          stringValue === "[object RegExp]" ||
+          stringValue === "[object Date]" ||
+          isReactElement(value)
+        );
       }
       var canUseSymbol = typeof Symbol === "function" && Symbol.for;
-      var REACT_ELEMENT_TYPE = canUseSymbol ? Symbol.for("react.element") : 60103;
+      var REACT_ELEMENT_TYPE = canUseSymbol
+        ? Symbol.for("react.element")
+        : 60103;
       function isReactElement(value) {
         return value.$$typeof === REACT_ELEMENT_TYPE;
       }
@@ -744,10 +940,12 @@ var _Sources = (() => {
         return Array.isArray(val) ? [] : {};
       }
       function cloneUnlessOtherwiseSpecified(value, options) {
-        return options.clone !== false && options.isMergeableObject(value) ? deepmerge(emptyTarget(value), value, options) : value;
+        return options.clone !== false && options.isMergeableObject(value)
+          ? deepmerge(emptyTarget(value), value, options)
+          : value;
       }
       function defaultArrayMerge(target, source, options) {
-        return target.concat(source).map(function(element) {
+        return target.concat(source).map(function (element) {
           return cloneUnlessOtherwiseSpecified(element, options);
         });
       }
@@ -759,12 +957,16 @@ var _Sources = (() => {
         return typeof customMerge === "function" ? customMerge : deepmerge;
       }
       function getEnumerableOwnPropertySymbols(target) {
-        return Object.getOwnPropertySymbols ? Object.getOwnPropertySymbols(target).filter(function(symbol) {
-          return Object.propertyIsEnumerable.call(target, symbol);
-        }) : [];
+        return Object.getOwnPropertySymbols
+          ? Object.getOwnPropertySymbols(target).filter(function (symbol) {
+              return Object.propertyIsEnumerable.call(target, symbol);
+            })
+          : [];
       }
       function getKeys(target) {
-        return Object.keys(target).concat(getEnumerableOwnPropertySymbols(target));
+        return Object.keys(target).concat(
+          getEnumerableOwnPropertySymbols(target)
+        );
       }
       function propertyIsOnObject(object, property) {
         try {
@@ -774,23 +976,42 @@ var _Sources = (() => {
         }
       }
       function propertyIsUnsafe(target, key) {
-        return propertyIsOnObject(target, key) && !(Object.hasOwnProperty.call(target, key) && Object.propertyIsEnumerable.call(target, key));
+        return (
+          propertyIsOnObject(target, key) &&
+          !(
+            Object.hasOwnProperty.call(target, key) &&
+            Object.propertyIsEnumerable.call(target, key)
+          )
+        );
       }
       function mergeObject(target, source, options) {
         var destination = {};
         if (options.isMergeableObject(target)) {
-          getKeys(target).forEach(function(key) {
-            destination[key] = cloneUnlessOtherwiseSpecified(target[key], options);
+          getKeys(target).forEach(function (key) {
+            destination[key] = cloneUnlessOtherwiseSpecified(
+              target[key],
+              options
+            );
           });
         }
-        getKeys(source).forEach(function(key) {
+        getKeys(source).forEach(function (key) {
           if (propertyIsUnsafe(target, key)) {
             return;
           }
-          if (propertyIsOnObject(target, key) && options.isMergeableObject(source[key])) {
-            destination[key] = getMergeFunction(key, options)(target[key], source[key], options);
+          if (
+            propertyIsOnObject(target, key) &&
+            options.isMergeableObject(source[key])
+          ) {
+            destination[key] = getMergeFunction(key, options)(
+              target[key],
+              source[key],
+              options
+            );
           } else {
-            destination[key] = cloneUnlessOtherwiseSpecified(source[key], options);
+            destination[key] = cloneUnlessOtherwiseSpecified(
+              source[key],
+              options
+            );
           }
         });
         return destination;
@@ -798,7 +1019,8 @@ var _Sources = (() => {
       function deepmerge(target, source, options) {
         options = options || {};
         options.arrayMerge = options.arrayMerge || defaultArrayMerge;
-        options.isMergeableObject = options.isMergeableObject || isMergeableObject;
+        options.isMergeableObject =
+          options.isMergeableObject || isMergeableObject;
         options.cloneUnlessOtherwiseSpecified = cloneUnlessOtherwiseSpecified;
         var sourceIsArray = Array.isArray(source);
         var targetIsArray = Array.isArray(target);
@@ -815,20 +1037,20 @@ var _Sources = (() => {
         if (!Array.isArray(array)) {
           throw new Error("first argument should be an array");
         }
-        return array.reduce(function(prev, next) {
+        return array.reduce(function (prev, next) {
           return deepmerge(prev, next, options);
         }, {});
       };
       var deepmerge_1 = deepmerge;
       module.exports = deepmerge_1;
-    }
+    },
   });
 
   // src/ComicK/ComicK.ts
   var ComicK_exports = {};
   __export(ComicK_exports, {
     ComicK: () => ComicK,
-    ComicKInfo: () => ComicKInfo
+    ComicKInfo: () => ComicKInfo,
   });
   var import_types2 = __toESM(require_lib());
 
@@ -840,261 +1062,269 @@ var _Sources = (() => {
     constructor() {
       this.Languages = [
         {
-          "name": "All",
-          "CMCode": "all",
-          "emoji": "all"
+          name: "All",
+          CMCode: "all",
+          emoji: "all",
         },
         {
-          "name": "English",
-          "CMCode": "en",
-          "emoji": "\u{1F1EC}\u{1F1E7}"
+          name: "English",
+          CMCode: "en",
+          emoji: "\u{1F1EC}\u{1F1E7}",
         },
         {
-          "name": "portugu\xEAs do Brasil",
-          "CMCode": "pt-br",
-          "emoji": "\u{1F1E7}\u{1F1F7}"
+          name: "portugu\xEAs do Brasil",
+          CMCode: "pt-br",
+          emoji: "\u{1F1E7}\u{1F1F7}",
         },
         {
-          "name": "\u0440\u0443\u0441\u0441\u043A\u0438\u0439 \u044F\u0437\u044B\u043A",
-          "CMCode": "ru",
-          "emoji": "\u{1F1F7}\u{1F1FA}"
+          name: "\u0440\u0443\u0441\u0441\u043A\u0438\u0439 \u044F\u0437\u044B\u043A",
+          CMCode: "ru",
+          emoji: "\u{1F1F7}\u{1F1FA}",
         },
         {
-          "name": "fran\xE7ais, langue fran\xE7aise",
-          "CMCode": "fr",
-          "emoji": "\u{1F1EB}\u{1F1F7}"
+          name: "fran\xE7ais, langue fran\xE7aise",
+          CMCode: "fr",
+          emoji: "\u{1F1EB}\u{1F1F7}",
         },
         {
-          "name": "polski",
-          "CMCode": "pl",
-          "emoji": "\u{1F1F5}\u{1F1F1}"
+          name: "polski",
+          CMCode: "pl",
+          emoji: "\u{1F1F5}\u{1F1F1}",
         },
         {
-          "name": "espa\xF1ol latinoamericano",
-          "CMCode": "es-419",
-          "emoji": "\u{1F1E6}\u{1F1F7}"
+          name: "espa\xF1ol latinoamericano",
+          CMCode: "es-419",
+          emoji: "\u{1F1E6}\u{1F1F7}",
         },
         {
-          "name": "T\xFCrk\xE7e",
-          "CMCode": "tr",
-          "emoji": "\u{1F1F9}\u{1F1F7}"
+          name: "T\xFCrk\xE7e",
+          CMCode: "tr",
+          emoji: "\u{1F1F9}\u{1F1F7}",
         },
         {
-          "name": "Italiano",
-          "CMCode": "it",
-          "emoji": "\u{1F1EE}\u{1F1F9}"
+          name: "Italiano",
+          CMCode: "it",
+          emoji: "\u{1F1EE}\u{1F1F9}",
         },
         {
-          "name": "Bahasa Indonesia",
-          "CMCode": "id",
-          "emoji": "\u{1F1EE}\u{1F1E9}"
+          name: "Bahasa Indonesia",
+          CMCode: "id",
+          emoji: "\u{1F1EE}\u{1F1E9}",
         },
         {
-          "name": "espa\xF1ol, castellano",
-          "CMCode": "es",
-          "emoji": "\u{1F1EA}\u{1F1F8}"
+          name: "espa\xF1ol, castellano",
+          CMCode: "es",
+          emoji: "\u{1F1EA}\u{1F1F8}",
         },
         {
-          "name": "Ti\u1EBFng Vi\u1EC7t",
-          "CMCode": "vi",
-          "emoji": "\u{1F1FB}\u{1F1EE}"
+          name: "Ti\u1EBFng Vi\u1EC7t",
+          CMCode: "vi",
+          emoji: "\u{1F1FB}\u{1F1EE}",
         },
         {
-          "name": "\u0627\u0644\u0639\u0631\u0628\u064A\u0629",
-          "CMCode": "ar",
-          "emoji": "\u{1F1F8}\u{1F1E6}"
+          name: "\u0627\u0644\u0639\u0631\u0628\u064A\u0629",
+          CMCode: "ar",
+          emoji: "\u{1F1F8}\u{1F1E6}",
         },
         {
-          "name": "(Hong Kong) \u7E41\u9AD4\u4E2D\u6587",
-          "CMCode": "zh-hk",
-          "emoji": "\u{1F1ED}\u{1F1F0}"
+          name: "(Hong Kong) \u7E41\u9AD4\u4E2D\u6587",
+          CMCode: "zh-hk",
+          emoji: "\u{1F1ED}\u{1F1F0}",
         },
         {
-          "name": "Magyar",
-          "CMCode": "hu",
-          "emoji": "\u{1F1ED}\u{1F1FA}"
+          name: "Magyar",
+          CMCode: "hu",
+          emoji: "\u{1F1ED}\u{1F1FA}",
         },
         {
-          "name": "Deutsch",
-          "CMCode": "de",
-          "emoji": "\u{1F1E9}\u{1F1EA}"
+          name: "Deutsch",
+          CMCode: "de",
+          emoji: "\u{1F1E9}\u{1F1EA}",
         },
         {
-          "name": "\u0443\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430",
-          "CMCode": "uk",
-          "emoji": "\u{1F1FA}\u{1F1F0}"
+          name: "\u0443\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430",
+          CMCode: "uk",
+          emoji: "\u{1F1FA}\u{1F1F0}",
         },
         {
-          "name": "\u4E2D\u6587 (Zh\u014Dngw\xE9n), \u6C49\u8BED, \u6F22\u8A9E",
-          "CMCode": "zh",
-          "emoji": "\u{1F1FF}\u{1F1ED}"
+          name: "\u4E2D\u6587 (Zh\u014Dngw\xE9n), \u6C49\u8BED, \u6F22\u8A9E",
+          CMCode: "zh",
+          emoji: "\u{1F1FF}\u{1F1ED}",
         },
         {
-          "name": "\u0E44\u0E17\u0E22",
-          "CMCode": "th",
-          "emoji": "\u{1F1F9}\u{1F1ED}"
+          name: "\u0E44\u0E17\u0E22",
+          CMCode: "th",
+          emoji: "\u{1F1F9}\u{1F1ED}",
         },
         {
-          "name": "Catal\xE0",
-          "CMCode": "ca",
-          "emoji": "\u{1F1E8}\u{1F1E6}"
+          name: "Catal\xE0",
+          CMCode: "ca",
+          emoji: "\u{1F1E8}\u{1F1E6}",
         },
         {
-          "name": "\u0431\u044A\u043B\u0433\u0430\u0440\u0441\u043A\u0438 \u0435\u0437\u0438\u043A",
-          "CMCode": "bg",
-          "emoji": "\u{1F1E7}\u{1F1EC}"
+          name: "\u0431\u044A\u043B\u0433\u0430\u0440\u0441\u043A\u0438 \u0435\u0437\u0438\u043A",
+          CMCode: "bg",
+          emoji: "\u{1F1E7}\u{1F1EC}",
         },
         {
-          "name": "\u0641\u0627\u0631\u0633\u06CC",
-          "CMCode": "fa",
-          "emoji": "\u{1F1EB}\u{1F1E6}"
+          name: "\u0641\u0627\u0631\u0633\u06CC",
+          CMCode: "fa",
+          emoji: "\u{1F1EB}\u{1F1E6}",
         },
         {
-          "name": "rom\xE2n\u0103",
-          "CMCode": "ro",
-          "emoji": "\u{1F1F7}\u{1F1F4}"
+          name: "rom\xE2n\u0103",
+          CMCode: "ro",
+          emoji: "\u{1F1F7}\u{1F1F4}",
         },
         {
-          "name": "\u043C\u043E\u043D\u0433\u043E\u043B",
-          "CMCode": "mn",
-          "emoji": "\u{1F1F2}\u{1F1F3}"
+          name: "\u043C\u043E\u043D\u0433\u043E\u043B",
+          CMCode: "mn",
+          emoji: "\u{1F1F2}\u{1F1F3}",
         },
         {
-          "name": "\u05E2\u05D1\u05E8\u05D9\u05EA",
-          "CMCode": "he",
-          "emoji": "\u{1F1ED}\u{1F1EA}"
+          name: "\u05E2\u05D1\u05E8\u05D9\u05EA",
+          CMCode: "he",
+          emoji: "\u{1F1ED}\u{1F1EA}",
         },
         {
-          "name": "\u010Desky, \u010De\u0161tina",
-          "CMCode": "cs",
-          "emoji": "\u{1F1E8}\u{1F1F8}"
+          name: "\u010Desky, \u010De\u0161tina",
+          CMCode: "cs",
+          emoji: "\u{1F1E8}\u{1F1F8}",
         },
         {
-          "name": "Portugu\xEAs",
-          "CMCode": "pt",
-          "emoji": "\u{1F1F5}\u{1F1F9}"
+          name: "Portugu\xEAs",
+          CMCode: "pt",
+          emoji: "\u{1F1F5}\u{1F1F9}",
         },
         {
-          "name": "Wikang Tagalog, \u170F\u1712\u1703\u1705\u1714 \u1706\u1704\u170E\u1713\u1704\u1714",
-          "CMCode": "tl",
-          "emoji": "\u{1F1F9}\u{1F1F1}"
+          name: "Wikang Tagalog, \u170F\u1712\u1703\u1705\u1714 \u1706\u1704\u170E\u1713\u1704\u1714",
+          CMCode: "tl",
+          emoji: "\u{1F1F9}\u{1F1F1}",
         },
         {
-          "name": "bahasa Melayu, \u0628\u0647\u0627\u0633 \u0645\u0644\u0627\u064A\u0648\u200E",
-          "CMCode": "ms",
-          "emoji": "\u{1F1F2}\u{1F1F8}"
+          name: "bahasa Melayu, \u0628\u0647\u0627\u0633 \u0645\u0644\u0627\u064A\u0648\u200E",
+          CMCode: "ms",
+          emoji: "\u{1F1F2}\u{1F1F8}",
         },
         {
-          "name": "\u0939\u093F\u0928\u094D\u0926\u0940, \u0939\u093F\u0902\u0926\u0940",
-          "CMCode": "hi",
-          "emoji": "\u{1F1ED}\u{1F1EE}"
+          name: "\u0939\u093F\u0928\u094D\u0926\u0940, \u0939\u093F\u0902\u0926\u0940",
+          CMCode: "hi",
+          emoji: "\u{1F1ED}\u{1F1EE}",
         },
         {
-          "name": "\u65E5\u672C\u8A9E (\u306B\u307B\u3093\u3054\uFF0F\u306B\u3063\u307D\u3093\u3054)",
-          "CMCode": "ja",
-          "emoji": "\u{1F1EF}\u{1F1E6}"
+          name: "\u65E5\u672C\u8A9E (\u306B\u307B\u3093\u3054\uFF0F\u306B\u3063\u307D\u3093\u3054)",
+          CMCode: "ja",
+          emoji: "\u{1F1EF}\u{1F1E6}",
         },
         {
-          "name": "\u1017\u1019\u102C\u1005\u102C",
-          "CMCode": "my",
-          "emoji": "\u{1F1F2}\u{1F1FE}"
+          name: "\u1017\u1019\u102C\u1005\u102C",
+          CMCode: "my",
+          emoji: "\u{1F1F2}\u{1F1FE}",
         },
         {
-          "name": "\uD55C\uAD6D\uC5B4 (\u97D3\u570B\u8A9E), \uC870\uC120\uB9D0 (\u671D\u9BAE\u8A9E)",
-          "CMCode": "ko",
-          "emoji": "\u{1F1F0}\u{1F1F4}"
+          name: "\uD55C\uAD6D\uC5B4 (\u97D3\u570B\u8A9E), \uC870\uC120\uB9D0 (\u671D\u9BAE\u8A9E)",
+          CMCode: "ko",
+          emoji: "\u{1F1F0}\u{1F1F4}",
         },
         {
-          "name": "Nederlands, Vlaams",
-          "CMCode": "nl",
-          "emoji": "\u{1F1F3}\u{1F1F1}"
+          name: "Nederlands, Vlaams",
+          CMCode: "nl",
+          emoji: "\u{1F1F3}\u{1F1F1}",
         },
         {
-          "name": "\u0441\u0440\u043F\u0441\u043A\u0438 \u0458\u0435\u0437\u0438\u043A",
-          "CMCode": "sr",
-          "emoji": "\u{1F1F8}\u{1F1F7}"
+          name: "\u0441\u0440\u043F\u0441\u043A\u0438 \u0458\u0435\u0437\u0438\u043A",
+          CMCode: "sr",
+          emoji: "\u{1F1F8}\u{1F1F7}",
         },
         {
-          "name": "\u049A\u0430\u0437\u0430\u049B \u0442\u0456\u043B\u0456",
-          "CMCode": "kk",
-          "emoji": "\u{1F1F0}\u{1F1F0}"
+          name: "\u049A\u0430\u0437\u0430\u049B \u0442\u0456\u043B\u0456",
+          CMCode: "kk",
+          emoji: "\u{1F1F0}\u{1F1F0}",
         },
         {
-          "name": "Esperanto",
-          "CMCode": "eo",
-          "emoji": "\u{1F1EA}\u{1F1F4}"
+          name: "Esperanto",
+          CMCode: "eo",
+          emoji: "\u{1F1EA}\u{1F1F4}",
         },
         {
-          "name": "svenska",
-          "CMCode": "sv",
-          "emoji": "\u{1F1F8}\u{1F1FB}"
+          name: "svenska",
+          CMCode: "sv",
+          emoji: "\u{1F1F8}\u{1F1FB}",
         },
         {
-          "name": "\u0395\u03BB\u03BB\u03B7\u03BD\u03B9\u03BA\u03AC",
-          "CMCode": "el",
-          "emoji": "\u{1F1EA}\u{1F1F1}"
+          name: "\u0395\u03BB\u03BB\u03B7\u03BD\u03B9\u03BA\u03AC",
+          CMCode: "el",
+          emoji: "\u{1F1EA}\u{1F1F1}",
         },
         {
-          "name": "\u0BA4\u0BAE\u0BBF\u0BB4\u0BCD",
-          "CMCode": "ta",
-          "emoji": "\u{1F1F9}\u{1F1E6}"
+          name: "\u0BA4\u0BAE\u0BBF\u0BB4\u0BCD",
+          CMCode: "ta",
+          emoji: "\u{1F1F9}\u{1F1E6}",
         },
         {
-          "name": "\u09AC\u09BE\u0982\u09B2\u09BE",
-          "CMCode": "bn",
-          "emoji": "\u{1F1E7}\u{1F1F3}"
+          name: "\u09AC\u09BE\u0982\u09B2\u09BE",
+          CMCode: "bn",
+          emoji: "\u{1F1E7}\u{1F1F3}",
         },
         {
-          "name": "lietuvi\u0173 kalba",
-          "CMCode": "lt",
-          "emoji": "\u{1F1F1}\u{1F1F9}"
+          name: "lietuvi\u0173 kalba",
+          CMCode: "lt",
+          emoji: "\u{1F1F1}\u{1F1F9}",
         },
         {
-          "name": "\u0928\u0947\u092A\u093E\u0932\u0940",
-          "CMCode": "ne",
-          "emoji": "\u{1F1F3}\u{1F1EA}"
+          name: "\u0928\u0947\u092A\u093E\u0932\u0940",
+          CMCode: "ne",
+          emoji: "\u{1F1F3}\u{1F1EA}",
         },
         {
-          "name": "Norsk",
-          "CMCode": "no",
-          "emoji": "\u{1F1F3}\u{1F1F4}"
+          name: "Norsk",
+          CMCode: "no",
+          emoji: "\u{1F1F3}\u{1F1F4}",
         },
         {
-          "name": "latine, lingua latina",
-          "CMCode": "la",
-          "emoji": "\u{1F1F1}\u{1F1E6}"
+          name: "latine, lingua latina",
+          CMCode: "la",
+          emoji: "\u{1F1F1}\u{1F1E6}",
         },
         {
-          "name": "suomi, suomen kieli",
-          "CMCode": "fi",
-          "emoji": "\u{1F1EB}\u{1F1EE}"
+          name: "suomi, suomen kieli",
+          CMCode: "fi",
+          emoji: "\u{1F1EB}\u{1F1EE}",
         },
         {
-          "name": "hrvatski",
-          "CMCode": "hr",
-          "emoji": "\u{1F1ED}\u{1F1F7}"
+          name: "hrvatski",
+          CMCode: "hr",
+          emoji: "\u{1F1ED}\u{1F1F7}",
         },
         {
-          "name": "dansk",
-          "CMCode": "da",
-          "emoji": "\u{1F1E9}\u{1F1E6}"
+          name: "dansk",
+          CMCode: "da",
+          emoji: "\u{1F1E9}\u{1F1E6}",
         },
         {
-          "name": "sloven\u010Dina",
-          "CMCode": "sk",
-          "emoji": "\u{1F1F8}\u{1F1F0}"
-        }
+          name: "sloven\u010Dina",
+          CMCode: "sk",
+          emoji: "\u{1F1F8}\u{1F1F0}",
+        },
       ];
-      this.Languages = this.Languages.sort((a, b) => a.name > b.name ? 1 : -1);
+      this.Languages = this.Languages.sort((a, b) =>
+        a.name > b.name ? 1 : -1
+      );
     }
     getCMCodeList() {
       return this.Languages.map((Language) => Language.CMCode);
     }
     getName(CMCode) {
-      return this.Languages.find((Language) => Language.CMCode == CMCode)?.name ?? "Unknown";
+      return (
+        this.Languages.find((Language) => Language.CMCode == CMCode)?.name ??
+        "Unknown"
+      );
     }
     getEmoji(CMCode) {
-      return this.Languages.find((Language) => Language.CMCode == CMCode)?.emoji ?? "\u2370";
+      return (
+        this.Languages.find((Language) => Language.CMCode == CMCode)?.emoji ??
+        "\u2370"
+      );
     }
   };
   var CMLanguages = new LanguagesClass();
@@ -1142,77 +1372,91 @@ var _Sources = (() => {
     [155, 8250],
     [156, 339],
     [158, 382],
-    [159, 376]
+    [159, 376],
   ]);
-  var fromCodePoint = (
+  var fromCodePoint =
     // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition, n/no-unsupported-features/es-builtins
-    (_a = String.fromCodePoint) !== null && _a !== void 0 ? _a : function(codePoint) {
-      let output = "";
-      if (codePoint > 65535) {
-        codePoint -= 65536;
-        output += String.fromCharCode(codePoint >>> 10 & 1023 | 55296);
-        codePoint = 56320 | codePoint & 1023;
-      }
-      output += String.fromCharCode(codePoint);
-      return output;
-    }
-  );
+    (_a = String.fromCodePoint) !== null && _a !== void 0
+      ? _a
+      : function (codePoint) {
+          let output = "";
+          if (codePoint > 65535) {
+            codePoint -= 65536;
+            output += String.fromCharCode(((codePoint >>> 10) & 1023) | 55296);
+            codePoint = 56320 | (codePoint & 1023);
+          }
+          output += String.fromCharCode(codePoint);
+          return output;
+        };
   function replaceCodePoint(codePoint) {
     var _a4;
-    if (codePoint >= 55296 && codePoint <= 57343 || codePoint > 1114111) {
+    if ((codePoint >= 55296 && codePoint <= 57343) || codePoint > 1114111) {
       return 65533;
     }
-    return (_a4 = decodeMap.get(codePoint)) !== null && _a4 !== void 0 ? _a4 : codePoint;
+    return (_a4 = decodeMap.get(codePoint)) !== null && _a4 !== void 0
+      ? _a4
+      : codePoint;
   }
 
   // node_modules/entities/dist/esm/decode.js
   var CharCodes;
-  (function(CharCodes5) {
-    CharCodes5[CharCodes5["NUM"] = 35] = "NUM";
-    CharCodes5[CharCodes5["SEMI"] = 59] = "SEMI";
-    CharCodes5[CharCodes5["EQUALS"] = 61] = "EQUALS";
-    CharCodes5[CharCodes5["ZERO"] = 48] = "ZERO";
-    CharCodes5[CharCodes5["NINE"] = 57] = "NINE";
-    CharCodes5[CharCodes5["LOWER_A"] = 97] = "LOWER_A";
-    CharCodes5[CharCodes5["LOWER_F"] = 102] = "LOWER_F";
-    CharCodes5[CharCodes5["LOWER_X"] = 120] = "LOWER_X";
-    CharCodes5[CharCodes5["LOWER_Z"] = 122] = "LOWER_Z";
-    CharCodes5[CharCodes5["UPPER_A"] = 65] = "UPPER_A";
-    CharCodes5[CharCodes5["UPPER_F"] = 70] = "UPPER_F";
-    CharCodes5[CharCodes5["UPPER_Z"] = 90] = "UPPER_Z";
+  (function (CharCodes5) {
+    CharCodes5[(CharCodes5["NUM"] = 35)] = "NUM";
+    CharCodes5[(CharCodes5["SEMI"] = 59)] = "SEMI";
+    CharCodes5[(CharCodes5["EQUALS"] = 61)] = "EQUALS";
+    CharCodes5[(CharCodes5["ZERO"] = 48)] = "ZERO";
+    CharCodes5[(CharCodes5["NINE"] = 57)] = "NINE";
+    CharCodes5[(CharCodes5["LOWER_A"] = 97)] = "LOWER_A";
+    CharCodes5[(CharCodes5["LOWER_F"] = 102)] = "LOWER_F";
+    CharCodes5[(CharCodes5["LOWER_X"] = 120)] = "LOWER_X";
+    CharCodes5[(CharCodes5["LOWER_Z"] = 122)] = "LOWER_Z";
+    CharCodes5[(CharCodes5["UPPER_A"] = 65)] = "UPPER_A";
+    CharCodes5[(CharCodes5["UPPER_F"] = 70)] = "UPPER_F";
+    CharCodes5[(CharCodes5["UPPER_Z"] = 90)] = "UPPER_Z";
   })(CharCodes || (CharCodes = {}));
   var TO_LOWER_BIT = 32;
   var BinTrieFlags;
-  (function(BinTrieFlags4) {
-    BinTrieFlags4[BinTrieFlags4["VALUE_LENGTH"] = 49152] = "VALUE_LENGTH";
-    BinTrieFlags4[BinTrieFlags4["BRANCH_LENGTH"] = 16256] = "BRANCH_LENGTH";
-    BinTrieFlags4[BinTrieFlags4["JUMP_TABLE"] = 127] = "JUMP_TABLE";
+  (function (BinTrieFlags4) {
+    BinTrieFlags4[(BinTrieFlags4["VALUE_LENGTH"] = 49152)] = "VALUE_LENGTH";
+    BinTrieFlags4[(BinTrieFlags4["BRANCH_LENGTH"] = 16256)] = "BRANCH_LENGTH";
+    BinTrieFlags4[(BinTrieFlags4["JUMP_TABLE"] = 127)] = "JUMP_TABLE";
   })(BinTrieFlags || (BinTrieFlags = {}));
   function isNumber(code) {
     return code >= CharCodes.ZERO && code <= CharCodes.NINE;
   }
   function isHexadecimalCharacter(code) {
-    return code >= CharCodes.UPPER_A && code <= CharCodes.UPPER_F || code >= CharCodes.LOWER_A && code <= CharCodes.LOWER_F;
+    return (
+      (code >= CharCodes.UPPER_A && code <= CharCodes.UPPER_F) ||
+      (code >= CharCodes.LOWER_A && code <= CharCodes.LOWER_F)
+    );
   }
   function isAsciiAlphaNumeric(code) {
-    return code >= CharCodes.UPPER_A && code <= CharCodes.UPPER_Z || code >= CharCodes.LOWER_A && code <= CharCodes.LOWER_Z || isNumber(code);
+    return (
+      (code >= CharCodes.UPPER_A && code <= CharCodes.UPPER_Z) ||
+      (code >= CharCodes.LOWER_A && code <= CharCodes.LOWER_Z) ||
+      isNumber(code)
+    );
   }
   function isEntityInAttributeInvalidEnd(code) {
     return code === CharCodes.EQUALS || isAsciiAlphaNumeric(code);
   }
   var EntityDecoderState;
-  (function(EntityDecoderState4) {
-    EntityDecoderState4[EntityDecoderState4["EntityStart"] = 0] = "EntityStart";
-    EntityDecoderState4[EntityDecoderState4["NumericStart"] = 1] = "NumericStart";
-    EntityDecoderState4[EntityDecoderState4["NumericDecimal"] = 2] = "NumericDecimal";
-    EntityDecoderState4[EntityDecoderState4["NumericHex"] = 3] = "NumericHex";
-    EntityDecoderState4[EntityDecoderState4["NamedEntity"] = 4] = "NamedEntity";
+  (function (EntityDecoderState4) {
+    EntityDecoderState4[(EntityDecoderState4["EntityStart"] = 0)] =
+      "EntityStart";
+    EntityDecoderState4[(EntityDecoderState4["NumericStart"] = 1)] =
+      "NumericStart";
+    EntityDecoderState4[(EntityDecoderState4["NumericDecimal"] = 2)] =
+      "NumericDecimal";
+    EntityDecoderState4[(EntityDecoderState4["NumericHex"] = 3)] = "NumericHex";
+    EntityDecoderState4[(EntityDecoderState4["NamedEntity"] = 4)] =
+      "NamedEntity";
   })(EntityDecoderState || (EntityDecoderState = {}));
   var DecodingMode;
-  (function(DecodingMode4) {
-    DecodingMode4[DecodingMode4["Legacy"] = 0] = "Legacy";
-    DecodingMode4[DecodingMode4["Strict"] = 1] = "Strict";
-    DecodingMode4[DecodingMode4["Attribute"] = 2] = "Attribute";
+  (function (DecodingMode4) {
+    DecodingMode4[(DecodingMode4["Legacy"] = 0)] = "Legacy";
+    DecodingMode4[(DecodingMode4["Strict"] = 1)] = "Strict";
+    DecodingMode4[(DecodingMode4["Attribute"] = 2)] = "Attribute";
   })(DecodingMode || (DecodingMode = {}));
   var EntityDecoder = class {
     constructor(decodeTree, emitCodePoint, errors) {
@@ -1295,7 +1539,9 @@ var _Sources = (() => {
     addToNumericResult(input, start, end, base) {
       if (start !== end) {
         const digitCount = end - start;
-        this.result = this.result * Math.pow(base, digitCount) + Number.parseInt(input.substr(start, digitCount), base);
+        this.result =
+          this.result * Math.pow(base, digitCount) +
+          Number.parseInt(input.substr(start, digitCount), base);
         this.consumed += digitCount;
       }
     }
@@ -1361,7 +1607,9 @@ var _Sources = (() => {
     emitNumericEntity(lastCp, expectedLength) {
       var _a4;
       if (this.consumed <= expectedLength) {
-        (_a4 = this.errors) === null || _a4 === void 0 ? void 0 : _a4.absenceOfDigitsInNumericCharacterReference(this.consumed);
+        (_a4 = this.errors) === null || _a4 === void 0
+          ? void 0
+          : _a4.absenceOfDigitsInNumericCharacterReference(this.consumed);
         return 0;
       }
       if (lastCp === CharCodes.SEMI) {
@@ -1393,18 +1641,29 @@ var _Sources = (() => {
       let valueLength = (current & BinTrieFlags.VALUE_LENGTH) >> 14;
       for (; offset < input.length; offset++, this.excess++) {
         const char = input.charCodeAt(offset);
-        this.treeIndex = determineBranch(decodeTree, current, this.treeIndex + Math.max(1, valueLength), char);
+        this.treeIndex = determineBranch(
+          decodeTree,
+          current,
+          this.treeIndex + Math.max(1, valueLength),
+          char
+        );
         if (this.treeIndex < 0) {
           return this.result === 0 || // If we are parsing an attribute
-          this.decodeMode === DecodingMode.Attribute && // We shouldn't have consumed any characters after the entity,
-          (valueLength === 0 || // And there should be no invalid characters.
-          isEntityInAttributeInvalidEnd(char)) ? 0 : this.emitNotTerminatedNamedEntity();
+            (this.decodeMode === DecodingMode.Attribute && // We shouldn't have consumed any characters after the entity,
+              (valueLength === 0 || // And there should be no invalid characters.
+                isEntityInAttributeInvalidEnd(char)))
+            ? 0
+            : this.emitNotTerminatedNamedEntity();
         }
         current = decodeTree[this.treeIndex];
         valueLength = (current & BinTrieFlags.VALUE_LENGTH) >> 14;
         if (valueLength !== 0) {
           if (char === CharCodes.SEMI) {
-            return this.emitNamedEntityData(this.treeIndex, valueLength, this.consumed + this.excess);
+            return this.emitNamedEntityData(
+              this.treeIndex,
+              valueLength,
+              this.consumed + this.excess
+            );
           }
           if (this.decodeMode !== DecodingMode.Strict) {
             this.result = this.treeIndex;
@@ -1423,9 +1682,12 @@ var _Sources = (() => {
     emitNotTerminatedNamedEntity() {
       var _a4;
       const { result, decodeTree } = this;
-      const valueLength = (decodeTree[result] & BinTrieFlags.VALUE_LENGTH) >> 14;
+      const valueLength =
+        (decodeTree[result] & BinTrieFlags.VALUE_LENGTH) >> 14;
       this.emitNamedEntityData(result, valueLength, this.consumed);
-      (_a4 = this.errors) === null || _a4 === void 0 ? void 0 : _a4.missingSemicolonAfterCharacterReference();
+      (_a4 = this.errors) === null || _a4 === void 0
+        ? void 0
+        : _a4.missingSemicolonAfterCharacterReference();
       return this.consumed;
     }
     /**
@@ -1439,7 +1701,12 @@ var _Sources = (() => {
      */
     emitNamedEntityData(result, valueLength, consumed) {
       const { decodeTree } = this;
-      this.emitCodePoint(valueLength === 1 ? decodeTree[result] & ~BinTrieFlags.VALUE_LENGTH : decodeTree[result + 1], consumed);
+      this.emitCodePoint(
+        valueLength === 1
+          ? decodeTree[result] & ~BinTrieFlags.VALUE_LENGTH
+          : decodeTree[result + 1],
+        consumed
+      );
       if (valueLength === 3) {
         this.emitCodePoint(decodeTree[result + 2], consumed);
       }
@@ -1456,7 +1723,11 @@ var _Sources = (() => {
       var _a4;
       switch (this.state) {
         case EntityDecoderState.NamedEntity: {
-          return this.result !== 0 && (this.decodeMode !== DecodingMode.Attribute || this.result === this.treeIndex) ? this.emitNotTerminatedNamedEntity() : 0;
+          return this.result !== 0 &&
+            (this.decodeMode !== DecodingMode.Attribute ||
+              this.result === this.treeIndex)
+            ? this.emitNotTerminatedNamedEntity()
+            : 0;
         }
         case EntityDecoderState.NumericDecimal: {
           return this.emitNumericEntity(0, 2);
@@ -1465,7 +1736,9 @@ var _Sources = (() => {
           return this.emitNumericEntity(0, 3);
         }
         case EntityDecoderState.NumericStart: {
-          (_a4 = this.errors) === null || _a4 === void 0 ? void 0 : _a4.absenceOfDigitsInNumericCharacterReference(this.consumed);
+          (_a4 = this.errors) === null || _a4 === void 0
+            ? void 0
+            : _a4.absenceOfDigitsInNumericCharacterReference(this.consumed);
           return 0;
         }
         case EntityDecoderState.EntityStart: {
@@ -1476,7 +1749,10 @@ var _Sources = (() => {
   };
   function getDecoder(decodeTree) {
     let returnValue = "";
-    const decoder = new EntityDecoder(decodeTree, (data) => returnValue += fromCodePoint(data));
+    const decoder = new EntityDecoder(
+      decodeTree,
+      (data) => (returnValue += fromCodePoint(data))
+    );
     return function decodeWithTrie(input, decodeMode) {
       let lastIndex = 0;
       let offset = 0;
@@ -1508,12 +1784,14 @@ var _Sources = (() => {
     }
     if (jumpOffset) {
       const value = char - jumpOffset;
-      return value < 0 || value >= branchCount ? -1 : decodeTree[nodeIndex + value] - 1;
+      return value < 0 || value >= branchCount
+        ? -1
+        : decodeTree[nodeIndex + value] - 1;
     }
     let lo = nodeIndex;
     let hi = lo + branchCount - 1;
     while (lo <= hi) {
-      const mid = lo + hi >>> 1;
+      const mid = (lo + hi) >>> 1;
       const midValue = decodeTree[mid];
       if (midValue < char) {
         lo = mid + 1;
@@ -1538,7 +1816,1488 @@ var _Sources = (() => {
     }
     return array;
   }
-  var encode_html_default = new Map(/* @__PURE__ */ restoreDiff([[9, "&Tab;"], [0, "&NewLine;"], [22, "&excl;"], [0, "&quot;"], [0, "&num;"], [0, "&dollar;"], [0, "&percnt;"], [0, "&amp;"], [0, "&apos;"], [0, "&lpar;"], [0, "&rpar;"], [0, "&ast;"], [0, "&plus;"], [0, "&comma;"], [1, "&period;"], [0, "&sol;"], [10, "&colon;"], [0, "&semi;"], [0, { v: "&lt;", n: 8402, o: "&nvlt;" }], [0, { v: "&equals;", n: 8421, o: "&bne;" }], [0, { v: "&gt;", n: 8402, o: "&nvgt;" }], [0, "&quest;"], [0, "&commat;"], [26, "&lbrack;"], [0, "&bsol;"], [0, "&rbrack;"], [0, "&Hat;"], [0, "&lowbar;"], [0, "&DiacriticalGrave;"], [5, { n: 106, o: "&fjlig;" }], [20, "&lbrace;"], [0, "&verbar;"], [0, "&rbrace;"], [34, "&nbsp;"], [0, "&iexcl;"], [0, "&cent;"], [0, "&pound;"], [0, "&curren;"], [0, "&yen;"], [0, "&brvbar;"], [0, "&sect;"], [0, "&die;"], [0, "&copy;"], [0, "&ordf;"], [0, "&laquo;"], [0, "&not;"], [0, "&shy;"], [0, "&circledR;"], [0, "&macr;"], [0, "&deg;"], [0, "&PlusMinus;"], [0, "&sup2;"], [0, "&sup3;"], [0, "&acute;"], [0, "&micro;"], [0, "&para;"], [0, "&centerdot;"], [0, "&cedil;"], [0, "&sup1;"], [0, "&ordm;"], [0, "&raquo;"], [0, "&frac14;"], [0, "&frac12;"], [0, "&frac34;"], [0, "&iquest;"], [0, "&Agrave;"], [0, "&Aacute;"], [0, "&Acirc;"], [0, "&Atilde;"], [0, "&Auml;"], [0, "&angst;"], [0, "&AElig;"], [0, "&Ccedil;"], [0, "&Egrave;"], [0, "&Eacute;"], [0, "&Ecirc;"], [0, "&Euml;"], [0, "&Igrave;"], [0, "&Iacute;"], [0, "&Icirc;"], [0, "&Iuml;"], [0, "&ETH;"], [0, "&Ntilde;"], [0, "&Ograve;"], [0, "&Oacute;"], [0, "&Ocirc;"], [0, "&Otilde;"], [0, "&Ouml;"], [0, "&times;"], [0, "&Oslash;"], [0, "&Ugrave;"], [0, "&Uacute;"], [0, "&Ucirc;"], [0, "&Uuml;"], [0, "&Yacute;"], [0, "&THORN;"], [0, "&szlig;"], [0, "&agrave;"], [0, "&aacute;"], [0, "&acirc;"], [0, "&atilde;"], [0, "&auml;"], [0, "&aring;"], [0, "&aelig;"], [0, "&ccedil;"], [0, "&egrave;"], [0, "&eacute;"], [0, "&ecirc;"], [0, "&euml;"], [0, "&igrave;"], [0, "&iacute;"], [0, "&icirc;"], [0, "&iuml;"], [0, "&eth;"], [0, "&ntilde;"], [0, "&ograve;"], [0, "&oacute;"], [0, "&ocirc;"], [0, "&otilde;"], [0, "&ouml;"], [0, "&div;"], [0, "&oslash;"], [0, "&ugrave;"], [0, "&uacute;"], [0, "&ucirc;"], [0, "&uuml;"], [0, "&yacute;"], [0, "&thorn;"], [0, "&yuml;"], [0, "&Amacr;"], [0, "&amacr;"], [0, "&Abreve;"], [0, "&abreve;"], [0, "&Aogon;"], [0, "&aogon;"], [0, "&Cacute;"], [0, "&cacute;"], [0, "&Ccirc;"], [0, "&ccirc;"], [0, "&Cdot;"], [0, "&cdot;"], [0, "&Ccaron;"], [0, "&ccaron;"], [0, "&Dcaron;"], [0, "&dcaron;"], [0, "&Dstrok;"], [0, "&dstrok;"], [0, "&Emacr;"], [0, "&emacr;"], [2, "&Edot;"], [0, "&edot;"], [0, "&Eogon;"], [0, "&eogon;"], [0, "&Ecaron;"], [0, "&ecaron;"], [0, "&Gcirc;"], [0, "&gcirc;"], [0, "&Gbreve;"], [0, "&gbreve;"], [0, "&Gdot;"], [0, "&gdot;"], [0, "&Gcedil;"], [1, "&Hcirc;"], [0, "&hcirc;"], [0, "&Hstrok;"], [0, "&hstrok;"], [0, "&Itilde;"], [0, "&itilde;"], [0, "&Imacr;"], [0, "&imacr;"], [2, "&Iogon;"], [0, "&iogon;"], [0, "&Idot;"], [0, "&imath;"], [0, "&IJlig;"], [0, "&ijlig;"], [0, "&Jcirc;"], [0, "&jcirc;"], [0, "&Kcedil;"], [0, "&kcedil;"], [0, "&kgreen;"], [0, "&Lacute;"], [0, "&lacute;"], [0, "&Lcedil;"], [0, "&lcedil;"], [0, "&Lcaron;"], [0, "&lcaron;"], [0, "&Lmidot;"], [0, "&lmidot;"], [0, "&Lstrok;"], [0, "&lstrok;"], [0, "&Nacute;"], [0, "&nacute;"], [0, "&Ncedil;"], [0, "&ncedil;"], [0, "&Ncaron;"], [0, "&ncaron;"], [0, "&napos;"], [0, "&ENG;"], [0, "&eng;"], [0, "&Omacr;"], [0, "&omacr;"], [2, "&Odblac;"], [0, "&odblac;"], [0, "&OElig;"], [0, "&oelig;"], [0, "&Racute;"], [0, "&racute;"], [0, "&Rcedil;"], [0, "&rcedil;"], [0, "&Rcaron;"], [0, "&rcaron;"], [0, "&Sacute;"], [0, "&sacute;"], [0, "&Scirc;"], [0, "&scirc;"], [0, "&Scedil;"], [0, "&scedil;"], [0, "&Scaron;"], [0, "&scaron;"], [0, "&Tcedil;"], [0, "&tcedil;"], [0, "&Tcaron;"], [0, "&tcaron;"], [0, "&Tstrok;"], [0, "&tstrok;"], [0, "&Utilde;"], [0, "&utilde;"], [0, "&Umacr;"], [0, "&umacr;"], [0, "&Ubreve;"], [0, "&ubreve;"], [0, "&Uring;"], [0, "&uring;"], [0, "&Udblac;"], [0, "&udblac;"], [0, "&Uogon;"], [0, "&uogon;"], [0, "&Wcirc;"], [0, "&wcirc;"], [0, "&Ycirc;"], [0, "&ycirc;"], [0, "&Yuml;"], [0, "&Zacute;"], [0, "&zacute;"], [0, "&Zdot;"], [0, "&zdot;"], [0, "&Zcaron;"], [0, "&zcaron;"], [19, "&fnof;"], [34, "&imped;"], [63, "&gacute;"], [65, "&jmath;"], [142, "&circ;"], [0, "&caron;"], [16, "&breve;"], [0, "&DiacriticalDot;"], [0, "&ring;"], [0, "&ogon;"], [0, "&DiacriticalTilde;"], [0, "&dblac;"], [51, "&DownBreve;"], [127, "&Alpha;"], [0, "&Beta;"], [0, "&Gamma;"], [0, "&Delta;"], [0, "&Epsilon;"], [0, "&Zeta;"], [0, "&Eta;"], [0, "&Theta;"], [0, "&Iota;"], [0, "&Kappa;"], [0, "&Lambda;"], [0, "&Mu;"], [0, "&Nu;"], [0, "&Xi;"], [0, "&Omicron;"], [0, "&Pi;"], [0, "&Rho;"], [1, "&Sigma;"], [0, "&Tau;"], [0, "&Upsilon;"], [0, "&Phi;"], [0, "&Chi;"], [0, "&Psi;"], [0, "&ohm;"], [7, "&alpha;"], [0, "&beta;"], [0, "&gamma;"], [0, "&delta;"], [0, "&epsi;"], [0, "&zeta;"], [0, "&eta;"], [0, "&theta;"], [0, "&iota;"], [0, "&kappa;"], [0, "&lambda;"], [0, "&mu;"], [0, "&nu;"], [0, "&xi;"], [0, "&omicron;"], [0, "&pi;"], [0, "&rho;"], [0, "&sigmaf;"], [0, "&sigma;"], [0, "&tau;"], [0, "&upsi;"], [0, "&phi;"], [0, "&chi;"], [0, "&psi;"], [0, "&omega;"], [7, "&thetasym;"], [0, "&Upsi;"], [2, "&phiv;"], [0, "&piv;"], [5, "&Gammad;"], [0, "&digamma;"], [18, "&kappav;"], [0, "&rhov;"], [3, "&epsiv;"], [0, "&backepsilon;"], [10, "&IOcy;"], [0, "&DJcy;"], [0, "&GJcy;"], [0, "&Jukcy;"], [0, "&DScy;"], [0, "&Iukcy;"], [0, "&YIcy;"], [0, "&Jsercy;"], [0, "&LJcy;"], [0, "&NJcy;"], [0, "&TSHcy;"], [0, "&KJcy;"], [1, "&Ubrcy;"], [0, "&DZcy;"], [0, "&Acy;"], [0, "&Bcy;"], [0, "&Vcy;"], [0, "&Gcy;"], [0, "&Dcy;"], [0, "&IEcy;"], [0, "&ZHcy;"], [0, "&Zcy;"], [0, "&Icy;"], [0, "&Jcy;"], [0, "&Kcy;"], [0, "&Lcy;"], [0, "&Mcy;"], [0, "&Ncy;"], [0, "&Ocy;"], [0, "&Pcy;"], [0, "&Rcy;"], [0, "&Scy;"], [0, "&Tcy;"], [0, "&Ucy;"], [0, "&Fcy;"], [0, "&KHcy;"], [0, "&TScy;"], [0, "&CHcy;"], [0, "&SHcy;"], [0, "&SHCHcy;"], [0, "&HARDcy;"], [0, "&Ycy;"], [0, "&SOFTcy;"], [0, "&Ecy;"], [0, "&YUcy;"], [0, "&YAcy;"], [0, "&acy;"], [0, "&bcy;"], [0, "&vcy;"], [0, "&gcy;"], [0, "&dcy;"], [0, "&iecy;"], [0, "&zhcy;"], [0, "&zcy;"], [0, "&icy;"], [0, "&jcy;"], [0, "&kcy;"], [0, "&lcy;"], [0, "&mcy;"], [0, "&ncy;"], [0, "&ocy;"], [0, "&pcy;"], [0, "&rcy;"], [0, "&scy;"], [0, "&tcy;"], [0, "&ucy;"], [0, "&fcy;"], [0, "&khcy;"], [0, "&tscy;"], [0, "&chcy;"], [0, "&shcy;"], [0, "&shchcy;"], [0, "&hardcy;"], [0, "&ycy;"], [0, "&softcy;"], [0, "&ecy;"], [0, "&yucy;"], [0, "&yacy;"], [1, "&iocy;"], [0, "&djcy;"], [0, "&gjcy;"], [0, "&jukcy;"], [0, "&dscy;"], [0, "&iukcy;"], [0, "&yicy;"], [0, "&jsercy;"], [0, "&ljcy;"], [0, "&njcy;"], [0, "&tshcy;"], [0, "&kjcy;"], [1, "&ubrcy;"], [0, "&dzcy;"], [7074, "&ensp;"], [0, "&emsp;"], [0, "&emsp13;"], [0, "&emsp14;"], [1, "&numsp;"], [0, "&puncsp;"], [0, "&ThinSpace;"], [0, "&hairsp;"], [0, "&NegativeMediumSpace;"], [0, "&zwnj;"], [0, "&zwj;"], [0, "&lrm;"], [0, "&rlm;"], [0, "&dash;"], [2, "&ndash;"], [0, "&mdash;"], [0, "&horbar;"], [0, "&Verbar;"], [1, "&lsquo;"], [0, "&CloseCurlyQuote;"], [0, "&lsquor;"], [1, "&ldquo;"], [0, "&CloseCurlyDoubleQuote;"], [0, "&bdquo;"], [1, "&dagger;"], [0, "&Dagger;"], [0, "&bull;"], [2, "&nldr;"], [0, "&hellip;"], [9, "&permil;"], [0, "&pertenk;"], [0, "&prime;"], [0, "&Prime;"], [0, "&tprime;"], [0, "&backprime;"], [3, "&lsaquo;"], [0, "&rsaquo;"], [3, "&oline;"], [2, "&caret;"], [1, "&hybull;"], [0, "&frasl;"], [10, "&bsemi;"], [7, "&qprime;"], [7, { v: "&MediumSpace;", n: 8202, o: "&ThickSpace;" }], [0, "&NoBreak;"], [0, "&af;"], [0, "&InvisibleTimes;"], [0, "&ic;"], [72, "&euro;"], [46, "&tdot;"], [0, "&DotDot;"], [37, "&complexes;"], [2, "&incare;"], [4, "&gscr;"], [0, "&hamilt;"], [0, "&Hfr;"], [0, "&Hopf;"], [0, "&planckh;"], [0, "&hbar;"], [0, "&imagline;"], [0, "&Ifr;"], [0, "&lagran;"], [0, "&ell;"], [1, "&naturals;"], [0, "&numero;"], [0, "&copysr;"], [0, "&weierp;"], [0, "&Popf;"], [0, "&Qopf;"], [0, "&realine;"], [0, "&real;"], [0, "&reals;"], [0, "&rx;"], [3, "&trade;"], [1, "&integers;"], [2, "&mho;"], [0, "&zeetrf;"], [0, "&iiota;"], [2, "&bernou;"], [0, "&Cayleys;"], [1, "&escr;"], [0, "&Escr;"], [0, "&Fouriertrf;"], [1, "&Mellintrf;"], [0, "&order;"], [0, "&alefsym;"], [0, "&beth;"], [0, "&gimel;"], [0, "&daleth;"], [12, "&CapitalDifferentialD;"], [0, "&dd;"], [0, "&ee;"], [0, "&ii;"], [10, "&frac13;"], [0, "&frac23;"], [0, "&frac15;"], [0, "&frac25;"], [0, "&frac35;"], [0, "&frac45;"], [0, "&frac16;"], [0, "&frac56;"], [0, "&frac18;"], [0, "&frac38;"], [0, "&frac58;"], [0, "&frac78;"], [49, "&larr;"], [0, "&ShortUpArrow;"], [0, "&rarr;"], [0, "&darr;"], [0, "&harr;"], [0, "&updownarrow;"], [0, "&nwarr;"], [0, "&nearr;"], [0, "&LowerRightArrow;"], [0, "&LowerLeftArrow;"], [0, "&nlarr;"], [0, "&nrarr;"], [1, { v: "&rarrw;", n: 824, o: "&nrarrw;" }], [0, "&Larr;"], [0, "&Uarr;"], [0, "&Rarr;"], [0, "&Darr;"], [0, "&larrtl;"], [0, "&rarrtl;"], [0, "&LeftTeeArrow;"], [0, "&mapstoup;"], [0, "&map;"], [0, "&DownTeeArrow;"], [1, "&hookleftarrow;"], [0, "&hookrightarrow;"], [0, "&larrlp;"], [0, "&looparrowright;"], [0, "&harrw;"], [0, "&nharr;"], [1, "&lsh;"], [0, "&rsh;"], [0, "&ldsh;"], [0, "&rdsh;"], [1, "&crarr;"], [0, "&cularr;"], [0, "&curarr;"], [2, "&circlearrowleft;"], [0, "&circlearrowright;"], [0, "&leftharpoonup;"], [0, "&DownLeftVector;"], [0, "&RightUpVector;"], [0, "&LeftUpVector;"], [0, "&rharu;"], [0, "&DownRightVector;"], [0, "&dharr;"], [0, "&dharl;"], [0, "&RightArrowLeftArrow;"], [0, "&udarr;"], [0, "&LeftArrowRightArrow;"], [0, "&leftleftarrows;"], [0, "&upuparrows;"], [0, "&rightrightarrows;"], [0, "&ddarr;"], [0, "&leftrightharpoons;"], [0, "&Equilibrium;"], [0, "&nlArr;"], [0, "&nhArr;"], [0, "&nrArr;"], [0, "&DoubleLeftArrow;"], [0, "&DoubleUpArrow;"], [0, "&DoubleRightArrow;"], [0, "&dArr;"], [0, "&DoubleLeftRightArrow;"], [0, "&DoubleUpDownArrow;"], [0, "&nwArr;"], [0, "&neArr;"], [0, "&seArr;"], [0, "&swArr;"], [0, "&lAarr;"], [0, "&rAarr;"], [1, "&zigrarr;"], [6, "&larrb;"], [0, "&rarrb;"], [15, "&DownArrowUpArrow;"], [7, "&loarr;"], [0, "&roarr;"], [0, "&hoarr;"], [0, "&forall;"], [0, "&comp;"], [0, { v: "&part;", n: 824, o: "&npart;" }], [0, "&exist;"], [0, "&nexist;"], [0, "&empty;"], [1, "&Del;"], [0, "&Element;"], [0, "&NotElement;"], [1, "&ni;"], [0, "&notni;"], [2, "&prod;"], [0, "&coprod;"], [0, "&sum;"], [0, "&minus;"], [0, "&MinusPlus;"], [0, "&dotplus;"], [1, "&Backslash;"], [0, "&lowast;"], [0, "&compfn;"], [1, "&radic;"], [2, "&prop;"], [0, "&infin;"], [0, "&angrt;"], [0, { v: "&ang;", n: 8402, o: "&nang;" }], [0, "&angmsd;"], [0, "&angsph;"], [0, "&mid;"], [0, "&nmid;"], [0, "&DoubleVerticalBar;"], [0, "&NotDoubleVerticalBar;"], [0, "&and;"], [0, "&or;"], [0, { v: "&cap;", n: 65024, o: "&caps;" }], [0, { v: "&cup;", n: 65024, o: "&cups;" }], [0, "&int;"], [0, "&Int;"], [0, "&iiint;"], [0, "&conint;"], [0, "&Conint;"], [0, "&Cconint;"], [0, "&cwint;"], [0, "&ClockwiseContourIntegral;"], [0, "&awconint;"], [0, "&there4;"], [0, "&becaus;"], [0, "&ratio;"], [0, "&Colon;"], [0, "&dotminus;"], [1, "&mDDot;"], [0, "&homtht;"], [0, { v: "&sim;", n: 8402, o: "&nvsim;" }], [0, { v: "&backsim;", n: 817, o: "&race;" }], [0, { v: "&ac;", n: 819, o: "&acE;" }], [0, "&acd;"], [0, "&VerticalTilde;"], [0, "&NotTilde;"], [0, { v: "&eqsim;", n: 824, o: "&nesim;" }], [0, "&sime;"], [0, "&NotTildeEqual;"], [0, "&cong;"], [0, "&simne;"], [0, "&ncong;"], [0, "&ap;"], [0, "&nap;"], [0, "&ape;"], [0, { v: "&apid;", n: 824, o: "&napid;" }], [0, "&backcong;"], [0, { v: "&asympeq;", n: 8402, o: "&nvap;" }], [0, { v: "&bump;", n: 824, o: "&nbump;" }], [0, { v: "&bumpe;", n: 824, o: "&nbumpe;" }], [0, { v: "&doteq;", n: 824, o: "&nedot;" }], [0, "&doteqdot;"], [0, "&efDot;"], [0, "&erDot;"], [0, "&Assign;"], [0, "&ecolon;"], [0, "&ecir;"], [0, "&circeq;"], [1, "&wedgeq;"], [0, "&veeeq;"], [1, "&triangleq;"], [2, "&equest;"], [0, "&ne;"], [0, { v: "&Congruent;", n: 8421, o: "&bnequiv;" }], [0, "&nequiv;"], [1, { v: "&le;", n: 8402, o: "&nvle;" }], [0, { v: "&ge;", n: 8402, o: "&nvge;" }], [0, { v: "&lE;", n: 824, o: "&nlE;" }], [0, { v: "&gE;", n: 824, o: "&ngE;" }], [0, { v: "&lnE;", n: 65024, o: "&lvertneqq;" }], [0, { v: "&gnE;", n: 65024, o: "&gvertneqq;" }], [0, { v: "&ll;", n: new Map(/* @__PURE__ */ restoreDiff([[824, "&nLtv;"], [7577, "&nLt;"]])) }], [0, { v: "&gg;", n: new Map(/* @__PURE__ */ restoreDiff([[824, "&nGtv;"], [7577, "&nGt;"]])) }], [0, "&between;"], [0, "&NotCupCap;"], [0, "&nless;"], [0, "&ngt;"], [0, "&nle;"], [0, "&nge;"], [0, "&lesssim;"], [0, "&GreaterTilde;"], [0, "&nlsim;"], [0, "&ngsim;"], [0, "&LessGreater;"], [0, "&gl;"], [0, "&NotLessGreater;"], [0, "&NotGreaterLess;"], [0, "&pr;"], [0, "&sc;"], [0, "&prcue;"], [0, "&sccue;"], [0, "&PrecedesTilde;"], [0, { v: "&scsim;", n: 824, o: "&NotSucceedsTilde;" }], [0, "&NotPrecedes;"], [0, "&NotSucceeds;"], [0, { v: "&sub;", n: 8402, o: "&NotSubset;" }], [0, { v: "&sup;", n: 8402, o: "&NotSuperset;" }], [0, "&nsub;"], [0, "&nsup;"], [0, "&sube;"], [0, "&supe;"], [0, "&NotSubsetEqual;"], [0, "&NotSupersetEqual;"], [0, { v: "&subne;", n: 65024, o: "&varsubsetneq;" }], [0, { v: "&supne;", n: 65024, o: "&varsupsetneq;" }], [1, "&cupdot;"], [0, "&UnionPlus;"], [0, { v: "&sqsub;", n: 824, o: "&NotSquareSubset;" }], [0, { v: "&sqsup;", n: 824, o: "&NotSquareSuperset;" }], [0, "&sqsube;"], [0, "&sqsupe;"], [0, { v: "&sqcap;", n: 65024, o: "&sqcaps;" }], [0, { v: "&sqcup;", n: 65024, o: "&sqcups;" }], [0, "&CirclePlus;"], [0, "&CircleMinus;"], [0, "&CircleTimes;"], [0, "&osol;"], [0, "&CircleDot;"], [0, "&circledcirc;"], [0, "&circledast;"], [1, "&circleddash;"], [0, "&boxplus;"], [0, "&boxminus;"], [0, "&boxtimes;"], [0, "&dotsquare;"], [0, "&RightTee;"], [0, "&dashv;"], [0, "&DownTee;"], [0, "&bot;"], [1, "&models;"], [0, "&DoubleRightTee;"], [0, "&Vdash;"], [0, "&Vvdash;"], [0, "&VDash;"], [0, "&nvdash;"], [0, "&nvDash;"], [0, "&nVdash;"], [0, "&nVDash;"], [0, "&prurel;"], [1, "&LeftTriangle;"], [0, "&RightTriangle;"], [0, { v: "&LeftTriangleEqual;", n: 8402, o: "&nvltrie;" }], [0, { v: "&RightTriangleEqual;", n: 8402, o: "&nvrtrie;" }], [0, "&origof;"], [0, "&imof;"], [0, "&multimap;"], [0, "&hercon;"], [0, "&intcal;"], [0, "&veebar;"], [1, "&barvee;"], [0, "&angrtvb;"], [0, "&lrtri;"], [0, "&bigwedge;"], [0, "&bigvee;"], [0, "&bigcap;"], [0, "&bigcup;"], [0, "&diam;"], [0, "&sdot;"], [0, "&sstarf;"], [0, "&divideontimes;"], [0, "&bowtie;"], [0, "&ltimes;"], [0, "&rtimes;"], [0, "&leftthreetimes;"], [0, "&rightthreetimes;"], [0, "&backsimeq;"], [0, "&curlyvee;"], [0, "&curlywedge;"], [0, "&Sub;"], [0, "&Sup;"], [0, "&Cap;"], [0, "&Cup;"], [0, "&fork;"], [0, "&epar;"], [0, "&lessdot;"], [0, "&gtdot;"], [0, { v: "&Ll;", n: 824, o: "&nLl;" }], [0, { v: "&Gg;", n: 824, o: "&nGg;" }], [0, { v: "&leg;", n: 65024, o: "&lesg;" }], [0, { v: "&gel;", n: 65024, o: "&gesl;" }], [2, "&cuepr;"], [0, "&cuesc;"], [0, "&NotPrecedesSlantEqual;"], [0, "&NotSucceedsSlantEqual;"], [0, "&NotSquareSubsetEqual;"], [0, "&NotSquareSupersetEqual;"], [2, "&lnsim;"], [0, "&gnsim;"], [0, "&precnsim;"], [0, "&scnsim;"], [0, "&nltri;"], [0, "&NotRightTriangle;"], [0, "&nltrie;"], [0, "&NotRightTriangleEqual;"], [0, "&vellip;"], [0, "&ctdot;"], [0, "&utdot;"], [0, "&dtdot;"], [0, "&disin;"], [0, "&isinsv;"], [0, "&isins;"], [0, { v: "&isindot;", n: 824, o: "&notindot;" }], [0, "&notinvc;"], [0, "&notinvb;"], [1, { v: "&isinE;", n: 824, o: "&notinE;" }], [0, "&nisd;"], [0, "&xnis;"], [0, "&nis;"], [0, "&notnivc;"], [0, "&notnivb;"], [6, "&barwed;"], [0, "&Barwed;"], [1, "&lceil;"], [0, "&rceil;"], [0, "&LeftFloor;"], [0, "&rfloor;"], [0, "&drcrop;"], [0, "&dlcrop;"], [0, "&urcrop;"], [0, "&ulcrop;"], [0, "&bnot;"], [1, "&profline;"], [0, "&profsurf;"], [1, "&telrec;"], [0, "&target;"], [5, "&ulcorn;"], [0, "&urcorn;"], [0, "&dlcorn;"], [0, "&drcorn;"], [2, "&frown;"], [0, "&smile;"], [9, "&cylcty;"], [0, "&profalar;"], [7, "&topbot;"], [6, "&ovbar;"], [1, "&solbar;"], [60, "&angzarr;"], [51, "&lmoustache;"], [0, "&rmoustache;"], [2, "&OverBracket;"], [0, "&bbrk;"], [0, "&bbrktbrk;"], [37, "&OverParenthesis;"], [0, "&UnderParenthesis;"], [0, "&OverBrace;"], [0, "&UnderBrace;"], [2, "&trpezium;"], [4, "&elinters;"], [59, "&blank;"], [164, "&circledS;"], [55, "&boxh;"], [1, "&boxv;"], [9, "&boxdr;"], [3, "&boxdl;"], [3, "&boxur;"], [3, "&boxul;"], [3, "&boxvr;"], [7, "&boxvl;"], [7, "&boxhd;"], [7, "&boxhu;"], [7, "&boxvh;"], [19, "&boxH;"], [0, "&boxV;"], [0, "&boxdR;"], [0, "&boxDr;"], [0, "&boxDR;"], [0, "&boxdL;"], [0, "&boxDl;"], [0, "&boxDL;"], [0, "&boxuR;"], [0, "&boxUr;"], [0, "&boxUR;"], [0, "&boxuL;"], [0, "&boxUl;"], [0, "&boxUL;"], [0, "&boxvR;"], [0, "&boxVr;"], [0, "&boxVR;"], [0, "&boxvL;"], [0, "&boxVl;"], [0, "&boxVL;"], [0, "&boxHd;"], [0, "&boxhD;"], [0, "&boxHD;"], [0, "&boxHu;"], [0, "&boxhU;"], [0, "&boxHU;"], [0, "&boxvH;"], [0, "&boxVh;"], [0, "&boxVH;"], [19, "&uhblk;"], [3, "&lhblk;"], [3, "&block;"], [8, "&blk14;"], [0, "&blk12;"], [0, "&blk34;"], [13, "&square;"], [8, "&blacksquare;"], [0, "&EmptyVerySmallSquare;"], [1, "&rect;"], [0, "&marker;"], [2, "&fltns;"], [1, "&bigtriangleup;"], [0, "&blacktriangle;"], [0, "&triangle;"], [2, "&blacktriangleright;"], [0, "&rtri;"], [3, "&bigtriangledown;"], [0, "&blacktriangledown;"], [0, "&dtri;"], [2, "&blacktriangleleft;"], [0, "&ltri;"], [6, "&loz;"], [0, "&cir;"], [32, "&tridot;"], [2, "&bigcirc;"], [8, "&ultri;"], [0, "&urtri;"], [0, "&lltri;"], [0, "&EmptySmallSquare;"], [0, "&FilledSmallSquare;"], [8, "&bigstar;"], [0, "&star;"], [7, "&phone;"], [49, "&female;"], [1, "&male;"], [29, "&spades;"], [2, "&clubs;"], [1, "&hearts;"], [0, "&diamondsuit;"], [3, "&sung;"], [2, "&flat;"], [0, "&natural;"], [0, "&sharp;"], [163, "&check;"], [3, "&cross;"], [8, "&malt;"], [21, "&sext;"], [33, "&VerticalSeparator;"], [25, "&lbbrk;"], [0, "&rbbrk;"], [84, "&bsolhsub;"], [0, "&suphsol;"], [28, "&LeftDoubleBracket;"], [0, "&RightDoubleBracket;"], [0, "&lang;"], [0, "&rang;"], [0, "&Lang;"], [0, "&Rang;"], [0, "&loang;"], [0, "&roang;"], [7, "&longleftarrow;"], [0, "&longrightarrow;"], [0, "&longleftrightarrow;"], [0, "&DoubleLongLeftArrow;"], [0, "&DoubleLongRightArrow;"], [0, "&DoubleLongLeftRightArrow;"], [1, "&longmapsto;"], [2, "&dzigrarr;"], [258, "&nvlArr;"], [0, "&nvrArr;"], [0, "&nvHarr;"], [0, "&Map;"], [6, "&lbarr;"], [0, "&bkarow;"], [0, "&lBarr;"], [0, "&dbkarow;"], [0, "&drbkarow;"], [0, "&DDotrahd;"], [0, "&UpArrowBar;"], [0, "&DownArrowBar;"], [2, "&Rarrtl;"], [2, "&latail;"], [0, "&ratail;"], [0, "&lAtail;"], [0, "&rAtail;"], [0, "&larrfs;"], [0, "&rarrfs;"], [0, "&larrbfs;"], [0, "&rarrbfs;"], [2, "&nwarhk;"], [0, "&nearhk;"], [0, "&hksearow;"], [0, "&hkswarow;"], [0, "&nwnear;"], [0, "&nesear;"], [0, "&seswar;"], [0, "&swnwar;"], [8, { v: "&rarrc;", n: 824, o: "&nrarrc;" }], [1, "&cudarrr;"], [0, "&ldca;"], [0, "&rdca;"], [0, "&cudarrl;"], [0, "&larrpl;"], [2, "&curarrm;"], [0, "&cularrp;"], [7, "&rarrpl;"], [2, "&harrcir;"], [0, "&Uarrocir;"], [0, "&lurdshar;"], [0, "&ldrushar;"], [2, "&LeftRightVector;"], [0, "&RightUpDownVector;"], [0, "&DownLeftRightVector;"], [0, "&LeftUpDownVector;"], [0, "&LeftVectorBar;"], [0, "&RightVectorBar;"], [0, "&RightUpVectorBar;"], [0, "&RightDownVectorBar;"], [0, "&DownLeftVectorBar;"], [0, "&DownRightVectorBar;"], [0, "&LeftUpVectorBar;"], [0, "&LeftDownVectorBar;"], [0, "&LeftTeeVector;"], [0, "&RightTeeVector;"], [0, "&RightUpTeeVector;"], [0, "&RightDownTeeVector;"], [0, "&DownLeftTeeVector;"], [0, "&DownRightTeeVector;"], [0, "&LeftUpTeeVector;"], [0, "&LeftDownTeeVector;"], [0, "&lHar;"], [0, "&uHar;"], [0, "&rHar;"], [0, "&dHar;"], [0, "&luruhar;"], [0, "&ldrdhar;"], [0, "&ruluhar;"], [0, "&rdldhar;"], [0, "&lharul;"], [0, "&llhard;"], [0, "&rharul;"], [0, "&lrhard;"], [0, "&udhar;"], [0, "&duhar;"], [0, "&RoundImplies;"], [0, "&erarr;"], [0, "&simrarr;"], [0, "&larrsim;"], [0, "&rarrsim;"], [0, "&rarrap;"], [0, "&ltlarr;"], [1, "&gtrarr;"], [0, "&subrarr;"], [1, "&suplarr;"], [0, "&lfisht;"], [0, "&rfisht;"], [0, "&ufisht;"], [0, "&dfisht;"], [5, "&lopar;"], [0, "&ropar;"], [4, "&lbrke;"], [0, "&rbrke;"], [0, "&lbrkslu;"], [0, "&rbrksld;"], [0, "&lbrksld;"], [0, "&rbrkslu;"], [0, "&langd;"], [0, "&rangd;"], [0, "&lparlt;"], [0, "&rpargt;"], [0, "&gtlPar;"], [0, "&ltrPar;"], [3, "&vzigzag;"], [1, "&vangrt;"], [0, "&angrtvbd;"], [6, "&ange;"], [0, "&range;"], [0, "&dwangle;"], [0, "&uwangle;"], [0, "&angmsdaa;"], [0, "&angmsdab;"], [0, "&angmsdac;"], [0, "&angmsdad;"], [0, "&angmsdae;"], [0, "&angmsdaf;"], [0, "&angmsdag;"], [0, "&angmsdah;"], [0, "&bemptyv;"], [0, "&demptyv;"], [0, "&cemptyv;"], [0, "&raemptyv;"], [0, "&laemptyv;"], [0, "&ohbar;"], [0, "&omid;"], [0, "&opar;"], [1, "&operp;"], [1, "&olcross;"], [0, "&odsold;"], [1, "&olcir;"], [0, "&ofcir;"], [0, "&olt;"], [0, "&ogt;"], [0, "&cirscir;"], [0, "&cirE;"], [0, "&solb;"], [0, "&bsolb;"], [3, "&boxbox;"], [3, "&trisb;"], [0, "&rtriltri;"], [0, { v: "&LeftTriangleBar;", n: 824, o: "&NotLeftTriangleBar;" }], [0, { v: "&RightTriangleBar;", n: 824, o: "&NotRightTriangleBar;" }], [11, "&iinfin;"], [0, "&infintie;"], [0, "&nvinfin;"], [4, "&eparsl;"], [0, "&smeparsl;"], [0, "&eqvparsl;"], [5, "&blacklozenge;"], [8, "&RuleDelayed;"], [1, "&dsol;"], [9, "&bigodot;"], [0, "&bigoplus;"], [0, "&bigotimes;"], [1, "&biguplus;"], [1, "&bigsqcup;"], [5, "&iiiint;"], [0, "&fpartint;"], [2, "&cirfnint;"], [0, "&awint;"], [0, "&rppolint;"], [0, "&scpolint;"], [0, "&npolint;"], [0, "&pointint;"], [0, "&quatint;"], [0, "&intlarhk;"], [10, "&pluscir;"], [0, "&plusacir;"], [0, "&simplus;"], [0, "&plusdu;"], [0, "&plussim;"], [0, "&plustwo;"], [1, "&mcomma;"], [0, "&minusdu;"], [2, "&loplus;"], [0, "&roplus;"], [0, "&Cross;"], [0, "&timesd;"], [0, "&timesbar;"], [1, "&smashp;"], [0, "&lotimes;"], [0, "&rotimes;"], [0, "&otimesas;"], [0, "&Otimes;"], [0, "&odiv;"], [0, "&triplus;"], [0, "&triminus;"], [0, "&tritime;"], [0, "&intprod;"], [2, "&amalg;"], [0, "&capdot;"], [1, "&ncup;"], [0, "&ncap;"], [0, "&capand;"], [0, "&cupor;"], [0, "&cupcap;"], [0, "&capcup;"], [0, "&cupbrcap;"], [0, "&capbrcup;"], [0, "&cupcup;"], [0, "&capcap;"], [0, "&ccups;"], [0, "&ccaps;"], [2, "&ccupssm;"], [2, "&And;"], [0, "&Or;"], [0, "&andand;"], [0, "&oror;"], [0, "&orslope;"], [0, "&andslope;"], [1, "&andv;"], [0, "&orv;"], [0, "&andd;"], [0, "&ord;"], [1, "&wedbar;"], [6, "&sdote;"], [3, "&simdot;"], [2, { v: "&congdot;", n: 824, o: "&ncongdot;" }], [0, "&easter;"], [0, "&apacir;"], [0, { v: "&apE;", n: 824, o: "&napE;" }], [0, "&eplus;"], [0, "&pluse;"], [0, "&Esim;"], [0, "&Colone;"], [0, "&Equal;"], [1, "&ddotseq;"], [0, "&equivDD;"], [0, "&ltcir;"], [0, "&gtcir;"], [0, "&ltquest;"], [0, "&gtquest;"], [0, { v: "&leqslant;", n: 824, o: "&nleqslant;" }], [0, { v: "&geqslant;", n: 824, o: "&ngeqslant;" }], [0, "&lesdot;"], [0, "&gesdot;"], [0, "&lesdoto;"], [0, "&gesdoto;"], [0, "&lesdotor;"], [0, "&gesdotol;"], [0, "&lap;"], [0, "&gap;"], [0, "&lne;"], [0, "&gne;"], [0, "&lnap;"], [0, "&gnap;"], [0, "&lEg;"], [0, "&gEl;"], [0, "&lsime;"], [0, "&gsime;"], [0, "&lsimg;"], [0, "&gsiml;"], [0, "&lgE;"], [0, "&glE;"], [0, "&lesges;"], [0, "&gesles;"], [0, "&els;"], [0, "&egs;"], [0, "&elsdot;"], [0, "&egsdot;"], [0, "&el;"], [0, "&eg;"], [2, "&siml;"], [0, "&simg;"], [0, "&simlE;"], [0, "&simgE;"], [0, { v: "&LessLess;", n: 824, o: "&NotNestedLessLess;" }], [0, { v: "&GreaterGreater;", n: 824, o: "&NotNestedGreaterGreater;" }], [1, "&glj;"], [0, "&gla;"], [0, "&ltcc;"], [0, "&gtcc;"], [0, "&lescc;"], [0, "&gescc;"], [0, "&smt;"], [0, "&lat;"], [0, { v: "&smte;", n: 65024, o: "&smtes;" }], [0, { v: "&late;", n: 65024, o: "&lates;" }], [0, "&bumpE;"], [0, { v: "&PrecedesEqual;", n: 824, o: "&NotPrecedesEqual;" }], [0, { v: "&sce;", n: 824, o: "&NotSucceedsEqual;" }], [2, "&prE;"], [0, "&scE;"], [0, "&precneqq;"], [0, "&scnE;"], [0, "&prap;"], [0, "&scap;"], [0, "&precnapprox;"], [0, "&scnap;"], [0, "&Pr;"], [0, "&Sc;"], [0, "&subdot;"], [0, "&supdot;"], [0, "&subplus;"], [0, "&supplus;"], [0, "&submult;"], [0, "&supmult;"], [0, "&subedot;"], [0, "&supedot;"], [0, { v: "&subE;", n: 824, o: "&nsubE;" }], [0, { v: "&supE;", n: 824, o: "&nsupE;" }], [0, "&subsim;"], [0, "&supsim;"], [2, { v: "&subnE;", n: 65024, o: "&varsubsetneqq;" }], [0, { v: "&supnE;", n: 65024, o: "&varsupsetneqq;" }], [2, "&csub;"], [0, "&csup;"], [0, "&csube;"], [0, "&csupe;"], [0, "&subsup;"], [0, "&supsub;"], [0, "&subsub;"], [0, "&supsup;"], [0, "&suphsub;"], [0, "&supdsub;"], [0, "&forkv;"], [0, "&topfork;"], [0, "&mlcp;"], [8, "&Dashv;"], [1, "&Vdashl;"], [0, "&Barv;"], [0, "&vBar;"], [0, "&vBarv;"], [1, "&Vbar;"], [0, "&Not;"], [0, "&bNot;"], [0, "&rnmid;"], [0, "&cirmid;"], [0, "&midcir;"], [0, "&topcir;"], [0, "&nhpar;"], [0, "&parsim;"], [9, { v: "&parsl;", n: 8421, o: "&nparsl;" }], [44343, { n: new Map(/* @__PURE__ */ restoreDiff([[56476, "&Ascr;"], [1, "&Cscr;"], [0, "&Dscr;"], [2, "&Gscr;"], [2, "&Jscr;"], [0, "&Kscr;"], [2, "&Nscr;"], [0, "&Oscr;"], [0, "&Pscr;"], [0, "&Qscr;"], [1, "&Sscr;"], [0, "&Tscr;"], [0, "&Uscr;"], [0, "&Vscr;"], [0, "&Wscr;"], [0, "&Xscr;"], [0, "&Yscr;"], [0, "&Zscr;"], [0, "&ascr;"], [0, "&bscr;"], [0, "&cscr;"], [0, "&dscr;"], [1, "&fscr;"], [1, "&hscr;"], [0, "&iscr;"], [0, "&jscr;"], [0, "&kscr;"], [0, "&lscr;"], [0, "&mscr;"], [0, "&nscr;"], [1, "&pscr;"], [0, "&qscr;"], [0, "&rscr;"], [0, "&sscr;"], [0, "&tscr;"], [0, "&uscr;"], [0, "&vscr;"], [0, "&wscr;"], [0, "&xscr;"], [0, "&yscr;"], [0, "&zscr;"], [52, "&Afr;"], [0, "&Bfr;"], [1, "&Dfr;"], [0, "&Efr;"], [0, "&Ffr;"], [0, "&Gfr;"], [2, "&Jfr;"], [0, "&Kfr;"], [0, "&Lfr;"], [0, "&Mfr;"], [0, "&Nfr;"], [0, "&Ofr;"], [0, "&Pfr;"], [0, "&Qfr;"], [1, "&Sfr;"], [0, "&Tfr;"], [0, "&Ufr;"], [0, "&Vfr;"], [0, "&Wfr;"], [0, "&Xfr;"], [0, "&Yfr;"], [1, "&afr;"], [0, "&bfr;"], [0, "&cfr;"], [0, "&dfr;"], [0, "&efr;"], [0, "&ffr;"], [0, "&gfr;"], [0, "&hfr;"], [0, "&ifr;"], [0, "&jfr;"], [0, "&kfr;"], [0, "&lfr;"], [0, "&mfr;"], [0, "&nfr;"], [0, "&ofr;"], [0, "&pfr;"], [0, "&qfr;"], [0, "&rfr;"], [0, "&sfr;"], [0, "&tfr;"], [0, "&ufr;"], [0, "&vfr;"], [0, "&wfr;"], [0, "&xfr;"], [0, "&yfr;"], [0, "&zfr;"], [0, "&Aopf;"], [0, "&Bopf;"], [1, "&Dopf;"], [0, "&Eopf;"], [0, "&Fopf;"], [0, "&Gopf;"], [1, "&Iopf;"], [0, "&Jopf;"], [0, "&Kopf;"], [0, "&Lopf;"], [0, "&Mopf;"], [1, "&Oopf;"], [3, "&Sopf;"], [0, "&Topf;"], [0, "&Uopf;"], [0, "&Vopf;"], [0, "&Wopf;"], [0, "&Xopf;"], [0, "&Yopf;"], [1, "&aopf;"], [0, "&bopf;"], [0, "&copf;"], [0, "&dopf;"], [0, "&eopf;"], [0, "&fopf;"], [0, "&gopf;"], [0, "&hopf;"], [0, "&iopf;"], [0, "&jopf;"], [0, "&kopf;"], [0, "&lopf;"], [0, "&mopf;"], [0, "&nopf;"], [0, "&oopf;"], [0, "&popf;"], [0, "&qopf;"], [0, "&ropf;"], [0, "&sopf;"], [0, "&topf;"], [0, "&uopf;"], [0, "&vopf;"], [0, "&wopf;"], [0, "&xopf;"], [0, "&yopf;"], [0, "&zopf;"]])) }], [8906, "&fflig;"], [0, "&filig;"], [0, "&fllig;"], [0, "&ffilig;"], [0, "&ffllig;"]]));
+  var encode_html_default = new Map(
+    /* @__PURE__ */ restoreDiff([
+      [9, "&Tab;"],
+      [0, "&NewLine;"],
+      [22, "&excl;"],
+      [0, "&quot;"],
+      [0, "&num;"],
+      [0, "&dollar;"],
+      [0, "&percnt;"],
+      [0, "&amp;"],
+      [0, "&apos;"],
+      [0, "&lpar;"],
+      [0, "&rpar;"],
+      [0, "&ast;"],
+      [0, "&plus;"],
+      [0, "&comma;"],
+      [1, "&period;"],
+      [0, "&sol;"],
+      [10, "&colon;"],
+      [0, "&semi;"],
+      [0, { v: "&lt;", n: 8402, o: "&nvlt;" }],
+      [0, { v: "&equals;", n: 8421, o: "&bne;" }],
+      [0, { v: "&gt;", n: 8402, o: "&nvgt;" }],
+      [0, "&quest;"],
+      [0, "&commat;"],
+      [26, "&lbrack;"],
+      [0, "&bsol;"],
+      [0, "&rbrack;"],
+      [0, "&Hat;"],
+      [0, "&lowbar;"],
+      [0, "&DiacriticalGrave;"],
+      [5, { n: 106, o: "&fjlig;" }],
+      [20, "&lbrace;"],
+      [0, "&verbar;"],
+      [0, "&rbrace;"],
+      [34, "&nbsp;"],
+      [0, "&iexcl;"],
+      [0, "&cent;"],
+      [0, "&pound;"],
+      [0, "&curren;"],
+      [0, "&yen;"],
+      [0, "&brvbar;"],
+      [0, "&sect;"],
+      [0, "&die;"],
+      [0, "&copy;"],
+      [0, "&ordf;"],
+      [0, "&laquo;"],
+      [0, "&not;"],
+      [0, "&shy;"],
+      [0, "&circledR;"],
+      [0, "&macr;"],
+      [0, "&deg;"],
+      [0, "&PlusMinus;"],
+      [0, "&sup2;"],
+      [0, "&sup3;"],
+      [0, "&acute;"],
+      [0, "&micro;"],
+      [0, "&para;"],
+      [0, "&centerdot;"],
+      [0, "&cedil;"],
+      [0, "&sup1;"],
+      [0, "&ordm;"],
+      [0, "&raquo;"],
+      [0, "&frac14;"],
+      [0, "&frac12;"],
+      [0, "&frac34;"],
+      [0, "&iquest;"],
+      [0, "&Agrave;"],
+      [0, "&Aacute;"],
+      [0, "&Acirc;"],
+      [0, "&Atilde;"],
+      [0, "&Auml;"],
+      [0, "&angst;"],
+      [0, "&AElig;"],
+      [0, "&Ccedil;"],
+      [0, "&Egrave;"],
+      [0, "&Eacute;"],
+      [0, "&Ecirc;"],
+      [0, "&Euml;"],
+      [0, "&Igrave;"],
+      [0, "&Iacute;"],
+      [0, "&Icirc;"],
+      [0, "&Iuml;"],
+      [0, "&ETH;"],
+      [0, "&Ntilde;"],
+      [0, "&Ograve;"],
+      [0, "&Oacute;"],
+      [0, "&Ocirc;"],
+      [0, "&Otilde;"],
+      [0, "&Ouml;"],
+      [0, "&times;"],
+      [0, "&Oslash;"],
+      [0, "&Ugrave;"],
+      [0, "&Uacute;"],
+      [0, "&Ucirc;"],
+      [0, "&Uuml;"],
+      [0, "&Yacute;"],
+      [0, "&THORN;"],
+      [0, "&szlig;"],
+      [0, "&agrave;"],
+      [0, "&aacute;"],
+      [0, "&acirc;"],
+      [0, "&atilde;"],
+      [0, "&auml;"],
+      [0, "&aring;"],
+      [0, "&aelig;"],
+      [0, "&ccedil;"],
+      [0, "&egrave;"],
+      [0, "&eacute;"],
+      [0, "&ecirc;"],
+      [0, "&euml;"],
+      [0, "&igrave;"],
+      [0, "&iacute;"],
+      [0, "&icirc;"],
+      [0, "&iuml;"],
+      [0, "&eth;"],
+      [0, "&ntilde;"],
+      [0, "&ograve;"],
+      [0, "&oacute;"],
+      [0, "&ocirc;"],
+      [0, "&otilde;"],
+      [0, "&ouml;"],
+      [0, "&div;"],
+      [0, "&oslash;"],
+      [0, "&ugrave;"],
+      [0, "&uacute;"],
+      [0, "&ucirc;"],
+      [0, "&uuml;"],
+      [0, "&yacute;"],
+      [0, "&thorn;"],
+      [0, "&yuml;"],
+      [0, "&Amacr;"],
+      [0, "&amacr;"],
+      [0, "&Abreve;"],
+      [0, "&abreve;"],
+      [0, "&Aogon;"],
+      [0, "&aogon;"],
+      [0, "&Cacute;"],
+      [0, "&cacute;"],
+      [0, "&Ccirc;"],
+      [0, "&ccirc;"],
+      [0, "&Cdot;"],
+      [0, "&cdot;"],
+      [0, "&Ccaron;"],
+      [0, "&ccaron;"],
+      [0, "&Dcaron;"],
+      [0, "&dcaron;"],
+      [0, "&Dstrok;"],
+      [0, "&dstrok;"],
+      [0, "&Emacr;"],
+      [0, "&emacr;"],
+      [2, "&Edot;"],
+      [0, "&edot;"],
+      [0, "&Eogon;"],
+      [0, "&eogon;"],
+      [0, "&Ecaron;"],
+      [0, "&ecaron;"],
+      [0, "&Gcirc;"],
+      [0, "&gcirc;"],
+      [0, "&Gbreve;"],
+      [0, "&gbreve;"],
+      [0, "&Gdot;"],
+      [0, "&gdot;"],
+      [0, "&Gcedil;"],
+      [1, "&Hcirc;"],
+      [0, "&hcirc;"],
+      [0, "&Hstrok;"],
+      [0, "&hstrok;"],
+      [0, "&Itilde;"],
+      [0, "&itilde;"],
+      [0, "&Imacr;"],
+      [0, "&imacr;"],
+      [2, "&Iogon;"],
+      [0, "&iogon;"],
+      [0, "&Idot;"],
+      [0, "&imath;"],
+      [0, "&IJlig;"],
+      [0, "&ijlig;"],
+      [0, "&Jcirc;"],
+      [0, "&jcirc;"],
+      [0, "&Kcedil;"],
+      [0, "&kcedil;"],
+      [0, "&kgreen;"],
+      [0, "&Lacute;"],
+      [0, "&lacute;"],
+      [0, "&Lcedil;"],
+      [0, "&lcedil;"],
+      [0, "&Lcaron;"],
+      [0, "&lcaron;"],
+      [0, "&Lmidot;"],
+      [0, "&lmidot;"],
+      [0, "&Lstrok;"],
+      [0, "&lstrok;"],
+      [0, "&Nacute;"],
+      [0, "&nacute;"],
+      [0, "&Ncedil;"],
+      [0, "&ncedil;"],
+      [0, "&Ncaron;"],
+      [0, "&ncaron;"],
+      [0, "&napos;"],
+      [0, "&ENG;"],
+      [0, "&eng;"],
+      [0, "&Omacr;"],
+      [0, "&omacr;"],
+      [2, "&Odblac;"],
+      [0, "&odblac;"],
+      [0, "&OElig;"],
+      [0, "&oelig;"],
+      [0, "&Racute;"],
+      [0, "&racute;"],
+      [0, "&Rcedil;"],
+      [0, "&rcedil;"],
+      [0, "&Rcaron;"],
+      [0, "&rcaron;"],
+      [0, "&Sacute;"],
+      [0, "&sacute;"],
+      [0, "&Scirc;"],
+      [0, "&scirc;"],
+      [0, "&Scedil;"],
+      [0, "&scedil;"],
+      [0, "&Scaron;"],
+      [0, "&scaron;"],
+      [0, "&Tcedil;"],
+      [0, "&tcedil;"],
+      [0, "&Tcaron;"],
+      [0, "&tcaron;"],
+      [0, "&Tstrok;"],
+      [0, "&tstrok;"],
+      [0, "&Utilde;"],
+      [0, "&utilde;"],
+      [0, "&Umacr;"],
+      [0, "&umacr;"],
+      [0, "&Ubreve;"],
+      [0, "&ubreve;"],
+      [0, "&Uring;"],
+      [0, "&uring;"],
+      [0, "&Udblac;"],
+      [0, "&udblac;"],
+      [0, "&Uogon;"],
+      [0, "&uogon;"],
+      [0, "&Wcirc;"],
+      [0, "&wcirc;"],
+      [0, "&Ycirc;"],
+      [0, "&ycirc;"],
+      [0, "&Yuml;"],
+      [0, "&Zacute;"],
+      [0, "&zacute;"],
+      [0, "&Zdot;"],
+      [0, "&zdot;"],
+      [0, "&Zcaron;"],
+      [0, "&zcaron;"],
+      [19, "&fnof;"],
+      [34, "&imped;"],
+      [63, "&gacute;"],
+      [65, "&jmath;"],
+      [142, "&circ;"],
+      [0, "&caron;"],
+      [16, "&breve;"],
+      [0, "&DiacriticalDot;"],
+      [0, "&ring;"],
+      [0, "&ogon;"],
+      [0, "&DiacriticalTilde;"],
+      [0, "&dblac;"],
+      [51, "&DownBreve;"],
+      [127, "&Alpha;"],
+      [0, "&Beta;"],
+      [0, "&Gamma;"],
+      [0, "&Delta;"],
+      [0, "&Epsilon;"],
+      [0, "&Zeta;"],
+      [0, "&Eta;"],
+      [0, "&Theta;"],
+      [0, "&Iota;"],
+      [0, "&Kappa;"],
+      [0, "&Lambda;"],
+      [0, "&Mu;"],
+      [0, "&Nu;"],
+      [0, "&Xi;"],
+      [0, "&Omicron;"],
+      [0, "&Pi;"],
+      [0, "&Rho;"],
+      [1, "&Sigma;"],
+      [0, "&Tau;"],
+      [0, "&Upsilon;"],
+      [0, "&Phi;"],
+      [0, "&Chi;"],
+      [0, "&Psi;"],
+      [0, "&ohm;"],
+      [7, "&alpha;"],
+      [0, "&beta;"],
+      [0, "&gamma;"],
+      [0, "&delta;"],
+      [0, "&epsi;"],
+      [0, "&zeta;"],
+      [0, "&eta;"],
+      [0, "&theta;"],
+      [0, "&iota;"],
+      [0, "&kappa;"],
+      [0, "&lambda;"],
+      [0, "&mu;"],
+      [0, "&nu;"],
+      [0, "&xi;"],
+      [0, "&omicron;"],
+      [0, "&pi;"],
+      [0, "&rho;"],
+      [0, "&sigmaf;"],
+      [0, "&sigma;"],
+      [0, "&tau;"],
+      [0, "&upsi;"],
+      [0, "&phi;"],
+      [0, "&chi;"],
+      [0, "&psi;"],
+      [0, "&omega;"],
+      [7, "&thetasym;"],
+      [0, "&Upsi;"],
+      [2, "&phiv;"],
+      [0, "&piv;"],
+      [5, "&Gammad;"],
+      [0, "&digamma;"],
+      [18, "&kappav;"],
+      [0, "&rhov;"],
+      [3, "&epsiv;"],
+      [0, "&backepsilon;"],
+      [10, "&IOcy;"],
+      [0, "&DJcy;"],
+      [0, "&GJcy;"],
+      [0, "&Jukcy;"],
+      [0, "&DScy;"],
+      [0, "&Iukcy;"],
+      [0, "&YIcy;"],
+      [0, "&Jsercy;"],
+      [0, "&LJcy;"],
+      [0, "&NJcy;"],
+      [0, "&TSHcy;"],
+      [0, "&KJcy;"],
+      [1, "&Ubrcy;"],
+      [0, "&DZcy;"],
+      [0, "&Acy;"],
+      [0, "&Bcy;"],
+      [0, "&Vcy;"],
+      [0, "&Gcy;"],
+      [0, "&Dcy;"],
+      [0, "&IEcy;"],
+      [0, "&ZHcy;"],
+      [0, "&Zcy;"],
+      [0, "&Icy;"],
+      [0, "&Jcy;"],
+      [0, "&Kcy;"],
+      [0, "&Lcy;"],
+      [0, "&Mcy;"],
+      [0, "&Ncy;"],
+      [0, "&Ocy;"],
+      [0, "&Pcy;"],
+      [0, "&Rcy;"],
+      [0, "&Scy;"],
+      [0, "&Tcy;"],
+      [0, "&Ucy;"],
+      [0, "&Fcy;"],
+      [0, "&KHcy;"],
+      [0, "&TScy;"],
+      [0, "&CHcy;"],
+      [0, "&SHcy;"],
+      [0, "&SHCHcy;"],
+      [0, "&HARDcy;"],
+      [0, "&Ycy;"],
+      [0, "&SOFTcy;"],
+      [0, "&Ecy;"],
+      [0, "&YUcy;"],
+      [0, "&YAcy;"],
+      [0, "&acy;"],
+      [0, "&bcy;"],
+      [0, "&vcy;"],
+      [0, "&gcy;"],
+      [0, "&dcy;"],
+      [0, "&iecy;"],
+      [0, "&zhcy;"],
+      [0, "&zcy;"],
+      [0, "&icy;"],
+      [0, "&jcy;"],
+      [0, "&kcy;"],
+      [0, "&lcy;"],
+      [0, "&mcy;"],
+      [0, "&ncy;"],
+      [0, "&ocy;"],
+      [0, "&pcy;"],
+      [0, "&rcy;"],
+      [0, "&scy;"],
+      [0, "&tcy;"],
+      [0, "&ucy;"],
+      [0, "&fcy;"],
+      [0, "&khcy;"],
+      [0, "&tscy;"],
+      [0, "&chcy;"],
+      [0, "&shcy;"],
+      [0, "&shchcy;"],
+      [0, "&hardcy;"],
+      [0, "&ycy;"],
+      [0, "&softcy;"],
+      [0, "&ecy;"],
+      [0, "&yucy;"],
+      [0, "&yacy;"],
+      [1, "&iocy;"],
+      [0, "&djcy;"],
+      [0, "&gjcy;"],
+      [0, "&jukcy;"],
+      [0, "&dscy;"],
+      [0, "&iukcy;"],
+      [0, "&yicy;"],
+      [0, "&jsercy;"],
+      [0, "&ljcy;"],
+      [0, "&njcy;"],
+      [0, "&tshcy;"],
+      [0, "&kjcy;"],
+      [1, "&ubrcy;"],
+      [0, "&dzcy;"],
+      [7074, "&ensp;"],
+      [0, "&emsp;"],
+      [0, "&emsp13;"],
+      [0, "&emsp14;"],
+      [1, "&numsp;"],
+      [0, "&puncsp;"],
+      [0, "&ThinSpace;"],
+      [0, "&hairsp;"],
+      [0, "&NegativeMediumSpace;"],
+      [0, "&zwnj;"],
+      [0, "&zwj;"],
+      [0, "&lrm;"],
+      [0, "&rlm;"],
+      [0, "&dash;"],
+      [2, "&ndash;"],
+      [0, "&mdash;"],
+      [0, "&horbar;"],
+      [0, "&Verbar;"],
+      [1, "&lsquo;"],
+      [0, "&CloseCurlyQuote;"],
+      [0, "&lsquor;"],
+      [1, "&ldquo;"],
+      [0, "&CloseCurlyDoubleQuote;"],
+      [0, "&bdquo;"],
+      [1, "&dagger;"],
+      [0, "&Dagger;"],
+      [0, "&bull;"],
+      [2, "&nldr;"],
+      [0, "&hellip;"],
+      [9, "&permil;"],
+      [0, "&pertenk;"],
+      [0, "&prime;"],
+      [0, "&Prime;"],
+      [0, "&tprime;"],
+      [0, "&backprime;"],
+      [3, "&lsaquo;"],
+      [0, "&rsaquo;"],
+      [3, "&oline;"],
+      [2, "&caret;"],
+      [1, "&hybull;"],
+      [0, "&frasl;"],
+      [10, "&bsemi;"],
+      [7, "&qprime;"],
+      [7, { v: "&MediumSpace;", n: 8202, o: "&ThickSpace;" }],
+      [0, "&NoBreak;"],
+      [0, "&af;"],
+      [0, "&InvisibleTimes;"],
+      [0, "&ic;"],
+      [72, "&euro;"],
+      [46, "&tdot;"],
+      [0, "&DotDot;"],
+      [37, "&complexes;"],
+      [2, "&incare;"],
+      [4, "&gscr;"],
+      [0, "&hamilt;"],
+      [0, "&Hfr;"],
+      [0, "&Hopf;"],
+      [0, "&planckh;"],
+      [0, "&hbar;"],
+      [0, "&imagline;"],
+      [0, "&Ifr;"],
+      [0, "&lagran;"],
+      [0, "&ell;"],
+      [1, "&naturals;"],
+      [0, "&numero;"],
+      [0, "&copysr;"],
+      [0, "&weierp;"],
+      [0, "&Popf;"],
+      [0, "&Qopf;"],
+      [0, "&realine;"],
+      [0, "&real;"],
+      [0, "&reals;"],
+      [0, "&rx;"],
+      [3, "&trade;"],
+      [1, "&integers;"],
+      [2, "&mho;"],
+      [0, "&zeetrf;"],
+      [0, "&iiota;"],
+      [2, "&bernou;"],
+      [0, "&Cayleys;"],
+      [1, "&escr;"],
+      [0, "&Escr;"],
+      [0, "&Fouriertrf;"],
+      [1, "&Mellintrf;"],
+      [0, "&order;"],
+      [0, "&alefsym;"],
+      [0, "&beth;"],
+      [0, "&gimel;"],
+      [0, "&daleth;"],
+      [12, "&CapitalDifferentialD;"],
+      [0, "&dd;"],
+      [0, "&ee;"],
+      [0, "&ii;"],
+      [10, "&frac13;"],
+      [0, "&frac23;"],
+      [0, "&frac15;"],
+      [0, "&frac25;"],
+      [0, "&frac35;"],
+      [0, "&frac45;"],
+      [0, "&frac16;"],
+      [0, "&frac56;"],
+      [0, "&frac18;"],
+      [0, "&frac38;"],
+      [0, "&frac58;"],
+      [0, "&frac78;"],
+      [49, "&larr;"],
+      [0, "&ShortUpArrow;"],
+      [0, "&rarr;"],
+      [0, "&darr;"],
+      [0, "&harr;"],
+      [0, "&updownarrow;"],
+      [0, "&nwarr;"],
+      [0, "&nearr;"],
+      [0, "&LowerRightArrow;"],
+      [0, "&LowerLeftArrow;"],
+      [0, "&nlarr;"],
+      [0, "&nrarr;"],
+      [1, { v: "&rarrw;", n: 824, o: "&nrarrw;" }],
+      [0, "&Larr;"],
+      [0, "&Uarr;"],
+      [0, "&Rarr;"],
+      [0, "&Darr;"],
+      [0, "&larrtl;"],
+      [0, "&rarrtl;"],
+      [0, "&LeftTeeArrow;"],
+      [0, "&mapstoup;"],
+      [0, "&map;"],
+      [0, "&DownTeeArrow;"],
+      [1, "&hookleftarrow;"],
+      [0, "&hookrightarrow;"],
+      [0, "&larrlp;"],
+      [0, "&looparrowright;"],
+      [0, "&harrw;"],
+      [0, "&nharr;"],
+      [1, "&lsh;"],
+      [0, "&rsh;"],
+      [0, "&ldsh;"],
+      [0, "&rdsh;"],
+      [1, "&crarr;"],
+      [0, "&cularr;"],
+      [0, "&curarr;"],
+      [2, "&circlearrowleft;"],
+      [0, "&circlearrowright;"],
+      [0, "&leftharpoonup;"],
+      [0, "&DownLeftVector;"],
+      [0, "&RightUpVector;"],
+      [0, "&LeftUpVector;"],
+      [0, "&rharu;"],
+      [0, "&DownRightVector;"],
+      [0, "&dharr;"],
+      [0, "&dharl;"],
+      [0, "&RightArrowLeftArrow;"],
+      [0, "&udarr;"],
+      [0, "&LeftArrowRightArrow;"],
+      [0, "&leftleftarrows;"],
+      [0, "&upuparrows;"],
+      [0, "&rightrightarrows;"],
+      [0, "&ddarr;"],
+      [0, "&leftrightharpoons;"],
+      [0, "&Equilibrium;"],
+      [0, "&nlArr;"],
+      [0, "&nhArr;"],
+      [0, "&nrArr;"],
+      [0, "&DoubleLeftArrow;"],
+      [0, "&DoubleUpArrow;"],
+      [0, "&DoubleRightArrow;"],
+      [0, "&dArr;"],
+      [0, "&DoubleLeftRightArrow;"],
+      [0, "&DoubleUpDownArrow;"],
+      [0, "&nwArr;"],
+      [0, "&neArr;"],
+      [0, "&seArr;"],
+      [0, "&swArr;"],
+      [0, "&lAarr;"],
+      [0, "&rAarr;"],
+      [1, "&zigrarr;"],
+      [6, "&larrb;"],
+      [0, "&rarrb;"],
+      [15, "&DownArrowUpArrow;"],
+      [7, "&loarr;"],
+      [0, "&roarr;"],
+      [0, "&hoarr;"],
+      [0, "&forall;"],
+      [0, "&comp;"],
+      [0, { v: "&part;", n: 824, o: "&npart;" }],
+      [0, "&exist;"],
+      [0, "&nexist;"],
+      [0, "&empty;"],
+      [1, "&Del;"],
+      [0, "&Element;"],
+      [0, "&NotElement;"],
+      [1, "&ni;"],
+      [0, "&notni;"],
+      [2, "&prod;"],
+      [0, "&coprod;"],
+      [0, "&sum;"],
+      [0, "&minus;"],
+      [0, "&MinusPlus;"],
+      [0, "&dotplus;"],
+      [1, "&Backslash;"],
+      [0, "&lowast;"],
+      [0, "&compfn;"],
+      [1, "&radic;"],
+      [2, "&prop;"],
+      [0, "&infin;"],
+      [0, "&angrt;"],
+      [0, { v: "&ang;", n: 8402, o: "&nang;" }],
+      [0, "&angmsd;"],
+      [0, "&angsph;"],
+      [0, "&mid;"],
+      [0, "&nmid;"],
+      [0, "&DoubleVerticalBar;"],
+      [0, "&NotDoubleVerticalBar;"],
+      [0, "&and;"],
+      [0, "&or;"],
+      [0, { v: "&cap;", n: 65024, o: "&caps;" }],
+      [0, { v: "&cup;", n: 65024, o: "&cups;" }],
+      [0, "&int;"],
+      [0, "&Int;"],
+      [0, "&iiint;"],
+      [0, "&conint;"],
+      [0, "&Conint;"],
+      [0, "&Cconint;"],
+      [0, "&cwint;"],
+      [0, "&ClockwiseContourIntegral;"],
+      [0, "&awconint;"],
+      [0, "&there4;"],
+      [0, "&becaus;"],
+      [0, "&ratio;"],
+      [0, "&Colon;"],
+      [0, "&dotminus;"],
+      [1, "&mDDot;"],
+      [0, "&homtht;"],
+      [0, { v: "&sim;", n: 8402, o: "&nvsim;" }],
+      [0, { v: "&backsim;", n: 817, o: "&race;" }],
+      [0, { v: "&ac;", n: 819, o: "&acE;" }],
+      [0, "&acd;"],
+      [0, "&VerticalTilde;"],
+      [0, "&NotTilde;"],
+      [0, { v: "&eqsim;", n: 824, o: "&nesim;" }],
+      [0, "&sime;"],
+      [0, "&NotTildeEqual;"],
+      [0, "&cong;"],
+      [0, "&simne;"],
+      [0, "&ncong;"],
+      [0, "&ap;"],
+      [0, "&nap;"],
+      [0, "&ape;"],
+      [0, { v: "&apid;", n: 824, o: "&napid;" }],
+      [0, "&backcong;"],
+      [0, { v: "&asympeq;", n: 8402, o: "&nvap;" }],
+      [0, { v: "&bump;", n: 824, o: "&nbump;" }],
+      [0, { v: "&bumpe;", n: 824, o: "&nbumpe;" }],
+      [0, { v: "&doteq;", n: 824, o: "&nedot;" }],
+      [0, "&doteqdot;"],
+      [0, "&efDot;"],
+      [0, "&erDot;"],
+      [0, "&Assign;"],
+      [0, "&ecolon;"],
+      [0, "&ecir;"],
+      [0, "&circeq;"],
+      [1, "&wedgeq;"],
+      [0, "&veeeq;"],
+      [1, "&triangleq;"],
+      [2, "&equest;"],
+      [0, "&ne;"],
+      [0, { v: "&Congruent;", n: 8421, o: "&bnequiv;" }],
+      [0, "&nequiv;"],
+      [1, { v: "&le;", n: 8402, o: "&nvle;" }],
+      [0, { v: "&ge;", n: 8402, o: "&nvge;" }],
+      [0, { v: "&lE;", n: 824, o: "&nlE;" }],
+      [0, { v: "&gE;", n: 824, o: "&ngE;" }],
+      [0, { v: "&lnE;", n: 65024, o: "&lvertneqq;" }],
+      [0, { v: "&gnE;", n: 65024, o: "&gvertneqq;" }],
+      [
+        0,
+        {
+          v: "&ll;",
+          n: new Map(
+            /* @__PURE__ */ restoreDiff([
+              [824, "&nLtv;"],
+              [7577, "&nLt;"],
+            ])
+          ),
+        },
+      ],
+      [
+        0,
+        {
+          v: "&gg;",
+          n: new Map(
+            /* @__PURE__ */ restoreDiff([
+              [824, "&nGtv;"],
+              [7577, "&nGt;"],
+            ])
+          ),
+        },
+      ],
+      [0, "&between;"],
+      [0, "&NotCupCap;"],
+      [0, "&nless;"],
+      [0, "&ngt;"],
+      [0, "&nle;"],
+      [0, "&nge;"],
+      [0, "&lesssim;"],
+      [0, "&GreaterTilde;"],
+      [0, "&nlsim;"],
+      [0, "&ngsim;"],
+      [0, "&LessGreater;"],
+      [0, "&gl;"],
+      [0, "&NotLessGreater;"],
+      [0, "&NotGreaterLess;"],
+      [0, "&pr;"],
+      [0, "&sc;"],
+      [0, "&prcue;"],
+      [0, "&sccue;"],
+      [0, "&PrecedesTilde;"],
+      [0, { v: "&scsim;", n: 824, o: "&NotSucceedsTilde;" }],
+      [0, "&NotPrecedes;"],
+      [0, "&NotSucceeds;"],
+      [0, { v: "&sub;", n: 8402, o: "&NotSubset;" }],
+      [0, { v: "&sup;", n: 8402, o: "&NotSuperset;" }],
+      [0, "&nsub;"],
+      [0, "&nsup;"],
+      [0, "&sube;"],
+      [0, "&supe;"],
+      [0, "&NotSubsetEqual;"],
+      [0, "&NotSupersetEqual;"],
+      [0, { v: "&subne;", n: 65024, o: "&varsubsetneq;" }],
+      [0, { v: "&supne;", n: 65024, o: "&varsupsetneq;" }],
+      [1, "&cupdot;"],
+      [0, "&UnionPlus;"],
+      [0, { v: "&sqsub;", n: 824, o: "&NotSquareSubset;" }],
+      [0, { v: "&sqsup;", n: 824, o: "&NotSquareSuperset;" }],
+      [0, "&sqsube;"],
+      [0, "&sqsupe;"],
+      [0, { v: "&sqcap;", n: 65024, o: "&sqcaps;" }],
+      [0, { v: "&sqcup;", n: 65024, o: "&sqcups;" }],
+      [0, "&CirclePlus;"],
+      [0, "&CircleMinus;"],
+      [0, "&CircleTimes;"],
+      [0, "&osol;"],
+      [0, "&CircleDot;"],
+      [0, "&circledcirc;"],
+      [0, "&circledast;"],
+      [1, "&circleddash;"],
+      [0, "&boxplus;"],
+      [0, "&boxminus;"],
+      [0, "&boxtimes;"],
+      [0, "&dotsquare;"],
+      [0, "&RightTee;"],
+      [0, "&dashv;"],
+      [0, "&DownTee;"],
+      [0, "&bot;"],
+      [1, "&models;"],
+      [0, "&DoubleRightTee;"],
+      [0, "&Vdash;"],
+      [0, "&Vvdash;"],
+      [0, "&VDash;"],
+      [0, "&nvdash;"],
+      [0, "&nvDash;"],
+      [0, "&nVdash;"],
+      [0, "&nVDash;"],
+      [0, "&prurel;"],
+      [1, "&LeftTriangle;"],
+      [0, "&RightTriangle;"],
+      [0, { v: "&LeftTriangleEqual;", n: 8402, o: "&nvltrie;" }],
+      [0, { v: "&RightTriangleEqual;", n: 8402, o: "&nvrtrie;" }],
+      [0, "&origof;"],
+      [0, "&imof;"],
+      [0, "&multimap;"],
+      [0, "&hercon;"],
+      [0, "&intcal;"],
+      [0, "&veebar;"],
+      [1, "&barvee;"],
+      [0, "&angrtvb;"],
+      [0, "&lrtri;"],
+      [0, "&bigwedge;"],
+      [0, "&bigvee;"],
+      [0, "&bigcap;"],
+      [0, "&bigcup;"],
+      [0, "&diam;"],
+      [0, "&sdot;"],
+      [0, "&sstarf;"],
+      [0, "&divideontimes;"],
+      [0, "&bowtie;"],
+      [0, "&ltimes;"],
+      [0, "&rtimes;"],
+      [0, "&leftthreetimes;"],
+      [0, "&rightthreetimes;"],
+      [0, "&backsimeq;"],
+      [0, "&curlyvee;"],
+      [0, "&curlywedge;"],
+      [0, "&Sub;"],
+      [0, "&Sup;"],
+      [0, "&Cap;"],
+      [0, "&Cup;"],
+      [0, "&fork;"],
+      [0, "&epar;"],
+      [0, "&lessdot;"],
+      [0, "&gtdot;"],
+      [0, { v: "&Ll;", n: 824, o: "&nLl;" }],
+      [0, { v: "&Gg;", n: 824, o: "&nGg;" }],
+      [0, { v: "&leg;", n: 65024, o: "&lesg;" }],
+      [0, { v: "&gel;", n: 65024, o: "&gesl;" }],
+      [2, "&cuepr;"],
+      [0, "&cuesc;"],
+      [0, "&NotPrecedesSlantEqual;"],
+      [0, "&NotSucceedsSlantEqual;"],
+      [0, "&NotSquareSubsetEqual;"],
+      [0, "&NotSquareSupersetEqual;"],
+      [2, "&lnsim;"],
+      [0, "&gnsim;"],
+      [0, "&precnsim;"],
+      [0, "&scnsim;"],
+      [0, "&nltri;"],
+      [0, "&NotRightTriangle;"],
+      [0, "&nltrie;"],
+      [0, "&NotRightTriangleEqual;"],
+      [0, "&vellip;"],
+      [0, "&ctdot;"],
+      [0, "&utdot;"],
+      [0, "&dtdot;"],
+      [0, "&disin;"],
+      [0, "&isinsv;"],
+      [0, "&isins;"],
+      [0, { v: "&isindot;", n: 824, o: "&notindot;" }],
+      [0, "&notinvc;"],
+      [0, "&notinvb;"],
+      [1, { v: "&isinE;", n: 824, o: "&notinE;" }],
+      [0, "&nisd;"],
+      [0, "&xnis;"],
+      [0, "&nis;"],
+      [0, "&notnivc;"],
+      [0, "&notnivb;"],
+      [6, "&barwed;"],
+      [0, "&Barwed;"],
+      [1, "&lceil;"],
+      [0, "&rceil;"],
+      [0, "&LeftFloor;"],
+      [0, "&rfloor;"],
+      [0, "&drcrop;"],
+      [0, "&dlcrop;"],
+      [0, "&urcrop;"],
+      [0, "&ulcrop;"],
+      [0, "&bnot;"],
+      [1, "&profline;"],
+      [0, "&profsurf;"],
+      [1, "&telrec;"],
+      [0, "&target;"],
+      [5, "&ulcorn;"],
+      [0, "&urcorn;"],
+      [0, "&dlcorn;"],
+      [0, "&drcorn;"],
+      [2, "&frown;"],
+      [0, "&smile;"],
+      [9, "&cylcty;"],
+      [0, "&profalar;"],
+      [7, "&topbot;"],
+      [6, "&ovbar;"],
+      [1, "&solbar;"],
+      [60, "&angzarr;"],
+      [51, "&lmoustache;"],
+      [0, "&rmoustache;"],
+      [2, "&OverBracket;"],
+      [0, "&bbrk;"],
+      [0, "&bbrktbrk;"],
+      [37, "&OverParenthesis;"],
+      [0, "&UnderParenthesis;"],
+      [0, "&OverBrace;"],
+      [0, "&UnderBrace;"],
+      [2, "&trpezium;"],
+      [4, "&elinters;"],
+      [59, "&blank;"],
+      [164, "&circledS;"],
+      [55, "&boxh;"],
+      [1, "&boxv;"],
+      [9, "&boxdr;"],
+      [3, "&boxdl;"],
+      [3, "&boxur;"],
+      [3, "&boxul;"],
+      [3, "&boxvr;"],
+      [7, "&boxvl;"],
+      [7, "&boxhd;"],
+      [7, "&boxhu;"],
+      [7, "&boxvh;"],
+      [19, "&boxH;"],
+      [0, "&boxV;"],
+      [0, "&boxdR;"],
+      [0, "&boxDr;"],
+      [0, "&boxDR;"],
+      [0, "&boxdL;"],
+      [0, "&boxDl;"],
+      [0, "&boxDL;"],
+      [0, "&boxuR;"],
+      [0, "&boxUr;"],
+      [0, "&boxUR;"],
+      [0, "&boxuL;"],
+      [0, "&boxUl;"],
+      [0, "&boxUL;"],
+      [0, "&boxvR;"],
+      [0, "&boxVr;"],
+      [0, "&boxVR;"],
+      [0, "&boxvL;"],
+      [0, "&boxVl;"],
+      [0, "&boxVL;"],
+      [0, "&boxHd;"],
+      [0, "&boxhD;"],
+      [0, "&boxHD;"],
+      [0, "&boxHu;"],
+      [0, "&boxhU;"],
+      [0, "&boxHU;"],
+      [0, "&boxvH;"],
+      [0, "&boxVh;"],
+      [0, "&boxVH;"],
+      [19, "&uhblk;"],
+      [3, "&lhblk;"],
+      [3, "&block;"],
+      [8, "&blk14;"],
+      [0, "&blk12;"],
+      [0, "&blk34;"],
+      [13, "&square;"],
+      [8, "&blacksquare;"],
+      [0, "&EmptyVerySmallSquare;"],
+      [1, "&rect;"],
+      [0, "&marker;"],
+      [2, "&fltns;"],
+      [1, "&bigtriangleup;"],
+      [0, "&blacktriangle;"],
+      [0, "&triangle;"],
+      [2, "&blacktriangleright;"],
+      [0, "&rtri;"],
+      [3, "&bigtriangledown;"],
+      [0, "&blacktriangledown;"],
+      [0, "&dtri;"],
+      [2, "&blacktriangleleft;"],
+      [0, "&ltri;"],
+      [6, "&loz;"],
+      [0, "&cir;"],
+      [32, "&tridot;"],
+      [2, "&bigcirc;"],
+      [8, "&ultri;"],
+      [0, "&urtri;"],
+      [0, "&lltri;"],
+      [0, "&EmptySmallSquare;"],
+      [0, "&FilledSmallSquare;"],
+      [8, "&bigstar;"],
+      [0, "&star;"],
+      [7, "&phone;"],
+      [49, "&female;"],
+      [1, "&male;"],
+      [29, "&spades;"],
+      [2, "&clubs;"],
+      [1, "&hearts;"],
+      [0, "&diamondsuit;"],
+      [3, "&sung;"],
+      [2, "&flat;"],
+      [0, "&natural;"],
+      [0, "&sharp;"],
+      [163, "&check;"],
+      [3, "&cross;"],
+      [8, "&malt;"],
+      [21, "&sext;"],
+      [33, "&VerticalSeparator;"],
+      [25, "&lbbrk;"],
+      [0, "&rbbrk;"],
+      [84, "&bsolhsub;"],
+      [0, "&suphsol;"],
+      [28, "&LeftDoubleBracket;"],
+      [0, "&RightDoubleBracket;"],
+      [0, "&lang;"],
+      [0, "&rang;"],
+      [0, "&Lang;"],
+      [0, "&Rang;"],
+      [0, "&loang;"],
+      [0, "&roang;"],
+      [7, "&longleftarrow;"],
+      [0, "&longrightarrow;"],
+      [0, "&longleftrightarrow;"],
+      [0, "&DoubleLongLeftArrow;"],
+      [0, "&DoubleLongRightArrow;"],
+      [0, "&DoubleLongLeftRightArrow;"],
+      [1, "&longmapsto;"],
+      [2, "&dzigrarr;"],
+      [258, "&nvlArr;"],
+      [0, "&nvrArr;"],
+      [0, "&nvHarr;"],
+      [0, "&Map;"],
+      [6, "&lbarr;"],
+      [0, "&bkarow;"],
+      [0, "&lBarr;"],
+      [0, "&dbkarow;"],
+      [0, "&drbkarow;"],
+      [0, "&DDotrahd;"],
+      [0, "&UpArrowBar;"],
+      [0, "&DownArrowBar;"],
+      [2, "&Rarrtl;"],
+      [2, "&latail;"],
+      [0, "&ratail;"],
+      [0, "&lAtail;"],
+      [0, "&rAtail;"],
+      [0, "&larrfs;"],
+      [0, "&rarrfs;"],
+      [0, "&larrbfs;"],
+      [0, "&rarrbfs;"],
+      [2, "&nwarhk;"],
+      [0, "&nearhk;"],
+      [0, "&hksearow;"],
+      [0, "&hkswarow;"],
+      [0, "&nwnear;"],
+      [0, "&nesear;"],
+      [0, "&seswar;"],
+      [0, "&swnwar;"],
+      [8, { v: "&rarrc;", n: 824, o: "&nrarrc;" }],
+      [1, "&cudarrr;"],
+      [0, "&ldca;"],
+      [0, "&rdca;"],
+      [0, "&cudarrl;"],
+      [0, "&larrpl;"],
+      [2, "&curarrm;"],
+      [0, "&cularrp;"],
+      [7, "&rarrpl;"],
+      [2, "&harrcir;"],
+      [0, "&Uarrocir;"],
+      [0, "&lurdshar;"],
+      [0, "&ldrushar;"],
+      [2, "&LeftRightVector;"],
+      [0, "&RightUpDownVector;"],
+      [0, "&DownLeftRightVector;"],
+      [0, "&LeftUpDownVector;"],
+      [0, "&LeftVectorBar;"],
+      [0, "&RightVectorBar;"],
+      [0, "&RightUpVectorBar;"],
+      [0, "&RightDownVectorBar;"],
+      [0, "&DownLeftVectorBar;"],
+      [0, "&DownRightVectorBar;"],
+      [0, "&LeftUpVectorBar;"],
+      [0, "&LeftDownVectorBar;"],
+      [0, "&LeftTeeVector;"],
+      [0, "&RightTeeVector;"],
+      [0, "&RightUpTeeVector;"],
+      [0, "&RightDownTeeVector;"],
+      [0, "&DownLeftTeeVector;"],
+      [0, "&DownRightTeeVector;"],
+      [0, "&LeftUpTeeVector;"],
+      [0, "&LeftDownTeeVector;"],
+      [0, "&lHar;"],
+      [0, "&uHar;"],
+      [0, "&rHar;"],
+      [0, "&dHar;"],
+      [0, "&luruhar;"],
+      [0, "&ldrdhar;"],
+      [0, "&ruluhar;"],
+      [0, "&rdldhar;"],
+      [0, "&lharul;"],
+      [0, "&llhard;"],
+      [0, "&rharul;"],
+      [0, "&lrhard;"],
+      [0, "&udhar;"],
+      [0, "&duhar;"],
+      [0, "&RoundImplies;"],
+      [0, "&erarr;"],
+      [0, "&simrarr;"],
+      [0, "&larrsim;"],
+      [0, "&rarrsim;"],
+      [0, "&rarrap;"],
+      [0, "&ltlarr;"],
+      [1, "&gtrarr;"],
+      [0, "&subrarr;"],
+      [1, "&suplarr;"],
+      [0, "&lfisht;"],
+      [0, "&rfisht;"],
+      [0, "&ufisht;"],
+      [0, "&dfisht;"],
+      [5, "&lopar;"],
+      [0, "&ropar;"],
+      [4, "&lbrke;"],
+      [0, "&rbrke;"],
+      [0, "&lbrkslu;"],
+      [0, "&rbrksld;"],
+      [0, "&lbrksld;"],
+      [0, "&rbrkslu;"],
+      [0, "&langd;"],
+      [0, "&rangd;"],
+      [0, "&lparlt;"],
+      [0, "&rpargt;"],
+      [0, "&gtlPar;"],
+      [0, "&ltrPar;"],
+      [3, "&vzigzag;"],
+      [1, "&vangrt;"],
+      [0, "&angrtvbd;"],
+      [6, "&ange;"],
+      [0, "&range;"],
+      [0, "&dwangle;"],
+      [0, "&uwangle;"],
+      [0, "&angmsdaa;"],
+      [0, "&angmsdab;"],
+      [0, "&angmsdac;"],
+      [0, "&angmsdad;"],
+      [0, "&angmsdae;"],
+      [0, "&angmsdaf;"],
+      [0, "&angmsdag;"],
+      [0, "&angmsdah;"],
+      [0, "&bemptyv;"],
+      [0, "&demptyv;"],
+      [0, "&cemptyv;"],
+      [0, "&raemptyv;"],
+      [0, "&laemptyv;"],
+      [0, "&ohbar;"],
+      [0, "&omid;"],
+      [0, "&opar;"],
+      [1, "&operp;"],
+      [1, "&olcross;"],
+      [0, "&odsold;"],
+      [1, "&olcir;"],
+      [0, "&ofcir;"],
+      [0, "&olt;"],
+      [0, "&ogt;"],
+      [0, "&cirscir;"],
+      [0, "&cirE;"],
+      [0, "&solb;"],
+      [0, "&bsolb;"],
+      [3, "&boxbox;"],
+      [3, "&trisb;"],
+      [0, "&rtriltri;"],
+      [0, { v: "&LeftTriangleBar;", n: 824, o: "&NotLeftTriangleBar;" }],
+      [0, { v: "&RightTriangleBar;", n: 824, o: "&NotRightTriangleBar;" }],
+      [11, "&iinfin;"],
+      [0, "&infintie;"],
+      [0, "&nvinfin;"],
+      [4, "&eparsl;"],
+      [0, "&smeparsl;"],
+      [0, "&eqvparsl;"],
+      [5, "&blacklozenge;"],
+      [8, "&RuleDelayed;"],
+      [1, "&dsol;"],
+      [9, "&bigodot;"],
+      [0, "&bigoplus;"],
+      [0, "&bigotimes;"],
+      [1, "&biguplus;"],
+      [1, "&bigsqcup;"],
+      [5, "&iiiint;"],
+      [0, "&fpartint;"],
+      [2, "&cirfnint;"],
+      [0, "&awint;"],
+      [0, "&rppolint;"],
+      [0, "&scpolint;"],
+      [0, "&npolint;"],
+      [0, "&pointint;"],
+      [0, "&quatint;"],
+      [0, "&intlarhk;"],
+      [10, "&pluscir;"],
+      [0, "&plusacir;"],
+      [0, "&simplus;"],
+      [0, "&plusdu;"],
+      [0, "&plussim;"],
+      [0, "&plustwo;"],
+      [1, "&mcomma;"],
+      [0, "&minusdu;"],
+      [2, "&loplus;"],
+      [0, "&roplus;"],
+      [0, "&Cross;"],
+      [0, "&timesd;"],
+      [0, "&timesbar;"],
+      [1, "&smashp;"],
+      [0, "&lotimes;"],
+      [0, "&rotimes;"],
+      [0, "&otimesas;"],
+      [0, "&Otimes;"],
+      [0, "&odiv;"],
+      [0, "&triplus;"],
+      [0, "&triminus;"],
+      [0, "&tritime;"],
+      [0, "&intprod;"],
+      [2, "&amalg;"],
+      [0, "&capdot;"],
+      [1, "&ncup;"],
+      [0, "&ncap;"],
+      [0, "&capand;"],
+      [0, "&cupor;"],
+      [0, "&cupcap;"],
+      [0, "&capcup;"],
+      [0, "&cupbrcap;"],
+      [0, "&capbrcup;"],
+      [0, "&cupcup;"],
+      [0, "&capcap;"],
+      [0, "&ccups;"],
+      [0, "&ccaps;"],
+      [2, "&ccupssm;"],
+      [2, "&And;"],
+      [0, "&Or;"],
+      [0, "&andand;"],
+      [0, "&oror;"],
+      [0, "&orslope;"],
+      [0, "&andslope;"],
+      [1, "&andv;"],
+      [0, "&orv;"],
+      [0, "&andd;"],
+      [0, "&ord;"],
+      [1, "&wedbar;"],
+      [6, "&sdote;"],
+      [3, "&simdot;"],
+      [2, { v: "&congdot;", n: 824, o: "&ncongdot;" }],
+      [0, "&easter;"],
+      [0, "&apacir;"],
+      [0, { v: "&apE;", n: 824, o: "&napE;" }],
+      [0, "&eplus;"],
+      [0, "&pluse;"],
+      [0, "&Esim;"],
+      [0, "&Colone;"],
+      [0, "&Equal;"],
+      [1, "&ddotseq;"],
+      [0, "&equivDD;"],
+      [0, "&ltcir;"],
+      [0, "&gtcir;"],
+      [0, "&ltquest;"],
+      [0, "&gtquest;"],
+      [0, { v: "&leqslant;", n: 824, o: "&nleqslant;" }],
+      [0, { v: "&geqslant;", n: 824, o: "&ngeqslant;" }],
+      [0, "&lesdot;"],
+      [0, "&gesdot;"],
+      [0, "&lesdoto;"],
+      [0, "&gesdoto;"],
+      [0, "&lesdotor;"],
+      [0, "&gesdotol;"],
+      [0, "&lap;"],
+      [0, "&gap;"],
+      [0, "&lne;"],
+      [0, "&gne;"],
+      [0, "&lnap;"],
+      [0, "&gnap;"],
+      [0, "&lEg;"],
+      [0, "&gEl;"],
+      [0, "&lsime;"],
+      [0, "&gsime;"],
+      [0, "&lsimg;"],
+      [0, "&gsiml;"],
+      [0, "&lgE;"],
+      [0, "&glE;"],
+      [0, "&lesges;"],
+      [0, "&gesles;"],
+      [0, "&els;"],
+      [0, "&egs;"],
+      [0, "&elsdot;"],
+      [0, "&egsdot;"],
+      [0, "&el;"],
+      [0, "&eg;"],
+      [2, "&siml;"],
+      [0, "&simg;"],
+      [0, "&simlE;"],
+      [0, "&simgE;"],
+      [0, { v: "&LessLess;", n: 824, o: "&NotNestedLessLess;" }],
+      [0, { v: "&GreaterGreater;", n: 824, o: "&NotNestedGreaterGreater;" }],
+      [1, "&glj;"],
+      [0, "&gla;"],
+      [0, "&ltcc;"],
+      [0, "&gtcc;"],
+      [0, "&lescc;"],
+      [0, "&gescc;"],
+      [0, "&smt;"],
+      [0, "&lat;"],
+      [0, { v: "&smte;", n: 65024, o: "&smtes;" }],
+      [0, { v: "&late;", n: 65024, o: "&lates;" }],
+      [0, "&bumpE;"],
+      [0, { v: "&PrecedesEqual;", n: 824, o: "&NotPrecedesEqual;" }],
+      [0, { v: "&sce;", n: 824, o: "&NotSucceedsEqual;" }],
+      [2, "&prE;"],
+      [0, "&scE;"],
+      [0, "&precneqq;"],
+      [0, "&scnE;"],
+      [0, "&prap;"],
+      [0, "&scap;"],
+      [0, "&precnapprox;"],
+      [0, "&scnap;"],
+      [0, "&Pr;"],
+      [0, "&Sc;"],
+      [0, "&subdot;"],
+      [0, "&supdot;"],
+      [0, "&subplus;"],
+      [0, "&supplus;"],
+      [0, "&submult;"],
+      [0, "&supmult;"],
+      [0, "&subedot;"],
+      [0, "&supedot;"],
+      [0, { v: "&subE;", n: 824, o: "&nsubE;" }],
+      [0, { v: "&supE;", n: 824, o: "&nsupE;" }],
+      [0, "&subsim;"],
+      [0, "&supsim;"],
+      [2, { v: "&subnE;", n: 65024, o: "&varsubsetneqq;" }],
+      [0, { v: "&supnE;", n: 65024, o: "&varsupsetneqq;" }],
+      [2, "&csub;"],
+      [0, "&csup;"],
+      [0, "&csube;"],
+      [0, "&csupe;"],
+      [0, "&subsup;"],
+      [0, "&supsub;"],
+      [0, "&subsub;"],
+      [0, "&supsup;"],
+      [0, "&suphsub;"],
+      [0, "&supdsub;"],
+      [0, "&forkv;"],
+      [0, "&topfork;"],
+      [0, "&mlcp;"],
+      [8, "&Dashv;"],
+      [1, "&Vdashl;"],
+      [0, "&Barv;"],
+      [0, "&vBar;"],
+      [0, "&vBarv;"],
+      [1, "&Vbar;"],
+      [0, "&Not;"],
+      [0, "&bNot;"],
+      [0, "&rnmid;"],
+      [0, "&cirmid;"],
+      [0, "&midcir;"],
+      [0, "&topcir;"],
+      [0, "&nhpar;"],
+      [0, "&parsim;"],
+      [9, { v: "&parsl;", n: 8421, o: "&nparsl;" }],
+      [
+        44343,
+        {
+          n: new Map(
+            /* @__PURE__ */ restoreDiff([
+              [56476, "&Ascr;"],
+              [1, "&Cscr;"],
+              [0, "&Dscr;"],
+              [2, "&Gscr;"],
+              [2, "&Jscr;"],
+              [0, "&Kscr;"],
+              [2, "&Nscr;"],
+              [0, "&Oscr;"],
+              [0, "&Pscr;"],
+              [0, "&Qscr;"],
+              [1, "&Sscr;"],
+              [0, "&Tscr;"],
+              [0, "&Uscr;"],
+              [0, "&Vscr;"],
+              [0, "&Wscr;"],
+              [0, "&Xscr;"],
+              [0, "&Yscr;"],
+              [0, "&Zscr;"],
+              [0, "&ascr;"],
+              [0, "&bscr;"],
+              [0, "&cscr;"],
+              [0, "&dscr;"],
+              [1, "&fscr;"],
+              [1, "&hscr;"],
+              [0, "&iscr;"],
+              [0, "&jscr;"],
+              [0, "&kscr;"],
+              [0, "&lscr;"],
+              [0, "&mscr;"],
+              [0, "&nscr;"],
+              [1, "&pscr;"],
+              [0, "&qscr;"],
+              [0, "&rscr;"],
+              [0, "&sscr;"],
+              [0, "&tscr;"],
+              [0, "&uscr;"],
+              [0, "&vscr;"],
+              [0, "&wscr;"],
+              [0, "&xscr;"],
+              [0, "&yscr;"],
+              [0, "&zscr;"],
+              [52, "&Afr;"],
+              [0, "&Bfr;"],
+              [1, "&Dfr;"],
+              [0, "&Efr;"],
+              [0, "&Ffr;"],
+              [0, "&Gfr;"],
+              [2, "&Jfr;"],
+              [0, "&Kfr;"],
+              [0, "&Lfr;"],
+              [0, "&Mfr;"],
+              [0, "&Nfr;"],
+              [0, "&Ofr;"],
+              [0, "&Pfr;"],
+              [0, "&Qfr;"],
+              [1, "&Sfr;"],
+              [0, "&Tfr;"],
+              [0, "&Ufr;"],
+              [0, "&Vfr;"],
+              [0, "&Wfr;"],
+              [0, "&Xfr;"],
+              [0, "&Yfr;"],
+              [1, "&afr;"],
+              [0, "&bfr;"],
+              [0, "&cfr;"],
+              [0, "&dfr;"],
+              [0, "&efr;"],
+              [0, "&ffr;"],
+              [0, "&gfr;"],
+              [0, "&hfr;"],
+              [0, "&ifr;"],
+              [0, "&jfr;"],
+              [0, "&kfr;"],
+              [0, "&lfr;"],
+              [0, "&mfr;"],
+              [0, "&nfr;"],
+              [0, "&ofr;"],
+              [0, "&pfr;"],
+              [0, "&qfr;"],
+              [0, "&rfr;"],
+              [0, "&sfr;"],
+              [0, "&tfr;"],
+              [0, "&ufr;"],
+              [0, "&vfr;"],
+              [0, "&wfr;"],
+              [0, "&xfr;"],
+              [0, "&yfr;"],
+              [0, "&zfr;"],
+              [0, "&Aopf;"],
+              [0, "&Bopf;"],
+              [1, "&Dopf;"],
+              [0, "&Eopf;"],
+              [0, "&Fopf;"],
+              [0, "&Gopf;"],
+              [1, "&Iopf;"],
+              [0, "&Jopf;"],
+              [0, "&Kopf;"],
+              [0, "&Lopf;"],
+              [0, "&Mopf;"],
+              [1, "&Oopf;"],
+              [3, "&Sopf;"],
+              [0, "&Topf;"],
+              [0, "&Uopf;"],
+              [0, "&Vopf;"],
+              [0, "&Wopf;"],
+              [0, "&Xopf;"],
+              [0, "&Yopf;"],
+              [1, "&aopf;"],
+              [0, "&bopf;"],
+              [0, "&copf;"],
+              [0, "&dopf;"],
+              [0, "&eopf;"],
+              [0, "&fopf;"],
+              [0, "&gopf;"],
+              [0, "&hopf;"],
+              [0, "&iopf;"],
+              [0, "&jopf;"],
+              [0, "&kopf;"],
+              [0, "&lopf;"],
+              [0, "&mopf;"],
+              [0, "&nopf;"],
+              [0, "&oopf;"],
+              [0, "&popf;"],
+              [0, "&qopf;"],
+              [0, "&ropf;"],
+              [0, "&sopf;"],
+              [0, "&topf;"],
+              [0, "&uopf;"],
+              [0, "&vopf;"],
+              [0, "&wopf;"],
+              [0, "&xopf;"],
+              [0, "&yopf;"],
+              [0, "&zopf;"],
+            ])
+          ),
+        },
+      ],
+      [8906, "&fflig;"],
+      [0, "&filig;"],
+      [0, "&fllig;"],
+      [0, "&ffilig;"],
+      [0, "&ffllig;"],
+    ])
+  );
 
   // node_modules/entities/dist/esm/escape.js
   var xmlCodeMap = /* @__PURE__ */ new Map([
@@ -1546,21 +3305,26 @@ var _Sources = (() => {
     [38, "&amp;"],
     [39, "&apos;"],
     [60, "&lt;"],
-    [62, "&gt;"]
+    [62, "&gt;"],
   ]);
-  var getCodePoint = (
+  var getCodePoint =
     // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
-    String.prototype.codePointAt == null ? (c2, index) => (c2.charCodeAt(index) & 64512) === 55296 ? (c2.charCodeAt(index) - 55296) * 1024 + c2.charCodeAt(index + 1) - 56320 + 65536 : c2.charCodeAt(index) : (
-      // http://mathiasbynens.be/notes/javascript-encoding#surrogate-formulae
-      (input, index) => input.codePointAt(index)
-    )
-  );
+    String.prototype.codePointAt == null
+      ? (c2, index) =>
+          (c2.charCodeAt(index) & 64512) === 55296
+            ? (c2.charCodeAt(index) - 55296) * 1024 +
+              c2.charCodeAt(index + 1) -
+              56320 +
+              65536
+            : c2.charCodeAt(index)
+      : // http://mathiasbynens.be/notes/javascript-encoding#surrogate-formulae
+        (input, index) => input.codePointAt(index);
   function getEscaper(regex, map2) {
     return function escape4(data) {
       let match;
       let lastIndex = 0;
       let result = "";
-      while (match = regex.exec(data)) {
+      while ((match = regex.exec(data))) {
         if (lastIndex !== match.index) {
           result += data.substring(lastIndex, match.index);
         }
@@ -1571,36 +3335,42 @@ var _Sources = (() => {
     };
   }
   var escapeUTF8 = getEscaper(/["&'<>]/g, xmlCodeMap);
-  var escapeAttribute = getEscaper(/["&\u00A0]/g, /* @__PURE__ */ new Map([
-    [34, "&quot;"],
-    [38, "&amp;"],
-    [160, "&nbsp;"]
-  ]));
-  var escapeText = getEscaper(/[&<>\u00A0]/g, /* @__PURE__ */ new Map([
-    [38, "&amp;"],
-    [60, "&lt;"],
-    [62, "&gt;"],
-    [160, "&nbsp;"]
-  ]));
+  var escapeAttribute = getEscaper(
+    /["&\u00A0]/g,
+    /* @__PURE__ */ new Map([
+      [34, "&quot;"],
+      [38, "&amp;"],
+      [160, "&nbsp;"],
+    ])
+  );
+  var escapeText = getEscaper(
+    /[&<>\u00A0]/g,
+    /* @__PURE__ */ new Map([
+      [38, "&amp;"],
+      [60, "&lt;"],
+      [62, "&gt;"],
+      [160, "&nbsp;"],
+    ])
+  );
 
   // node_modules/entities/dist/esm/index.js
   var EntityLevel;
-  (function(EntityLevel3) {
-    EntityLevel3[EntityLevel3["XML"] = 0] = "XML";
-    EntityLevel3[EntityLevel3["HTML"] = 1] = "HTML";
+  (function (EntityLevel3) {
+    EntityLevel3[(EntityLevel3["XML"] = 0)] = "XML";
+    EntityLevel3[(EntityLevel3["HTML"] = 1)] = "HTML";
   })(EntityLevel || (EntityLevel = {}));
   var EncodingMode;
-  (function(EncodingMode3) {
-    EncodingMode3[EncodingMode3["UTF8"] = 0] = "UTF8";
-    EncodingMode3[EncodingMode3["ASCII"] = 1] = "ASCII";
-    EncodingMode3[EncodingMode3["Extensive"] = 2] = "Extensive";
-    EncodingMode3[EncodingMode3["Attribute"] = 3] = "Attribute";
-    EncodingMode3[EncodingMode3["Text"] = 4] = "Text";
+  (function (EncodingMode3) {
+    EncodingMode3[(EncodingMode3["UTF8"] = 0)] = "UTF8";
+    EncodingMode3[(EncodingMode3["ASCII"] = 1)] = "ASCII";
+    EncodingMode3[(EncodingMode3["Extensive"] = 2)] = "Extensive";
+    EncodingMode3[(EncodingMode3["Attribute"] = 3)] = "Attribute";
+    EncodingMode3[(EncodingMode3["Text"] = 4)] = "Text";
   })(EncodingMode || (EncodingMode = {}));
 
   // node_modules/domelementtype/lib/esm/index.js
   var ElementType;
-  (function(ElementType2) {
+  (function (ElementType2) {
     ElementType2["Root"] = "root";
     ElementType2["Text"] = "text";
     ElementType2["Directive"] = "directive";
@@ -1612,7 +3382,11 @@ var _Sources = (() => {
     ElementType2["Doctype"] = "doctype";
   })(ElementType || (ElementType = {}));
   function isTag(elem) {
-    return elem.type === ElementType.Tag || elem.type === ElementType.Script || elem.type === ElementType.Style;
+    return (
+      elem.type === ElementType.Tag ||
+      elem.type === ElementType.Script ||
+      elem.type === ElementType.Style
+    );
   }
   var Root = ElementType.Root;
   var Text = ElementType.Text;
@@ -1737,7 +3511,9 @@ var _Sources = (() => {
     }
     /** Last child of the node. */
     get lastChild() {
-      return this.children.length > 0 ? this.children[this.children.length - 1] : null;
+      return this.children.length > 0
+        ? this.children[this.children.length - 1]
+        : null;
     }
     /**
      * Same as {@link children}.
@@ -1774,7 +3550,16 @@ var _Sources = (() => {
      * @param attribs Object mapping attribute names to attribute values.
      * @param children Children of the node.
      */
-    constructor(name2, attribs, children = [], type = name2 === "script" ? ElementType.Script : name2 === "style" ? ElementType.Style : ElementType.Tag) {
+    constructor(
+      name2,
+      attribs,
+      children = [],
+      type = name2 === "script"
+        ? ElementType.Script
+        : name2 === "style"
+        ? ElementType.Style
+        : ElementType.Tag
+    ) {
       super(children);
       this.name = name2;
       this.attribs = attribs;
@@ -1800,8 +3585,14 @@ var _Sources = (() => {
         return {
           name: name2,
           value: this.attribs[name2],
-          namespace: (_a4 = this["x-attribsNamespace"]) === null || _a4 === void 0 ? void 0 : _a4[name2],
-          prefix: (_b = this["x-attribsPrefix"]) === null || _b === void 0 ? void 0 : _b[name2]
+          namespace:
+            (_a4 = this["x-attribsNamespace"]) === null || _a4 === void 0
+              ? void 0
+              : _a4[name2],
+          prefix:
+            (_b = this["x-attribsPrefix"]) === null || _b === void 0
+              ? void 0
+              : _b[name2],
         };
       });
     }
@@ -1833,7 +3624,7 @@ var _Sources = (() => {
     } else if (isTag2(node)) {
       const children = recursive ? cloneChildren(node.children) : [];
       const clone = new Element(node.name, { ...node.attribs }, children);
-      children.forEach((child) => child.parent = clone);
+      children.forEach((child) => (child.parent = clone));
       if (node.namespace != null) {
         clone.namespace = node.namespace;
       }
@@ -1847,12 +3638,12 @@ var _Sources = (() => {
     } else if (isCDATA(node)) {
       const children = recursive ? cloneChildren(node.children) : [];
       const clone = new CDATA2(children);
-      children.forEach((child) => child.parent = clone);
+      children.forEach((child) => (child.parent = clone));
       result = clone;
     } else if (isDocument(node)) {
       const children = recursive ? cloneChildren(node.children) : [];
       const clone = new Document(children);
-      children.forEach((child) => child.parent = clone);
+      children.forEach((child) => (child.parent = clone));
       if (node["x-mode"]) {
         clone["x-mode"] = node["x-mode"];
       }
@@ -1888,7 +3679,7 @@ var _Sources = (() => {
   var defaultOpts = {
     withStartIndices: false,
     withEndIndices: false,
-    xmlMode: false
+    xmlMode: false,
   };
   var DomHandler = class {
     /**
@@ -1911,9 +3702,12 @@ var _Sources = (() => {
         options = callback;
         callback = void 0;
       }
-      this.callback = callback !== null && callback !== void 0 ? callback : null;
-      this.options = options !== null && options !== void 0 ? options : defaultOpts;
-      this.elementCB = elementCB !== null && elementCB !== void 0 ? elementCB : null;
+      this.callback =
+        callback !== null && callback !== void 0 ? callback : null;
+      this.options =
+        options !== null && options !== void 0 ? options : defaultOpts;
+      this.elementCB =
+        elementCB !== null && elementCB !== void 0 ? elementCB : null;
     }
     onparserinit(parser) {
       this.parser = parser;
@@ -1929,8 +3723,7 @@ var _Sources = (() => {
     }
     // Signals the handler that parsing is done
     onend() {
-      if (this.done)
-        return;
+      if (this.done) return;
       this.done = true;
       this.parser = null;
       this.handleCallback(null);
@@ -1944,8 +3737,7 @@ var _Sources = (() => {
       if (this.options.withEndIndices) {
         elem.endIndex = this.parser.endIndex;
       }
-      if (this.elementCB)
-        this.elementCB(elem);
+      if (this.elementCB) this.elementCB(elem);
     }
     onopentag(name2, attribs) {
       const type = this.options.xmlMode ? ElementType.Tag : void 0;
@@ -2028,17 +3820,24 @@ var _Sources = (() => {
   }
   function t(e2, n2, r2) {
     if (r2 - n2 == 1) return { offset: e2[n2], index: n2 + 1 };
-    const o2 = Math.ceil((n2 + r2) / 2), s2 = t(e2, n2, o2), l2 = t(e2, o2, r2);
+    const o2 = Math.ceil((n2 + r2) / 2),
+      s2 = t(e2, n2, o2),
+      l2 = t(e2, o2, r2);
     return { offset: s2.offset, low: s2, high: l2 };
   }
   function r(e2, n2) {
-    return function(e3) {
+    return (function (e3) {
       return Object.prototype.hasOwnProperty.call(e3, "index");
-    }(e2) ? { line: e2.index, column: n2 - e2.offset } : r(e2.high.offset < n2 ? e2.high : e2.low, n2);
+    })(e2)
+      ? { line: e2.index, column: n2 - e2.offset }
+      : r(e2.high.offset < n2 ? e2.high : e2.low, n2);
   }
   function o(e2, t2 = "", r2 = {}) {
-    const o2 = "string" != typeof t2 ? t2 : r2, l2 = "string" == typeof t2 ? t2 : "", c2 = e2.map(s), f = !!o2.lineNumbers;
-    return function(e3, t3 = 0) {
+    const o2 = "string" != typeof t2 ? t2 : r2,
+      l2 = "string" == typeof t2 ? t2 : "",
+      c2 = e2.map(s),
+      f = !!o2.lineNumbers;
+    return function (e3, t3 = 0) {
       const r3 = f ? n(e3) : () => ({ line: 0, column: 0 });
       let o3 = t3;
       const s2 = [];
@@ -2049,12 +3848,27 @@ var _Sources = (() => {
           const c3 = t4.regex.exec(e3);
           if (c3 && c3[0].length > 0) {
             if (!t4.discard) {
-              const e4 = r3(o3), n3 = "string" == typeof t4.replace ? c3[0].replace(new RegExp(t4.regex.source, t4.regex.flags), t4.replace) : c3[0];
-              s2.push({ state: l2, name: t4.name, text: n3, offset: o3, len: c3[0].length, line: e4.line, column: e4.column });
+              const e4 = r3(o3),
+                n3 =
+                  "string" == typeof t4.replace
+                    ? c3[0].replace(
+                        new RegExp(t4.regex.source, t4.regex.flags),
+                        t4.replace
+                      )
+                    : c3[0];
+              s2.push({
+                state: l2,
+                name: t4.name,
+                text: n3,
+                offset: o3,
+                len: c3[0].length,
+                line: e4.line,
+                column: e4.column,
+              });
             }
-            if (o3 = t4.regex.lastIndex, n2 = true, t4.push) {
+            if (((o3 = t4.regex.lastIndex), (n2 = true), t4.push)) {
               const n3 = t4.push(e3, o3);
-              s2.push(...n3.tokens), o3 = n3.offset;
+              s2.push(...n3.tokens), (o3 = n3.offset);
             }
             if (t4.pop) break e;
             break;
@@ -2069,17 +3883,29 @@ var _Sources = (() => {
     return { ...e2, regex: l(e2, n2) };
   }
   function l(e2, n2) {
-    if (0 === e2.name.length) throw new Error(`Rule #${n2} has empty name, which is not allowed.`);
-    if (function(e3) {
-      return Object.prototype.hasOwnProperty.call(e3, "regex");
-    }(e2)) return function(e3) {
-      if (e3.global) throw new Error(`Regular expression /${e3.source}/${e3.flags} contains the global flag, which is not allowed.`);
-      return e3.sticky ? e3 : new RegExp(e3.source, e3.flags + "y");
-    }(e2.regex);
-    if (function(e3) {
-      return Object.prototype.hasOwnProperty.call(e3, "str");
-    }(e2)) {
-      if (0 === e2.str.length) throw new Error(`Rule #${n2} ("${e2.name}") has empty "str" property, which is not allowed.`);
+    if (0 === e2.name.length)
+      throw new Error(`Rule #${n2} has empty name, which is not allowed.`);
+    if (
+      (function (e3) {
+        return Object.prototype.hasOwnProperty.call(e3, "regex");
+      })(e2)
+    )
+      return (function (e3) {
+        if (e3.global)
+          throw new Error(
+            `Regular expression /${e3.source}/${e3.flags} contains the global flag, which is not allowed.`
+          );
+        return e3.sticky ? e3 : new RegExp(e3.source, e3.flags + "y");
+      })(e2.regex);
+    if (
+      (function (e3) {
+        return Object.prototype.hasOwnProperty.call(e3, "str");
+      })(e2)
+    ) {
+      if (0 === e2.str.length)
+        throw new Error(
+          `Rule #${n2} ("${e2.name}") has empty "str" property, which is not allowed.`
+        );
       return new RegExp(c(e2.str), "y");
     }
     return new RegExp(c(e2.name), "y");
@@ -2101,19 +3927,23 @@ var _Sources = (() => {
       } else {
         onEnd?.(data, i);
       }
-      return value === void 0 ? { matched: false } : {
-        matched: true,
-        position,
-        value
-      };
+      return value === void 0
+        ? { matched: false }
+        : {
+            matched: true,
+            position,
+            value,
+          };
     };
   }
   function mapInner(r2, f) {
-    return r2.matched ? {
-      matched: true,
-      position: r2.position,
-      value: f(r2.value, r2.position)
-    } : r2;
+    return r2.matched
+      ? {
+          matched: true,
+          position: r2.position,
+          value: f(r2.value, r2.position),
+        }
+      : r2;
   }
   function mapOuter(r2, f) {
     return r2.matched ? f(r2) : r2;
@@ -2124,11 +3954,13 @@ var _Sources = (() => {
   function option(p, def) {
     return (data, i) => {
       const r2 = p(data, i);
-      return r2.matched ? r2 : {
-        matched: true,
-        position: i,
-        value: def
-      };
+      return r2.matched
+        ? r2
+        : {
+            matched: true,
+            position: i,
+            value: def,
+          };
     };
   }
   function choice(...ps) {
@@ -2154,7 +3986,10 @@ var _Sources = (() => {
       let success = true;
       do {
         const r2 = p(data, i);
-        if (r2.matched && test(r2.value, values.length + 1, data, i, r2.position)) {
+        if (
+          r2.matched &&
+          test(r2.value, values.length + 1, data, i, r2.position)
+        ) {
           values.push(r2.value);
           i = r2.position;
         } else {
@@ -2164,7 +3999,7 @@ var _Sources = (() => {
       return {
         matched: true,
         position: i,
-        value: values
+        value: values,
       };
     };
   }
@@ -2175,7 +4010,12 @@ var _Sources = (() => {
     return ab(p, many(p), (head, tail) => [head, ...tail]);
   }
   function ab(pa, pb, join) {
-    return (data, i) => mapOuter(pa(data, i), (ma) => mapInner(pb(data, ma.position), (vb, j) => join(ma.value, vb, data, i, j)));
+    return (data, i) =>
+      mapOuter(pa(data, i), (ma) =>
+        mapInner(pb(data, ma.position), (vb, j) =>
+          join(ma.value, vb, data, i, j)
+        )
+      );
   }
   function left(pa, pb) {
     return ab(pa, pb, (va) => va);
@@ -2184,7 +4024,14 @@ var _Sources = (() => {
     return ab(pa, pb, (va, vb) => vb);
   }
   function abc(pa, pb, pc, join) {
-    return (data, i) => mapOuter(pa(data, i), (ma) => mapOuter(pb(data, ma.position), (mb) => mapInner(pc(data, mb.position), (vc, j) => join(ma.value, mb.value, vc, data, i, j))));
+    return (data, i) =>
+      mapOuter(pa(data, i), (ma) =>
+        mapOuter(pb(data, ma.position), (mb) =>
+          mapInner(pc(data, mb.position), (vc, j) =>
+            join(ma.value, mb.value, vc, data, i, j)
+          )
+        )
+      );
   }
   function middle(pa, pb, pc) {
     return abc(pa, pb, pc, (ra, rb) => rb);
@@ -2205,7 +4052,7 @@ var _Sources = (() => {
       return {
         matched: true,
         position,
-        value: result
+        value: result,
       };
     };
   }
@@ -2232,18 +4079,29 @@ var _Sources = (() => {
       return {
         matched: true,
         position: pos,
-        value: acc1
+        value: acc1,
       };
     };
   }
   function reduceLeft(acc, p, reducer) {
-    return chainReduce(acc, (acc2) => map(p, (v, data, i, j) => reducer(acc2, v, data, i, j)));
+    return chainReduce(acc, (acc2) =>
+      map(p, (v, data, i, j) => reducer(acc2, v, data, i, j))
+    );
   }
   function leftAssoc2(pLeft, pOper, pRight) {
-    return chain(pLeft, (v0) => reduceLeft(v0, ab(pOper, pRight, (f, y) => [f, y]), (acc, [f, y]) => f(acc, y)));
+    return chain(pLeft, (v0) =>
+      reduceLeft(
+        v0,
+        ab(pOper, pRight, (f, y) => [f, y]),
+        (acc, [f, y]) => f(acc, y)
+      )
+    );
   }
   function chain(p, f) {
-    return (data, i) => mapOuter(p(data, i), (m1) => f(m1.value, data, i, m1.position)(data, m1.position));
+    return (data, i) =>
+      mapOuter(p(data, i), (m1) =>
+        f(m1.value, data, i, m1.position)(data, m1.position)
+      );
   }
 
   // node_modules/parseley/lib/parseley.mjs
@@ -2275,12 +4133,12 @@ var _Sources = (() => {
     { name: "+" },
     { name: "~" },
     { name: "^" },
-    { name: "$" }
+    { name: "$" },
   ]);
   var lexEscapedString = o([
     { name: "unicode", regex: new RegExp(unicode, "i") },
     { name: "escape", regex: new RegExp(escape2, "i") },
-    { name: "any", regex: new RegExp("[\\s\\S]", "i") }
+    { name: "any", regex: new RegExp("[\\s\\S]", "i") },
   ]);
   function sumSpec([a0, a1, a2], [b0, b1, b2]) {
     return [a0 + b0, a1 + b1, a2 + b2];
@@ -2288,44 +4146,79 @@ var _Sources = (() => {
   function sumAllSpec(ss) {
     return ss.reduce(sumSpec, [0, 0, 0]);
   }
-  var unicodeEscapedSequence_ = token((t2) => t2.name === "unicode" ? String.fromCodePoint(parseInt(t2.text.slice(1), 16)) : void 0);
-  var escapedSequence_ = token((t2) => t2.name === "escape" ? t2.text.slice(1) : void 0);
-  var anyChar_ = token((t2) => t2.name === "any" ? t2.text : void 0);
-  var escapedString_ = map(many(choice(unicodeEscapedSequence_, escapedSequence_, anyChar_)), (cs) => cs.join(""));
+  var unicodeEscapedSequence_ = token((t2) =>
+    t2.name === "unicode"
+      ? String.fromCodePoint(parseInt(t2.text.slice(1), 16))
+      : void 0
+  );
+  var escapedSequence_ = token((t2) =>
+    t2.name === "escape" ? t2.text.slice(1) : void 0
+  );
+  var anyChar_ = token((t2) => (t2.name === "any" ? t2.text : void 0));
+  var escapedString_ = map(
+    many(choice(unicodeEscapedSequence_, escapedSequence_, anyChar_)),
+    (cs) => cs.join("")
+  );
   function unescape(escapedString) {
     const lexerResult = lexEscapedString(escapedString);
-    const result = escapedString_({ tokens: lexerResult.tokens, options: void 0 }, 0);
+    const result = escapedString_(
+      { tokens: lexerResult.tokens, options: void 0 },
+      0
+    );
     return result.value;
   }
   function literal(name2) {
-    return token((t2) => t2.name === name2 ? true : void 0);
+    return token((t2) => (t2.name === name2 ? true : void 0));
   }
-  var whitespace_ = token((t2) => t2.name === "ws" ? null : void 0);
+  var whitespace_ = token((t2) => (t2.name === "ws" ? null : void 0));
   var optionalWhitespace_ = option(whitespace_, null);
   function optionallySpaced(parser) {
     return middle(optionalWhitespace_, parser, optionalWhitespace_);
   }
-  var identifier_ = token((t2) => t2.name === "ident" ? unescape(t2.text) : void 0);
-  var hashId_ = token((t2) => t2.name === "hash" ? unescape(t2.text.slice(1)) : void 0);
-  var string_ = token((t2) => t2.name.startsWith("str") ? unescape(t2.text.slice(1, -1)) : void 0);
+  var identifier_ = token((t2) =>
+    t2.name === "ident" ? unescape(t2.text) : void 0
+  );
+  var hashId_ = token((t2) =>
+    t2.name === "hash" ? unescape(t2.text.slice(1)) : void 0
+  );
+  var string_ = token((t2) =>
+    t2.name.startsWith("str") ? unescape(t2.text.slice(1, -1)) : void 0
+  );
   var namespace_ = left(option(identifier_, ""), literal("|"));
-  var qualifiedName_ = otherwise(ab(namespace_, identifier_, (ns, name2) => ({ name: name2, namespace: ns })), map(identifier_, (name2) => ({ name: name2, namespace: null })));
-  var uniSelector_ = otherwise(ab(namespace_, literal("*"), (ns) => ({ type: "universal", namespace: ns, specificity: [0, 0, 0] })), map(literal("*"), () => ({ type: "universal", namespace: null, specificity: [0, 0, 0] })));
+  var qualifiedName_ = otherwise(
+    ab(namespace_, identifier_, (ns, name2) => ({
+      name: name2,
+      namespace: ns,
+    })),
+    map(identifier_, (name2) => ({ name: name2, namespace: null }))
+  );
+  var uniSelector_ = otherwise(
+    ab(namespace_, literal("*"), (ns) => ({
+      type: "universal",
+      namespace: ns,
+      specificity: [0, 0, 0],
+    })),
+    map(literal("*"), () => ({
+      type: "universal",
+      namespace: null,
+      specificity: [0, 0, 0],
+    }))
+  );
   var tagSelector_ = map(qualifiedName_, ({ name: name2, namespace }) => ({
     type: "tag",
     name: name2,
     namespace,
-    specificity: [0, 0, 1]
+    specificity: [0, 0, 1],
   }));
   var classSelector_ = ab(literal("."), identifier_, (fullstop, name2) => ({
     type: "class",
     name: name2,
-    specificity: [0, 1, 0]
+    specificity: [0, 1, 0],
   }));
   var idSelector_ = map(hashId_, (name2) => ({
     type: "id",
     name: name2,
-    specificity: [1, 0, 0]
+    specificity: [1, 0, 0],
   }));
   var attrModifier_ = token((t2) => {
     if (t2.name === "ident") {
@@ -2338,63 +4231,139 @@ var _Sources = (() => {
     }
     return void 0;
   });
-  var attrValue_ = otherwise(ab(string_, option(right(optionalWhitespace_, attrModifier_), null), (v, mod) => ({ value: v, modifier: mod })), ab(identifier_, option(right(whitespace_, attrModifier_), null), (v, mod) => ({ value: v, modifier: mod })));
-  var attrMatcher_ = choice(map(literal("="), () => "="), ab(literal("~"), literal("="), () => "~="), ab(literal("|"), literal("="), () => "|="), ab(literal("^"), literal("="), () => "^="), ab(literal("$"), literal("="), () => "$="), ab(literal("*"), literal("="), () => "*="));
-  var attrPresenceSelector_ = abc(literal("["), optionallySpaced(qualifiedName_), literal("]"), (lbr, { name: name2, namespace }) => ({
-    type: "attrPresence",
-    name: name2,
-    namespace,
-    specificity: [0, 1, 0]
-  }));
-  var attrValueSelector_ = middle(literal("["), abc(optionallySpaced(qualifiedName_), attrMatcher_, optionallySpaced(attrValue_), ({ name: name2, namespace }, matcher, { value, modifier }) => ({
-    type: "attrValue",
-    name: name2,
-    namespace,
-    matcher,
-    value,
-    modifier,
-    specificity: [0, 1, 0]
-  })), literal("]"));
+  var attrValue_ = otherwise(
+    ab(
+      string_,
+      option(right(optionalWhitespace_, attrModifier_), null),
+      (v, mod) => ({ value: v, modifier: mod })
+    ),
+    ab(
+      identifier_,
+      option(right(whitespace_, attrModifier_), null),
+      (v, mod) => ({ value: v, modifier: mod })
+    )
+  );
+  var attrMatcher_ = choice(
+    map(literal("="), () => "="),
+    ab(literal("~"), literal("="), () => "~="),
+    ab(literal("|"), literal("="), () => "|="),
+    ab(literal("^"), literal("="), () => "^="),
+    ab(literal("$"), literal("="), () => "$="),
+    ab(literal("*"), literal("="), () => "*=")
+  );
+  var attrPresenceSelector_ = abc(
+    literal("["),
+    optionallySpaced(qualifiedName_),
+    literal("]"),
+    (lbr, { name: name2, namespace }) => ({
+      type: "attrPresence",
+      name: name2,
+      namespace,
+      specificity: [0, 1, 0],
+    })
+  );
+  var attrValueSelector_ = middle(
+    literal("["),
+    abc(
+      optionallySpaced(qualifiedName_),
+      attrMatcher_,
+      optionallySpaced(attrValue_),
+      ({ name: name2, namespace }, matcher, { value, modifier }) => ({
+        type: "attrValue",
+        name: name2,
+        namespace,
+        matcher,
+        value,
+        modifier,
+        specificity: [0, 1, 0],
+      })
+    ),
+    literal("]")
+  );
   var attrSelector_ = otherwise(attrPresenceSelector_, attrValueSelector_);
   var typeSelector_ = otherwise(uniSelector_, tagSelector_);
   var subclassSelector_ = choice(idSelector_, classSelector_, attrSelector_);
-  var compoundSelector_ = map(otherwise(flatten(typeSelector_, many(subclassSelector_)), many1(subclassSelector_)), (ss) => {
-    return {
+  var compoundSelector_ = map(
+    otherwise(
+      flatten(typeSelector_, many(subclassSelector_)),
+      many1(subclassSelector_)
+    ),
+    (ss) => {
+      return {
+        type: "compound",
+        list: ss,
+        specificity: sumAllSpec(ss.map((s2) => s2.specificity)),
+      };
+    }
+  );
+  var combinator_ = choice(
+    map(literal(">"), () => ">"),
+    map(literal("+"), () => "+"),
+    map(literal("~"), () => "~"),
+    ab(literal("|"), literal("|"), () => "||")
+  );
+  var combinatorSeparator_ = otherwise(
+    optionallySpaced(combinator_),
+    map(whitespace_, () => " ")
+  );
+  var complexSelector_ = leftAssoc2(
+    compoundSelector_,
+    map(combinatorSeparator_, (c2) => (left2, right2) => ({
       type: "compound",
-      list: ss,
-      specificity: sumAllSpec(ss.map((s2) => s2.specificity))
-    };
-  });
-  var combinator_ = choice(map(literal(">"), () => ">"), map(literal("+"), () => "+"), map(literal("~"), () => "~"), ab(literal("|"), literal("|"), () => "||"));
-  var combinatorSeparator_ = otherwise(optionallySpaced(combinator_), map(whitespace_, () => " "));
-  var complexSelector_ = leftAssoc2(compoundSelector_, map(combinatorSeparator_, (c2) => (left2, right2) => ({
-    type: "compound",
-    list: [...right2.list, { type: "combinator", combinator: c2, left: left2, specificity: left2.specificity }],
-    specificity: sumSpec(left2.specificity, right2.specificity)
-  })), compoundSelector_);
-  var listSelector_ = leftAssoc2(map(complexSelector_, (s2) => ({ type: "list", list: [s2] })), map(optionallySpaced(literal(",")), () => (acc, next) => ({ type: "list", list: [...acc.list, next] })), complexSelector_);
+      list: [
+        ...right2.list,
+        {
+          type: "combinator",
+          combinator: c2,
+          left: left2,
+          specificity: left2.specificity,
+        },
+      ],
+      specificity: sumSpec(left2.specificity, right2.specificity),
+    })),
+    compoundSelector_
+  );
+  var listSelector_ = leftAssoc2(
+    map(complexSelector_, (s2) => ({ type: "list", list: [s2] })),
+    map(optionallySpaced(literal(",")), () => (acc, next) => ({
+      type: "list",
+      list: [...acc.list, next],
+    })),
+    complexSelector_
+  );
   function parse_(parser, str) {
     if (!(typeof str === "string" || str instanceof String)) {
-      throw new Error("Expected a selector string. Actual input is not a string!");
+      throw new Error(
+        "Expected a selector string. Actual input is not a string!"
+      );
     }
     const lexerResult = lexSelector(str);
     if (!lexerResult.complete) {
-      throw new Error(`The input "${str}" was only partially tokenized, stopped at offset ${lexerResult.offset}!
-` + prettyPrintPosition(str, lexerResult.offset));
+      throw new Error(
+        `The input "${str}" was only partially tokenized, stopped at offset ${lexerResult.offset}!
+` + prettyPrintPosition(str, lexerResult.offset)
+      );
     }
-    const result = optionallySpaced(parser)({ tokens: lexerResult.tokens, options: void 0 }, 0);
+    const result = optionallySpaced(parser)(
+      { tokens: lexerResult.tokens, options: void 0 },
+      0
+    );
     if (!result.matched) {
       throw new Error(`No match for "${str}" input!`);
     }
     if (result.position < lexerResult.tokens.length) {
       const token2 = lexerResult.tokens[result.position];
-      throw new Error(`The input "${str}" was only partially parsed, stopped at offset ${token2.offset}!
-` + prettyPrintPosition(str, token2.offset, token2.len));
+      throw new Error(
+        `The input "${str}" was only partially parsed, stopped at offset ${token2.offset}!
+` + prettyPrintPosition(str, token2.offset, token2.len)
+      );
     }
     return result.value;
   }
   function prettyPrintPosition(str, offset, len = 1) {
-    return `${str.replace(/(\t)|(\r)|(\n)/g, (m, t2, r2) => t2 ? "\u2409" : r2 ? "\u240D" : "\u240A")}
+    return `${str.replace(/(\t)|(\r)|(\n)/g, (m, t2, r2) =>
+      t2 ? "\u2409" : r2 ? "\u240D" : "\u240A"
+    )}
 ${"".padEnd(offset)}${"^".repeat(len)}`;
   }
   function parse1(str) {
@@ -2416,7 +4385,11 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       case "attrPresence":
         return `[${_serNs(selector.namespace)}${_serIdent(selector.name)}]`;
       case "attrValue":
-        return `[${_serNs(selector.namespace)}${_serIdent(selector.name)}${selector.matcher}"${_serStr(selector.value)}"${selector.modifier ? selector.modifier : ""}]`;
+        return `[${_serNs(selector.namespace)}${_serIdent(selector.name)}${
+          selector.matcher
+        }"${_serStr(selector.value)}"${
+          selector.modifier ? selector.modifier : ""
+        }]`;
       case "combinator":
         return serialize(selector.left) + selector.combinator;
       case "compound":
@@ -2440,13 +4413,27 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
   function _serIdent(str) {
     return str.replace(
       /(^[0-9])|(^-[0-9])|(^-$)|([-0-9a-zA-Z_]|[^\x00-\x7F])|(\x00)|([\x01-\x1f]|\x7f)|([\s\S])/g,
-      (m, d1, d2, hy, safe, nl2, ctrl, other) => d1 ? _codePoint(d1) : d2 ? "-" + _codePoint(d2.slice(1)) : hy ? "\\-" : safe ? safe : nl2 ? "\uFFFD" : ctrl ? _codePoint(ctrl) : "\\" + other
+      (m, d1, d2, hy, safe, nl2, ctrl, other) =>
+        d1
+          ? _codePoint(d1)
+          : d2
+          ? "-" + _codePoint(d2.slice(1))
+          : hy
+          ? "\\-"
+          : safe
+          ? safe
+          : nl2
+          ? "\uFFFD"
+          : ctrl
+          ? _codePoint(ctrl)
+          : "\\" + other
     );
   }
   function _serStr(str) {
     return str.replace(
       /(")|(\\)|(\x00)|([\x01-\x1f]|\x7f)/g,
-      (m, dq, bs, nl2, ctrl) => dq ? '\\"' : bs ? "\\\\" : nl2 ? "\uFFFD" : _codePoint(ctrl)
+      (m, dq, bs, nl2, ctrl) =>
+        dq ? '\\"' : bs ? "\\\\" : nl2 ? "\uFFFD" : _codePoint(ctrl)
     );
   }
   function normalize(selector) {
@@ -2456,7 +4443,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     switch (selector.type) {
       case "compound": {
         selector.list.forEach(normalize);
-        selector.list.sort((a, b) => _compareArrays(_getSelectorPriority(a), _getSelectorPriority(b)));
+        selector.list.sort((a, b) =>
+          _compareArrays(_getSelectorPriority(a), _getSelectorPriority(b))
+        );
         break;
       }
       case "combinator": {
@@ -2465,7 +4454,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       }
       case "list": {
         selector.list.forEach(normalize);
-        selector.list.sort((a, b) => serialize(a) < serialize(b) ? -1 : 1);
+        selector.list.sort((a, b) => (serialize(a) < serialize(b) ? -1 : 1));
         break;
       }
     }
@@ -2525,8 +4514,12 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
         ast,
         terminal: {
           type: "terminal",
-          valueContainer: { index: i, value: val, specificity: ast.specificity }
-        }
+          valueContainer: {
+            index: i,
+            value: val,
+            specificity: ast.specificity,
+          },
+        },
       };
     }
     return results;
@@ -2548,7 +4541,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
             namespace: null,
             specificity: sel.specificity,
             type: "attrValue",
-            value: sel.name
+            value: sel.name,
           });
           break;
         case "id":
@@ -2559,7 +4552,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
             namespace: null,
             specificity: sel.specificity,
             type: "attrValue",
-            value: sel.name
+            value: sel.name,
           });
           break;
         case "combinator":
@@ -2597,7 +4590,10 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       if (terminal.type === "terminal") {
         results.push(terminal);
       } else {
-        const { matches, rest } = partition(terminal.cont, (node) => node.type === "terminal");
+        const { matches, rest } = partition(
+          terminal.cont,
+          (node) => node.type === "terminal"
+        );
         matches.forEach((node) => results.push(node));
         if (rest.length) {
           terminal.cont = rest;
@@ -2614,7 +4610,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     for (const item of items) {
       const simpsels = item.ast.list;
       if (simpsels.length) {
-        const isMatch = simpsels.some((node) => getSelectorKind(node) === selectedKind);
+        const isMatch = simpsels.some(
+          (node) => getSelectorKind(node) === selectedKind
+        );
         (isMatch ? matches : nonmatches).push(item);
       } else {
         empty.push(item);
@@ -2653,29 +4651,40 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     throw new Error(`Unsupported selector kind: ${kind}`);
   }
   function tagNameBranch(items) {
-    const groups = spliceAndGroup(items, (x) => x.type === "tag", (x) => x.name);
+    const groups = spliceAndGroup(
+      items,
+      (x) => x.type === "tag",
+      (x) => x.name
+    );
     const variants = Object.entries(groups).map(([name2, group]) => ({
       type: "variant",
       value: name2,
-      cont: weave(group.items)
+      cont: weave(group.items),
     }));
     return {
       type: "tagName",
-      variants
+      variants,
     };
   }
   function attrPresenceBranch(name2, items) {
     for (const item of items) {
-      spliceSimpleSelector(item, (x) => x.type === "attrPresence" && x.name === name2);
+      spliceSimpleSelector(
+        item,
+        (x) => x.type === "attrPresence" && x.name === name2
+      );
     }
     return {
       type: "attrPresence",
       name: name2,
-      cont: weave(items)
+      cont: weave(items),
     };
   }
   function attrValueBranch(name2, items) {
-    const groups = spliceAndGroup(items, (x) => x.type === "attrValue" && x.name === name2, (x) => `${x.matcher} ${x.modifier || ""} ${x.value}`);
+    const groups = spliceAndGroup(
+      items,
+      (x) => x.type === "attrValue" && x.name === name2,
+      (x) => `${x.matcher} ${x.modifier || ""} ${x.value}`
+    );
     const matchers = [];
     for (const group of Object.values(groups)) {
       const sel = group.oneSimpleSelector;
@@ -2687,13 +4696,13 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
         modifier: sel.modifier,
         value: sel.value,
         predicate,
-        cont: continuation
+        cont: continuation,
       });
     }
     return {
       type: "attrValue",
       name: name2,
-      matchers
+      matchers,
     };
   }
   function getAttrPredicate(sel) {
@@ -2703,7 +4712,11 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
         case "=":
           return (actual) => expected === actual.toLowerCase();
         case "~=":
-          return (actual) => actual.toLowerCase().split(/[ \t]+/).includes(expected);
+          return (actual) =>
+            actual
+              .toLowerCase()
+              .split(/[ \t]+/)
+              .includes(expected);
         case "^=":
           return (actual) => actual.toLowerCase().startsWith(expected);
         case "$=":
@@ -2713,7 +4726,10 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
         case "|=":
           return (actual) => {
             const lower = actual.toLowerCase();
-            return expected === lower || lower.startsWith(expected) && lower[expected.length] === "-";
+            return (
+              expected === lower ||
+              (lower.startsWith(expected) && lower[expected.length] === "-")
+            );
           };
       }
     } else {
@@ -2730,33 +4746,41 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
         case "*=":
           return (actual) => actual.includes(expected);
         case "|=":
-          return (actual) => expected === actual || actual.startsWith(expected) && actual[expected.length] === "-";
+          return (actual) =>
+            expected === actual ||
+            (actual.startsWith(expected) && actual[expected.length] === "-");
       }
     }
   }
   function combinatorBranch(combinator, items) {
-    const groups = spliceAndGroup(items, (x) => x.type === "combinator" && x.combinator === combinator, (x) => serialize(x.left));
+    const groups = spliceAndGroup(
+      items,
+      (x) => x.type === "combinator" && x.combinator === combinator,
+      (x) => serialize(x.left)
+    );
     const leftItems = [];
     for (const group of Object.values(groups)) {
       const rightCont = weave(group.items);
       const leftAst = group.oneSimpleSelector.left;
       leftItems.push({
         ast: leftAst,
-        terminal: { type: "popElement", cont: rightCont }
+        terminal: { type: "popElement", cont: rightCont },
       });
     }
     return {
       type: "pushElement",
       combinator,
-      cont: weave(leftItems)
+      cont: weave(leftItems),
     };
   }
   function spliceAndGroup(items, predicate, keyCallback) {
     const groups = {};
     while (items.length) {
       const bestKey = findTopKey(items, predicate, keyCallback);
-      const bestKeyPredicate = (sel) => predicate(sel) && keyCallback(sel) === bestKey;
-      const hasBestKeyPredicate = (item) => item.ast.list.some(bestKeyPredicate);
+      const bestKeyPredicate = (sel) =>
+        predicate(sel) && keyCallback(sel) === bestKey;
+      const hasBestKeyPredicate = (item) =>
+        item.ast.list.some(bestKeyPredicate);
       const { matches, rest } = partition1(items, hasBestKeyPredicate);
       let oneSimpleSelector = null;
       for (const item of matches) {
@@ -2855,7 +4879,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       if (len === 1) {
         return results[0].value;
       }
-      const comparator = preferFirst ? comparatorPreferFirst : comparatorPreferLast;
+      const comparator = preferFirst
+        ? comparatorPreferFirst
+        : comparatorPreferLast;
       let result = results[0];
       for (let i = 1; i < len; i++) {
         const next = results[i];
@@ -2868,11 +4894,11 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
   };
   function comparatorPreferFirst(acc, next) {
     const diff = compareSpecificity(next.specificity, acc.specificity);
-    return diff > 0 || diff === 0 && next.index < acc.index;
+    return diff > 0 || (diff === 0 && next.index < acc.index);
   }
   function comparatorPreferLast(acc, next) {
     const diff = compareSpecificity(next.specificity, acc.specificity);
-    return diff > 0 || diff === 0 && next.index > acc.index;
+    return diff > 0 || (diff === 0 && next.index > acc.index);
   }
 
   // node_modules/@selderee/plugin-htmlparser2/lib/hp2-builder.mjs
@@ -2914,24 +4940,32 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
   function handleAttrPresenceName(node) {
     const attrName = node.name;
     const continuation = handleArray(node.cont);
-    return (el, ...tail) => Object.prototype.hasOwnProperty.call(el.attribs, attrName) ? continuation(el, ...tail) : [];
+    return (el, ...tail) =>
+      Object.prototype.hasOwnProperty.call(el.attribs, attrName)
+        ? continuation(el, ...tail)
+        : [];
   }
   function handleAttrValueName(node) {
     const callbacks = [];
     for (const matcher of node.matchers) {
       const predicate = matcher.predicate;
       const continuation = handleArray(matcher.cont);
-      callbacks.push((attr, el, ...tail) => predicate(attr) ? continuation(el, ...tail) : []);
+      callbacks.push((attr, el, ...tail) =>
+        predicate(attr) ? continuation(el, ...tail) : []
+      );
     }
     const attrName = node.name;
     return (el, ...tail) => {
       const attr = el.attribs[attrName];
-      return attr || attr === "" ? callbacks.flatMap((cb) => cb(attr, el, ...tail)) : [];
+      return attr || attr === ""
+        ? callbacks.flatMap((cb) => cb(attr, el, ...tail))
+        : [];
     };
   }
   function handlePushElementNode(node) {
     const continuation = handleArray(node.cont);
-    const leftElementGetter = node.combinator === "+" ? getPrecedingElement : getParentElement;
+    const leftElementGetter =
+      node.combinator === "+" ? getPrecedingElement : getParentElement;
     return (el, ...tail) => {
       const next = leftElementGetter(el);
       if (next === null) {
@@ -2999,77 +5033,91 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     [155, 8250],
     [156, 339],
     [158, 382],
-    [159, 376]
+    [159, 376],
   ]);
-  var fromCodePoint2 = (
+  var fromCodePoint2 =
     // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition, node/no-unsupported-features/es-builtins
-    (_a2 = String.fromCodePoint) !== null && _a2 !== void 0 ? _a2 : function(codePoint) {
-      let output = "";
-      if (codePoint > 65535) {
-        codePoint -= 65536;
-        output += String.fromCharCode(codePoint >>> 10 & 1023 | 55296);
-        codePoint = 56320 | codePoint & 1023;
-      }
-      output += String.fromCharCode(codePoint);
-      return output;
-    }
-  );
+    (_a2 = String.fromCodePoint) !== null && _a2 !== void 0
+      ? _a2
+      : function (codePoint) {
+          let output = "";
+          if (codePoint > 65535) {
+            codePoint -= 65536;
+            output += String.fromCharCode(((codePoint >>> 10) & 1023) | 55296);
+            codePoint = 56320 | (codePoint & 1023);
+          }
+          output += String.fromCharCode(codePoint);
+          return output;
+        };
   function replaceCodePoint2(codePoint) {
     var _a4;
-    if (codePoint >= 55296 && codePoint <= 57343 || codePoint > 1114111) {
+    if ((codePoint >= 55296 && codePoint <= 57343) || codePoint > 1114111) {
       return 65533;
     }
-    return (_a4 = decodeMap2.get(codePoint)) !== null && _a4 !== void 0 ? _a4 : codePoint;
+    return (_a4 = decodeMap2.get(codePoint)) !== null && _a4 !== void 0
+      ? _a4
+      : codePoint;
   }
 
   // node_modules/html-to-text/node_modules/entities/lib/esm/decode.js
   var CharCodes2;
-  (function(CharCodes5) {
-    CharCodes5[CharCodes5["NUM"] = 35] = "NUM";
-    CharCodes5[CharCodes5["SEMI"] = 59] = "SEMI";
-    CharCodes5[CharCodes5["EQUALS"] = 61] = "EQUALS";
-    CharCodes5[CharCodes5["ZERO"] = 48] = "ZERO";
-    CharCodes5[CharCodes5["NINE"] = 57] = "NINE";
-    CharCodes5[CharCodes5["LOWER_A"] = 97] = "LOWER_A";
-    CharCodes5[CharCodes5["LOWER_F"] = 102] = "LOWER_F";
-    CharCodes5[CharCodes5["LOWER_X"] = 120] = "LOWER_X";
-    CharCodes5[CharCodes5["LOWER_Z"] = 122] = "LOWER_Z";
-    CharCodes5[CharCodes5["UPPER_A"] = 65] = "UPPER_A";
-    CharCodes5[CharCodes5["UPPER_F"] = 70] = "UPPER_F";
-    CharCodes5[CharCodes5["UPPER_Z"] = 90] = "UPPER_Z";
+  (function (CharCodes5) {
+    CharCodes5[(CharCodes5["NUM"] = 35)] = "NUM";
+    CharCodes5[(CharCodes5["SEMI"] = 59)] = "SEMI";
+    CharCodes5[(CharCodes5["EQUALS"] = 61)] = "EQUALS";
+    CharCodes5[(CharCodes5["ZERO"] = 48)] = "ZERO";
+    CharCodes5[(CharCodes5["NINE"] = 57)] = "NINE";
+    CharCodes5[(CharCodes5["LOWER_A"] = 97)] = "LOWER_A";
+    CharCodes5[(CharCodes5["LOWER_F"] = 102)] = "LOWER_F";
+    CharCodes5[(CharCodes5["LOWER_X"] = 120)] = "LOWER_X";
+    CharCodes5[(CharCodes5["LOWER_Z"] = 122)] = "LOWER_Z";
+    CharCodes5[(CharCodes5["UPPER_A"] = 65)] = "UPPER_A";
+    CharCodes5[(CharCodes5["UPPER_F"] = 70)] = "UPPER_F";
+    CharCodes5[(CharCodes5["UPPER_Z"] = 90)] = "UPPER_Z";
   })(CharCodes2 || (CharCodes2 = {}));
   var TO_LOWER_BIT2 = 32;
   var BinTrieFlags2;
-  (function(BinTrieFlags4) {
-    BinTrieFlags4[BinTrieFlags4["VALUE_LENGTH"] = 49152] = "VALUE_LENGTH";
-    BinTrieFlags4[BinTrieFlags4["BRANCH_LENGTH"] = 16256] = "BRANCH_LENGTH";
-    BinTrieFlags4[BinTrieFlags4["JUMP_TABLE"] = 127] = "JUMP_TABLE";
+  (function (BinTrieFlags4) {
+    BinTrieFlags4[(BinTrieFlags4["VALUE_LENGTH"] = 49152)] = "VALUE_LENGTH";
+    BinTrieFlags4[(BinTrieFlags4["BRANCH_LENGTH"] = 16256)] = "BRANCH_LENGTH";
+    BinTrieFlags4[(BinTrieFlags4["JUMP_TABLE"] = 127)] = "JUMP_TABLE";
   })(BinTrieFlags2 || (BinTrieFlags2 = {}));
   function isNumber2(code) {
     return code >= CharCodes2.ZERO && code <= CharCodes2.NINE;
   }
   function isHexadecimalCharacter2(code) {
-    return code >= CharCodes2.UPPER_A && code <= CharCodes2.UPPER_F || code >= CharCodes2.LOWER_A && code <= CharCodes2.LOWER_F;
+    return (
+      (code >= CharCodes2.UPPER_A && code <= CharCodes2.UPPER_F) ||
+      (code >= CharCodes2.LOWER_A && code <= CharCodes2.LOWER_F)
+    );
   }
   function isAsciiAlphaNumeric2(code) {
-    return code >= CharCodes2.UPPER_A && code <= CharCodes2.UPPER_Z || code >= CharCodes2.LOWER_A && code <= CharCodes2.LOWER_Z || isNumber2(code);
+    return (
+      (code >= CharCodes2.UPPER_A && code <= CharCodes2.UPPER_Z) ||
+      (code >= CharCodes2.LOWER_A && code <= CharCodes2.LOWER_Z) ||
+      isNumber2(code)
+    );
   }
   function isEntityInAttributeInvalidEnd2(code) {
     return code === CharCodes2.EQUALS || isAsciiAlphaNumeric2(code);
   }
   var EntityDecoderState2;
-  (function(EntityDecoderState4) {
-    EntityDecoderState4[EntityDecoderState4["EntityStart"] = 0] = "EntityStart";
-    EntityDecoderState4[EntityDecoderState4["NumericStart"] = 1] = "NumericStart";
-    EntityDecoderState4[EntityDecoderState4["NumericDecimal"] = 2] = "NumericDecimal";
-    EntityDecoderState4[EntityDecoderState4["NumericHex"] = 3] = "NumericHex";
-    EntityDecoderState4[EntityDecoderState4["NamedEntity"] = 4] = "NamedEntity";
+  (function (EntityDecoderState4) {
+    EntityDecoderState4[(EntityDecoderState4["EntityStart"] = 0)] =
+      "EntityStart";
+    EntityDecoderState4[(EntityDecoderState4["NumericStart"] = 1)] =
+      "NumericStart";
+    EntityDecoderState4[(EntityDecoderState4["NumericDecimal"] = 2)] =
+      "NumericDecimal";
+    EntityDecoderState4[(EntityDecoderState4["NumericHex"] = 3)] = "NumericHex";
+    EntityDecoderState4[(EntityDecoderState4["NamedEntity"] = 4)] =
+      "NamedEntity";
   })(EntityDecoderState2 || (EntityDecoderState2 = {}));
   var DecodingMode2;
-  (function(DecodingMode4) {
-    DecodingMode4[DecodingMode4["Legacy"] = 0] = "Legacy";
-    DecodingMode4[DecodingMode4["Strict"] = 1] = "Strict";
-    DecodingMode4[DecodingMode4["Attribute"] = 2] = "Attribute";
+  (function (DecodingMode4) {
+    DecodingMode4[(DecodingMode4["Legacy"] = 0)] = "Legacy";
+    DecodingMode4[(DecodingMode4["Strict"] = 1)] = "Strict";
+    DecodingMode4[(DecodingMode4["Attribute"] = 2)] = "Attribute";
   })(DecodingMode2 || (DecodingMode2 = {}));
   var EntityDecoder2 = class {
     constructor(decodeTree, emitCodePoint, errors) {
@@ -3152,7 +5200,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     addToNumericResult(str, start, end, base) {
       if (start !== end) {
         const digitCount = end - start;
-        this.result = this.result * Math.pow(base, digitCount) + parseInt(str.substr(start, digitCount), base);
+        this.result =
+          this.result * Math.pow(base, digitCount) +
+          parseInt(str.substr(start, digitCount), base);
         this.consumed += digitCount;
       }
     }
@@ -3218,7 +5268,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     emitNumericEntity(lastCp, expectedLength) {
       var _a4;
       if (this.consumed <= expectedLength) {
-        (_a4 = this.errors) === null || _a4 === void 0 ? void 0 : _a4.absenceOfDigitsInNumericCharacterReference(this.consumed);
+        (_a4 = this.errors) === null || _a4 === void 0
+          ? void 0
+          : _a4.absenceOfDigitsInNumericCharacterReference(this.consumed);
         return 0;
       }
       if (lastCp === CharCodes2.SEMI) {
@@ -3250,18 +5302,29 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       let valueLength = (current & BinTrieFlags2.VALUE_LENGTH) >> 14;
       for (; offset < str.length; offset++, this.excess++) {
         const char = str.charCodeAt(offset);
-        this.treeIndex = determineBranch2(decodeTree, current, this.treeIndex + Math.max(1, valueLength), char);
+        this.treeIndex = determineBranch2(
+          decodeTree,
+          current,
+          this.treeIndex + Math.max(1, valueLength),
+          char
+        );
         if (this.treeIndex < 0) {
           return this.result === 0 || // If we are parsing an attribute
-          this.decodeMode === DecodingMode2.Attribute && // We shouldn't have consumed any characters after the entity,
-          (valueLength === 0 || // And there should be no invalid characters.
-          isEntityInAttributeInvalidEnd2(char)) ? 0 : this.emitNotTerminatedNamedEntity();
+            (this.decodeMode === DecodingMode2.Attribute && // We shouldn't have consumed any characters after the entity,
+              (valueLength === 0 || // And there should be no invalid characters.
+                isEntityInAttributeInvalidEnd2(char)))
+            ? 0
+            : this.emitNotTerminatedNamedEntity();
         }
         current = decodeTree[this.treeIndex];
         valueLength = (current & BinTrieFlags2.VALUE_LENGTH) >> 14;
         if (valueLength !== 0) {
           if (char === CharCodes2.SEMI) {
-            return this.emitNamedEntityData(this.treeIndex, valueLength, this.consumed + this.excess);
+            return this.emitNamedEntityData(
+              this.treeIndex,
+              valueLength,
+              this.consumed + this.excess
+            );
           }
           if (this.decodeMode !== DecodingMode2.Strict) {
             this.result = this.treeIndex;
@@ -3280,9 +5343,12 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     emitNotTerminatedNamedEntity() {
       var _a4;
       const { result, decodeTree } = this;
-      const valueLength = (decodeTree[result] & BinTrieFlags2.VALUE_LENGTH) >> 14;
+      const valueLength =
+        (decodeTree[result] & BinTrieFlags2.VALUE_LENGTH) >> 14;
       this.emitNamedEntityData(result, valueLength, this.consumed);
-      (_a4 = this.errors) === null || _a4 === void 0 ? void 0 : _a4.missingSemicolonAfterCharacterReference();
+      (_a4 = this.errors) === null || _a4 === void 0
+        ? void 0
+        : _a4.missingSemicolonAfterCharacterReference();
       return this.consumed;
     }
     /**
@@ -3296,7 +5362,12 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
      */
     emitNamedEntityData(result, valueLength, consumed) {
       const { decodeTree } = this;
-      this.emitCodePoint(valueLength === 1 ? decodeTree[result] & ~BinTrieFlags2.VALUE_LENGTH : decodeTree[result + 1], consumed);
+      this.emitCodePoint(
+        valueLength === 1
+          ? decodeTree[result] & ~BinTrieFlags2.VALUE_LENGTH
+          : decodeTree[result + 1],
+        consumed
+      );
       if (valueLength === 3) {
         this.emitCodePoint(decodeTree[result + 2], consumed);
       }
@@ -3313,7 +5384,11 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       var _a4;
       switch (this.state) {
         case EntityDecoderState2.NamedEntity: {
-          return this.result !== 0 && (this.decodeMode !== DecodingMode2.Attribute || this.result === this.treeIndex) ? this.emitNotTerminatedNamedEntity() : 0;
+          return this.result !== 0 &&
+            (this.decodeMode !== DecodingMode2.Attribute ||
+              this.result === this.treeIndex)
+            ? this.emitNotTerminatedNamedEntity()
+            : 0;
         }
         case EntityDecoderState2.NumericDecimal: {
           return this.emitNumericEntity(0, 2);
@@ -3322,7 +5397,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
           return this.emitNumericEntity(0, 3);
         }
         case EntityDecoderState2.NumericStart: {
-          (_a4 = this.errors) === null || _a4 === void 0 ? void 0 : _a4.absenceOfDigitsInNumericCharacterReference(this.consumed);
+          (_a4 = this.errors) === null || _a4 === void 0
+            ? void 0
+            : _a4.absenceOfDigitsInNumericCharacterReference(this.consumed);
           return 0;
         }
         case EntityDecoderState2.EntityStart: {
@@ -3333,7 +5410,10 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
   };
   function getDecoder2(decodeTree) {
     let ret = "";
-    const decoder = new EntityDecoder2(decodeTree, (str) => ret += fromCodePoint2(str));
+    const decoder = new EntityDecoder2(
+      decodeTree,
+      (str) => (ret += fromCodePoint2(str))
+    );
     return function decodeWithTrie(str, decodeMode) {
       let lastIndex = 0;
       let offset = 0;
@@ -3365,12 +5445,14 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     }
     if (jumpOffset) {
       const value = char - jumpOffset;
-      return value < 0 || value >= branchCount ? -1 : decodeTree[nodeIdx + value] - 1;
+      return value < 0 || value >= branchCount
+        ? -1
+        : decodeTree[nodeIdx + value] - 1;
     }
     let lo = nodeIdx;
     let hi = lo + branchCount - 1;
     while (lo <= hi) {
-      const mid = lo + hi >>> 1;
+      const mid = (lo + hi) >>> 1;
       const midVal = decodeTree[mid];
       if (midVal < char) {
         lo = mid + 1;
@@ -3387,69 +5469,77 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
 
   // node_modules/html-to-text/node_modules/htmlparser2/lib/esm/Tokenizer.js
   var CharCodes3;
-  (function(CharCodes5) {
-    CharCodes5[CharCodes5["Tab"] = 9] = "Tab";
-    CharCodes5[CharCodes5["NewLine"] = 10] = "NewLine";
-    CharCodes5[CharCodes5["FormFeed"] = 12] = "FormFeed";
-    CharCodes5[CharCodes5["CarriageReturn"] = 13] = "CarriageReturn";
-    CharCodes5[CharCodes5["Space"] = 32] = "Space";
-    CharCodes5[CharCodes5["ExclamationMark"] = 33] = "ExclamationMark";
-    CharCodes5[CharCodes5["Number"] = 35] = "Number";
-    CharCodes5[CharCodes5["Amp"] = 38] = "Amp";
-    CharCodes5[CharCodes5["SingleQuote"] = 39] = "SingleQuote";
-    CharCodes5[CharCodes5["DoubleQuote"] = 34] = "DoubleQuote";
-    CharCodes5[CharCodes5["Dash"] = 45] = "Dash";
-    CharCodes5[CharCodes5["Slash"] = 47] = "Slash";
-    CharCodes5[CharCodes5["Zero"] = 48] = "Zero";
-    CharCodes5[CharCodes5["Nine"] = 57] = "Nine";
-    CharCodes5[CharCodes5["Semi"] = 59] = "Semi";
-    CharCodes5[CharCodes5["Lt"] = 60] = "Lt";
-    CharCodes5[CharCodes5["Eq"] = 61] = "Eq";
-    CharCodes5[CharCodes5["Gt"] = 62] = "Gt";
-    CharCodes5[CharCodes5["Questionmark"] = 63] = "Questionmark";
-    CharCodes5[CharCodes5["UpperA"] = 65] = "UpperA";
-    CharCodes5[CharCodes5["LowerA"] = 97] = "LowerA";
-    CharCodes5[CharCodes5["UpperF"] = 70] = "UpperF";
-    CharCodes5[CharCodes5["LowerF"] = 102] = "LowerF";
-    CharCodes5[CharCodes5["UpperZ"] = 90] = "UpperZ";
-    CharCodes5[CharCodes5["LowerZ"] = 122] = "LowerZ";
-    CharCodes5[CharCodes5["LowerX"] = 120] = "LowerX";
-    CharCodes5[CharCodes5["OpeningSquareBracket"] = 91] = "OpeningSquareBracket";
+  (function (CharCodes5) {
+    CharCodes5[(CharCodes5["Tab"] = 9)] = "Tab";
+    CharCodes5[(CharCodes5["NewLine"] = 10)] = "NewLine";
+    CharCodes5[(CharCodes5["FormFeed"] = 12)] = "FormFeed";
+    CharCodes5[(CharCodes5["CarriageReturn"] = 13)] = "CarriageReturn";
+    CharCodes5[(CharCodes5["Space"] = 32)] = "Space";
+    CharCodes5[(CharCodes5["ExclamationMark"] = 33)] = "ExclamationMark";
+    CharCodes5[(CharCodes5["Number"] = 35)] = "Number";
+    CharCodes5[(CharCodes5["Amp"] = 38)] = "Amp";
+    CharCodes5[(CharCodes5["SingleQuote"] = 39)] = "SingleQuote";
+    CharCodes5[(CharCodes5["DoubleQuote"] = 34)] = "DoubleQuote";
+    CharCodes5[(CharCodes5["Dash"] = 45)] = "Dash";
+    CharCodes5[(CharCodes5["Slash"] = 47)] = "Slash";
+    CharCodes5[(CharCodes5["Zero"] = 48)] = "Zero";
+    CharCodes5[(CharCodes5["Nine"] = 57)] = "Nine";
+    CharCodes5[(CharCodes5["Semi"] = 59)] = "Semi";
+    CharCodes5[(CharCodes5["Lt"] = 60)] = "Lt";
+    CharCodes5[(CharCodes5["Eq"] = 61)] = "Eq";
+    CharCodes5[(CharCodes5["Gt"] = 62)] = "Gt";
+    CharCodes5[(CharCodes5["Questionmark"] = 63)] = "Questionmark";
+    CharCodes5[(CharCodes5["UpperA"] = 65)] = "UpperA";
+    CharCodes5[(CharCodes5["LowerA"] = 97)] = "LowerA";
+    CharCodes5[(CharCodes5["UpperF"] = 70)] = "UpperF";
+    CharCodes5[(CharCodes5["LowerF"] = 102)] = "LowerF";
+    CharCodes5[(CharCodes5["UpperZ"] = 90)] = "UpperZ";
+    CharCodes5[(CharCodes5["LowerZ"] = 122)] = "LowerZ";
+    CharCodes5[(CharCodes5["LowerX"] = 120)] = "LowerX";
+    CharCodes5[(CharCodes5["OpeningSquareBracket"] = 91)] =
+      "OpeningSquareBracket";
   })(CharCodes3 || (CharCodes3 = {}));
   var State;
-  (function(State2) {
-    State2[State2["Text"] = 1] = "Text";
-    State2[State2["BeforeTagName"] = 2] = "BeforeTagName";
-    State2[State2["InTagName"] = 3] = "InTagName";
-    State2[State2["InSelfClosingTag"] = 4] = "InSelfClosingTag";
-    State2[State2["BeforeClosingTagName"] = 5] = "BeforeClosingTagName";
-    State2[State2["InClosingTagName"] = 6] = "InClosingTagName";
-    State2[State2["AfterClosingTagName"] = 7] = "AfterClosingTagName";
-    State2[State2["BeforeAttributeName"] = 8] = "BeforeAttributeName";
-    State2[State2["InAttributeName"] = 9] = "InAttributeName";
-    State2[State2["AfterAttributeName"] = 10] = "AfterAttributeName";
-    State2[State2["BeforeAttributeValue"] = 11] = "BeforeAttributeValue";
-    State2[State2["InAttributeValueDq"] = 12] = "InAttributeValueDq";
-    State2[State2["InAttributeValueSq"] = 13] = "InAttributeValueSq";
-    State2[State2["InAttributeValueNq"] = 14] = "InAttributeValueNq";
-    State2[State2["BeforeDeclaration"] = 15] = "BeforeDeclaration";
-    State2[State2["InDeclaration"] = 16] = "InDeclaration";
-    State2[State2["InProcessingInstruction"] = 17] = "InProcessingInstruction";
-    State2[State2["BeforeComment"] = 18] = "BeforeComment";
-    State2[State2["CDATASequence"] = 19] = "CDATASequence";
-    State2[State2["InSpecialComment"] = 20] = "InSpecialComment";
-    State2[State2["InCommentLike"] = 21] = "InCommentLike";
-    State2[State2["BeforeSpecialS"] = 22] = "BeforeSpecialS";
-    State2[State2["SpecialStartSequence"] = 23] = "SpecialStartSequence";
-    State2[State2["InSpecialTag"] = 24] = "InSpecialTag";
-    State2[State2["BeforeEntity"] = 25] = "BeforeEntity";
-    State2[State2["BeforeNumericEntity"] = 26] = "BeforeNumericEntity";
-    State2[State2["InNamedEntity"] = 27] = "InNamedEntity";
-    State2[State2["InNumericEntity"] = 28] = "InNumericEntity";
-    State2[State2["InHexEntity"] = 29] = "InHexEntity";
+  (function (State2) {
+    State2[(State2["Text"] = 1)] = "Text";
+    State2[(State2["BeforeTagName"] = 2)] = "BeforeTagName";
+    State2[(State2["InTagName"] = 3)] = "InTagName";
+    State2[(State2["InSelfClosingTag"] = 4)] = "InSelfClosingTag";
+    State2[(State2["BeforeClosingTagName"] = 5)] = "BeforeClosingTagName";
+    State2[(State2["InClosingTagName"] = 6)] = "InClosingTagName";
+    State2[(State2["AfterClosingTagName"] = 7)] = "AfterClosingTagName";
+    State2[(State2["BeforeAttributeName"] = 8)] = "BeforeAttributeName";
+    State2[(State2["InAttributeName"] = 9)] = "InAttributeName";
+    State2[(State2["AfterAttributeName"] = 10)] = "AfterAttributeName";
+    State2[(State2["BeforeAttributeValue"] = 11)] = "BeforeAttributeValue";
+    State2[(State2["InAttributeValueDq"] = 12)] = "InAttributeValueDq";
+    State2[(State2["InAttributeValueSq"] = 13)] = "InAttributeValueSq";
+    State2[(State2["InAttributeValueNq"] = 14)] = "InAttributeValueNq";
+    State2[(State2["BeforeDeclaration"] = 15)] = "BeforeDeclaration";
+    State2[(State2["InDeclaration"] = 16)] = "InDeclaration";
+    State2[(State2["InProcessingInstruction"] = 17)] =
+      "InProcessingInstruction";
+    State2[(State2["BeforeComment"] = 18)] = "BeforeComment";
+    State2[(State2["CDATASequence"] = 19)] = "CDATASequence";
+    State2[(State2["InSpecialComment"] = 20)] = "InSpecialComment";
+    State2[(State2["InCommentLike"] = 21)] = "InCommentLike";
+    State2[(State2["BeforeSpecialS"] = 22)] = "BeforeSpecialS";
+    State2[(State2["SpecialStartSequence"] = 23)] = "SpecialStartSequence";
+    State2[(State2["InSpecialTag"] = 24)] = "InSpecialTag";
+    State2[(State2["BeforeEntity"] = 25)] = "BeforeEntity";
+    State2[(State2["BeforeNumericEntity"] = 26)] = "BeforeNumericEntity";
+    State2[(State2["InNamedEntity"] = 27)] = "InNamedEntity";
+    State2[(State2["InNumericEntity"] = 28)] = "InNumericEntity";
+    State2[(State2["InHexEntity"] = 29)] = "InHexEntity";
   })(State || (State = {}));
   function isWhitespace(c2) {
-    return c2 === CharCodes3.Space || c2 === CharCodes3.NewLine || c2 === CharCodes3.Tab || c2 === CharCodes3.FormFeed || c2 === CharCodes3.CarriageReturn;
+    return (
+      c2 === CharCodes3.Space ||
+      c2 === CharCodes3.NewLine ||
+      c2 === CharCodes3.Tab ||
+      c2 === CharCodes3.FormFeed ||
+      c2 === CharCodes3.CarriageReturn
+    );
   }
   function isEndOfTagSection(c2) {
     return c2 === CharCodes3.Slash || c2 === CharCodes3.Gt || isWhitespace(c2);
@@ -3458,17 +5548,23 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     return c2 >= CharCodes3.Zero && c2 <= CharCodes3.Nine;
   }
   function isASCIIAlpha(c2) {
-    return c2 >= CharCodes3.LowerA && c2 <= CharCodes3.LowerZ || c2 >= CharCodes3.UpperA && c2 <= CharCodes3.UpperZ;
+    return (
+      (c2 >= CharCodes3.LowerA && c2 <= CharCodes3.LowerZ) ||
+      (c2 >= CharCodes3.UpperA && c2 <= CharCodes3.UpperZ)
+    );
   }
   function isHexDigit(c2) {
-    return c2 >= CharCodes3.UpperA && c2 <= CharCodes3.UpperF || c2 >= CharCodes3.LowerA && c2 <= CharCodes3.LowerF;
+    return (
+      (c2 >= CharCodes3.UpperA && c2 <= CharCodes3.UpperF) ||
+      (c2 >= CharCodes3.LowerA && c2 <= CharCodes3.LowerF)
+    );
   }
   var QuoteType;
-  (function(QuoteType2) {
-    QuoteType2[QuoteType2["NoValue"] = 0] = "NoValue";
-    QuoteType2[QuoteType2["Unquoted"] = 1] = "Unquoted";
-    QuoteType2[QuoteType2["Single"] = 2] = "Single";
-    QuoteType2[QuoteType2["Double"] = 3] = "Double";
+  (function (QuoteType2) {
+    QuoteType2[(QuoteType2["NoValue"] = 0)] = "NoValue";
+    QuoteType2[(QuoteType2["Unquoted"] = 1)] = "Unquoted";
+    QuoteType2[(QuoteType2["Single"] = 2)] = "Single";
+    QuoteType2[(QuoteType2["Double"] = 3)] = "Double";
   })(QuoteType || (QuoteType = {}));
   var Sequences = {
     Cdata: new Uint8Array([67, 68, 65, 84, 65, 91]),
@@ -3476,7 +5572,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     CommentEnd: new Uint8Array([45, 45, 62]),
     ScriptEnd: new Uint8Array([60, 47, 115, 99, 114, 105, 112, 116]),
     StyleEnd: new Uint8Array([60, 47, 115, 116, 121, 108, 101]),
-    TitleEnd: new Uint8Array([60, 47, 116, 105, 116, 108, 101])
+    TitleEnd: new Uint8Array([60, 47, 116, 105, 116, 108, 101]),
     // `</title`
   };
   var Tokenizer = class {
@@ -3498,7 +5594,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       this.entityExcess = 0;
       this.xmlMode = xmlMode;
       this.decodeEntities = decodeEntities;
-      this.entityTrie = xmlMode ? decode_data_xml_default2 : decode_data_html_default2;
+      this.entityTrie = xmlMode
+        ? decode_data_xml_default2
+        : decode_data_html_default2;
     }
     reset() {
       this.state = State.Text;
@@ -3516,8 +5614,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       this.parse();
     }
     end() {
-      if (this.running)
-        this.finish();
+      if (this.running) this.finish();
     }
     pause() {
       this.running = false;
@@ -3541,7 +5638,10 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       return this.sectionStart;
     }
     stateText(c2) {
-      if (c2 === CharCodes3.Lt || !this.decodeEntities && this.fastForwardTo(CharCodes3.Lt)) {
+      if (
+        c2 === CharCodes3.Lt ||
+        (!this.decodeEntities && this.fastForwardTo(CharCodes3.Lt))
+      ) {
         if (this.index > this.sectionStart) {
           this.cbs.ontext(this.sectionStart, this.index);
         }
@@ -3553,13 +5653,11 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     }
     stateSpecialStartSequence(c2) {
       const isEnd = this.sequenceIndex === this.currentSequence.length;
-      const isMatch = isEnd ? (
-        // If we are at the end of the sequence, make sure the tag name has ended
-        isEndOfTagSection(c2)
-      ) : (
-        // Otherwise, do a case-insensitive comparison
-        (c2 | 32) === this.currentSequence[this.sequenceIndex]
-      );
+      const isMatch = isEnd
+        ? // If we are at the end of the sequence, make sure the tag name has ended
+          isEndOfTagSection(c2)
+        : // Otherwise, do a case-insensitive comparison
+          (c2 | 32) === this.currentSequence[this.sequenceIndex];
       if (!isMatch) {
         this.isSpecial = false;
       } else if (!isEnd) {
@@ -3687,7 +5785,10 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
         if (!this.xmlMode && lower === Sequences.TitleEnd[2]) {
           this.startSpecial(Sequences.TitleEnd, 3);
         } else {
-          this.state = !this.xmlMode && lower === Sequences.ScriptEnd[2] ? State.BeforeSpecialS : State.InTagName;
+          this.state =
+            !this.xmlMode && lower === Sequences.ScriptEnd[2]
+              ? State.BeforeSpecialS
+              : State.InTagName;
         }
       } else if (c2 === CharCodes3.Slash) {
         this.state = State.BeforeClosingTagName;
@@ -3709,7 +5810,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       } else if (c2 === CharCodes3.Gt) {
         this.state = State.Text;
       } else {
-        this.state = this.isTagStartChar(c2) ? State.InClosingTagName : State.InSpecialComment;
+        this.state = this.isTagStartChar(c2)
+          ? State.InClosingTagName
+          : State.InSpecialComment;
         this.sectionStart = this.index;
       }
     }
@@ -3793,10 +5896,15 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       }
     }
     handleInAttributeValue(c2, quote) {
-      if (c2 === quote || !this.decodeEntities && this.fastForwardTo(quote)) {
+      if (c2 === quote || (!this.decodeEntities && this.fastForwardTo(quote))) {
         this.cbs.onattribdata(this.sectionStart, this.index);
         this.sectionStart = -1;
-        this.cbs.onattribend(quote === CharCodes3.DoubleQuote ? QuoteType.Double : QuoteType.Single, this.index);
+        this.cbs.onattribend(
+          quote === CharCodes3.DoubleQuote
+            ? QuoteType.Double
+            : QuoteType.Single,
+          this.index
+        );
         this.state = State.BeforeAttributeName;
       } else if (this.decodeEntities && c2 === CharCodes3.Amp) {
         this.baseState = this.state;
@@ -3826,7 +5934,8 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
         this.state = State.CDATASequence;
         this.sequenceIndex = 0;
       } else {
-        this.state = c2 === CharCodes3.Dash ? State.BeforeComment : State.InDeclaration;
+        this.state =
+          c2 === CharCodes3.Dash ? State.BeforeComment : State.InDeclaration;
       }
     }
     stateInDeclaration(c2) {
@@ -3886,7 +5995,12 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     }
     stateInNamedEntity(c2) {
       this.entityExcess += 1;
-      this.trieIndex = determineBranch2(this.entityTrie, this.trieCurrent, this.trieIndex + 1, c2);
+      this.trieIndex = determineBranch2(
+        this.entityTrie,
+        this.trieCurrent,
+        this.trieIndex + 1,
+        c2
+      );
       if (this.trieIndex < 0) {
         this.emitNamedEntity();
         this.index--;
@@ -3918,10 +6032,13 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       if (this.entityResult === 0) {
         return;
       }
-      const valueLength = (this.entityTrie[this.entityResult] & BinTrieFlags2.VALUE_LENGTH) >> 14;
+      const valueLength =
+        (this.entityTrie[this.entityResult] & BinTrieFlags2.VALUE_LENGTH) >> 14;
       switch (valueLength) {
         case 1: {
-          this.emitCodePoint(this.entityTrie[this.entityResult] & ~BinTrieFlags2.VALUE_LENGTH);
+          this.emitCodePoint(
+            this.entityTrie[this.entityResult] & ~BinTrieFlags2.VALUE_LENGTH
+          );
           break;
         }
         case 2: {
@@ -3945,7 +6062,8 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     }
     emitNumericEntity(strict) {
       const entityStart = this.index - this.entityExcess - 1;
-      const numberStart = entityStart + 2 + Number(this.state === State.InHexEntity);
+      const numberStart =
+        entityStart + 2 + Number(this.state === State.InHexEntity);
       if (numberStart !== this.index) {
         if (entityStart > this.sectionStart) {
           this.emitPartial(this.sectionStart, entityStart);
@@ -3977,7 +6095,8 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
         this.entityResult = this.entityResult * 16 + (c2 - CharCodes3.Zero);
         this.entityExcess++;
       } else if (isHexDigit(c2)) {
-        this.entityResult = this.entityResult * 16 + ((c2 | 32) - CharCodes3.LowerA + 10);
+        this.entityResult =
+          this.entityResult * 16 + ((c2 | 32) - CharCodes3.LowerA + 10);
         this.entityExcess++;
       } else {
         if (this.allowLegacyEntity()) {
@@ -3989,17 +6108,27 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       }
     }
     allowLegacyEntity() {
-      return !this.xmlMode && (this.baseState === State.Text || this.baseState === State.InSpecialTag);
+      return (
+        !this.xmlMode &&
+        (this.baseState === State.Text || this.baseState === State.InSpecialTag)
+      );
     }
     /**
      * Remove data that has already been consumed from the buffer.
      */
     cleanup() {
       if (this.running && this.sectionStart !== this.index) {
-        if (this.state === State.Text || this.state === State.InSpecialTag && this.sequenceIndex === 0) {
+        if (
+          this.state === State.Text ||
+          (this.state === State.InSpecialTag && this.sequenceIndex === 0)
+        ) {
           this.cbs.ontext(this.sectionStart, this.index);
           this.sectionStart = this.index;
-        } else if (this.state === State.InAttributeValueDq || this.state === State.InAttributeValueSq || this.state === State.InAttributeValueNq) {
+        } else if (
+          this.state === State.InAttributeValueDq ||
+          this.state === State.InAttributeValueSq ||
+          this.state === State.InAttributeValueNq
+        ) {
           this.cbs.onattribdata(this.sectionStart, this.index);
           this.sectionStart = this.index;
         }
@@ -4155,24 +6284,43 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
         } else {
           this.cbs.oncomment(this.sectionStart, endIndex, 0);
         }
-      } else if (this.state === State.InNumericEntity && this.allowLegacyEntity()) {
+      } else if (
+        this.state === State.InNumericEntity &&
+        this.allowLegacyEntity()
+      ) {
         this.emitNumericEntity(false);
       } else if (this.state === State.InHexEntity && this.allowLegacyEntity()) {
         this.emitNumericEntity(false);
-      } else if (this.state === State.InTagName || this.state === State.BeforeAttributeName || this.state === State.BeforeAttributeValue || this.state === State.AfterAttributeName || this.state === State.InAttributeName || this.state === State.InAttributeValueSq || this.state === State.InAttributeValueDq || this.state === State.InAttributeValueNq || this.state === State.InClosingTagName) {
+      } else if (
+        this.state === State.InTagName ||
+        this.state === State.BeforeAttributeName ||
+        this.state === State.BeforeAttributeValue ||
+        this.state === State.AfterAttributeName ||
+        this.state === State.InAttributeName ||
+        this.state === State.InAttributeValueSq ||
+        this.state === State.InAttributeValueDq ||
+        this.state === State.InAttributeValueNq ||
+        this.state === State.InClosingTagName
+      ) {
       } else {
         this.cbs.ontext(this.sectionStart, endIndex);
       }
     }
     emitPartial(start, endIndex) {
-      if (this.baseState !== State.Text && this.baseState !== State.InSpecialTag) {
+      if (
+        this.baseState !== State.Text &&
+        this.baseState !== State.InSpecialTag
+      ) {
         this.cbs.onattribdata(start, endIndex);
       } else {
         this.cbs.ontext(start, endIndex);
       }
     }
     emitCodePoint(cp) {
-      if (this.baseState !== State.Text && this.baseState !== State.InSpecialTag) {
+      if (
+        this.baseState !== State.Text &&
+        this.baseState !== State.InSpecialTag
+      ) {
         this.cbs.onattribentity(cp);
       } else {
         this.cbs.ontextentity(cp);
@@ -4188,7 +6336,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     "select",
     "button",
     "datalist",
-    "textarea"
+    "textarea",
   ]);
   var pTag = /* @__PURE__ */ new Set(["p"]);
   var tableSectionTags = /* @__PURE__ */ new Set(["thead", "tbody"]);
@@ -4241,7 +6389,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     ["rt", rtpTags],
     ["rp", rtpTags],
     ["tbody", tableSectionTags],
-    ["tfoot", tableSectionTags]
+    ["tfoot", tableSectionTags],
   ]);
   var voidElements = /* @__PURE__ */ new Set([
     "area",
@@ -4262,7 +6410,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     "param",
     "source",
     "track",
-    "wbr"
+    "wbr",
   ]);
   var foreignContextElements = /* @__PURE__ */ new Set(["math", "svg"]);
   var htmlIntegrationElements = /* @__PURE__ */ new Set([
@@ -4274,7 +6422,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     "annotation-xml",
     "foreignobject",
     "desc",
-    "title"
+    "title",
   ]);
   var reNameEnd = /\s|\//;
   var Parser = class {
@@ -4295,10 +6443,20 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       this.writeIndex = 0;
       this.ended = false;
       this.cbs = cbs !== null && cbs !== void 0 ? cbs : {};
-      this.lowerCaseTagNames = (_a4 = options.lowerCaseTags) !== null && _a4 !== void 0 ? _a4 : !options.xmlMode;
-      this.lowerCaseAttributeNames = (_b = options.lowerCaseAttributeNames) !== null && _b !== void 0 ? _b : !options.xmlMode;
-      this.tokenizer = new ((_c = options.Tokenizer) !== null && _c !== void 0 ? _c : Tokenizer)(this.options, this);
-      (_e = (_d = this.cbs).onparserinit) === null || _e === void 0 ? void 0 : _e.call(_d, this);
+      this.lowerCaseTagNames =
+        (_a4 = options.lowerCaseTags) !== null && _a4 !== void 0
+          ? _a4
+          : !options.xmlMode;
+      this.lowerCaseAttributeNames =
+        (_b = options.lowerCaseAttributeNames) !== null && _b !== void 0
+          ? _b
+          : !options.xmlMode;
+      this.tokenizer = new (
+        (_c = options.Tokenizer) !== null && _c !== void 0 ? _c : Tokenizer
+      )(this.options, this);
+      (_e = (_d = this.cbs).onparserinit) === null || _e === void 0
+        ? void 0
+        : _e.call(_d, this);
     }
     // Tokenizer event handlers
     /** @internal */
@@ -4306,7 +6464,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       var _a4, _b;
       const data = this.getSlice(start, endIndex);
       this.endIndex = endIndex - 1;
-      (_b = (_a4 = this.cbs).ontext) === null || _b === void 0 ? void 0 : _b.call(_a4, data);
+      (_b = (_a4 = this.cbs).ontext) === null || _b === void 0
+        ? void 0
+        : _b.call(_a4, data);
       this.startIndex = endIndex;
     }
     /** @internal */
@@ -4314,7 +6474,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       var _a4, _b;
       const index = this.tokenizer.getSectionStart();
       this.endIndex = index - 1;
-      (_b = (_a4 = this.cbs).ontext) === null || _b === void 0 ? void 0 : _b.call(_a4, fromCodePoint2(cp));
+      (_b = (_a4 = this.cbs).ontext) === null || _b === void 0
+        ? void 0
+        : _b.call(_a4, fromCodePoint2(cp));
       this.startIndex = index;
     }
     isVoidElement(name2) {
@@ -4335,9 +6497,14 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       this.tagname = name2;
       const impliesClose = !this.options.xmlMode && openImpliesClose.get(name2);
       if (impliesClose) {
-        while (this.stack.length > 0 && impliesClose.has(this.stack[this.stack.length - 1])) {
+        while (
+          this.stack.length > 0 &&
+          impliesClose.has(this.stack[this.stack.length - 1])
+        ) {
           const element = this.stack.pop();
-          (_b = (_a4 = this.cbs).onclosetag) === null || _b === void 0 ? void 0 : _b.call(_a4, element, true);
+          (_b = (_a4 = this.cbs).onclosetag) === null || _b === void 0
+            ? void 0
+            : _b.call(_a4, element, true);
         }
       }
       if (!this.isVoidElement(name2)) {
@@ -4348,15 +6515,18 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
           this.foreignContext.push(false);
         }
       }
-      (_d = (_c = this.cbs).onopentagname) === null || _d === void 0 ? void 0 : _d.call(_c, name2);
-      if (this.cbs.onopentag)
-        this.attribs = {};
+      (_d = (_c = this.cbs).onopentagname) === null || _d === void 0
+        ? void 0
+        : _d.call(_c, name2);
+      if (this.cbs.onopentag) this.attribs = {};
     }
     endOpenTag(isImplied) {
       var _a4, _b;
       this.startIndex = this.openTagStart;
       if (this.attribs) {
-        (_b = (_a4 = this.cbs).onopentag) === null || _b === void 0 ? void 0 : _b.call(_a4, this.tagname, this.attribs, isImplied);
+        (_b = (_a4 = this.cbs).onopentag) === null || _b === void 0
+          ? void 0
+          : _b.call(_a4, this.tagname, this.attribs, isImplied);
         this.attribs = null;
       }
       if (this.cbs.onclosetag && this.isVoidElement(this.tagname)) {
@@ -4378,7 +6548,10 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       if (this.lowerCaseTagNames) {
         name2 = name2.toLowerCase();
       }
-      if (foreignContextElements.has(name2) || htmlIntegrationElements.has(name2)) {
+      if (
+        foreignContextElements.has(name2) ||
+        htmlIntegrationElements.has(name2)
+      ) {
         this.foreignContext.pop();
       }
       if (!this.isVoidElement(name2)) {
@@ -4389,23 +6562,32 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
             while (count--) {
               this.cbs.onclosetag(this.stack.pop(), count !== 0);
             }
-          } else
-            this.stack.length = pos;
+          } else this.stack.length = pos;
         } else if (!this.options.xmlMode && name2 === "p") {
           this.emitOpenTag("p");
           this.closeCurrentTag(true);
         }
       } else if (!this.options.xmlMode && name2 === "br") {
-        (_b = (_a4 = this.cbs).onopentagname) === null || _b === void 0 ? void 0 : _b.call(_a4, "br");
-        (_d = (_c = this.cbs).onopentag) === null || _d === void 0 ? void 0 : _d.call(_c, "br", {}, true);
-        (_f = (_e = this.cbs).onclosetag) === null || _f === void 0 ? void 0 : _f.call(_e, "br", false);
+        (_b = (_a4 = this.cbs).onopentagname) === null || _b === void 0
+          ? void 0
+          : _b.call(_a4, "br");
+        (_d = (_c = this.cbs).onopentag) === null || _d === void 0
+          ? void 0
+          : _d.call(_c, "br", {}, true);
+        (_f = (_e = this.cbs).onclosetag) === null || _f === void 0
+          ? void 0
+          : _f.call(_e, "br", false);
       }
       this.startIndex = endIndex + 1;
     }
     /** @internal */
     onselfclosingtag(endIndex) {
       this.endIndex = endIndex;
-      if (this.options.xmlMode || this.options.recognizeSelfClosing || this.foreignContext[this.foreignContext.length - 1]) {
+      if (
+        this.options.xmlMode ||
+        this.options.recognizeSelfClosing ||
+        this.foreignContext[this.foreignContext.length - 1]
+      ) {
         this.closeCurrentTag(false);
         this.startIndex = endIndex + 1;
       } else {
@@ -4417,7 +6599,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       const name2 = this.tagname;
       this.endOpenTag(isOpenImplied);
       if (this.stack[this.stack.length - 1] === name2) {
-        (_b = (_a4 = this.cbs).onclosetag) === null || _b === void 0 ? void 0 : _b.call(_a4, name2, !isOpenImplied);
+        (_b = (_a4 = this.cbs).onclosetag) === null || _b === void 0
+          ? void 0
+          : _b.call(_a4, name2, !isOpenImplied);
         this.stack.pop();
       }
     }
@@ -4425,7 +6609,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     onattribname(start, endIndex) {
       this.startIndex = start;
       const name2 = this.getSlice(start, endIndex);
-      this.attribname = this.lowerCaseAttributeNames ? name2.toLowerCase() : name2;
+      this.attribname = this.lowerCaseAttributeNames
+        ? name2.toLowerCase()
+        : name2;
     }
     /** @internal */
     onattribdata(start, endIndex) {
@@ -4439,8 +6625,24 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     onattribend(quote, endIndex) {
       var _a4, _b;
       this.endIndex = endIndex;
-      (_b = (_a4 = this.cbs).onattribute) === null || _b === void 0 ? void 0 : _b.call(_a4, this.attribname, this.attribvalue, quote === QuoteType.Double ? '"' : quote === QuoteType.Single ? "'" : quote === QuoteType.NoValue ? void 0 : null);
-      if (this.attribs && !Object.prototype.hasOwnProperty.call(this.attribs, this.attribname)) {
+      (_b = (_a4 = this.cbs).onattribute) === null || _b === void 0
+        ? void 0
+        : _b.call(
+            _a4,
+            this.attribname,
+            this.attribvalue,
+            quote === QuoteType.Double
+              ? '"'
+              : quote === QuoteType.Single
+              ? "'"
+              : quote === QuoteType.NoValue
+              ? void 0
+              : null
+          );
+      if (
+        this.attribs &&
+        !Object.prototype.hasOwnProperty.call(this.attribs, this.attribname)
+      ) {
         this.attribs[this.attribname] = this.attribvalue;
       }
       this.attribvalue = "";
@@ -4477,8 +6679,12 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     oncomment(start, endIndex, offset) {
       var _a4, _b, _c, _d;
       this.endIndex = endIndex;
-      (_b = (_a4 = this.cbs).oncomment) === null || _b === void 0 ? void 0 : _b.call(_a4, this.getSlice(start, endIndex - offset));
-      (_d = (_c = this.cbs).oncommentend) === null || _d === void 0 ? void 0 : _d.call(_c);
+      (_b = (_a4 = this.cbs).oncomment) === null || _b === void 0
+        ? void 0
+        : _b.call(_a4, this.getSlice(start, endIndex - offset));
+      (_d = (_c = this.cbs).oncommentend) === null || _d === void 0
+        ? void 0
+        : _d.call(_c);
       this.startIndex = endIndex + 1;
     }
     /** @internal */
@@ -4487,12 +6693,22 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       this.endIndex = endIndex;
       const value = this.getSlice(start, endIndex - offset);
       if (this.options.xmlMode || this.options.recognizeCDATA) {
-        (_b = (_a4 = this.cbs).oncdatastart) === null || _b === void 0 ? void 0 : _b.call(_a4);
-        (_d = (_c = this.cbs).ontext) === null || _d === void 0 ? void 0 : _d.call(_c, value);
-        (_f = (_e = this.cbs).oncdataend) === null || _f === void 0 ? void 0 : _f.call(_e);
+        (_b = (_a4 = this.cbs).oncdatastart) === null || _b === void 0
+          ? void 0
+          : _b.call(_a4);
+        (_d = (_c = this.cbs).ontext) === null || _d === void 0
+          ? void 0
+          : _d.call(_c, value);
+        (_f = (_e = this.cbs).oncdataend) === null || _f === void 0
+          ? void 0
+          : _f.call(_e);
       } else {
-        (_h = (_g = this.cbs).oncomment) === null || _h === void 0 ? void 0 : _h.call(_g, `[CDATA[${value}]]`);
-        (_k = (_j = this.cbs).oncommentend) === null || _k === void 0 ? void 0 : _k.call(_j);
+        (_h = (_g = this.cbs).oncomment) === null || _h === void 0
+          ? void 0
+          : _h.call(_g, `[CDATA[${value}]]`);
+        (_k = (_j = this.cbs).oncommentend) === null || _k === void 0
+          ? void 0
+          : _k.call(_j);
       }
       this.startIndex = endIndex + 1;
     }
@@ -4501,17 +6717,24 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       var _a4, _b;
       if (this.cbs.onclosetag) {
         this.endIndex = this.startIndex;
-        for (let index = this.stack.length; index > 0; this.cbs.onclosetag(this.stack[--index], true))
-          ;
+        for (
+          let index = this.stack.length;
+          index > 0;
+          this.cbs.onclosetag(this.stack[--index], true)
+        );
       }
-      (_b = (_a4 = this.cbs).onend) === null || _b === void 0 ? void 0 : _b.call(_a4);
+      (_b = (_a4 = this.cbs).onend) === null || _b === void 0
+        ? void 0
+        : _b.call(_a4);
     }
     /**
      * Resets the parser to a blank state, ready to parse a new HTML document
      */
     reset() {
       var _a4, _b, _c, _d;
-      (_b = (_a4 = this.cbs).onreset) === null || _b === void 0 ? void 0 : _b.call(_a4);
+      (_b = (_a4 = this.cbs).onreset) === null || _b === void 0
+        ? void 0
+        : _b.call(_a4);
       this.tokenizer.reset();
       this.tagname = "";
       this.attribname = "";
@@ -4519,7 +6742,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       this.stack.length = 0;
       this.startIndex = 0;
       this.endIndex = 0;
-      (_d = (_c = this.cbs).onparserinit) === null || _d === void 0 ? void 0 : _d.call(_c, this);
+      (_d = (_c = this.cbs).onparserinit) === null || _d === void 0
+        ? void 0
+        : _d.call(_c, this);
       this.buffers.length = 0;
       this.bufferOffset = 0;
       this.writeIndex = 0;
@@ -4539,7 +6764,10 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       while (start - this.bufferOffset >= this.buffers[0].length) {
         this.shiftBuffer();
       }
-      let slice = this.buffers[0].slice(start - this.bufferOffset, end - this.bufferOffset);
+      let slice = this.buffers[0].slice(
+        start - this.bufferOffset,
+        end - this.bufferOffset
+      );
       while (end - this.bufferOffset > this.buffers[0].length) {
         this.shiftBuffer();
         slice += this.buffers[0].slice(0, end - this.bufferOffset);
@@ -4559,7 +6787,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     write(chunk) {
       var _a4, _b;
       if (this.ended) {
-        (_b = (_a4 = this.cbs).onerror) === null || _b === void 0 ? void 0 : _b.call(_a4, new Error(".write() after done!"));
+        (_b = (_a4 = this.cbs).onerror) === null || _b === void 0
+          ? void 0
+          : _b.call(_a4, new Error(".write() after done!"));
         return;
       }
       this.buffers.push(chunk);
@@ -4576,11 +6806,12 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     end(chunk) {
       var _a4, _b;
       if (this.ended) {
-        (_b = (_a4 = this.cbs).onerror) === null || _b === void 0 ? void 0 : _b.call(_a4, new Error(".end() after done!"));
+        (_b = (_a4 = this.cbs).onerror) === null || _b === void 0
+          ? void 0
+          : _b.call(_a4, new Error(".end() after done!"));
         return;
       }
-      if (chunk)
-        this.write(chunk);
+      if (chunk) this.write(chunk);
       this.ended = true;
       this.tokenizer.end();
     }
@@ -4598,8 +6829,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       while (this.tokenizer.running && this.writeIndex < this.buffers.length) {
         this.tokenizer.write(this.buffers[this.writeIndex++]);
       }
-      if (this.ended)
-        this.tokenizer.end();
+      if (this.ended) this.tokenizer.end();
     }
     /**
      * Alias of `write`, for backwards compatibility.
@@ -4664,77 +6894,91 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     [155, 8250],
     [156, 339],
     [158, 382],
-    [159, 376]
+    [159, 376],
   ]);
-  var fromCodePoint3 = (
+  var fromCodePoint3 =
     // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition, node/no-unsupported-features/es-builtins
-    (_a3 = String.fromCodePoint) !== null && _a3 !== void 0 ? _a3 : function(codePoint) {
-      let output = "";
-      if (codePoint > 65535) {
-        codePoint -= 65536;
-        output += String.fromCharCode(codePoint >>> 10 & 1023 | 55296);
-        codePoint = 56320 | codePoint & 1023;
-      }
-      output += String.fromCharCode(codePoint);
-      return output;
-    }
-  );
+    (_a3 = String.fromCodePoint) !== null && _a3 !== void 0
+      ? _a3
+      : function (codePoint) {
+          let output = "";
+          if (codePoint > 65535) {
+            codePoint -= 65536;
+            output += String.fromCharCode(((codePoint >>> 10) & 1023) | 55296);
+            codePoint = 56320 | (codePoint & 1023);
+          }
+          output += String.fromCharCode(codePoint);
+          return output;
+        };
   function replaceCodePoint3(codePoint) {
     var _a4;
-    if (codePoint >= 55296 && codePoint <= 57343 || codePoint > 1114111) {
+    if ((codePoint >= 55296 && codePoint <= 57343) || codePoint > 1114111) {
       return 65533;
     }
-    return (_a4 = decodeMap3.get(codePoint)) !== null && _a4 !== void 0 ? _a4 : codePoint;
+    return (_a4 = decodeMap3.get(codePoint)) !== null && _a4 !== void 0
+      ? _a4
+      : codePoint;
   }
 
   // node_modules/dom-serializer/node_modules/entities/lib/esm/decode.js
   var CharCodes4;
-  (function(CharCodes5) {
-    CharCodes5[CharCodes5["NUM"] = 35] = "NUM";
-    CharCodes5[CharCodes5["SEMI"] = 59] = "SEMI";
-    CharCodes5[CharCodes5["EQUALS"] = 61] = "EQUALS";
-    CharCodes5[CharCodes5["ZERO"] = 48] = "ZERO";
-    CharCodes5[CharCodes5["NINE"] = 57] = "NINE";
-    CharCodes5[CharCodes5["LOWER_A"] = 97] = "LOWER_A";
-    CharCodes5[CharCodes5["LOWER_F"] = 102] = "LOWER_F";
-    CharCodes5[CharCodes5["LOWER_X"] = 120] = "LOWER_X";
-    CharCodes5[CharCodes5["LOWER_Z"] = 122] = "LOWER_Z";
-    CharCodes5[CharCodes5["UPPER_A"] = 65] = "UPPER_A";
-    CharCodes5[CharCodes5["UPPER_F"] = 70] = "UPPER_F";
-    CharCodes5[CharCodes5["UPPER_Z"] = 90] = "UPPER_Z";
+  (function (CharCodes5) {
+    CharCodes5[(CharCodes5["NUM"] = 35)] = "NUM";
+    CharCodes5[(CharCodes5["SEMI"] = 59)] = "SEMI";
+    CharCodes5[(CharCodes5["EQUALS"] = 61)] = "EQUALS";
+    CharCodes5[(CharCodes5["ZERO"] = 48)] = "ZERO";
+    CharCodes5[(CharCodes5["NINE"] = 57)] = "NINE";
+    CharCodes5[(CharCodes5["LOWER_A"] = 97)] = "LOWER_A";
+    CharCodes5[(CharCodes5["LOWER_F"] = 102)] = "LOWER_F";
+    CharCodes5[(CharCodes5["LOWER_X"] = 120)] = "LOWER_X";
+    CharCodes5[(CharCodes5["LOWER_Z"] = 122)] = "LOWER_Z";
+    CharCodes5[(CharCodes5["UPPER_A"] = 65)] = "UPPER_A";
+    CharCodes5[(CharCodes5["UPPER_F"] = 70)] = "UPPER_F";
+    CharCodes5[(CharCodes5["UPPER_Z"] = 90)] = "UPPER_Z";
   })(CharCodes4 || (CharCodes4 = {}));
   var TO_LOWER_BIT3 = 32;
   var BinTrieFlags3;
-  (function(BinTrieFlags4) {
-    BinTrieFlags4[BinTrieFlags4["VALUE_LENGTH"] = 49152] = "VALUE_LENGTH";
-    BinTrieFlags4[BinTrieFlags4["BRANCH_LENGTH"] = 16256] = "BRANCH_LENGTH";
-    BinTrieFlags4[BinTrieFlags4["JUMP_TABLE"] = 127] = "JUMP_TABLE";
+  (function (BinTrieFlags4) {
+    BinTrieFlags4[(BinTrieFlags4["VALUE_LENGTH"] = 49152)] = "VALUE_LENGTH";
+    BinTrieFlags4[(BinTrieFlags4["BRANCH_LENGTH"] = 16256)] = "BRANCH_LENGTH";
+    BinTrieFlags4[(BinTrieFlags4["JUMP_TABLE"] = 127)] = "JUMP_TABLE";
   })(BinTrieFlags3 || (BinTrieFlags3 = {}));
   function isNumber4(code) {
     return code >= CharCodes4.ZERO && code <= CharCodes4.NINE;
   }
   function isHexadecimalCharacter3(code) {
-    return code >= CharCodes4.UPPER_A && code <= CharCodes4.UPPER_F || code >= CharCodes4.LOWER_A && code <= CharCodes4.LOWER_F;
+    return (
+      (code >= CharCodes4.UPPER_A && code <= CharCodes4.UPPER_F) ||
+      (code >= CharCodes4.LOWER_A && code <= CharCodes4.LOWER_F)
+    );
   }
   function isAsciiAlphaNumeric3(code) {
-    return code >= CharCodes4.UPPER_A && code <= CharCodes4.UPPER_Z || code >= CharCodes4.LOWER_A && code <= CharCodes4.LOWER_Z || isNumber4(code);
+    return (
+      (code >= CharCodes4.UPPER_A && code <= CharCodes4.UPPER_Z) ||
+      (code >= CharCodes4.LOWER_A && code <= CharCodes4.LOWER_Z) ||
+      isNumber4(code)
+    );
   }
   function isEntityInAttributeInvalidEnd3(code) {
     return code === CharCodes4.EQUALS || isAsciiAlphaNumeric3(code);
   }
   var EntityDecoderState3;
-  (function(EntityDecoderState4) {
-    EntityDecoderState4[EntityDecoderState4["EntityStart"] = 0] = "EntityStart";
-    EntityDecoderState4[EntityDecoderState4["NumericStart"] = 1] = "NumericStart";
-    EntityDecoderState4[EntityDecoderState4["NumericDecimal"] = 2] = "NumericDecimal";
-    EntityDecoderState4[EntityDecoderState4["NumericHex"] = 3] = "NumericHex";
-    EntityDecoderState4[EntityDecoderState4["NamedEntity"] = 4] = "NamedEntity";
+  (function (EntityDecoderState4) {
+    EntityDecoderState4[(EntityDecoderState4["EntityStart"] = 0)] =
+      "EntityStart";
+    EntityDecoderState4[(EntityDecoderState4["NumericStart"] = 1)] =
+      "NumericStart";
+    EntityDecoderState4[(EntityDecoderState4["NumericDecimal"] = 2)] =
+      "NumericDecimal";
+    EntityDecoderState4[(EntityDecoderState4["NumericHex"] = 3)] = "NumericHex";
+    EntityDecoderState4[(EntityDecoderState4["NamedEntity"] = 4)] =
+      "NamedEntity";
   })(EntityDecoderState3 || (EntityDecoderState3 = {}));
   var DecodingMode3;
-  (function(DecodingMode4) {
-    DecodingMode4[DecodingMode4["Legacy"] = 0] = "Legacy";
-    DecodingMode4[DecodingMode4["Strict"] = 1] = "Strict";
-    DecodingMode4[DecodingMode4["Attribute"] = 2] = "Attribute";
+  (function (DecodingMode4) {
+    DecodingMode4[(DecodingMode4["Legacy"] = 0)] = "Legacy";
+    DecodingMode4[(DecodingMode4["Strict"] = 1)] = "Strict";
+    DecodingMode4[(DecodingMode4["Attribute"] = 2)] = "Attribute";
   })(DecodingMode3 || (DecodingMode3 = {}));
   var EntityDecoder3 = class {
     constructor(decodeTree, emitCodePoint, errors) {
@@ -4817,7 +7061,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     addToNumericResult(str, start, end, base) {
       if (start !== end) {
         const digitCount = end - start;
-        this.result = this.result * Math.pow(base, digitCount) + parseInt(str.substr(start, digitCount), base);
+        this.result =
+          this.result * Math.pow(base, digitCount) +
+          parseInt(str.substr(start, digitCount), base);
         this.consumed += digitCount;
       }
     }
@@ -4883,7 +7129,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     emitNumericEntity(lastCp, expectedLength) {
       var _a4;
       if (this.consumed <= expectedLength) {
-        (_a4 = this.errors) === null || _a4 === void 0 ? void 0 : _a4.absenceOfDigitsInNumericCharacterReference(this.consumed);
+        (_a4 = this.errors) === null || _a4 === void 0
+          ? void 0
+          : _a4.absenceOfDigitsInNumericCharacterReference(this.consumed);
         return 0;
       }
       if (lastCp === CharCodes4.SEMI) {
@@ -4915,18 +7163,29 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       let valueLength = (current & BinTrieFlags3.VALUE_LENGTH) >> 14;
       for (; offset < str.length; offset++, this.excess++) {
         const char = str.charCodeAt(offset);
-        this.treeIndex = determineBranch3(decodeTree, current, this.treeIndex + Math.max(1, valueLength), char);
+        this.treeIndex = determineBranch3(
+          decodeTree,
+          current,
+          this.treeIndex + Math.max(1, valueLength),
+          char
+        );
         if (this.treeIndex < 0) {
           return this.result === 0 || // If we are parsing an attribute
-          this.decodeMode === DecodingMode3.Attribute && // We shouldn't have consumed any characters after the entity,
-          (valueLength === 0 || // And there should be no invalid characters.
-          isEntityInAttributeInvalidEnd3(char)) ? 0 : this.emitNotTerminatedNamedEntity();
+            (this.decodeMode === DecodingMode3.Attribute && // We shouldn't have consumed any characters after the entity,
+              (valueLength === 0 || // And there should be no invalid characters.
+                isEntityInAttributeInvalidEnd3(char)))
+            ? 0
+            : this.emitNotTerminatedNamedEntity();
         }
         current = decodeTree[this.treeIndex];
         valueLength = (current & BinTrieFlags3.VALUE_LENGTH) >> 14;
         if (valueLength !== 0) {
           if (char === CharCodes4.SEMI) {
-            return this.emitNamedEntityData(this.treeIndex, valueLength, this.consumed + this.excess);
+            return this.emitNamedEntityData(
+              this.treeIndex,
+              valueLength,
+              this.consumed + this.excess
+            );
           }
           if (this.decodeMode !== DecodingMode3.Strict) {
             this.result = this.treeIndex;
@@ -4945,9 +7204,12 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     emitNotTerminatedNamedEntity() {
       var _a4;
       const { result, decodeTree } = this;
-      const valueLength = (decodeTree[result] & BinTrieFlags3.VALUE_LENGTH) >> 14;
+      const valueLength =
+        (decodeTree[result] & BinTrieFlags3.VALUE_LENGTH) >> 14;
       this.emitNamedEntityData(result, valueLength, this.consumed);
-      (_a4 = this.errors) === null || _a4 === void 0 ? void 0 : _a4.missingSemicolonAfterCharacterReference();
+      (_a4 = this.errors) === null || _a4 === void 0
+        ? void 0
+        : _a4.missingSemicolonAfterCharacterReference();
       return this.consumed;
     }
     /**
@@ -4961,7 +7223,12 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
      */
     emitNamedEntityData(result, valueLength, consumed) {
       const { decodeTree } = this;
-      this.emitCodePoint(valueLength === 1 ? decodeTree[result] & ~BinTrieFlags3.VALUE_LENGTH : decodeTree[result + 1], consumed);
+      this.emitCodePoint(
+        valueLength === 1
+          ? decodeTree[result] & ~BinTrieFlags3.VALUE_LENGTH
+          : decodeTree[result + 1],
+        consumed
+      );
       if (valueLength === 3) {
         this.emitCodePoint(decodeTree[result + 2], consumed);
       }
@@ -4978,7 +7245,11 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       var _a4;
       switch (this.state) {
         case EntityDecoderState3.NamedEntity: {
-          return this.result !== 0 && (this.decodeMode !== DecodingMode3.Attribute || this.result === this.treeIndex) ? this.emitNotTerminatedNamedEntity() : 0;
+          return this.result !== 0 &&
+            (this.decodeMode !== DecodingMode3.Attribute ||
+              this.result === this.treeIndex)
+            ? this.emitNotTerminatedNamedEntity()
+            : 0;
         }
         case EntityDecoderState3.NumericDecimal: {
           return this.emitNumericEntity(0, 2);
@@ -4987,7 +7258,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
           return this.emitNumericEntity(0, 3);
         }
         case EntityDecoderState3.NumericStart: {
-          (_a4 = this.errors) === null || _a4 === void 0 ? void 0 : _a4.absenceOfDigitsInNumericCharacterReference(this.consumed);
+          (_a4 = this.errors) === null || _a4 === void 0
+            ? void 0
+            : _a4.absenceOfDigitsInNumericCharacterReference(this.consumed);
           return 0;
         }
         case EntityDecoderState3.EntityStart: {
@@ -4998,7 +7271,10 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
   };
   function getDecoder3(decodeTree) {
     let ret = "";
-    const decoder = new EntityDecoder3(decodeTree, (str) => ret += fromCodePoint3(str));
+    const decoder = new EntityDecoder3(
+      decodeTree,
+      (str) => (ret += fromCodePoint3(str))
+    );
     return function decodeWithTrie(str, decodeMode) {
       let lastIndex = 0;
       let offset = 0;
@@ -5030,12 +7306,14 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     }
     if (jumpOffset) {
       const value = char - jumpOffset;
-      return value < 0 || value >= branchCount ? -1 : decodeTree[nodeIdx + value] - 1;
+      return value < 0 || value >= branchCount
+        ? -1
+        : decodeTree[nodeIdx + value] - 1;
     }
     let lo = nodeIdx;
     let hi = lo + branchCount - 1;
     while (lo <= hi) {
-      const mid = lo + hi >>> 1;
+      const mid = (lo + hi) >>> 1;
       const midVal = decodeTree[mid];
       if (midVal < char) {
         lo = mid + 1;
@@ -5057,7 +7335,1488 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     }
     return arr;
   }
-  var encode_html_default2 = new Map(/* @__PURE__ */ restoreDiff2([[9, "&Tab;"], [0, "&NewLine;"], [22, "&excl;"], [0, "&quot;"], [0, "&num;"], [0, "&dollar;"], [0, "&percnt;"], [0, "&amp;"], [0, "&apos;"], [0, "&lpar;"], [0, "&rpar;"], [0, "&ast;"], [0, "&plus;"], [0, "&comma;"], [1, "&period;"], [0, "&sol;"], [10, "&colon;"], [0, "&semi;"], [0, { v: "&lt;", n: 8402, o: "&nvlt;" }], [0, { v: "&equals;", n: 8421, o: "&bne;" }], [0, { v: "&gt;", n: 8402, o: "&nvgt;" }], [0, "&quest;"], [0, "&commat;"], [26, "&lbrack;"], [0, "&bsol;"], [0, "&rbrack;"], [0, "&Hat;"], [0, "&lowbar;"], [0, "&DiacriticalGrave;"], [5, { n: 106, o: "&fjlig;" }], [20, "&lbrace;"], [0, "&verbar;"], [0, "&rbrace;"], [34, "&nbsp;"], [0, "&iexcl;"], [0, "&cent;"], [0, "&pound;"], [0, "&curren;"], [0, "&yen;"], [0, "&brvbar;"], [0, "&sect;"], [0, "&die;"], [0, "&copy;"], [0, "&ordf;"], [0, "&laquo;"], [0, "&not;"], [0, "&shy;"], [0, "&circledR;"], [0, "&macr;"], [0, "&deg;"], [0, "&PlusMinus;"], [0, "&sup2;"], [0, "&sup3;"], [0, "&acute;"], [0, "&micro;"], [0, "&para;"], [0, "&centerdot;"], [0, "&cedil;"], [0, "&sup1;"], [0, "&ordm;"], [0, "&raquo;"], [0, "&frac14;"], [0, "&frac12;"], [0, "&frac34;"], [0, "&iquest;"], [0, "&Agrave;"], [0, "&Aacute;"], [0, "&Acirc;"], [0, "&Atilde;"], [0, "&Auml;"], [0, "&angst;"], [0, "&AElig;"], [0, "&Ccedil;"], [0, "&Egrave;"], [0, "&Eacute;"], [0, "&Ecirc;"], [0, "&Euml;"], [0, "&Igrave;"], [0, "&Iacute;"], [0, "&Icirc;"], [0, "&Iuml;"], [0, "&ETH;"], [0, "&Ntilde;"], [0, "&Ograve;"], [0, "&Oacute;"], [0, "&Ocirc;"], [0, "&Otilde;"], [0, "&Ouml;"], [0, "&times;"], [0, "&Oslash;"], [0, "&Ugrave;"], [0, "&Uacute;"], [0, "&Ucirc;"], [0, "&Uuml;"], [0, "&Yacute;"], [0, "&THORN;"], [0, "&szlig;"], [0, "&agrave;"], [0, "&aacute;"], [0, "&acirc;"], [0, "&atilde;"], [0, "&auml;"], [0, "&aring;"], [0, "&aelig;"], [0, "&ccedil;"], [0, "&egrave;"], [0, "&eacute;"], [0, "&ecirc;"], [0, "&euml;"], [0, "&igrave;"], [0, "&iacute;"], [0, "&icirc;"], [0, "&iuml;"], [0, "&eth;"], [0, "&ntilde;"], [0, "&ograve;"], [0, "&oacute;"], [0, "&ocirc;"], [0, "&otilde;"], [0, "&ouml;"], [0, "&div;"], [0, "&oslash;"], [0, "&ugrave;"], [0, "&uacute;"], [0, "&ucirc;"], [0, "&uuml;"], [0, "&yacute;"], [0, "&thorn;"], [0, "&yuml;"], [0, "&Amacr;"], [0, "&amacr;"], [0, "&Abreve;"], [0, "&abreve;"], [0, "&Aogon;"], [0, "&aogon;"], [0, "&Cacute;"], [0, "&cacute;"], [0, "&Ccirc;"], [0, "&ccirc;"], [0, "&Cdot;"], [0, "&cdot;"], [0, "&Ccaron;"], [0, "&ccaron;"], [0, "&Dcaron;"], [0, "&dcaron;"], [0, "&Dstrok;"], [0, "&dstrok;"], [0, "&Emacr;"], [0, "&emacr;"], [2, "&Edot;"], [0, "&edot;"], [0, "&Eogon;"], [0, "&eogon;"], [0, "&Ecaron;"], [0, "&ecaron;"], [0, "&Gcirc;"], [0, "&gcirc;"], [0, "&Gbreve;"], [0, "&gbreve;"], [0, "&Gdot;"], [0, "&gdot;"], [0, "&Gcedil;"], [1, "&Hcirc;"], [0, "&hcirc;"], [0, "&Hstrok;"], [0, "&hstrok;"], [0, "&Itilde;"], [0, "&itilde;"], [0, "&Imacr;"], [0, "&imacr;"], [2, "&Iogon;"], [0, "&iogon;"], [0, "&Idot;"], [0, "&imath;"], [0, "&IJlig;"], [0, "&ijlig;"], [0, "&Jcirc;"], [0, "&jcirc;"], [0, "&Kcedil;"], [0, "&kcedil;"], [0, "&kgreen;"], [0, "&Lacute;"], [0, "&lacute;"], [0, "&Lcedil;"], [0, "&lcedil;"], [0, "&Lcaron;"], [0, "&lcaron;"], [0, "&Lmidot;"], [0, "&lmidot;"], [0, "&Lstrok;"], [0, "&lstrok;"], [0, "&Nacute;"], [0, "&nacute;"], [0, "&Ncedil;"], [0, "&ncedil;"], [0, "&Ncaron;"], [0, "&ncaron;"], [0, "&napos;"], [0, "&ENG;"], [0, "&eng;"], [0, "&Omacr;"], [0, "&omacr;"], [2, "&Odblac;"], [0, "&odblac;"], [0, "&OElig;"], [0, "&oelig;"], [0, "&Racute;"], [0, "&racute;"], [0, "&Rcedil;"], [0, "&rcedil;"], [0, "&Rcaron;"], [0, "&rcaron;"], [0, "&Sacute;"], [0, "&sacute;"], [0, "&Scirc;"], [0, "&scirc;"], [0, "&Scedil;"], [0, "&scedil;"], [0, "&Scaron;"], [0, "&scaron;"], [0, "&Tcedil;"], [0, "&tcedil;"], [0, "&Tcaron;"], [0, "&tcaron;"], [0, "&Tstrok;"], [0, "&tstrok;"], [0, "&Utilde;"], [0, "&utilde;"], [0, "&Umacr;"], [0, "&umacr;"], [0, "&Ubreve;"], [0, "&ubreve;"], [0, "&Uring;"], [0, "&uring;"], [0, "&Udblac;"], [0, "&udblac;"], [0, "&Uogon;"], [0, "&uogon;"], [0, "&Wcirc;"], [0, "&wcirc;"], [0, "&Ycirc;"], [0, "&ycirc;"], [0, "&Yuml;"], [0, "&Zacute;"], [0, "&zacute;"], [0, "&Zdot;"], [0, "&zdot;"], [0, "&Zcaron;"], [0, "&zcaron;"], [19, "&fnof;"], [34, "&imped;"], [63, "&gacute;"], [65, "&jmath;"], [142, "&circ;"], [0, "&caron;"], [16, "&breve;"], [0, "&DiacriticalDot;"], [0, "&ring;"], [0, "&ogon;"], [0, "&DiacriticalTilde;"], [0, "&dblac;"], [51, "&DownBreve;"], [127, "&Alpha;"], [0, "&Beta;"], [0, "&Gamma;"], [0, "&Delta;"], [0, "&Epsilon;"], [0, "&Zeta;"], [0, "&Eta;"], [0, "&Theta;"], [0, "&Iota;"], [0, "&Kappa;"], [0, "&Lambda;"], [0, "&Mu;"], [0, "&Nu;"], [0, "&Xi;"], [0, "&Omicron;"], [0, "&Pi;"], [0, "&Rho;"], [1, "&Sigma;"], [0, "&Tau;"], [0, "&Upsilon;"], [0, "&Phi;"], [0, "&Chi;"], [0, "&Psi;"], [0, "&ohm;"], [7, "&alpha;"], [0, "&beta;"], [0, "&gamma;"], [0, "&delta;"], [0, "&epsi;"], [0, "&zeta;"], [0, "&eta;"], [0, "&theta;"], [0, "&iota;"], [0, "&kappa;"], [0, "&lambda;"], [0, "&mu;"], [0, "&nu;"], [0, "&xi;"], [0, "&omicron;"], [0, "&pi;"], [0, "&rho;"], [0, "&sigmaf;"], [0, "&sigma;"], [0, "&tau;"], [0, "&upsi;"], [0, "&phi;"], [0, "&chi;"], [0, "&psi;"], [0, "&omega;"], [7, "&thetasym;"], [0, "&Upsi;"], [2, "&phiv;"], [0, "&piv;"], [5, "&Gammad;"], [0, "&digamma;"], [18, "&kappav;"], [0, "&rhov;"], [3, "&epsiv;"], [0, "&backepsilon;"], [10, "&IOcy;"], [0, "&DJcy;"], [0, "&GJcy;"], [0, "&Jukcy;"], [0, "&DScy;"], [0, "&Iukcy;"], [0, "&YIcy;"], [0, "&Jsercy;"], [0, "&LJcy;"], [0, "&NJcy;"], [0, "&TSHcy;"], [0, "&KJcy;"], [1, "&Ubrcy;"], [0, "&DZcy;"], [0, "&Acy;"], [0, "&Bcy;"], [0, "&Vcy;"], [0, "&Gcy;"], [0, "&Dcy;"], [0, "&IEcy;"], [0, "&ZHcy;"], [0, "&Zcy;"], [0, "&Icy;"], [0, "&Jcy;"], [0, "&Kcy;"], [0, "&Lcy;"], [0, "&Mcy;"], [0, "&Ncy;"], [0, "&Ocy;"], [0, "&Pcy;"], [0, "&Rcy;"], [0, "&Scy;"], [0, "&Tcy;"], [0, "&Ucy;"], [0, "&Fcy;"], [0, "&KHcy;"], [0, "&TScy;"], [0, "&CHcy;"], [0, "&SHcy;"], [0, "&SHCHcy;"], [0, "&HARDcy;"], [0, "&Ycy;"], [0, "&SOFTcy;"], [0, "&Ecy;"], [0, "&YUcy;"], [0, "&YAcy;"], [0, "&acy;"], [0, "&bcy;"], [0, "&vcy;"], [0, "&gcy;"], [0, "&dcy;"], [0, "&iecy;"], [0, "&zhcy;"], [0, "&zcy;"], [0, "&icy;"], [0, "&jcy;"], [0, "&kcy;"], [0, "&lcy;"], [0, "&mcy;"], [0, "&ncy;"], [0, "&ocy;"], [0, "&pcy;"], [0, "&rcy;"], [0, "&scy;"], [0, "&tcy;"], [0, "&ucy;"], [0, "&fcy;"], [0, "&khcy;"], [0, "&tscy;"], [0, "&chcy;"], [0, "&shcy;"], [0, "&shchcy;"], [0, "&hardcy;"], [0, "&ycy;"], [0, "&softcy;"], [0, "&ecy;"], [0, "&yucy;"], [0, "&yacy;"], [1, "&iocy;"], [0, "&djcy;"], [0, "&gjcy;"], [0, "&jukcy;"], [0, "&dscy;"], [0, "&iukcy;"], [0, "&yicy;"], [0, "&jsercy;"], [0, "&ljcy;"], [0, "&njcy;"], [0, "&tshcy;"], [0, "&kjcy;"], [1, "&ubrcy;"], [0, "&dzcy;"], [7074, "&ensp;"], [0, "&emsp;"], [0, "&emsp13;"], [0, "&emsp14;"], [1, "&numsp;"], [0, "&puncsp;"], [0, "&ThinSpace;"], [0, "&hairsp;"], [0, "&NegativeMediumSpace;"], [0, "&zwnj;"], [0, "&zwj;"], [0, "&lrm;"], [0, "&rlm;"], [0, "&dash;"], [2, "&ndash;"], [0, "&mdash;"], [0, "&horbar;"], [0, "&Verbar;"], [1, "&lsquo;"], [0, "&CloseCurlyQuote;"], [0, "&lsquor;"], [1, "&ldquo;"], [0, "&CloseCurlyDoubleQuote;"], [0, "&bdquo;"], [1, "&dagger;"], [0, "&Dagger;"], [0, "&bull;"], [2, "&nldr;"], [0, "&hellip;"], [9, "&permil;"], [0, "&pertenk;"], [0, "&prime;"], [0, "&Prime;"], [0, "&tprime;"], [0, "&backprime;"], [3, "&lsaquo;"], [0, "&rsaquo;"], [3, "&oline;"], [2, "&caret;"], [1, "&hybull;"], [0, "&frasl;"], [10, "&bsemi;"], [7, "&qprime;"], [7, { v: "&MediumSpace;", n: 8202, o: "&ThickSpace;" }], [0, "&NoBreak;"], [0, "&af;"], [0, "&InvisibleTimes;"], [0, "&ic;"], [72, "&euro;"], [46, "&tdot;"], [0, "&DotDot;"], [37, "&complexes;"], [2, "&incare;"], [4, "&gscr;"], [0, "&hamilt;"], [0, "&Hfr;"], [0, "&Hopf;"], [0, "&planckh;"], [0, "&hbar;"], [0, "&imagline;"], [0, "&Ifr;"], [0, "&lagran;"], [0, "&ell;"], [1, "&naturals;"], [0, "&numero;"], [0, "&copysr;"], [0, "&weierp;"], [0, "&Popf;"], [0, "&Qopf;"], [0, "&realine;"], [0, "&real;"], [0, "&reals;"], [0, "&rx;"], [3, "&trade;"], [1, "&integers;"], [2, "&mho;"], [0, "&zeetrf;"], [0, "&iiota;"], [2, "&bernou;"], [0, "&Cayleys;"], [1, "&escr;"], [0, "&Escr;"], [0, "&Fouriertrf;"], [1, "&Mellintrf;"], [0, "&order;"], [0, "&alefsym;"], [0, "&beth;"], [0, "&gimel;"], [0, "&daleth;"], [12, "&CapitalDifferentialD;"], [0, "&dd;"], [0, "&ee;"], [0, "&ii;"], [10, "&frac13;"], [0, "&frac23;"], [0, "&frac15;"], [0, "&frac25;"], [0, "&frac35;"], [0, "&frac45;"], [0, "&frac16;"], [0, "&frac56;"], [0, "&frac18;"], [0, "&frac38;"], [0, "&frac58;"], [0, "&frac78;"], [49, "&larr;"], [0, "&ShortUpArrow;"], [0, "&rarr;"], [0, "&darr;"], [0, "&harr;"], [0, "&updownarrow;"], [0, "&nwarr;"], [0, "&nearr;"], [0, "&LowerRightArrow;"], [0, "&LowerLeftArrow;"], [0, "&nlarr;"], [0, "&nrarr;"], [1, { v: "&rarrw;", n: 824, o: "&nrarrw;" }], [0, "&Larr;"], [0, "&Uarr;"], [0, "&Rarr;"], [0, "&Darr;"], [0, "&larrtl;"], [0, "&rarrtl;"], [0, "&LeftTeeArrow;"], [0, "&mapstoup;"], [0, "&map;"], [0, "&DownTeeArrow;"], [1, "&hookleftarrow;"], [0, "&hookrightarrow;"], [0, "&larrlp;"], [0, "&looparrowright;"], [0, "&harrw;"], [0, "&nharr;"], [1, "&lsh;"], [0, "&rsh;"], [0, "&ldsh;"], [0, "&rdsh;"], [1, "&crarr;"], [0, "&cularr;"], [0, "&curarr;"], [2, "&circlearrowleft;"], [0, "&circlearrowright;"], [0, "&leftharpoonup;"], [0, "&DownLeftVector;"], [0, "&RightUpVector;"], [0, "&LeftUpVector;"], [0, "&rharu;"], [0, "&DownRightVector;"], [0, "&dharr;"], [0, "&dharl;"], [0, "&RightArrowLeftArrow;"], [0, "&udarr;"], [0, "&LeftArrowRightArrow;"], [0, "&leftleftarrows;"], [0, "&upuparrows;"], [0, "&rightrightarrows;"], [0, "&ddarr;"], [0, "&leftrightharpoons;"], [0, "&Equilibrium;"], [0, "&nlArr;"], [0, "&nhArr;"], [0, "&nrArr;"], [0, "&DoubleLeftArrow;"], [0, "&DoubleUpArrow;"], [0, "&DoubleRightArrow;"], [0, "&dArr;"], [0, "&DoubleLeftRightArrow;"], [0, "&DoubleUpDownArrow;"], [0, "&nwArr;"], [0, "&neArr;"], [0, "&seArr;"], [0, "&swArr;"], [0, "&lAarr;"], [0, "&rAarr;"], [1, "&zigrarr;"], [6, "&larrb;"], [0, "&rarrb;"], [15, "&DownArrowUpArrow;"], [7, "&loarr;"], [0, "&roarr;"], [0, "&hoarr;"], [0, "&forall;"], [0, "&comp;"], [0, { v: "&part;", n: 824, o: "&npart;" }], [0, "&exist;"], [0, "&nexist;"], [0, "&empty;"], [1, "&Del;"], [0, "&Element;"], [0, "&NotElement;"], [1, "&ni;"], [0, "&notni;"], [2, "&prod;"], [0, "&coprod;"], [0, "&sum;"], [0, "&minus;"], [0, "&MinusPlus;"], [0, "&dotplus;"], [1, "&Backslash;"], [0, "&lowast;"], [0, "&compfn;"], [1, "&radic;"], [2, "&prop;"], [0, "&infin;"], [0, "&angrt;"], [0, { v: "&ang;", n: 8402, o: "&nang;" }], [0, "&angmsd;"], [0, "&angsph;"], [0, "&mid;"], [0, "&nmid;"], [0, "&DoubleVerticalBar;"], [0, "&NotDoubleVerticalBar;"], [0, "&and;"], [0, "&or;"], [0, { v: "&cap;", n: 65024, o: "&caps;" }], [0, { v: "&cup;", n: 65024, o: "&cups;" }], [0, "&int;"], [0, "&Int;"], [0, "&iiint;"], [0, "&conint;"], [0, "&Conint;"], [0, "&Cconint;"], [0, "&cwint;"], [0, "&ClockwiseContourIntegral;"], [0, "&awconint;"], [0, "&there4;"], [0, "&becaus;"], [0, "&ratio;"], [0, "&Colon;"], [0, "&dotminus;"], [1, "&mDDot;"], [0, "&homtht;"], [0, { v: "&sim;", n: 8402, o: "&nvsim;" }], [0, { v: "&backsim;", n: 817, o: "&race;" }], [0, { v: "&ac;", n: 819, o: "&acE;" }], [0, "&acd;"], [0, "&VerticalTilde;"], [0, "&NotTilde;"], [0, { v: "&eqsim;", n: 824, o: "&nesim;" }], [0, "&sime;"], [0, "&NotTildeEqual;"], [0, "&cong;"], [0, "&simne;"], [0, "&ncong;"], [0, "&ap;"], [0, "&nap;"], [0, "&ape;"], [0, { v: "&apid;", n: 824, o: "&napid;" }], [0, "&backcong;"], [0, { v: "&asympeq;", n: 8402, o: "&nvap;" }], [0, { v: "&bump;", n: 824, o: "&nbump;" }], [0, { v: "&bumpe;", n: 824, o: "&nbumpe;" }], [0, { v: "&doteq;", n: 824, o: "&nedot;" }], [0, "&doteqdot;"], [0, "&efDot;"], [0, "&erDot;"], [0, "&Assign;"], [0, "&ecolon;"], [0, "&ecir;"], [0, "&circeq;"], [1, "&wedgeq;"], [0, "&veeeq;"], [1, "&triangleq;"], [2, "&equest;"], [0, "&ne;"], [0, { v: "&Congruent;", n: 8421, o: "&bnequiv;" }], [0, "&nequiv;"], [1, { v: "&le;", n: 8402, o: "&nvle;" }], [0, { v: "&ge;", n: 8402, o: "&nvge;" }], [0, { v: "&lE;", n: 824, o: "&nlE;" }], [0, { v: "&gE;", n: 824, o: "&ngE;" }], [0, { v: "&lnE;", n: 65024, o: "&lvertneqq;" }], [0, { v: "&gnE;", n: 65024, o: "&gvertneqq;" }], [0, { v: "&ll;", n: new Map(/* @__PURE__ */ restoreDiff2([[824, "&nLtv;"], [7577, "&nLt;"]])) }], [0, { v: "&gg;", n: new Map(/* @__PURE__ */ restoreDiff2([[824, "&nGtv;"], [7577, "&nGt;"]])) }], [0, "&between;"], [0, "&NotCupCap;"], [0, "&nless;"], [0, "&ngt;"], [0, "&nle;"], [0, "&nge;"], [0, "&lesssim;"], [0, "&GreaterTilde;"], [0, "&nlsim;"], [0, "&ngsim;"], [0, "&LessGreater;"], [0, "&gl;"], [0, "&NotLessGreater;"], [0, "&NotGreaterLess;"], [0, "&pr;"], [0, "&sc;"], [0, "&prcue;"], [0, "&sccue;"], [0, "&PrecedesTilde;"], [0, { v: "&scsim;", n: 824, o: "&NotSucceedsTilde;" }], [0, "&NotPrecedes;"], [0, "&NotSucceeds;"], [0, { v: "&sub;", n: 8402, o: "&NotSubset;" }], [0, { v: "&sup;", n: 8402, o: "&NotSuperset;" }], [0, "&nsub;"], [0, "&nsup;"], [0, "&sube;"], [0, "&supe;"], [0, "&NotSubsetEqual;"], [0, "&NotSupersetEqual;"], [0, { v: "&subne;", n: 65024, o: "&varsubsetneq;" }], [0, { v: "&supne;", n: 65024, o: "&varsupsetneq;" }], [1, "&cupdot;"], [0, "&UnionPlus;"], [0, { v: "&sqsub;", n: 824, o: "&NotSquareSubset;" }], [0, { v: "&sqsup;", n: 824, o: "&NotSquareSuperset;" }], [0, "&sqsube;"], [0, "&sqsupe;"], [0, { v: "&sqcap;", n: 65024, o: "&sqcaps;" }], [0, { v: "&sqcup;", n: 65024, o: "&sqcups;" }], [0, "&CirclePlus;"], [0, "&CircleMinus;"], [0, "&CircleTimes;"], [0, "&osol;"], [0, "&CircleDot;"], [0, "&circledcirc;"], [0, "&circledast;"], [1, "&circleddash;"], [0, "&boxplus;"], [0, "&boxminus;"], [0, "&boxtimes;"], [0, "&dotsquare;"], [0, "&RightTee;"], [0, "&dashv;"], [0, "&DownTee;"], [0, "&bot;"], [1, "&models;"], [0, "&DoubleRightTee;"], [0, "&Vdash;"], [0, "&Vvdash;"], [0, "&VDash;"], [0, "&nvdash;"], [0, "&nvDash;"], [0, "&nVdash;"], [0, "&nVDash;"], [0, "&prurel;"], [1, "&LeftTriangle;"], [0, "&RightTriangle;"], [0, { v: "&LeftTriangleEqual;", n: 8402, o: "&nvltrie;" }], [0, { v: "&RightTriangleEqual;", n: 8402, o: "&nvrtrie;" }], [0, "&origof;"], [0, "&imof;"], [0, "&multimap;"], [0, "&hercon;"], [0, "&intcal;"], [0, "&veebar;"], [1, "&barvee;"], [0, "&angrtvb;"], [0, "&lrtri;"], [0, "&bigwedge;"], [0, "&bigvee;"], [0, "&bigcap;"], [0, "&bigcup;"], [0, "&diam;"], [0, "&sdot;"], [0, "&sstarf;"], [0, "&divideontimes;"], [0, "&bowtie;"], [0, "&ltimes;"], [0, "&rtimes;"], [0, "&leftthreetimes;"], [0, "&rightthreetimes;"], [0, "&backsimeq;"], [0, "&curlyvee;"], [0, "&curlywedge;"], [0, "&Sub;"], [0, "&Sup;"], [0, "&Cap;"], [0, "&Cup;"], [0, "&fork;"], [0, "&epar;"], [0, "&lessdot;"], [0, "&gtdot;"], [0, { v: "&Ll;", n: 824, o: "&nLl;" }], [0, { v: "&Gg;", n: 824, o: "&nGg;" }], [0, { v: "&leg;", n: 65024, o: "&lesg;" }], [0, { v: "&gel;", n: 65024, o: "&gesl;" }], [2, "&cuepr;"], [0, "&cuesc;"], [0, "&NotPrecedesSlantEqual;"], [0, "&NotSucceedsSlantEqual;"], [0, "&NotSquareSubsetEqual;"], [0, "&NotSquareSupersetEqual;"], [2, "&lnsim;"], [0, "&gnsim;"], [0, "&precnsim;"], [0, "&scnsim;"], [0, "&nltri;"], [0, "&NotRightTriangle;"], [0, "&nltrie;"], [0, "&NotRightTriangleEqual;"], [0, "&vellip;"], [0, "&ctdot;"], [0, "&utdot;"], [0, "&dtdot;"], [0, "&disin;"], [0, "&isinsv;"], [0, "&isins;"], [0, { v: "&isindot;", n: 824, o: "&notindot;" }], [0, "&notinvc;"], [0, "&notinvb;"], [1, { v: "&isinE;", n: 824, o: "&notinE;" }], [0, "&nisd;"], [0, "&xnis;"], [0, "&nis;"], [0, "&notnivc;"], [0, "&notnivb;"], [6, "&barwed;"], [0, "&Barwed;"], [1, "&lceil;"], [0, "&rceil;"], [0, "&LeftFloor;"], [0, "&rfloor;"], [0, "&drcrop;"], [0, "&dlcrop;"], [0, "&urcrop;"], [0, "&ulcrop;"], [0, "&bnot;"], [1, "&profline;"], [0, "&profsurf;"], [1, "&telrec;"], [0, "&target;"], [5, "&ulcorn;"], [0, "&urcorn;"], [0, "&dlcorn;"], [0, "&drcorn;"], [2, "&frown;"], [0, "&smile;"], [9, "&cylcty;"], [0, "&profalar;"], [7, "&topbot;"], [6, "&ovbar;"], [1, "&solbar;"], [60, "&angzarr;"], [51, "&lmoustache;"], [0, "&rmoustache;"], [2, "&OverBracket;"], [0, "&bbrk;"], [0, "&bbrktbrk;"], [37, "&OverParenthesis;"], [0, "&UnderParenthesis;"], [0, "&OverBrace;"], [0, "&UnderBrace;"], [2, "&trpezium;"], [4, "&elinters;"], [59, "&blank;"], [164, "&circledS;"], [55, "&boxh;"], [1, "&boxv;"], [9, "&boxdr;"], [3, "&boxdl;"], [3, "&boxur;"], [3, "&boxul;"], [3, "&boxvr;"], [7, "&boxvl;"], [7, "&boxhd;"], [7, "&boxhu;"], [7, "&boxvh;"], [19, "&boxH;"], [0, "&boxV;"], [0, "&boxdR;"], [0, "&boxDr;"], [0, "&boxDR;"], [0, "&boxdL;"], [0, "&boxDl;"], [0, "&boxDL;"], [0, "&boxuR;"], [0, "&boxUr;"], [0, "&boxUR;"], [0, "&boxuL;"], [0, "&boxUl;"], [0, "&boxUL;"], [0, "&boxvR;"], [0, "&boxVr;"], [0, "&boxVR;"], [0, "&boxvL;"], [0, "&boxVl;"], [0, "&boxVL;"], [0, "&boxHd;"], [0, "&boxhD;"], [0, "&boxHD;"], [0, "&boxHu;"], [0, "&boxhU;"], [0, "&boxHU;"], [0, "&boxvH;"], [0, "&boxVh;"], [0, "&boxVH;"], [19, "&uhblk;"], [3, "&lhblk;"], [3, "&block;"], [8, "&blk14;"], [0, "&blk12;"], [0, "&blk34;"], [13, "&square;"], [8, "&blacksquare;"], [0, "&EmptyVerySmallSquare;"], [1, "&rect;"], [0, "&marker;"], [2, "&fltns;"], [1, "&bigtriangleup;"], [0, "&blacktriangle;"], [0, "&triangle;"], [2, "&blacktriangleright;"], [0, "&rtri;"], [3, "&bigtriangledown;"], [0, "&blacktriangledown;"], [0, "&dtri;"], [2, "&blacktriangleleft;"], [0, "&ltri;"], [6, "&loz;"], [0, "&cir;"], [32, "&tridot;"], [2, "&bigcirc;"], [8, "&ultri;"], [0, "&urtri;"], [0, "&lltri;"], [0, "&EmptySmallSquare;"], [0, "&FilledSmallSquare;"], [8, "&bigstar;"], [0, "&star;"], [7, "&phone;"], [49, "&female;"], [1, "&male;"], [29, "&spades;"], [2, "&clubs;"], [1, "&hearts;"], [0, "&diamondsuit;"], [3, "&sung;"], [2, "&flat;"], [0, "&natural;"], [0, "&sharp;"], [163, "&check;"], [3, "&cross;"], [8, "&malt;"], [21, "&sext;"], [33, "&VerticalSeparator;"], [25, "&lbbrk;"], [0, "&rbbrk;"], [84, "&bsolhsub;"], [0, "&suphsol;"], [28, "&LeftDoubleBracket;"], [0, "&RightDoubleBracket;"], [0, "&lang;"], [0, "&rang;"], [0, "&Lang;"], [0, "&Rang;"], [0, "&loang;"], [0, "&roang;"], [7, "&longleftarrow;"], [0, "&longrightarrow;"], [0, "&longleftrightarrow;"], [0, "&DoubleLongLeftArrow;"], [0, "&DoubleLongRightArrow;"], [0, "&DoubleLongLeftRightArrow;"], [1, "&longmapsto;"], [2, "&dzigrarr;"], [258, "&nvlArr;"], [0, "&nvrArr;"], [0, "&nvHarr;"], [0, "&Map;"], [6, "&lbarr;"], [0, "&bkarow;"], [0, "&lBarr;"], [0, "&dbkarow;"], [0, "&drbkarow;"], [0, "&DDotrahd;"], [0, "&UpArrowBar;"], [0, "&DownArrowBar;"], [2, "&Rarrtl;"], [2, "&latail;"], [0, "&ratail;"], [0, "&lAtail;"], [0, "&rAtail;"], [0, "&larrfs;"], [0, "&rarrfs;"], [0, "&larrbfs;"], [0, "&rarrbfs;"], [2, "&nwarhk;"], [0, "&nearhk;"], [0, "&hksearow;"], [0, "&hkswarow;"], [0, "&nwnear;"], [0, "&nesear;"], [0, "&seswar;"], [0, "&swnwar;"], [8, { v: "&rarrc;", n: 824, o: "&nrarrc;" }], [1, "&cudarrr;"], [0, "&ldca;"], [0, "&rdca;"], [0, "&cudarrl;"], [0, "&larrpl;"], [2, "&curarrm;"], [0, "&cularrp;"], [7, "&rarrpl;"], [2, "&harrcir;"], [0, "&Uarrocir;"], [0, "&lurdshar;"], [0, "&ldrushar;"], [2, "&LeftRightVector;"], [0, "&RightUpDownVector;"], [0, "&DownLeftRightVector;"], [0, "&LeftUpDownVector;"], [0, "&LeftVectorBar;"], [0, "&RightVectorBar;"], [0, "&RightUpVectorBar;"], [0, "&RightDownVectorBar;"], [0, "&DownLeftVectorBar;"], [0, "&DownRightVectorBar;"], [0, "&LeftUpVectorBar;"], [0, "&LeftDownVectorBar;"], [0, "&LeftTeeVector;"], [0, "&RightTeeVector;"], [0, "&RightUpTeeVector;"], [0, "&RightDownTeeVector;"], [0, "&DownLeftTeeVector;"], [0, "&DownRightTeeVector;"], [0, "&LeftUpTeeVector;"], [0, "&LeftDownTeeVector;"], [0, "&lHar;"], [0, "&uHar;"], [0, "&rHar;"], [0, "&dHar;"], [0, "&luruhar;"], [0, "&ldrdhar;"], [0, "&ruluhar;"], [0, "&rdldhar;"], [0, "&lharul;"], [0, "&llhard;"], [0, "&rharul;"], [0, "&lrhard;"], [0, "&udhar;"], [0, "&duhar;"], [0, "&RoundImplies;"], [0, "&erarr;"], [0, "&simrarr;"], [0, "&larrsim;"], [0, "&rarrsim;"], [0, "&rarrap;"], [0, "&ltlarr;"], [1, "&gtrarr;"], [0, "&subrarr;"], [1, "&suplarr;"], [0, "&lfisht;"], [0, "&rfisht;"], [0, "&ufisht;"], [0, "&dfisht;"], [5, "&lopar;"], [0, "&ropar;"], [4, "&lbrke;"], [0, "&rbrke;"], [0, "&lbrkslu;"], [0, "&rbrksld;"], [0, "&lbrksld;"], [0, "&rbrkslu;"], [0, "&langd;"], [0, "&rangd;"], [0, "&lparlt;"], [0, "&rpargt;"], [0, "&gtlPar;"], [0, "&ltrPar;"], [3, "&vzigzag;"], [1, "&vangrt;"], [0, "&angrtvbd;"], [6, "&ange;"], [0, "&range;"], [0, "&dwangle;"], [0, "&uwangle;"], [0, "&angmsdaa;"], [0, "&angmsdab;"], [0, "&angmsdac;"], [0, "&angmsdad;"], [0, "&angmsdae;"], [0, "&angmsdaf;"], [0, "&angmsdag;"], [0, "&angmsdah;"], [0, "&bemptyv;"], [0, "&demptyv;"], [0, "&cemptyv;"], [0, "&raemptyv;"], [0, "&laemptyv;"], [0, "&ohbar;"], [0, "&omid;"], [0, "&opar;"], [1, "&operp;"], [1, "&olcross;"], [0, "&odsold;"], [1, "&olcir;"], [0, "&ofcir;"], [0, "&olt;"], [0, "&ogt;"], [0, "&cirscir;"], [0, "&cirE;"], [0, "&solb;"], [0, "&bsolb;"], [3, "&boxbox;"], [3, "&trisb;"], [0, "&rtriltri;"], [0, { v: "&LeftTriangleBar;", n: 824, o: "&NotLeftTriangleBar;" }], [0, { v: "&RightTriangleBar;", n: 824, o: "&NotRightTriangleBar;" }], [11, "&iinfin;"], [0, "&infintie;"], [0, "&nvinfin;"], [4, "&eparsl;"], [0, "&smeparsl;"], [0, "&eqvparsl;"], [5, "&blacklozenge;"], [8, "&RuleDelayed;"], [1, "&dsol;"], [9, "&bigodot;"], [0, "&bigoplus;"], [0, "&bigotimes;"], [1, "&biguplus;"], [1, "&bigsqcup;"], [5, "&iiiint;"], [0, "&fpartint;"], [2, "&cirfnint;"], [0, "&awint;"], [0, "&rppolint;"], [0, "&scpolint;"], [0, "&npolint;"], [0, "&pointint;"], [0, "&quatint;"], [0, "&intlarhk;"], [10, "&pluscir;"], [0, "&plusacir;"], [0, "&simplus;"], [0, "&plusdu;"], [0, "&plussim;"], [0, "&plustwo;"], [1, "&mcomma;"], [0, "&minusdu;"], [2, "&loplus;"], [0, "&roplus;"], [0, "&Cross;"], [0, "&timesd;"], [0, "&timesbar;"], [1, "&smashp;"], [0, "&lotimes;"], [0, "&rotimes;"], [0, "&otimesas;"], [0, "&Otimes;"], [0, "&odiv;"], [0, "&triplus;"], [0, "&triminus;"], [0, "&tritime;"], [0, "&intprod;"], [2, "&amalg;"], [0, "&capdot;"], [1, "&ncup;"], [0, "&ncap;"], [0, "&capand;"], [0, "&cupor;"], [0, "&cupcap;"], [0, "&capcup;"], [0, "&cupbrcap;"], [0, "&capbrcup;"], [0, "&cupcup;"], [0, "&capcap;"], [0, "&ccups;"], [0, "&ccaps;"], [2, "&ccupssm;"], [2, "&And;"], [0, "&Or;"], [0, "&andand;"], [0, "&oror;"], [0, "&orslope;"], [0, "&andslope;"], [1, "&andv;"], [0, "&orv;"], [0, "&andd;"], [0, "&ord;"], [1, "&wedbar;"], [6, "&sdote;"], [3, "&simdot;"], [2, { v: "&congdot;", n: 824, o: "&ncongdot;" }], [0, "&easter;"], [0, "&apacir;"], [0, { v: "&apE;", n: 824, o: "&napE;" }], [0, "&eplus;"], [0, "&pluse;"], [0, "&Esim;"], [0, "&Colone;"], [0, "&Equal;"], [1, "&ddotseq;"], [0, "&equivDD;"], [0, "&ltcir;"], [0, "&gtcir;"], [0, "&ltquest;"], [0, "&gtquest;"], [0, { v: "&leqslant;", n: 824, o: "&nleqslant;" }], [0, { v: "&geqslant;", n: 824, o: "&ngeqslant;" }], [0, "&lesdot;"], [0, "&gesdot;"], [0, "&lesdoto;"], [0, "&gesdoto;"], [0, "&lesdotor;"], [0, "&gesdotol;"], [0, "&lap;"], [0, "&gap;"], [0, "&lne;"], [0, "&gne;"], [0, "&lnap;"], [0, "&gnap;"], [0, "&lEg;"], [0, "&gEl;"], [0, "&lsime;"], [0, "&gsime;"], [0, "&lsimg;"], [0, "&gsiml;"], [0, "&lgE;"], [0, "&glE;"], [0, "&lesges;"], [0, "&gesles;"], [0, "&els;"], [0, "&egs;"], [0, "&elsdot;"], [0, "&egsdot;"], [0, "&el;"], [0, "&eg;"], [2, "&siml;"], [0, "&simg;"], [0, "&simlE;"], [0, "&simgE;"], [0, { v: "&LessLess;", n: 824, o: "&NotNestedLessLess;" }], [0, { v: "&GreaterGreater;", n: 824, o: "&NotNestedGreaterGreater;" }], [1, "&glj;"], [0, "&gla;"], [0, "&ltcc;"], [0, "&gtcc;"], [0, "&lescc;"], [0, "&gescc;"], [0, "&smt;"], [0, "&lat;"], [0, { v: "&smte;", n: 65024, o: "&smtes;" }], [0, { v: "&late;", n: 65024, o: "&lates;" }], [0, "&bumpE;"], [0, { v: "&PrecedesEqual;", n: 824, o: "&NotPrecedesEqual;" }], [0, { v: "&sce;", n: 824, o: "&NotSucceedsEqual;" }], [2, "&prE;"], [0, "&scE;"], [0, "&precneqq;"], [0, "&scnE;"], [0, "&prap;"], [0, "&scap;"], [0, "&precnapprox;"], [0, "&scnap;"], [0, "&Pr;"], [0, "&Sc;"], [0, "&subdot;"], [0, "&supdot;"], [0, "&subplus;"], [0, "&supplus;"], [0, "&submult;"], [0, "&supmult;"], [0, "&subedot;"], [0, "&supedot;"], [0, { v: "&subE;", n: 824, o: "&nsubE;" }], [0, { v: "&supE;", n: 824, o: "&nsupE;" }], [0, "&subsim;"], [0, "&supsim;"], [2, { v: "&subnE;", n: 65024, o: "&varsubsetneqq;" }], [0, { v: "&supnE;", n: 65024, o: "&varsupsetneqq;" }], [2, "&csub;"], [0, "&csup;"], [0, "&csube;"], [0, "&csupe;"], [0, "&subsup;"], [0, "&supsub;"], [0, "&subsub;"], [0, "&supsup;"], [0, "&suphsub;"], [0, "&supdsub;"], [0, "&forkv;"], [0, "&topfork;"], [0, "&mlcp;"], [8, "&Dashv;"], [1, "&Vdashl;"], [0, "&Barv;"], [0, "&vBar;"], [0, "&vBarv;"], [1, "&Vbar;"], [0, "&Not;"], [0, "&bNot;"], [0, "&rnmid;"], [0, "&cirmid;"], [0, "&midcir;"], [0, "&topcir;"], [0, "&nhpar;"], [0, "&parsim;"], [9, { v: "&parsl;", n: 8421, o: "&nparsl;" }], [44343, { n: new Map(/* @__PURE__ */ restoreDiff2([[56476, "&Ascr;"], [1, "&Cscr;"], [0, "&Dscr;"], [2, "&Gscr;"], [2, "&Jscr;"], [0, "&Kscr;"], [2, "&Nscr;"], [0, "&Oscr;"], [0, "&Pscr;"], [0, "&Qscr;"], [1, "&Sscr;"], [0, "&Tscr;"], [0, "&Uscr;"], [0, "&Vscr;"], [0, "&Wscr;"], [0, "&Xscr;"], [0, "&Yscr;"], [0, "&Zscr;"], [0, "&ascr;"], [0, "&bscr;"], [0, "&cscr;"], [0, "&dscr;"], [1, "&fscr;"], [1, "&hscr;"], [0, "&iscr;"], [0, "&jscr;"], [0, "&kscr;"], [0, "&lscr;"], [0, "&mscr;"], [0, "&nscr;"], [1, "&pscr;"], [0, "&qscr;"], [0, "&rscr;"], [0, "&sscr;"], [0, "&tscr;"], [0, "&uscr;"], [0, "&vscr;"], [0, "&wscr;"], [0, "&xscr;"], [0, "&yscr;"], [0, "&zscr;"], [52, "&Afr;"], [0, "&Bfr;"], [1, "&Dfr;"], [0, "&Efr;"], [0, "&Ffr;"], [0, "&Gfr;"], [2, "&Jfr;"], [0, "&Kfr;"], [0, "&Lfr;"], [0, "&Mfr;"], [0, "&Nfr;"], [0, "&Ofr;"], [0, "&Pfr;"], [0, "&Qfr;"], [1, "&Sfr;"], [0, "&Tfr;"], [0, "&Ufr;"], [0, "&Vfr;"], [0, "&Wfr;"], [0, "&Xfr;"], [0, "&Yfr;"], [1, "&afr;"], [0, "&bfr;"], [0, "&cfr;"], [0, "&dfr;"], [0, "&efr;"], [0, "&ffr;"], [0, "&gfr;"], [0, "&hfr;"], [0, "&ifr;"], [0, "&jfr;"], [0, "&kfr;"], [0, "&lfr;"], [0, "&mfr;"], [0, "&nfr;"], [0, "&ofr;"], [0, "&pfr;"], [0, "&qfr;"], [0, "&rfr;"], [0, "&sfr;"], [0, "&tfr;"], [0, "&ufr;"], [0, "&vfr;"], [0, "&wfr;"], [0, "&xfr;"], [0, "&yfr;"], [0, "&zfr;"], [0, "&Aopf;"], [0, "&Bopf;"], [1, "&Dopf;"], [0, "&Eopf;"], [0, "&Fopf;"], [0, "&Gopf;"], [1, "&Iopf;"], [0, "&Jopf;"], [0, "&Kopf;"], [0, "&Lopf;"], [0, "&Mopf;"], [1, "&Oopf;"], [3, "&Sopf;"], [0, "&Topf;"], [0, "&Uopf;"], [0, "&Vopf;"], [0, "&Wopf;"], [0, "&Xopf;"], [0, "&Yopf;"], [1, "&aopf;"], [0, "&bopf;"], [0, "&copf;"], [0, "&dopf;"], [0, "&eopf;"], [0, "&fopf;"], [0, "&gopf;"], [0, "&hopf;"], [0, "&iopf;"], [0, "&jopf;"], [0, "&kopf;"], [0, "&lopf;"], [0, "&mopf;"], [0, "&nopf;"], [0, "&oopf;"], [0, "&popf;"], [0, "&qopf;"], [0, "&ropf;"], [0, "&sopf;"], [0, "&topf;"], [0, "&uopf;"], [0, "&vopf;"], [0, "&wopf;"], [0, "&xopf;"], [0, "&yopf;"], [0, "&zopf;"]])) }], [8906, "&fflig;"], [0, "&filig;"], [0, "&fllig;"], [0, "&ffilig;"], [0, "&ffllig;"]]));
+  var encode_html_default2 = new Map(
+    /* @__PURE__ */ restoreDiff2([
+      [9, "&Tab;"],
+      [0, "&NewLine;"],
+      [22, "&excl;"],
+      [0, "&quot;"],
+      [0, "&num;"],
+      [0, "&dollar;"],
+      [0, "&percnt;"],
+      [0, "&amp;"],
+      [0, "&apos;"],
+      [0, "&lpar;"],
+      [0, "&rpar;"],
+      [0, "&ast;"],
+      [0, "&plus;"],
+      [0, "&comma;"],
+      [1, "&period;"],
+      [0, "&sol;"],
+      [10, "&colon;"],
+      [0, "&semi;"],
+      [0, { v: "&lt;", n: 8402, o: "&nvlt;" }],
+      [0, { v: "&equals;", n: 8421, o: "&bne;" }],
+      [0, { v: "&gt;", n: 8402, o: "&nvgt;" }],
+      [0, "&quest;"],
+      [0, "&commat;"],
+      [26, "&lbrack;"],
+      [0, "&bsol;"],
+      [0, "&rbrack;"],
+      [0, "&Hat;"],
+      [0, "&lowbar;"],
+      [0, "&DiacriticalGrave;"],
+      [5, { n: 106, o: "&fjlig;" }],
+      [20, "&lbrace;"],
+      [0, "&verbar;"],
+      [0, "&rbrace;"],
+      [34, "&nbsp;"],
+      [0, "&iexcl;"],
+      [0, "&cent;"],
+      [0, "&pound;"],
+      [0, "&curren;"],
+      [0, "&yen;"],
+      [0, "&brvbar;"],
+      [0, "&sect;"],
+      [0, "&die;"],
+      [0, "&copy;"],
+      [0, "&ordf;"],
+      [0, "&laquo;"],
+      [0, "&not;"],
+      [0, "&shy;"],
+      [0, "&circledR;"],
+      [0, "&macr;"],
+      [0, "&deg;"],
+      [0, "&PlusMinus;"],
+      [0, "&sup2;"],
+      [0, "&sup3;"],
+      [0, "&acute;"],
+      [0, "&micro;"],
+      [0, "&para;"],
+      [0, "&centerdot;"],
+      [0, "&cedil;"],
+      [0, "&sup1;"],
+      [0, "&ordm;"],
+      [0, "&raquo;"],
+      [0, "&frac14;"],
+      [0, "&frac12;"],
+      [0, "&frac34;"],
+      [0, "&iquest;"],
+      [0, "&Agrave;"],
+      [0, "&Aacute;"],
+      [0, "&Acirc;"],
+      [0, "&Atilde;"],
+      [0, "&Auml;"],
+      [0, "&angst;"],
+      [0, "&AElig;"],
+      [0, "&Ccedil;"],
+      [0, "&Egrave;"],
+      [0, "&Eacute;"],
+      [0, "&Ecirc;"],
+      [0, "&Euml;"],
+      [0, "&Igrave;"],
+      [0, "&Iacute;"],
+      [0, "&Icirc;"],
+      [0, "&Iuml;"],
+      [0, "&ETH;"],
+      [0, "&Ntilde;"],
+      [0, "&Ograve;"],
+      [0, "&Oacute;"],
+      [0, "&Ocirc;"],
+      [0, "&Otilde;"],
+      [0, "&Ouml;"],
+      [0, "&times;"],
+      [0, "&Oslash;"],
+      [0, "&Ugrave;"],
+      [0, "&Uacute;"],
+      [0, "&Ucirc;"],
+      [0, "&Uuml;"],
+      [0, "&Yacute;"],
+      [0, "&THORN;"],
+      [0, "&szlig;"],
+      [0, "&agrave;"],
+      [0, "&aacute;"],
+      [0, "&acirc;"],
+      [0, "&atilde;"],
+      [0, "&auml;"],
+      [0, "&aring;"],
+      [0, "&aelig;"],
+      [0, "&ccedil;"],
+      [0, "&egrave;"],
+      [0, "&eacute;"],
+      [0, "&ecirc;"],
+      [0, "&euml;"],
+      [0, "&igrave;"],
+      [0, "&iacute;"],
+      [0, "&icirc;"],
+      [0, "&iuml;"],
+      [0, "&eth;"],
+      [0, "&ntilde;"],
+      [0, "&ograve;"],
+      [0, "&oacute;"],
+      [0, "&ocirc;"],
+      [0, "&otilde;"],
+      [0, "&ouml;"],
+      [0, "&div;"],
+      [0, "&oslash;"],
+      [0, "&ugrave;"],
+      [0, "&uacute;"],
+      [0, "&ucirc;"],
+      [0, "&uuml;"],
+      [0, "&yacute;"],
+      [0, "&thorn;"],
+      [0, "&yuml;"],
+      [0, "&Amacr;"],
+      [0, "&amacr;"],
+      [0, "&Abreve;"],
+      [0, "&abreve;"],
+      [0, "&Aogon;"],
+      [0, "&aogon;"],
+      [0, "&Cacute;"],
+      [0, "&cacute;"],
+      [0, "&Ccirc;"],
+      [0, "&ccirc;"],
+      [0, "&Cdot;"],
+      [0, "&cdot;"],
+      [0, "&Ccaron;"],
+      [0, "&ccaron;"],
+      [0, "&Dcaron;"],
+      [0, "&dcaron;"],
+      [0, "&Dstrok;"],
+      [0, "&dstrok;"],
+      [0, "&Emacr;"],
+      [0, "&emacr;"],
+      [2, "&Edot;"],
+      [0, "&edot;"],
+      [0, "&Eogon;"],
+      [0, "&eogon;"],
+      [0, "&Ecaron;"],
+      [0, "&ecaron;"],
+      [0, "&Gcirc;"],
+      [0, "&gcirc;"],
+      [0, "&Gbreve;"],
+      [0, "&gbreve;"],
+      [0, "&Gdot;"],
+      [0, "&gdot;"],
+      [0, "&Gcedil;"],
+      [1, "&Hcirc;"],
+      [0, "&hcirc;"],
+      [0, "&Hstrok;"],
+      [0, "&hstrok;"],
+      [0, "&Itilde;"],
+      [0, "&itilde;"],
+      [0, "&Imacr;"],
+      [0, "&imacr;"],
+      [2, "&Iogon;"],
+      [0, "&iogon;"],
+      [0, "&Idot;"],
+      [0, "&imath;"],
+      [0, "&IJlig;"],
+      [0, "&ijlig;"],
+      [0, "&Jcirc;"],
+      [0, "&jcirc;"],
+      [0, "&Kcedil;"],
+      [0, "&kcedil;"],
+      [0, "&kgreen;"],
+      [0, "&Lacute;"],
+      [0, "&lacute;"],
+      [0, "&Lcedil;"],
+      [0, "&lcedil;"],
+      [0, "&Lcaron;"],
+      [0, "&lcaron;"],
+      [0, "&Lmidot;"],
+      [0, "&lmidot;"],
+      [0, "&Lstrok;"],
+      [0, "&lstrok;"],
+      [0, "&Nacute;"],
+      [0, "&nacute;"],
+      [0, "&Ncedil;"],
+      [0, "&ncedil;"],
+      [0, "&Ncaron;"],
+      [0, "&ncaron;"],
+      [0, "&napos;"],
+      [0, "&ENG;"],
+      [0, "&eng;"],
+      [0, "&Omacr;"],
+      [0, "&omacr;"],
+      [2, "&Odblac;"],
+      [0, "&odblac;"],
+      [0, "&OElig;"],
+      [0, "&oelig;"],
+      [0, "&Racute;"],
+      [0, "&racute;"],
+      [0, "&Rcedil;"],
+      [0, "&rcedil;"],
+      [0, "&Rcaron;"],
+      [0, "&rcaron;"],
+      [0, "&Sacute;"],
+      [0, "&sacute;"],
+      [0, "&Scirc;"],
+      [0, "&scirc;"],
+      [0, "&Scedil;"],
+      [0, "&scedil;"],
+      [0, "&Scaron;"],
+      [0, "&scaron;"],
+      [0, "&Tcedil;"],
+      [0, "&tcedil;"],
+      [0, "&Tcaron;"],
+      [0, "&tcaron;"],
+      [0, "&Tstrok;"],
+      [0, "&tstrok;"],
+      [0, "&Utilde;"],
+      [0, "&utilde;"],
+      [0, "&Umacr;"],
+      [0, "&umacr;"],
+      [0, "&Ubreve;"],
+      [0, "&ubreve;"],
+      [0, "&Uring;"],
+      [0, "&uring;"],
+      [0, "&Udblac;"],
+      [0, "&udblac;"],
+      [0, "&Uogon;"],
+      [0, "&uogon;"],
+      [0, "&Wcirc;"],
+      [0, "&wcirc;"],
+      [0, "&Ycirc;"],
+      [0, "&ycirc;"],
+      [0, "&Yuml;"],
+      [0, "&Zacute;"],
+      [0, "&zacute;"],
+      [0, "&Zdot;"],
+      [0, "&zdot;"],
+      [0, "&Zcaron;"],
+      [0, "&zcaron;"],
+      [19, "&fnof;"],
+      [34, "&imped;"],
+      [63, "&gacute;"],
+      [65, "&jmath;"],
+      [142, "&circ;"],
+      [0, "&caron;"],
+      [16, "&breve;"],
+      [0, "&DiacriticalDot;"],
+      [0, "&ring;"],
+      [0, "&ogon;"],
+      [0, "&DiacriticalTilde;"],
+      [0, "&dblac;"],
+      [51, "&DownBreve;"],
+      [127, "&Alpha;"],
+      [0, "&Beta;"],
+      [0, "&Gamma;"],
+      [0, "&Delta;"],
+      [0, "&Epsilon;"],
+      [0, "&Zeta;"],
+      [0, "&Eta;"],
+      [0, "&Theta;"],
+      [0, "&Iota;"],
+      [0, "&Kappa;"],
+      [0, "&Lambda;"],
+      [0, "&Mu;"],
+      [0, "&Nu;"],
+      [0, "&Xi;"],
+      [0, "&Omicron;"],
+      [0, "&Pi;"],
+      [0, "&Rho;"],
+      [1, "&Sigma;"],
+      [0, "&Tau;"],
+      [0, "&Upsilon;"],
+      [0, "&Phi;"],
+      [0, "&Chi;"],
+      [0, "&Psi;"],
+      [0, "&ohm;"],
+      [7, "&alpha;"],
+      [0, "&beta;"],
+      [0, "&gamma;"],
+      [0, "&delta;"],
+      [0, "&epsi;"],
+      [0, "&zeta;"],
+      [0, "&eta;"],
+      [0, "&theta;"],
+      [0, "&iota;"],
+      [0, "&kappa;"],
+      [0, "&lambda;"],
+      [0, "&mu;"],
+      [0, "&nu;"],
+      [0, "&xi;"],
+      [0, "&omicron;"],
+      [0, "&pi;"],
+      [0, "&rho;"],
+      [0, "&sigmaf;"],
+      [0, "&sigma;"],
+      [0, "&tau;"],
+      [0, "&upsi;"],
+      [0, "&phi;"],
+      [0, "&chi;"],
+      [0, "&psi;"],
+      [0, "&omega;"],
+      [7, "&thetasym;"],
+      [0, "&Upsi;"],
+      [2, "&phiv;"],
+      [0, "&piv;"],
+      [5, "&Gammad;"],
+      [0, "&digamma;"],
+      [18, "&kappav;"],
+      [0, "&rhov;"],
+      [3, "&epsiv;"],
+      [0, "&backepsilon;"],
+      [10, "&IOcy;"],
+      [0, "&DJcy;"],
+      [0, "&GJcy;"],
+      [0, "&Jukcy;"],
+      [0, "&DScy;"],
+      [0, "&Iukcy;"],
+      [0, "&YIcy;"],
+      [0, "&Jsercy;"],
+      [0, "&LJcy;"],
+      [0, "&NJcy;"],
+      [0, "&TSHcy;"],
+      [0, "&KJcy;"],
+      [1, "&Ubrcy;"],
+      [0, "&DZcy;"],
+      [0, "&Acy;"],
+      [0, "&Bcy;"],
+      [0, "&Vcy;"],
+      [0, "&Gcy;"],
+      [0, "&Dcy;"],
+      [0, "&IEcy;"],
+      [0, "&ZHcy;"],
+      [0, "&Zcy;"],
+      [0, "&Icy;"],
+      [0, "&Jcy;"],
+      [0, "&Kcy;"],
+      [0, "&Lcy;"],
+      [0, "&Mcy;"],
+      [0, "&Ncy;"],
+      [0, "&Ocy;"],
+      [0, "&Pcy;"],
+      [0, "&Rcy;"],
+      [0, "&Scy;"],
+      [0, "&Tcy;"],
+      [0, "&Ucy;"],
+      [0, "&Fcy;"],
+      [0, "&KHcy;"],
+      [0, "&TScy;"],
+      [0, "&CHcy;"],
+      [0, "&SHcy;"],
+      [0, "&SHCHcy;"],
+      [0, "&HARDcy;"],
+      [0, "&Ycy;"],
+      [0, "&SOFTcy;"],
+      [0, "&Ecy;"],
+      [0, "&YUcy;"],
+      [0, "&YAcy;"],
+      [0, "&acy;"],
+      [0, "&bcy;"],
+      [0, "&vcy;"],
+      [0, "&gcy;"],
+      [0, "&dcy;"],
+      [0, "&iecy;"],
+      [0, "&zhcy;"],
+      [0, "&zcy;"],
+      [0, "&icy;"],
+      [0, "&jcy;"],
+      [0, "&kcy;"],
+      [0, "&lcy;"],
+      [0, "&mcy;"],
+      [0, "&ncy;"],
+      [0, "&ocy;"],
+      [0, "&pcy;"],
+      [0, "&rcy;"],
+      [0, "&scy;"],
+      [0, "&tcy;"],
+      [0, "&ucy;"],
+      [0, "&fcy;"],
+      [0, "&khcy;"],
+      [0, "&tscy;"],
+      [0, "&chcy;"],
+      [0, "&shcy;"],
+      [0, "&shchcy;"],
+      [0, "&hardcy;"],
+      [0, "&ycy;"],
+      [0, "&softcy;"],
+      [0, "&ecy;"],
+      [0, "&yucy;"],
+      [0, "&yacy;"],
+      [1, "&iocy;"],
+      [0, "&djcy;"],
+      [0, "&gjcy;"],
+      [0, "&jukcy;"],
+      [0, "&dscy;"],
+      [0, "&iukcy;"],
+      [0, "&yicy;"],
+      [0, "&jsercy;"],
+      [0, "&ljcy;"],
+      [0, "&njcy;"],
+      [0, "&tshcy;"],
+      [0, "&kjcy;"],
+      [1, "&ubrcy;"],
+      [0, "&dzcy;"],
+      [7074, "&ensp;"],
+      [0, "&emsp;"],
+      [0, "&emsp13;"],
+      [0, "&emsp14;"],
+      [1, "&numsp;"],
+      [0, "&puncsp;"],
+      [0, "&ThinSpace;"],
+      [0, "&hairsp;"],
+      [0, "&NegativeMediumSpace;"],
+      [0, "&zwnj;"],
+      [0, "&zwj;"],
+      [0, "&lrm;"],
+      [0, "&rlm;"],
+      [0, "&dash;"],
+      [2, "&ndash;"],
+      [0, "&mdash;"],
+      [0, "&horbar;"],
+      [0, "&Verbar;"],
+      [1, "&lsquo;"],
+      [0, "&CloseCurlyQuote;"],
+      [0, "&lsquor;"],
+      [1, "&ldquo;"],
+      [0, "&CloseCurlyDoubleQuote;"],
+      [0, "&bdquo;"],
+      [1, "&dagger;"],
+      [0, "&Dagger;"],
+      [0, "&bull;"],
+      [2, "&nldr;"],
+      [0, "&hellip;"],
+      [9, "&permil;"],
+      [0, "&pertenk;"],
+      [0, "&prime;"],
+      [0, "&Prime;"],
+      [0, "&tprime;"],
+      [0, "&backprime;"],
+      [3, "&lsaquo;"],
+      [0, "&rsaquo;"],
+      [3, "&oline;"],
+      [2, "&caret;"],
+      [1, "&hybull;"],
+      [0, "&frasl;"],
+      [10, "&bsemi;"],
+      [7, "&qprime;"],
+      [7, { v: "&MediumSpace;", n: 8202, o: "&ThickSpace;" }],
+      [0, "&NoBreak;"],
+      [0, "&af;"],
+      [0, "&InvisibleTimes;"],
+      [0, "&ic;"],
+      [72, "&euro;"],
+      [46, "&tdot;"],
+      [0, "&DotDot;"],
+      [37, "&complexes;"],
+      [2, "&incare;"],
+      [4, "&gscr;"],
+      [0, "&hamilt;"],
+      [0, "&Hfr;"],
+      [0, "&Hopf;"],
+      [0, "&planckh;"],
+      [0, "&hbar;"],
+      [0, "&imagline;"],
+      [0, "&Ifr;"],
+      [0, "&lagran;"],
+      [0, "&ell;"],
+      [1, "&naturals;"],
+      [0, "&numero;"],
+      [0, "&copysr;"],
+      [0, "&weierp;"],
+      [0, "&Popf;"],
+      [0, "&Qopf;"],
+      [0, "&realine;"],
+      [0, "&real;"],
+      [0, "&reals;"],
+      [0, "&rx;"],
+      [3, "&trade;"],
+      [1, "&integers;"],
+      [2, "&mho;"],
+      [0, "&zeetrf;"],
+      [0, "&iiota;"],
+      [2, "&bernou;"],
+      [0, "&Cayleys;"],
+      [1, "&escr;"],
+      [0, "&Escr;"],
+      [0, "&Fouriertrf;"],
+      [1, "&Mellintrf;"],
+      [0, "&order;"],
+      [0, "&alefsym;"],
+      [0, "&beth;"],
+      [0, "&gimel;"],
+      [0, "&daleth;"],
+      [12, "&CapitalDifferentialD;"],
+      [0, "&dd;"],
+      [0, "&ee;"],
+      [0, "&ii;"],
+      [10, "&frac13;"],
+      [0, "&frac23;"],
+      [0, "&frac15;"],
+      [0, "&frac25;"],
+      [0, "&frac35;"],
+      [0, "&frac45;"],
+      [0, "&frac16;"],
+      [0, "&frac56;"],
+      [0, "&frac18;"],
+      [0, "&frac38;"],
+      [0, "&frac58;"],
+      [0, "&frac78;"],
+      [49, "&larr;"],
+      [0, "&ShortUpArrow;"],
+      [0, "&rarr;"],
+      [0, "&darr;"],
+      [0, "&harr;"],
+      [0, "&updownarrow;"],
+      [0, "&nwarr;"],
+      [0, "&nearr;"],
+      [0, "&LowerRightArrow;"],
+      [0, "&LowerLeftArrow;"],
+      [0, "&nlarr;"],
+      [0, "&nrarr;"],
+      [1, { v: "&rarrw;", n: 824, o: "&nrarrw;" }],
+      [0, "&Larr;"],
+      [0, "&Uarr;"],
+      [0, "&Rarr;"],
+      [0, "&Darr;"],
+      [0, "&larrtl;"],
+      [0, "&rarrtl;"],
+      [0, "&LeftTeeArrow;"],
+      [0, "&mapstoup;"],
+      [0, "&map;"],
+      [0, "&DownTeeArrow;"],
+      [1, "&hookleftarrow;"],
+      [0, "&hookrightarrow;"],
+      [0, "&larrlp;"],
+      [0, "&looparrowright;"],
+      [0, "&harrw;"],
+      [0, "&nharr;"],
+      [1, "&lsh;"],
+      [0, "&rsh;"],
+      [0, "&ldsh;"],
+      [0, "&rdsh;"],
+      [1, "&crarr;"],
+      [0, "&cularr;"],
+      [0, "&curarr;"],
+      [2, "&circlearrowleft;"],
+      [0, "&circlearrowright;"],
+      [0, "&leftharpoonup;"],
+      [0, "&DownLeftVector;"],
+      [0, "&RightUpVector;"],
+      [0, "&LeftUpVector;"],
+      [0, "&rharu;"],
+      [0, "&DownRightVector;"],
+      [0, "&dharr;"],
+      [0, "&dharl;"],
+      [0, "&RightArrowLeftArrow;"],
+      [0, "&udarr;"],
+      [0, "&LeftArrowRightArrow;"],
+      [0, "&leftleftarrows;"],
+      [0, "&upuparrows;"],
+      [0, "&rightrightarrows;"],
+      [0, "&ddarr;"],
+      [0, "&leftrightharpoons;"],
+      [0, "&Equilibrium;"],
+      [0, "&nlArr;"],
+      [0, "&nhArr;"],
+      [0, "&nrArr;"],
+      [0, "&DoubleLeftArrow;"],
+      [0, "&DoubleUpArrow;"],
+      [0, "&DoubleRightArrow;"],
+      [0, "&dArr;"],
+      [0, "&DoubleLeftRightArrow;"],
+      [0, "&DoubleUpDownArrow;"],
+      [0, "&nwArr;"],
+      [0, "&neArr;"],
+      [0, "&seArr;"],
+      [0, "&swArr;"],
+      [0, "&lAarr;"],
+      [0, "&rAarr;"],
+      [1, "&zigrarr;"],
+      [6, "&larrb;"],
+      [0, "&rarrb;"],
+      [15, "&DownArrowUpArrow;"],
+      [7, "&loarr;"],
+      [0, "&roarr;"],
+      [0, "&hoarr;"],
+      [0, "&forall;"],
+      [0, "&comp;"],
+      [0, { v: "&part;", n: 824, o: "&npart;" }],
+      [0, "&exist;"],
+      [0, "&nexist;"],
+      [0, "&empty;"],
+      [1, "&Del;"],
+      [0, "&Element;"],
+      [0, "&NotElement;"],
+      [1, "&ni;"],
+      [0, "&notni;"],
+      [2, "&prod;"],
+      [0, "&coprod;"],
+      [0, "&sum;"],
+      [0, "&minus;"],
+      [0, "&MinusPlus;"],
+      [0, "&dotplus;"],
+      [1, "&Backslash;"],
+      [0, "&lowast;"],
+      [0, "&compfn;"],
+      [1, "&radic;"],
+      [2, "&prop;"],
+      [0, "&infin;"],
+      [0, "&angrt;"],
+      [0, { v: "&ang;", n: 8402, o: "&nang;" }],
+      [0, "&angmsd;"],
+      [0, "&angsph;"],
+      [0, "&mid;"],
+      [0, "&nmid;"],
+      [0, "&DoubleVerticalBar;"],
+      [0, "&NotDoubleVerticalBar;"],
+      [0, "&and;"],
+      [0, "&or;"],
+      [0, { v: "&cap;", n: 65024, o: "&caps;" }],
+      [0, { v: "&cup;", n: 65024, o: "&cups;" }],
+      [0, "&int;"],
+      [0, "&Int;"],
+      [0, "&iiint;"],
+      [0, "&conint;"],
+      [0, "&Conint;"],
+      [0, "&Cconint;"],
+      [0, "&cwint;"],
+      [0, "&ClockwiseContourIntegral;"],
+      [0, "&awconint;"],
+      [0, "&there4;"],
+      [0, "&becaus;"],
+      [0, "&ratio;"],
+      [0, "&Colon;"],
+      [0, "&dotminus;"],
+      [1, "&mDDot;"],
+      [0, "&homtht;"],
+      [0, { v: "&sim;", n: 8402, o: "&nvsim;" }],
+      [0, { v: "&backsim;", n: 817, o: "&race;" }],
+      [0, { v: "&ac;", n: 819, o: "&acE;" }],
+      [0, "&acd;"],
+      [0, "&VerticalTilde;"],
+      [0, "&NotTilde;"],
+      [0, { v: "&eqsim;", n: 824, o: "&nesim;" }],
+      [0, "&sime;"],
+      [0, "&NotTildeEqual;"],
+      [0, "&cong;"],
+      [0, "&simne;"],
+      [0, "&ncong;"],
+      [0, "&ap;"],
+      [0, "&nap;"],
+      [0, "&ape;"],
+      [0, { v: "&apid;", n: 824, o: "&napid;" }],
+      [0, "&backcong;"],
+      [0, { v: "&asympeq;", n: 8402, o: "&nvap;" }],
+      [0, { v: "&bump;", n: 824, o: "&nbump;" }],
+      [0, { v: "&bumpe;", n: 824, o: "&nbumpe;" }],
+      [0, { v: "&doteq;", n: 824, o: "&nedot;" }],
+      [0, "&doteqdot;"],
+      [0, "&efDot;"],
+      [0, "&erDot;"],
+      [0, "&Assign;"],
+      [0, "&ecolon;"],
+      [0, "&ecir;"],
+      [0, "&circeq;"],
+      [1, "&wedgeq;"],
+      [0, "&veeeq;"],
+      [1, "&triangleq;"],
+      [2, "&equest;"],
+      [0, "&ne;"],
+      [0, { v: "&Congruent;", n: 8421, o: "&bnequiv;" }],
+      [0, "&nequiv;"],
+      [1, { v: "&le;", n: 8402, o: "&nvle;" }],
+      [0, { v: "&ge;", n: 8402, o: "&nvge;" }],
+      [0, { v: "&lE;", n: 824, o: "&nlE;" }],
+      [0, { v: "&gE;", n: 824, o: "&ngE;" }],
+      [0, { v: "&lnE;", n: 65024, o: "&lvertneqq;" }],
+      [0, { v: "&gnE;", n: 65024, o: "&gvertneqq;" }],
+      [
+        0,
+        {
+          v: "&ll;",
+          n: new Map(
+            /* @__PURE__ */ restoreDiff2([
+              [824, "&nLtv;"],
+              [7577, "&nLt;"],
+            ])
+          ),
+        },
+      ],
+      [
+        0,
+        {
+          v: "&gg;",
+          n: new Map(
+            /* @__PURE__ */ restoreDiff2([
+              [824, "&nGtv;"],
+              [7577, "&nGt;"],
+            ])
+          ),
+        },
+      ],
+      [0, "&between;"],
+      [0, "&NotCupCap;"],
+      [0, "&nless;"],
+      [0, "&ngt;"],
+      [0, "&nle;"],
+      [0, "&nge;"],
+      [0, "&lesssim;"],
+      [0, "&GreaterTilde;"],
+      [0, "&nlsim;"],
+      [0, "&ngsim;"],
+      [0, "&LessGreater;"],
+      [0, "&gl;"],
+      [0, "&NotLessGreater;"],
+      [0, "&NotGreaterLess;"],
+      [0, "&pr;"],
+      [0, "&sc;"],
+      [0, "&prcue;"],
+      [0, "&sccue;"],
+      [0, "&PrecedesTilde;"],
+      [0, { v: "&scsim;", n: 824, o: "&NotSucceedsTilde;" }],
+      [0, "&NotPrecedes;"],
+      [0, "&NotSucceeds;"],
+      [0, { v: "&sub;", n: 8402, o: "&NotSubset;" }],
+      [0, { v: "&sup;", n: 8402, o: "&NotSuperset;" }],
+      [0, "&nsub;"],
+      [0, "&nsup;"],
+      [0, "&sube;"],
+      [0, "&supe;"],
+      [0, "&NotSubsetEqual;"],
+      [0, "&NotSupersetEqual;"],
+      [0, { v: "&subne;", n: 65024, o: "&varsubsetneq;" }],
+      [0, { v: "&supne;", n: 65024, o: "&varsupsetneq;" }],
+      [1, "&cupdot;"],
+      [0, "&UnionPlus;"],
+      [0, { v: "&sqsub;", n: 824, o: "&NotSquareSubset;" }],
+      [0, { v: "&sqsup;", n: 824, o: "&NotSquareSuperset;" }],
+      [0, "&sqsube;"],
+      [0, "&sqsupe;"],
+      [0, { v: "&sqcap;", n: 65024, o: "&sqcaps;" }],
+      [0, { v: "&sqcup;", n: 65024, o: "&sqcups;" }],
+      [0, "&CirclePlus;"],
+      [0, "&CircleMinus;"],
+      [0, "&CircleTimes;"],
+      [0, "&osol;"],
+      [0, "&CircleDot;"],
+      [0, "&circledcirc;"],
+      [0, "&circledast;"],
+      [1, "&circleddash;"],
+      [0, "&boxplus;"],
+      [0, "&boxminus;"],
+      [0, "&boxtimes;"],
+      [0, "&dotsquare;"],
+      [0, "&RightTee;"],
+      [0, "&dashv;"],
+      [0, "&DownTee;"],
+      [0, "&bot;"],
+      [1, "&models;"],
+      [0, "&DoubleRightTee;"],
+      [0, "&Vdash;"],
+      [0, "&Vvdash;"],
+      [0, "&VDash;"],
+      [0, "&nvdash;"],
+      [0, "&nvDash;"],
+      [0, "&nVdash;"],
+      [0, "&nVDash;"],
+      [0, "&prurel;"],
+      [1, "&LeftTriangle;"],
+      [0, "&RightTriangle;"],
+      [0, { v: "&LeftTriangleEqual;", n: 8402, o: "&nvltrie;" }],
+      [0, { v: "&RightTriangleEqual;", n: 8402, o: "&nvrtrie;" }],
+      [0, "&origof;"],
+      [0, "&imof;"],
+      [0, "&multimap;"],
+      [0, "&hercon;"],
+      [0, "&intcal;"],
+      [0, "&veebar;"],
+      [1, "&barvee;"],
+      [0, "&angrtvb;"],
+      [0, "&lrtri;"],
+      [0, "&bigwedge;"],
+      [0, "&bigvee;"],
+      [0, "&bigcap;"],
+      [0, "&bigcup;"],
+      [0, "&diam;"],
+      [0, "&sdot;"],
+      [0, "&sstarf;"],
+      [0, "&divideontimes;"],
+      [0, "&bowtie;"],
+      [0, "&ltimes;"],
+      [0, "&rtimes;"],
+      [0, "&leftthreetimes;"],
+      [0, "&rightthreetimes;"],
+      [0, "&backsimeq;"],
+      [0, "&curlyvee;"],
+      [0, "&curlywedge;"],
+      [0, "&Sub;"],
+      [0, "&Sup;"],
+      [0, "&Cap;"],
+      [0, "&Cup;"],
+      [0, "&fork;"],
+      [0, "&epar;"],
+      [0, "&lessdot;"],
+      [0, "&gtdot;"],
+      [0, { v: "&Ll;", n: 824, o: "&nLl;" }],
+      [0, { v: "&Gg;", n: 824, o: "&nGg;" }],
+      [0, { v: "&leg;", n: 65024, o: "&lesg;" }],
+      [0, { v: "&gel;", n: 65024, o: "&gesl;" }],
+      [2, "&cuepr;"],
+      [0, "&cuesc;"],
+      [0, "&NotPrecedesSlantEqual;"],
+      [0, "&NotSucceedsSlantEqual;"],
+      [0, "&NotSquareSubsetEqual;"],
+      [0, "&NotSquareSupersetEqual;"],
+      [2, "&lnsim;"],
+      [0, "&gnsim;"],
+      [0, "&precnsim;"],
+      [0, "&scnsim;"],
+      [0, "&nltri;"],
+      [0, "&NotRightTriangle;"],
+      [0, "&nltrie;"],
+      [0, "&NotRightTriangleEqual;"],
+      [0, "&vellip;"],
+      [0, "&ctdot;"],
+      [0, "&utdot;"],
+      [0, "&dtdot;"],
+      [0, "&disin;"],
+      [0, "&isinsv;"],
+      [0, "&isins;"],
+      [0, { v: "&isindot;", n: 824, o: "&notindot;" }],
+      [0, "&notinvc;"],
+      [0, "&notinvb;"],
+      [1, { v: "&isinE;", n: 824, o: "&notinE;" }],
+      [0, "&nisd;"],
+      [0, "&xnis;"],
+      [0, "&nis;"],
+      [0, "&notnivc;"],
+      [0, "&notnivb;"],
+      [6, "&barwed;"],
+      [0, "&Barwed;"],
+      [1, "&lceil;"],
+      [0, "&rceil;"],
+      [0, "&LeftFloor;"],
+      [0, "&rfloor;"],
+      [0, "&drcrop;"],
+      [0, "&dlcrop;"],
+      [0, "&urcrop;"],
+      [0, "&ulcrop;"],
+      [0, "&bnot;"],
+      [1, "&profline;"],
+      [0, "&profsurf;"],
+      [1, "&telrec;"],
+      [0, "&target;"],
+      [5, "&ulcorn;"],
+      [0, "&urcorn;"],
+      [0, "&dlcorn;"],
+      [0, "&drcorn;"],
+      [2, "&frown;"],
+      [0, "&smile;"],
+      [9, "&cylcty;"],
+      [0, "&profalar;"],
+      [7, "&topbot;"],
+      [6, "&ovbar;"],
+      [1, "&solbar;"],
+      [60, "&angzarr;"],
+      [51, "&lmoustache;"],
+      [0, "&rmoustache;"],
+      [2, "&OverBracket;"],
+      [0, "&bbrk;"],
+      [0, "&bbrktbrk;"],
+      [37, "&OverParenthesis;"],
+      [0, "&UnderParenthesis;"],
+      [0, "&OverBrace;"],
+      [0, "&UnderBrace;"],
+      [2, "&trpezium;"],
+      [4, "&elinters;"],
+      [59, "&blank;"],
+      [164, "&circledS;"],
+      [55, "&boxh;"],
+      [1, "&boxv;"],
+      [9, "&boxdr;"],
+      [3, "&boxdl;"],
+      [3, "&boxur;"],
+      [3, "&boxul;"],
+      [3, "&boxvr;"],
+      [7, "&boxvl;"],
+      [7, "&boxhd;"],
+      [7, "&boxhu;"],
+      [7, "&boxvh;"],
+      [19, "&boxH;"],
+      [0, "&boxV;"],
+      [0, "&boxdR;"],
+      [0, "&boxDr;"],
+      [0, "&boxDR;"],
+      [0, "&boxdL;"],
+      [0, "&boxDl;"],
+      [0, "&boxDL;"],
+      [0, "&boxuR;"],
+      [0, "&boxUr;"],
+      [0, "&boxUR;"],
+      [0, "&boxuL;"],
+      [0, "&boxUl;"],
+      [0, "&boxUL;"],
+      [0, "&boxvR;"],
+      [0, "&boxVr;"],
+      [0, "&boxVR;"],
+      [0, "&boxvL;"],
+      [0, "&boxVl;"],
+      [0, "&boxVL;"],
+      [0, "&boxHd;"],
+      [0, "&boxhD;"],
+      [0, "&boxHD;"],
+      [0, "&boxHu;"],
+      [0, "&boxhU;"],
+      [0, "&boxHU;"],
+      [0, "&boxvH;"],
+      [0, "&boxVh;"],
+      [0, "&boxVH;"],
+      [19, "&uhblk;"],
+      [3, "&lhblk;"],
+      [3, "&block;"],
+      [8, "&blk14;"],
+      [0, "&blk12;"],
+      [0, "&blk34;"],
+      [13, "&square;"],
+      [8, "&blacksquare;"],
+      [0, "&EmptyVerySmallSquare;"],
+      [1, "&rect;"],
+      [0, "&marker;"],
+      [2, "&fltns;"],
+      [1, "&bigtriangleup;"],
+      [0, "&blacktriangle;"],
+      [0, "&triangle;"],
+      [2, "&blacktriangleright;"],
+      [0, "&rtri;"],
+      [3, "&bigtriangledown;"],
+      [0, "&blacktriangledown;"],
+      [0, "&dtri;"],
+      [2, "&blacktriangleleft;"],
+      [0, "&ltri;"],
+      [6, "&loz;"],
+      [0, "&cir;"],
+      [32, "&tridot;"],
+      [2, "&bigcirc;"],
+      [8, "&ultri;"],
+      [0, "&urtri;"],
+      [0, "&lltri;"],
+      [0, "&EmptySmallSquare;"],
+      [0, "&FilledSmallSquare;"],
+      [8, "&bigstar;"],
+      [0, "&star;"],
+      [7, "&phone;"],
+      [49, "&female;"],
+      [1, "&male;"],
+      [29, "&spades;"],
+      [2, "&clubs;"],
+      [1, "&hearts;"],
+      [0, "&diamondsuit;"],
+      [3, "&sung;"],
+      [2, "&flat;"],
+      [0, "&natural;"],
+      [0, "&sharp;"],
+      [163, "&check;"],
+      [3, "&cross;"],
+      [8, "&malt;"],
+      [21, "&sext;"],
+      [33, "&VerticalSeparator;"],
+      [25, "&lbbrk;"],
+      [0, "&rbbrk;"],
+      [84, "&bsolhsub;"],
+      [0, "&suphsol;"],
+      [28, "&LeftDoubleBracket;"],
+      [0, "&RightDoubleBracket;"],
+      [0, "&lang;"],
+      [0, "&rang;"],
+      [0, "&Lang;"],
+      [0, "&Rang;"],
+      [0, "&loang;"],
+      [0, "&roang;"],
+      [7, "&longleftarrow;"],
+      [0, "&longrightarrow;"],
+      [0, "&longleftrightarrow;"],
+      [0, "&DoubleLongLeftArrow;"],
+      [0, "&DoubleLongRightArrow;"],
+      [0, "&DoubleLongLeftRightArrow;"],
+      [1, "&longmapsto;"],
+      [2, "&dzigrarr;"],
+      [258, "&nvlArr;"],
+      [0, "&nvrArr;"],
+      [0, "&nvHarr;"],
+      [0, "&Map;"],
+      [6, "&lbarr;"],
+      [0, "&bkarow;"],
+      [0, "&lBarr;"],
+      [0, "&dbkarow;"],
+      [0, "&drbkarow;"],
+      [0, "&DDotrahd;"],
+      [0, "&UpArrowBar;"],
+      [0, "&DownArrowBar;"],
+      [2, "&Rarrtl;"],
+      [2, "&latail;"],
+      [0, "&ratail;"],
+      [0, "&lAtail;"],
+      [0, "&rAtail;"],
+      [0, "&larrfs;"],
+      [0, "&rarrfs;"],
+      [0, "&larrbfs;"],
+      [0, "&rarrbfs;"],
+      [2, "&nwarhk;"],
+      [0, "&nearhk;"],
+      [0, "&hksearow;"],
+      [0, "&hkswarow;"],
+      [0, "&nwnear;"],
+      [0, "&nesear;"],
+      [0, "&seswar;"],
+      [0, "&swnwar;"],
+      [8, { v: "&rarrc;", n: 824, o: "&nrarrc;" }],
+      [1, "&cudarrr;"],
+      [0, "&ldca;"],
+      [0, "&rdca;"],
+      [0, "&cudarrl;"],
+      [0, "&larrpl;"],
+      [2, "&curarrm;"],
+      [0, "&cularrp;"],
+      [7, "&rarrpl;"],
+      [2, "&harrcir;"],
+      [0, "&Uarrocir;"],
+      [0, "&lurdshar;"],
+      [0, "&ldrushar;"],
+      [2, "&LeftRightVector;"],
+      [0, "&RightUpDownVector;"],
+      [0, "&DownLeftRightVector;"],
+      [0, "&LeftUpDownVector;"],
+      [0, "&LeftVectorBar;"],
+      [0, "&RightVectorBar;"],
+      [0, "&RightUpVectorBar;"],
+      [0, "&RightDownVectorBar;"],
+      [0, "&DownLeftVectorBar;"],
+      [0, "&DownRightVectorBar;"],
+      [0, "&LeftUpVectorBar;"],
+      [0, "&LeftDownVectorBar;"],
+      [0, "&LeftTeeVector;"],
+      [0, "&RightTeeVector;"],
+      [0, "&RightUpTeeVector;"],
+      [0, "&RightDownTeeVector;"],
+      [0, "&DownLeftTeeVector;"],
+      [0, "&DownRightTeeVector;"],
+      [0, "&LeftUpTeeVector;"],
+      [0, "&LeftDownTeeVector;"],
+      [0, "&lHar;"],
+      [0, "&uHar;"],
+      [0, "&rHar;"],
+      [0, "&dHar;"],
+      [0, "&luruhar;"],
+      [0, "&ldrdhar;"],
+      [0, "&ruluhar;"],
+      [0, "&rdldhar;"],
+      [0, "&lharul;"],
+      [0, "&llhard;"],
+      [0, "&rharul;"],
+      [0, "&lrhard;"],
+      [0, "&udhar;"],
+      [0, "&duhar;"],
+      [0, "&RoundImplies;"],
+      [0, "&erarr;"],
+      [0, "&simrarr;"],
+      [0, "&larrsim;"],
+      [0, "&rarrsim;"],
+      [0, "&rarrap;"],
+      [0, "&ltlarr;"],
+      [1, "&gtrarr;"],
+      [0, "&subrarr;"],
+      [1, "&suplarr;"],
+      [0, "&lfisht;"],
+      [0, "&rfisht;"],
+      [0, "&ufisht;"],
+      [0, "&dfisht;"],
+      [5, "&lopar;"],
+      [0, "&ropar;"],
+      [4, "&lbrke;"],
+      [0, "&rbrke;"],
+      [0, "&lbrkslu;"],
+      [0, "&rbrksld;"],
+      [0, "&lbrksld;"],
+      [0, "&rbrkslu;"],
+      [0, "&langd;"],
+      [0, "&rangd;"],
+      [0, "&lparlt;"],
+      [0, "&rpargt;"],
+      [0, "&gtlPar;"],
+      [0, "&ltrPar;"],
+      [3, "&vzigzag;"],
+      [1, "&vangrt;"],
+      [0, "&angrtvbd;"],
+      [6, "&ange;"],
+      [0, "&range;"],
+      [0, "&dwangle;"],
+      [0, "&uwangle;"],
+      [0, "&angmsdaa;"],
+      [0, "&angmsdab;"],
+      [0, "&angmsdac;"],
+      [0, "&angmsdad;"],
+      [0, "&angmsdae;"],
+      [0, "&angmsdaf;"],
+      [0, "&angmsdag;"],
+      [0, "&angmsdah;"],
+      [0, "&bemptyv;"],
+      [0, "&demptyv;"],
+      [0, "&cemptyv;"],
+      [0, "&raemptyv;"],
+      [0, "&laemptyv;"],
+      [0, "&ohbar;"],
+      [0, "&omid;"],
+      [0, "&opar;"],
+      [1, "&operp;"],
+      [1, "&olcross;"],
+      [0, "&odsold;"],
+      [1, "&olcir;"],
+      [0, "&ofcir;"],
+      [0, "&olt;"],
+      [0, "&ogt;"],
+      [0, "&cirscir;"],
+      [0, "&cirE;"],
+      [0, "&solb;"],
+      [0, "&bsolb;"],
+      [3, "&boxbox;"],
+      [3, "&trisb;"],
+      [0, "&rtriltri;"],
+      [0, { v: "&LeftTriangleBar;", n: 824, o: "&NotLeftTriangleBar;" }],
+      [0, { v: "&RightTriangleBar;", n: 824, o: "&NotRightTriangleBar;" }],
+      [11, "&iinfin;"],
+      [0, "&infintie;"],
+      [0, "&nvinfin;"],
+      [4, "&eparsl;"],
+      [0, "&smeparsl;"],
+      [0, "&eqvparsl;"],
+      [5, "&blacklozenge;"],
+      [8, "&RuleDelayed;"],
+      [1, "&dsol;"],
+      [9, "&bigodot;"],
+      [0, "&bigoplus;"],
+      [0, "&bigotimes;"],
+      [1, "&biguplus;"],
+      [1, "&bigsqcup;"],
+      [5, "&iiiint;"],
+      [0, "&fpartint;"],
+      [2, "&cirfnint;"],
+      [0, "&awint;"],
+      [0, "&rppolint;"],
+      [0, "&scpolint;"],
+      [0, "&npolint;"],
+      [0, "&pointint;"],
+      [0, "&quatint;"],
+      [0, "&intlarhk;"],
+      [10, "&pluscir;"],
+      [0, "&plusacir;"],
+      [0, "&simplus;"],
+      [0, "&plusdu;"],
+      [0, "&plussim;"],
+      [0, "&plustwo;"],
+      [1, "&mcomma;"],
+      [0, "&minusdu;"],
+      [2, "&loplus;"],
+      [0, "&roplus;"],
+      [0, "&Cross;"],
+      [0, "&timesd;"],
+      [0, "&timesbar;"],
+      [1, "&smashp;"],
+      [0, "&lotimes;"],
+      [0, "&rotimes;"],
+      [0, "&otimesas;"],
+      [0, "&Otimes;"],
+      [0, "&odiv;"],
+      [0, "&triplus;"],
+      [0, "&triminus;"],
+      [0, "&tritime;"],
+      [0, "&intprod;"],
+      [2, "&amalg;"],
+      [0, "&capdot;"],
+      [1, "&ncup;"],
+      [0, "&ncap;"],
+      [0, "&capand;"],
+      [0, "&cupor;"],
+      [0, "&cupcap;"],
+      [0, "&capcup;"],
+      [0, "&cupbrcap;"],
+      [0, "&capbrcup;"],
+      [0, "&cupcup;"],
+      [0, "&capcap;"],
+      [0, "&ccups;"],
+      [0, "&ccaps;"],
+      [2, "&ccupssm;"],
+      [2, "&And;"],
+      [0, "&Or;"],
+      [0, "&andand;"],
+      [0, "&oror;"],
+      [0, "&orslope;"],
+      [0, "&andslope;"],
+      [1, "&andv;"],
+      [0, "&orv;"],
+      [0, "&andd;"],
+      [0, "&ord;"],
+      [1, "&wedbar;"],
+      [6, "&sdote;"],
+      [3, "&simdot;"],
+      [2, { v: "&congdot;", n: 824, o: "&ncongdot;" }],
+      [0, "&easter;"],
+      [0, "&apacir;"],
+      [0, { v: "&apE;", n: 824, o: "&napE;" }],
+      [0, "&eplus;"],
+      [0, "&pluse;"],
+      [0, "&Esim;"],
+      [0, "&Colone;"],
+      [0, "&Equal;"],
+      [1, "&ddotseq;"],
+      [0, "&equivDD;"],
+      [0, "&ltcir;"],
+      [0, "&gtcir;"],
+      [0, "&ltquest;"],
+      [0, "&gtquest;"],
+      [0, { v: "&leqslant;", n: 824, o: "&nleqslant;" }],
+      [0, { v: "&geqslant;", n: 824, o: "&ngeqslant;" }],
+      [0, "&lesdot;"],
+      [0, "&gesdot;"],
+      [0, "&lesdoto;"],
+      [0, "&gesdoto;"],
+      [0, "&lesdotor;"],
+      [0, "&gesdotol;"],
+      [0, "&lap;"],
+      [0, "&gap;"],
+      [0, "&lne;"],
+      [0, "&gne;"],
+      [0, "&lnap;"],
+      [0, "&gnap;"],
+      [0, "&lEg;"],
+      [0, "&gEl;"],
+      [0, "&lsime;"],
+      [0, "&gsime;"],
+      [0, "&lsimg;"],
+      [0, "&gsiml;"],
+      [0, "&lgE;"],
+      [0, "&glE;"],
+      [0, "&lesges;"],
+      [0, "&gesles;"],
+      [0, "&els;"],
+      [0, "&egs;"],
+      [0, "&elsdot;"],
+      [0, "&egsdot;"],
+      [0, "&el;"],
+      [0, "&eg;"],
+      [2, "&siml;"],
+      [0, "&simg;"],
+      [0, "&simlE;"],
+      [0, "&simgE;"],
+      [0, { v: "&LessLess;", n: 824, o: "&NotNestedLessLess;" }],
+      [0, { v: "&GreaterGreater;", n: 824, o: "&NotNestedGreaterGreater;" }],
+      [1, "&glj;"],
+      [0, "&gla;"],
+      [0, "&ltcc;"],
+      [0, "&gtcc;"],
+      [0, "&lescc;"],
+      [0, "&gescc;"],
+      [0, "&smt;"],
+      [0, "&lat;"],
+      [0, { v: "&smte;", n: 65024, o: "&smtes;" }],
+      [0, { v: "&late;", n: 65024, o: "&lates;" }],
+      [0, "&bumpE;"],
+      [0, { v: "&PrecedesEqual;", n: 824, o: "&NotPrecedesEqual;" }],
+      [0, { v: "&sce;", n: 824, o: "&NotSucceedsEqual;" }],
+      [2, "&prE;"],
+      [0, "&scE;"],
+      [0, "&precneqq;"],
+      [0, "&scnE;"],
+      [0, "&prap;"],
+      [0, "&scap;"],
+      [0, "&precnapprox;"],
+      [0, "&scnap;"],
+      [0, "&Pr;"],
+      [0, "&Sc;"],
+      [0, "&subdot;"],
+      [0, "&supdot;"],
+      [0, "&subplus;"],
+      [0, "&supplus;"],
+      [0, "&submult;"],
+      [0, "&supmult;"],
+      [0, "&subedot;"],
+      [0, "&supedot;"],
+      [0, { v: "&subE;", n: 824, o: "&nsubE;" }],
+      [0, { v: "&supE;", n: 824, o: "&nsupE;" }],
+      [0, "&subsim;"],
+      [0, "&supsim;"],
+      [2, { v: "&subnE;", n: 65024, o: "&varsubsetneqq;" }],
+      [0, { v: "&supnE;", n: 65024, o: "&varsupsetneqq;" }],
+      [2, "&csub;"],
+      [0, "&csup;"],
+      [0, "&csube;"],
+      [0, "&csupe;"],
+      [0, "&subsup;"],
+      [0, "&supsub;"],
+      [0, "&subsub;"],
+      [0, "&supsup;"],
+      [0, "&suphsub;"],
+      [0, "&supdsub;"],
+      [0, "&forkv;"],
+      [0, "&topfork;"],
+      [0, "&mlcp;"],
+      [8, "&Dashv;"],
+      [1, "&Vdashl;"],
+      [0, "&Barv;"],
+      [0, "&vBar;"],
+      [0, "&vBarv;"],
+      [1, "&Vbar;"],
+      [0, "&Not;"],
+      [0, "&bNot;"],
+      [0, "&rnmid;"],
+      [0, "&cirmid;"],
+      [0, "&midcir;"],
+      [0, "&topcir;"],
+      [0, "&nhpar;"],
+      [0, "&parsim;"],
+      [9, { v: "&parsl;", n: 8421, o: "&nparsl;" }],
+      [
+        44343,
+        {
+          n: new Map(
+            /* @__PURE__ */ restoreDiff2([
+              [56476, "&Ascr;"],
+              [1, "&Cscr;"],
+              [0, "&Dscr;"],
+              [2, "&Gscr;"],
+              [2, "&Jscr;"],
+              [0, "&Kscr;"],
+              [2, "&Nscr;"],
+              [0, "&Oscr;"],
+              [0, "&Pscr;"],
+              [0, "&Qscr;"],
+              [1, "&Sscr;"],
+              [0, "&Tscr;"],
+              [0, "&Uscr;"],
+              [0, "&Vscr;"],
+              [0, "&Wscr;"],
+              [0, "&Xscr;"],
+              [0, "&Yscr;"],
+              [0, "&Zscr;"],
+              [0, "&ascr;"],
+              [0, "&bscr;"],
+              [0, "&cscr;"],
+              [0, "&dscr;"],
+              [1, "&fscr;"],
+              [1, "&hscr;"],
+              [0, "&iscr;"],
+              [0, "&jscr;"],
+              [0, "&kscr;"],
+              [0, "&lscr;"],
+              [0, "&mscr;"],
+              [0, "&nscr;"],
+              [1, "&pscr;"],
+              [0, "&qscr;"],
+              [0, "&rscr;"],
+              [0, "&sscr;"],
+              [0, "&tscr;"],
+              [0, "&uscr;"],
+              [0, "&vscr;"],
+              [0, "&wscr;"],
+              [0, "&xscr;"],
+              [0, "&yscr;"],
+              [0, "&zscr;"],
+              [52, "&Afr;"],
+              [0, "&Bfr;"],
+              [1, "&Dfr;"],
+              [0, "&Efr;"],
+              [0, "&Ffr;"],
+              [0, "&Gfr;"],
+              [2, "&Jfr;"],
+              [0, "&Kfr;"],
+              [0, "&Lfr;"],
+              [0, "&Mfr;"],
+              [0, "&Nfr;"],
+              [0, "&Ofr;"],
+              [0, "&Pfr;"],
+              [0, "&Qfr;"],
+              [1, "&Sfr;"],
+              [0, "&Tfr;"],
+              [0, "&Ufr;"],
+              [0, "&Vfr;"],
+              [0, "&Wfr;"],
+              [0, "&Xfr;"],
+              [0, "&Yfr;"],
+              [1, "&afr;"],
+              [0, "&bfr;"],
+              [0, "&cfr;"],
+              [0, "&dfr;"],
+              [0, "&efr;"],
+              [0, "&ffr;"],
+              [0, "&gfr;"],
+              [0, "&hfr;"],
+              [0, "&ifr;"],
+              [0, "&jfr;"],
+              [0, "&kfr;"],
+              [0, "&lfr;"],
+              [0, "&mfr;"],
+              [0, "&nfr;"],
+              [0, "&ofr;"],
+              [0, "&pfr;"],
+              [0, "&qfr;"],
+              [0, "&rfr;"],
+              [0, "&sfr;"],
+              [0, "&tfr;"],
+              [0, "&ufr;"],
+              [0, "&vfr;"],
+              [0, "&wfr;"],
+              [0, "&xfr;"],
+              [0, "&yfr;"],
+              [0, "&zfr;"],
+              [0, "&Aopf;"],
+              [0, "&Bopf;"],
+              [1, "&Dopf;"],
+              [0, "&Eopf;"],
+              [0, "&Fopf;"],
+              [0, "&Gopf;"],
+              [1, "&Iopf;"],
+              [0, "&Jopf;"],
+              [0, "&Kopf;"],
+              [0, "&Lopf;"],
+              [0, "&Mopf;"],
+              [1, "&Oopf;"],
+              [3, "&Sopf;"],
+              [0, "&Topf;"],
+              [0, "&Uopf;"],
+              [0, "&Vopf;"],
+              [0, "&Wopf;"],
+              [0, "&Xopf;"],
+              [0, "&Yopf;"],
+              [1, "&aopf;"],
+              [0, "&bopf;"],
+              [0, "&copf;"],
+              [0, "&dopf;"],
+              [0, "&eopf;"],
+              [0, "&fopf;"],
+              [0, "&gopf;"],
+              [0, "&hopf;"],
+              [0, "&iopf;"],
+              [0, "&jopf;"],
+              [0, "&kopf;"],
+              [0, "&lopf;"],
+              [0, "&mopf;"],
+              [0, "&nopf;"],
+              [0, "&oopf;"],
+              [0, "&popf;"],
+              [0, "&qopf;"],
+              [0, "&ropf;"],
+              [0, "&sopf;"],
+              [0, "&topf;"],
+              [0, "&uopf;"],
+              [0, "&vopf;"],
+              [0, "&wopf;"],
+              [0, "&xopf;"],
+              [0, "&yopf;"],
+              [0, "&zopf;"],
+            ])
+          ),
+        },
+      ],
+      [8906, "&fflig;"],
+      [0, "&filig;"],
+      [0, "&fllig;"],
+      [0, "&ffilig;"],
+      [0, "&ffllig;"],
+    ])
+  );
 
   // node_modules/dom-serializer/node_modules/entities/lib/esm/escape.js
   var xmlReplacer2 = /["&'<>$\x80-\uFFFF]/g;
@@ -5066,15 +8825,20 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     [38, "&amp;"],
     [39, "&apos;"],
     [60, "&lt;"],
-    [62, "&gt;"]
+    [62, "&gt;"],
   ]);
-  var getCodePoint2 = (
+  var getCodePoint2 =
     // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
-    String.prototype.codePointAt != null ? (str, index) => str.codePointAt(index) : (
-      // http://mathiasbynens.be/notes/javascript-encoding#surrogate-formulae
-      (c2, index) => (c2.charCodeAt(index) & 64512) === 55296 ? (c2.charCodeAt(index) - 55296) * 1024 + c2.charCodeAt(index + 1) - 56320 + 65536 : c2.charCodeAt(index)
-    )
-  );
+    String.prototype.codePointAt != null
+      ? (str, index) => str.codePointAt(index)
+      : // http://mathiasbynens.be/notes/javascript-encoding#surrogate-formulae
+        (c2, index) =>
+          (c2.charCodeAt(index) & 64512) === 55296
+            ? (c2.charCodeAt(index) - 55296) * 1024 +
+              c2.charCodeAt(index + 1) -
+              56320 +
+              65536
+            : c2.charCodeAt(index);
   function encodeXML2(str) {
     let ret = "";
     let lastIdx = 0;
@@ -5087,7 +8851,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
         ret += str.substring(lastIdx, i) + next;
         lastIdx = i + 1;
       } else {
-        ret += `${str.substring(lastIdx, i)}&#x${getCodePoint2(str, i).toString(16)};`;
+        ret += `${str.substring(lastIdx, i)}&#x${getCodePoint2(str, i).toString(
+          16
+        )};`;
         lastIdx = xmlReplacer2.lastIndex += Number((char & 64512) === 55296);
       }
     }
@@ -5098,7 +8864,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       let match;
       let lastIdx = 0;
       let result = "";
-      while (match = regex.exec(data)) {
+      while ((match = regex.exec(data))) {
         if (lastIdx !== match.index) {
           result += data.substring(lastIdx, match.index);
         }
@@ -5109,134 +8875,144 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     };
   }
   var escapeUTF82 = getEscaper2(/[&<>'"]/g, xmlCodeMap2);
-  var escapeAttribute2 = getEscaper2(/["&\u00A0]/g, /* @__PURE__ */ new Map([
-    [34, "&quot;"],
-    [38, "&amp;"],
-    [160, "&nbsp;"]
-  ]));
-  var escapeText2 = getEscaper2(/[&<>\u00A0]/g, /* @__PURE__ */ new Map([
-    [38, "&amp;"],
-    [60, "&lt;"],
-    [62, "&gt;"],
-    [160, "&nbsp;"]
-  ]));
+  var escapeAttribute2 = getEscaper2(
+    /["&\u00A0]/g,
+    /* @__PURE__ */ new Map([
+      [34, "&quot;"],
+      [38, "&amp;"],
+      [160, "&nbsp;"],
+    ])
+  );
+  var escapeText2 = getEscaper2(
+    /[&<>\u00A0]/g,
+    /* @__PURE__ */ new Map([
+      [38, "&amp;"],
+      [60, "&lt;"],
+      [62, "&gt;"],
+      [160, "&nbsp;"],
+    ])
+  );
 
   // node_modules/dom-serializer/node_modules/entities/lib/esm/index.js
   var EntityLevel2;
-  (function(EntityLevel3) {
-    EntityLevel3[EntityLevel3["XML"] = 0] = "XML";
-    EntityLevel3[EntityLevel3["HTML"] = 1] = "HTML";
+  (function (EntityLevel3) {
+    EntityLevel3[(EntityLevel3["XML"] = 0)] = "XML";
+    EntityLevel3[(EntityLevel3["HTML"] = 1)] = "HTML";
   })(EntityLevel2 || (EntityLevel2 = {}));
   var EncodingMode2;
-  (function(EncodingMode3) {
-    EncodingMode3[EncodingMode3["UTF8"] = 0] = "UTF8";
-    EncodingMode3[EncodingMode3["ASCII"] = 1] = "ASCII";
-    EncodingMode3[EncodingMode3["Extensive"] = 2] = "Extensive";
-    EncodingMode3[EncodingMode3["Attribute"] = 3] = "Attribute";
-    EncodingMode3[EncodingMode3["Text"] = 4] = "Text";
+  (function (EncodingMode3) {
+    EncodingMode3[(EncodingMode3["UTF8"] = 0)] = "UTF8";
+    EncodingMode3[(EncodingMode3["ASCII"] = 1)] = "ASCII";
+    EncodingMode3[(EncodingMode3["Extensive"] = 2)] = "Extensive";
+    EncodingMode3[(EncodingMode3["Attribute"] = 3)] = "Attribute";
+    EncodingMode3[(EncodingMode3["Text"] = 4)] = "Text";
   })(EncodingMode2 || (EncodingMode2 = {}));
 
   // node_modules/dom-serializer/lib/esm/foreignNames.js
-  var elementNames = new Map([
-    "altGlyph",
-    "altGlyphDef",
-    "altGlyphItem",
-    "animateColor",
-    "animateMotion",
-    "animateTransform",
-    "clipPath",
-    "feBlend",
-    "feColorMatrix",
-    "feComponentTransfer",
-    "feComposite",
-    "feConvolveMatrix",
-    "feDiffuseLighting",
-    "feDisplacementMap",
-    "feDistantLight",
-    "feDropShadow",
-    "feFlood",
-    "feFuncA",
-    "feFuncB",
-    "feFuncG",
-    "feFuncR",
-    "feGaussianBlur",
-    "feImage",
-    "feMerge",
-    "feMergeNode",
-    "feMorphology",
-    "feOffset",
-    "fePointLight",
-    "feSpecularLighting",
-    "feSpotLight",
-    "feTile",
-    "feTurbulence",
-    "foreignObject",
-    "glyphRef",
-    "linearGradient",
-    "radialGradient",
-    "textPath"
-  ].map((val) => [val.toLowerCase(), val]));
-  var attributeNames = new Map([
-    "definitionURL",
-    "attributeName",
-    "attributeType",
-    "baseFrequency",
-    "baseProfile",
-    "calcMode",
-    "clipPathUnits",
-    "diffuseConstant",
-    "edgeMode",
-    "filterUnits",
-    "glyphRef",
-    "gradientTransform",
-    "gradientUnits",
-    "kernelMatrix",
-    "kernelUnitLength",
-    "keyPoints",
-    "keySplines",
-    "keyTimes",
-    "lengthAdjust",
-    "limitingConeAngle",
-    "markerHeight",
-    "markerUnits",
-    "markerWidth",
-    "maskContentUnits",
-    "maskUnits",
-    "numOctaves",
-    "pathLength",
-    "patternContentUnits",
-    "patternTransform",
-    "patternUnits",
-    "pointsAtX",
-    "pointsAtY",
-    "pointsAtZ",
-    "preserveAlpha",
-    "preserveAspectRatio",
-    "primitiveUnits",
-    "refX",
-    "refY",
-    "repeatCount",
-    "repeatDur",
-    "requiredExtensions",
-    "requiredFeatures",
-    "specularConstant",
-    "specularExponent",
-    "spreadMethod",
-    "startOffset",
-    "stdDeviation",
-    "stitchTiles",
-    "surfaceScale",
-    "systemLanguage",
-    "tableValues",
-    "targetX",
-    "targetY",
-    "textLength",
-    "viewBox",
-    "viewTarget",
-    "xChannelSelector",
-    "yChannelSelector",
-    "zoomAndPan"
-  ].map((val) => [val.toLowerCase(), val]));
+  var elementNames = new Map(
+    [
+      "altGlyph",
+      "altGlyphDef",
+      "altGlyphItem",
+      "animateColor",
+      "animateMotion",
+      "animateTransform",
+      "clipPath",
+      "feBlend",
+      "feColorMatrix",
+      "feComponentTransfer",
+      "feComposite",
+      "feConvolveMatrix",
+      "feDiffuseLighting",
+      "feDisplacementMap",
+      "feDistantLight",
+      "feDropShadow",
+      "feFlood",
+      "feFuncA",
+      "feFuncB",
+      "feFuncG",
+      "feFuncR",
+      "feGaussianBlur",
+      "feImage",
+      "feMerge",
+      "feMergeNode",
+      "feMorphology",
+      "feOffset",
+      "fePointLight",
+      "feSpecularLighting",
+      "feSpotLight",
+      "feTile",
+      "feTurbulence",
+      "foreignObject",
+      "glyphRef",
+      "linearGradient",
+      "radialGradient",
+      "textPath",
+    ].map((val) => [val.toLowerCase(), val])
+  );
+  var attributeNames = new Map(
+    [
+      "definitionURL",
+      "attributeName",
+      "attributeType",
+      "baseFrequency",
+      "baseProfile",
+      "calcMode",
+      "clipPathUnits",
+      "diffuseConstant",
+      "edgeMode",
+      "filterUnits",
+      "glyphRef",
+      "gradientTransform",
+      "gradientUnits",
+      "kernelMatrix",
+      "kernelUnitLength",
+      "keyPoints",
+      "keySplines",
+      "keyTimes",
+      "lengthAdjust",
+      "limitingConeAngle",
+      "markerHeight",
+      "markerUnits",
+      "markerWidth",
+      "maskContentUnits",
+      "maskUnits",
+      "numOctaves",
+      "pathLength",
+      "patternContentUnits",
+      "patternTransform",
+      "patternUnits",
+      "pointsAtX",
+      "pointsAtY",
+      "pointsAtZ",
+      "preserveAlpha",
+      "preserveAspectRatio",
+      "primitiveUnits",
+      "refX",
+      "refY",
+      "repeatCount",
+      "repeatDur",
+      "requiredExtensions",
+      "requiredFeatures",
+      "specularConstant",
+      "specularExponent",
+      "spreadMethod",
+      "startOffset",
+      "stdDeviation",
+      "stitchTiles",
+      "surfaceScale",
+      "systemLanguage",
+      "tableValues",
+      "targetX",
+      "targetY",
+      "textLength",
+      "viewBox",
+      "viewTarget",
+      "xChannelSelector",
+      "yChannelSelector",
+      "zoomAndPan",
+    ].map((val) => [val.toLowerCase(), val])
+  );
 
   // node_modules/dom-serializer/lib/esm/index.js
   var unencodedElements = /* @__PURE__ */ new Set([
@@ -5247,27 +9023,37 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     "noembed",
     "noframes",
     "plaintext",
-    "noscript"
+    "noscript",
   ]);
   function replaceQuotes(value) {
     return value.replace(/"/g, "&quot;");
   }
   function formatAttributes(attributes, opts) {
     var _a4;
-    if (!attributes)
-      return;
-    const encode = ((_a4 = opts.encodeEntities) !== null && _a4 !== void 0 ? _a4 : opts.decodeEntities) === false ? replaceQuotes : opts.xmlMode || opts.encodeEntities !== "utf8" ? encodeXML2 : escapeAttribute2;
-    return Object.keys(attributes).map((key) => {
-      var _a5, _b;
-      const value = (_a5 = attributes[key]) !== null && _a5 !== void 0 ? _a5 : "";
-      if (opts.xmlMode === "foreign") {
-        key = (_b = attributeNames.get(key)) !== null && _b !== void 0 ? _b : key;
-      }
-      if (!opts.emptyAttrs && !opts.xmlMode && value === "") {
-        return key;
-      }
-      return `${key}="${encode(value)}"`;
-    }).join(" ");
+    if (!attributes) return;
+    const encode =
+      ((_a4 = opts.encodeEntities) !== null && _a4 !== void 0
+        ? _a4
+        : opts.decodeEntities) === false
+        ? replaceQuotes
+        : opts.xmlMode || opts.encodeEntities !== "utf8"
+        ? encodeXML2
+        : escapeAttribute2;
+    return Object.keys(attributes)
+      .map((key) => {
+        var _a5, _b;
+        const value =
+          (_a5 = attributes[key]) !== null && _a5 !== void 0 ? _a5 : "";
+        if (opts.xmlMode === "foreign") {
+          key =
+            (_b = attributeNames.get(key)) !== null && _b !== void 0 ? _b : key;
+        }
+        if (!opts.emptyAttrs && !opts.xmlMode && value === "") {
+          return key;
+        }
+        return `${key}="${encode(value)}"`;
+      })
+      .join(" ");
   }
   var singleTag = /* @__PURE__ */ new Set([
     "area",
@@ -5288,7 +9074,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     "param",
     "source",
     "track",
-    "wbr"
+    "wbr",
   ]);
   function render(node, options = {}) {
     const nodes = "length" in node ? node : [node];
@@ -5326,13 +9112,16 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     "annotation-xml",
     "foreignObject",
     "desc",
-    "title"
+    "title",
   ]);
   var foreignElements = /* @__PURE__ */ new Set(["svg", "math"]);
   function renderTag(elem, opts) {
     var _a4;
     if (opts.xmlMode === "foreign") {
-      elem.name = (_a4 = elementNames.get(elem.name)) !== null && _a4 !== void 0 ? _a4 : elem.name;
+      elem.name =
+        (_a4 = elementNames.get(elem.name)) !== null && _a4 !== void 0
+          ? _a4
+          : elem.name;
       if (elem.parent && foreignModeIntegrationPoints.has(elem.parent.name)) {
         opts = { ...opts, xmlMode: false };
       }
@@ -5345,15 +9134,15 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     if (attribs) {
       tag += ` ${attribs}`;
     }
-    if (elem.children.length === 0 && (opts.xmlMode ? (
-      // In XML mode or foreign mode, and user hasn't explicitly turned off self-closing tags
-      opts.selfClosingTags !== false
-    ) : (
-      // User explicitly asked for self-closing tags, even in HTML mode
-      opts.selfClosingTags && singleTag.has(elem.name)
-    ))) {
-      if (!opts.xmlMode)
-        tag += " ";
+    if (
+      elem.children.length === 0 &&
+      (opts.xmlMode
+        ? // In XML mode or foreign mode, and user hasn't explicitly turned off self-closing tags
+          opts.selfClosingTags !== false
+        : // User explicitly asked for self-closing tags, even in HTML mode
+          opts.selfClosingTags && singleTag.has(elem.name))
+    ) {
+      if (!opts.xmlMode) tag += " ";
       tag += "/>";
     } else {
       tag += ">";
@@ -5372,8 +9161,16 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
   function renderText(elem, opts) {
     var _a4;
     let data = elem.data || "";
-    if (((_a4 = opts.encodeEntities) !== null && _a4 !== void 0 ? _a4 : opts.decodeEntities) !== false && !(!opts.xmlMode && elem.parent && unencodedElements.has(elem.parent.name))) {
-      data = opts.xmlMode || opts.encodeEntities !== "utf8" ? encodeXML2(data) : escapeText2(data);
+    if (
+      ((_a4 = opts.encodeEntities) !== null && _a4 !== void 0
+        ? _a4
+        : opts.decodeEntities) !== false &&
+      !(!opts.xmlMode && elem.parent && unencodedElements.has(elem.parent.name))
+    ) {
+      data =
+        opts.xmlMode || opts.encodeEntities !== "utf8"
+          ? encodeXML2(data)
+          : escapeText2(data);
     }
     return data;
   }
@@ -5386,12 +9183,13 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
 
   // node_modules/domutils/lib/esm/helpers.js
   var DocumentPosition;
-  (function(DocumentPosition2) {
-    DocumentPosition2[DocumentPosition2["DISCONNECTED"] = 1] = "DISCONNECTED";
-    DocumentPosition2[DocumentPosition2["PRECEDING"] = 2] = "PRECEDING";
-    DocumentPosition2[DocumentPosition2["FOLLOWING"] = 4] = "FOLLOWING";
-    DocumentPosition2[DocumentPosition2["CONTAINS"] = 8] = "CONTAINS";
-    DocumentPosition2[DocumentPosition2["CONTAINED_BY"] = 16] = "CONTAINED_BY";
+  (function (DocumentPosition2) {
+    DocumentPosition2[(DocumentPosition2["DISCONNECTED"] = 1)] = "DISCONNECTED";
+    DocumentPosition2[(DocumentPosition2["PRECEDING"] = 2)] = "PRECEDING";
+    DocumentPosition2[(DocumentPosition2["FOLLOWING"] = 4)] = "FOLLOWING";
+    DocumentPosition2[(DocumentPosition2["CONTAINS"] = 8)] = "CONTAINS";
+    DocumentPosition2[(DocumentPosition2["CONTAINED_BY"] = 16)] =
+      "CONTAINED_BY";
   })(DocumentPosition || (DocumentPosition = {}));
 
   // node_modules/html-to-text/node_modules/htmlparser2/lib/esm/index.js
@@ -5405,13 +9203,13 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
   var import_deepmerge = __toESM(require_cjs(), 1);
   function limitedDepthRecursive(n2, f, g = () => void 0) {
     if (n2 === void 0) {
-      const f1 = function(...args) {
+      const f1 = function (...args) {
         return f(f1, ...args);
       };
       return f1;
     }
     if (n2 >= 0) {
-      return function(...args) {
+      return function (...args) {
         return f(limitedDepthRecursive(n2 - 1, f, g), ...args);
       };
     }
@@ -5436,7 +9234,10 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     return end < str.length ? str.substring(0, end) : str;
   }
   function unicodeEscape(str) {
-    return str.replace(/[\s\S]/g, (c2) => "\\u" + c2.charCodeAt().toString(16).padStart(4, "0"));
+    return str.replace(
+      /[\s\S]/g,
+      (c2) => "\\u" + c2.charCodeAt().toString(16).padStart(4, "0")
+    );
   }
   function mergeDuplicatesPreferLast(items, getKey) {
     const map2 = /* @__PURE__ */ new Map();
@@ -5445,7 +9246,11 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       const key = getKey(item);
       map2.set(
         key,
-        map2.has(key) ? (0, import_deepmerge.default)(item, map2.get(key), { arrayMerge: overwriteMerge$1 }) : item
+        map2.has(key)
+          ? (0, import_deepmerge.default)(item, map2.get(key), {
+              arrayMerge: overwriteMerge$1,
+            })
+          : item
       );
     }
     return [...map2.values()].reverse();
@@ -5465,15 +9270,27 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     do {
       num -= 1;
       digits.push(num % base);
-      num = num / base >> 0;
+      num = (num / base) >> 0;
     } while (num > 0);
     const baseCode = baseChar.charCodeAt(0);
-    return digits.reverse().map((n2) => String.fromCharCode(baseCode + n2)).join("");
+    return digits
+      .reverse()
+      .map((n2) => String.fromCharCode(baseCode + n2))
+      .join("");
   }
   var I = ["I", "X", "C", "M"];
   var V = ["V", "L", "D"];
   function numberToRoman(num) {
-    return [...num + ""].map((n2) => +n2).reverse().map((v, i) => v % 5 < 4 ? (v < 5 ? "" : V[i]) + I[i].repeat(v % 5) : I[i] + (v < 5 ? V[i] : I[i + 1])).reverse().join("");
+    return [...(num + "")]
+      .map((n2) => +n2)
+      .reverse()
+      .map((v, i) =>
+        v % 5 < 4
+          ? (v < 5 ? "" : V[i]) + I[i].repeat(v % 5)
+          : I[i] + (v < 5 ? V[i] : I[i + 1])
+      )
+      .reverse()
+      .join("");
   }
   var InlineTextBuilder = class {
     /**
@@ -5487,10 +9304,13 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     constructor(options, maxLineLength = void 0) {
       this.lines = [];
       this.nextLineWords = [];
-      this.maxLineLength = maxLineLength || options.wordwrap || Number.MAX_VALUE;
+      this.maxLineLength =
+        maxLineLength || options.wordwrap || Number.MAX_VALUE;
       this.nextLineAvailableChars = this.maxLineLength;
-      this.wrapCharacters = get(options, ["longWordSplit", "wrapCharacters"]) || [];
-      this.forceWrapOnLimit = get(options, ["longWordSplit", "forceWrapOnLimit"]) || false;
+      this.wrapCharacters =
+        get(options, ["longWordSplit", "wrapCharacters"]) || [];
+      this.forceWrapOnLimit =
+        get(options, ["longWordSplit", "forceWrapOnLimit"]) || false;
       this.stashedSpace = false;
       this.wordBreakOpportunity = false;
     }
@@ -5546,7 +9366,10 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
      * @param { boolean } [noWrap] Don't wrap text even if the line is too long.
      */
     concatWord(word, noWrap = false) {
-      if (this.wordBreakOpportunity && word.length > this.nextLineAvailableChars) {
+      if (
+        this.wordBreakOpportunity &&
+        word.length > this.nextLineAvailableChars
+      ) {
         this.pushWord(word, noWrap);
         this.wordBreakOpportunity = false;
       } else {
@@ -5586,7 +9409,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
      * @returns { string }
      */
     toString() {
-      return [...this.lines, this.nextLineWords].map((words) => words.join(" ")).join("\n");
+      return [...this.lines, this.nextLineWords]
+        .map((words) => words.join(" "))
+        .join("\n");
     }
     /**
      * Split a long word up to fit within the word wrap limit.
@@ -5637,7 +9462,12 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     }
   };
   var BlockStackItem = class extends StackItem {
-    constructor(options, next = null, leadingLineBreaks = 1, maxLineLength = void 0) {
+    constructor(
+      options,
+      next = null,
+      leadingLineBreaks = 1,
+      maxLineLength = void 0
+    ) {
       super(next);
       this.leadingLineBreaks = leadingLineBreaks;
       this.inlineTextBuilder = new InlineTextBuilder(options, maxLineLength);
@@ -5648,13 +9478,17 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     }
   };
   var ListStackItem = class extends BlockStackItem {
-    constructor(options, next = null, {
-      interRowLineBreaks = 1,
-      leadingLineBreaks = 2,
-      maxLineLength = void 0,
-      maxPrefixLength = 0,
-      prefixAlign = "left"
-    } = {}) {
+    constructor(
+      options,
+      next = null,
+      {
+        interRowLineBreaks = 1,
+        leadingLineBreaks = 2,
+        maxLineLength = void 0,
+        maxPrefixLength = 0,
+        prefixAlign = "left",
+      } = {}
+    ) {
       super(options, next, leadingLineBreaks, maxLineLength);
       this.maxPrefixLength = maxPrefixLength;
       this.prefixAlign = prefixAlign;
@@ -5662,11 +9496,11 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     }
   };
   var ListItemStackItem = class extends BlockStackItem {
-    constructor(options, next = null, {
-      leadingLineBreaks = 1,
-      maxLineLength = void 0,
-      prefix = ""
-    } = {}) {
+    constructor(
+      options,
+      next = null,
+      { leadingLineBreaks = 1, maxLineLength = void 0, prefix = "" } = {}
+    ) {
       super(options, next, leadingLineBreaks, maxLineLength);
       this.prefix = prefix;
     }
@@ -5704,7 +9538,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     }
   };
   function charactersToCodes(str) {
-    return [...str].map((c2) => "\\u" + c2.charCodeAt(0).toString(16).padStart(4, "0")).join("");
+    return [...str]
+      .map((c2) => "\\u" + c2.charCodeAt(0).toString(16).padStart(4, "0"))
+      .join("");
   }
   var WhitespaceProcessor = class {
     /**
@@ -5714,16 +9550,29 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
      * @memberof WhitespaceProcessor
      */
     constructor(options) {
-      this.whitespaceChars = options.preserveNewlines ? options.whitespaceCharacters.replace(/\n/g, "") : options.whitespaceCharacters;
+      this.whitespaceChars = options.preserveNewlines
+        ? options.whitespaceCharacters.replace(/\n/g, "")
+        : options.whitespaceCharacters;
       const whitespaceCodes = charactersToCodes(this.whitespaceChars);
       this.leadingWhitespaceRe = new RegExp(`^[${whitespaceCodes}]`);
       this.trailingWhitespaceRe = new RegExp(`[${whitespaceCodes}]$`);
       this.allWhitespaceOrEmptyRe = new RegExp(`^[${whitespaceCodes}]*$`);
-      this.newlineOrNonWhitespaceRe = new RegExp(`(\\n|[^\\n${whitespaceCodes}])`, "g");
+      this.newlineOrNonWhitespaceRe = new RegExp(
+        `(\\n|[^\\n${whitespaceCodes}])`,
+        "g"
+      );
       this.newlineOrNonNewlineStringRe = new RegExp(`(\\n|[^\\n]+)`, "g");
       if (options.preserveNewlines) {
-        const wordOrNewlineRe = new RegExp(`\\n|[^\\n${whitespaceCodes}]+`, "gm");
-        this.shrinkWrapAdd = function(text, inlineTextBuilder, transform = (str) => str, noWrap = false) {
+        const wordOrNewlineRe = new RegExp(
+          `\\n|[^\\n${whitespaceCodes}]+`,
+          "gm"
+        );
+        this.shrinkWrapAdd = function (
+          text,
+          inlineTextBuilder,
+          transform = (str) => str,
+          noWrap = false
+        ) {
           if (!text) {
             return;
           }
@@ -5734,7 +9583,10 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
             anyMatch = true;
             if (m[0] === "\n") {
               inlineTextBuilder.startNewLine();
-            } else if (previouslyStashedSpace || this.testLeadingWhitespace(text)) {
+            } else if (
+              previouslyStashedSpace ||
+              this.testLeadingWhitespace(text)
+            ) {
               inlineTextBuilder.pushWord(transform(m[0]), noWrap);
             } else {
               inlineTextBuilder.concatWord(transform(m[0]), noWrap);
@@ -5747,11 +9599,18 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
               }
             }
           }
-          inlineTextBuilder.stashedSpace = previouslyStashedSpace && !anyMatch || this.testTrailingWhitespace(text);
+          inlineTextBuilder.stashedSpace =
+            (previouslyStashedSpace && !anyMatch) ||
+            this.testTrailingWhitespace(text);
         };
       } else {
         const wordRe = new RegExp(`[^${whitespaceCodes}]+`, "g");
-        this.shrinkWrapAdd = function(text, inlineTextBuilder, transform = (str) => str, noWrap = false) {
+        this.shrinkWrapAdd = function (
+          text,
+          inlineTextBuilder,
+          transform = (str) => str,
+          noWrap = false
+        ) {
           if (!text) {
             return;
           }
@@ -5769,7 +9628,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
               inlineTextBuilder.pushWord(transform(m[0]), noWrap);
             }
           }
-          inlineTextBuilder.stashedSpace = previouslyStashedSpace && !anyMatch || this.testTrailingWhitespace(text);
+          inlineTextBuilder.stashedSpace =
+            (previouslyStashedSpace && !anyMatch) ||
+            this.testTrailingWhitespace(text);
         };
       }
     }
@@ -5887,7 +9748,10 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
      * @param { (str: string) => string } wordTransform Word transformation function.
      */
     pushWordTransform(wordTransform) {
-      this._wordTransformer = new TransformerStackItem(this._wordTransformer, wordTransform);
+      this._wordTransformer = new TransformerStackItem(
+        this._wordTransformer,
+        wordTransform
+      );
     }
     /**
      * Remove a function from the word transformations stack.
@@ -5916,9 +9780,11 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     }
     /** @returns { (str: string) => string } */
     _getCombinedWordTransformer() {
-      const wt = this._wordTransformer ? (str) => applyTransformer(str, this._wordTransformer) : void 0;
+      const wt = this._wordTransformer
+        ? (str) => applyTransformer(str, this._wordTransformer)
+        : void 0;
       const ce = this.options.encodeCharacters;
-      return wt ? ce ? (str) => ce(wt(str)) : wt : ce;
+      return wt ? (ce ? (str) => ce(wt(str)) : wt) : ce;
     }
     _popStackItem() {
       const item = this._stackItem;
@@ -5929,7 +9795,13 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
      * Add a line break into currently built block.
      */
     addLineBreak() {
-      if (!(this._stackItem instanceof BlockStackItem || this._stackItem instanceof ListItemStackItem || this._stackItem instanceof TableCellStackItem)) {
+      if (
+        !(
+          this._stackItem instanceof BlockStackItem ||
+          this._stackItem instanceof ListItemStackItem ||
+          this._stackItem instanceof TableCellStackItem
+        )
+      ) {
         return;
       }
       if (this._stackItem.isPre) {
@@ -5942,7 +9814,11 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
      * Allow to break line in case directly following text will not fit.
      */
     addWordBreakOpportunity() {
-      if (this._stackItem instanceof BlockStackItem || this._stackItem instanceof ListItemStackItem || this._stackItem instanceof TableCellStackItem) {
+      if (
+        this._stackItem instanceof BlockStackItem ||
+        this._stackItem instanceof ListItemStackItem ||
+        this._stackItem instanceof TableCellStackItem
+      ) {
         this._stackItem.inlineTextBuilder.wordBreakOpportunity = true;
       }
     }
@@ -5961,27 +9837,38 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
      * (Use this for things like URL addresses).
      */
     addInline(str, { noWordTransform = false } = {}) {
-      if (!(this._stackItem instanceof BlockStackItem || this._stackItem instanceof ListItemStackItem || this._stackItem instanceof TableCellStackItem)) {
+      if (
+        !(
+          this._stackItem instanceof BlockStackItem ||
+          this._stackItem instanceof ListItemStackItem ||
+          this._stackItem instanceof TableCellStackItem
+        )
+      ) {
         return;
       }
       if (this._stackItem.isPre) {
         this._stackItem.rawText += str;
         return;
       }
-      if (str.length === 0 || // empty string
-      this._stackItem.stashedLineBreaks && // stashed linebreaks make whitespace irrelevant
-      !this.whitespaceProcessor.testContainsWords(str)) {
+      if (
+        str.length === 0 || // empty string
+        (this._stackItem.stashedLineBreaks && // stashed linebreaks make whitespace irrelevant
+          !this.whitespaceProcessor.testContainsWords(str))
+      ) {
         return;
       }
       if (this.options.preserveNewlines) {
-        const newlinesNumber = this.whitespaceProcessor.countNewlinesNoWords(str);
+        const newlinesNumber =
+          this.whitespaceProcessor.countNewlinesNoWords(str);
         if (newlinesNumber > 0) {
           this._stackItem.inlineTextBuilder.startNewLine(newlinesNumber);
           return;
         }
       }
       if (this._stackItem.stashedLineBreaks) {
-        this._stackItem.inlineTextBuilder.startNewLine(this._stackItem.stashedLineBreaks);
+        this._stackItem.inlineTextBuilder.startNewLine(
+          this._stackItem.stashedLineBreaks
+        );
       }
       this.whitespaceProcessor.shrinkWrapAdd(
         str,
@@ -6000,7 +9887,13 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
      * @param { string } str Text to add.
      */
     addLiteral(str) {
-      if (!(this._stackItem instanceof BlockStackItem || this._stackItem instanceof ListItemStackItem || this._stackItem instanceof TableCellStackItem)) {
+      if (
+        !(
+          this._stackItem instanceof BlockStackItem ||
+          this._stackItem instanceof ListItemStackItem ||
+          this._stackItem instanceof TableCellStackItem
+        )
+      ) {
         return;
       }
       if (str.length === 0) {
@@ -6011,7 +9904,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
         return;
       }
       if (this._stackItem.stashedLineBreaks) {
-        this._stackItem.inlineTextBuilder.startNewLine(this._stackItem.stashedLineBreaks);
+        this._stackItem.inlineTextBuilder.startNewLine(
+          this._stackItem.stashedLineBreaks
+        );
       }
       this.whitespaceProcessor.addLiteral(
         str,
@@ -6035,8 +9930,15 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
      * @param { boolean } [param0.isPre]
      * Should HTML whitespace be preserved inside this block.
      */
-    openBlock({ leadingLineBreaks = 1, reservedLineLength = 0, isPre = false } = {}) {
-      const maxLineLength = Math.max(20, this._stackItem.inlineTextBuilder.maxLineLength - reservedLineLength);
+    openBlock({
+      leadingLineBreaks = 1,
+      reservedLineLength = 0,
+      isPre = false,
+    } = {}) {
+      const maxLineLength = Math.max(
+        20,
+        this._stackItem.inlineTextBuilder.maxLineLength - reservedLineLength
+      );
       this._stackItem = new BlockStackItem(
         this.options,
         this._stackItem,
@@ -6064,8 +9966,15 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
      */
     closeBlock({ trailingLineBreaks = 1, blockTransform = void 0 } = {}) {
       const block = this._popStackItem();
-      const blockText = blockTransform ? blockTransform(getText(block)) : getText(block);
-      addText(this._stackItem, blockText, block.leadingLineBreaks, Math.max(block.stashedLineBreaks, trailingLineBreaks));
+      const blockText = blockTransform
+        ? blockTransform(getText(block))
+        : getText(block);
+      addText(
+        this._stackItem,
+        blockText,
+        block.leadingLineBreaks,
+        Math.max(block.stashedLineBreaks, trailingLineBreaks)
+      );
     }
     /**
      * Start building a new list.
@@ -6087,13 +9996,18 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
      * @param { number } [param0.leadingLineBreaks]
      * This list should have at least this number of line breaks to separate it from any preceding block.
      */
-    openList({ maxPrefixLength = 0, prefixAlign = "left", interRowLineBreaks = 1, leadingLineBreaks = 2 } = {}) {
+    openList({
+      maxPrefixLength = 0,
+      prefixAlign = "left",
+      interRowLineBreaks = 1,
+      leadingLineBreaks = 2,
+    } = {}) {
       this._stackItem = new ListStackItem(this.options, this._stackItem, {
         interRowLineBreaks,
         leadingLineBreaks,
         maxLineLength: this._stackItem.inlineTextBuilder.maxLineLength,
         maxPrefixLength,
-        prefixAlign
+        prefixAlign,
       });
     }
     /**
@@ -6107,15 +10021,20 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
      */
     openListItem({ prefix = "" } = {}) {
       if (!(this._stackItem instanceof ListStackItem)) {
-        throw new Error("Can't add a list item to something that is not a list! Check the formatter.");
+        throw new Error(
+          "Can't add a list item to something that is not a list! Check the formatter."
+        );
       }
       const list = this._stackItem;
       const prefixLength = Math.max(prefix.length, list.maxPrefixLength);
-      const maxLineLength = Math.max(20, list.inlineTextBuilder.maxLineLength - prefixLength);
+      const maxLineLength = Math.max(
+        20,
+        list.inlineTextBuilder.maxLineLength - prefixLength
+      );
       this._stackItem = new ListItemStackItem(this.options, list, {
         prefix,
         maxLineLength,
-        leadingLineBreaks: list.interRowLineBreaks
+        leadingLineBreaks: list.interRowLineBreaks,
       });
     }
     /**
@@ -6124,9 +10043,15 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     closeListItem() {
       const listItem = this._popStackItem();
       const list = listItem.next;
-      const prefixLength = Math.max(listItem.prefix.length, list.maxPrefixLength);
+      const prefixLength = Math.max(
+        listItem.prefix.length,
+        list.maxPrefixLength
+      );
       const spacing = "\n" + " ".repeat(prefixLength);
-      const prefix = list.prefixAlign === "right" ? listItem.prefix.padStart(prefixLength) : listItem.prefix.padEnd(prefixLength);
+      const prefix =
+        list.prefixAlign === "right"
+          ? listItem.prefix.padStart(prefixLength)
+          : listItem.prefix.padEnd(prefixLength);
       const text = prefix + getText(listItem).replace(/\n/g, spacing);
       addText(
         list,
@@ -6148,7 +10073,12 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       const list = this._popStackItem();
       const text = getText(list);
       if (text) {
-        addText(this._stackItem, text, list.leadingLineBreaks, trailingLineBreaks);
+        addText(
+          this._stackItem,
+          text,
+          list.leadingLineBreaks,
+          trailingLineBreaks
+        );
       }
     }
     /**
@@ -6162,7 +10092,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
      */
     openTableRow() {
       if (!(this._stackItem instanceof TableStackItem)) {
-        throw new Error("Can't add a table row to something that is not a table! Check the formatter.");
+        throw new Error(
+          "Can't add a table row to something that is not a table! Check the formatter."
+        );
       }
       this._stackItem = new TableRowStackItem(this._stackItem);
     }
@@ -6177,9 +10109,15 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
      */
     openTableCell({ maxColumnWidth = void 0 } = {}) {
       if (!(this._stackItem instanceof TableRowStackItem)) {
-        throw new Error("Can't add a table cell to something that is not a table row! Check the formatter.");
+        throw new Error(
+          "Can't add a table cell to something that is not a table row! Check the formatter."
+        );
       }
-      this._stackItem = new TableCellStackItem(this.options, this._stackItem, maxColumnWidth);
+      this._stackItem = new TableCellStackItem(
+        this.options,
+        this._stackItem,
+        maxColumnWidth
+      );
     }
     /**
      * Finalize currently built table cell and add it to parent table row's cells.
@@ -6217,7 +10155,11 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
      * @param { number } [param0.trailingLineBreaks]
      * This table should have at least this number of line breaks to separate it from any following block.
      */
-    closeTable({ tableToString: tableToString2, leadingLineBreaks = 2, trailingLineBreaks = 2 }) {
+    closeTable({
+      tableToString: tableToString2,
+      leadingLineBreaks = 2,
+      trailingLineBreaks = 2,
+    }) {
       const table = this._popStackItem();
       const output = tableToString2(table.rows);
       if (output) {
@@ -6234,14 +10176,32 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     }
   };
   function getText(stackItem) {
-    if (!(stackItem instanceof BlockStackItem || stackItem instanceof ListItemStackItem || stackItem instanceof TableCellStackItem)) {
-      throw new Error("Only blocks, list items and table cells can be requested for text contents.");
+    if (
+      !(
+        stackItem instanceof BlockStackItem ||
+        stackItem instanceof ListItemStackItem ||
+        stackItem instanceof TableCellStackItem
+      )
+    ) {
+      throw new Error(
+        "Only blocks, list items and table cells can be requested for text contents."
+      );
     }
-    return stackItem.inlineTextBuilder.isEmpty() ? stackItem.rawText : stackItem.rawText + stackItem.inlineTextBuilder.toString();
+    return stackItem.inlineTextBuilder.isEmpty()
+      ? stackItem.rawText
+      : stackItem.rawText + stackItem.inlineTextBuilder.toString();
   }
   function addText(stackItem, text, leadingLineBreaks, trailingLineBreaks) {
-    if (!(stackItem instanceof BlockStackItem || stackItem instanceof ListItemStackItem || stackItem instanceof TableCellStackItem)) {
-      throw new Error("Only blocks, list items and table cells can contain text.");
+    if (
+      !(
+        stackItem instanceof BlockStackItem ||
+        stackItem instanceof ListItemStackItem ||
+        stackItem instanceof TableCellStackItem
+      )
+    ) {
+      throw new Error(
+        "Only blocks, list items and table cells can contain text."
+      );
     }
     const parentText = getText(stackItem);
     const lineBreaks = Math.max(stackItem.stashedLineBreaks, leadingLineBreaks);
@@ -6255,13 +10215,16 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     stackItem.stashedLineBreaks = trailingLineBreaks;
   }
   function applyTransformer(str, transformer) {
-    return transformer ? applyTransformer(transformer.transform(str), transformer.next) : str;
+    return transformer
+      ? applyTransformer(transformer.transform(str), transformer.next)
+      : str;
   }
   function compile$1(options = {}) {
     const selectorsWithoutFormat = options.selectors.filter((s2) => !s2.format);
     if (selectorsWithoutFormat.length) {
       throw new Error(
-        "Following selectors have no specified format: " + selectorsWithoutFormat.map((s2) => `\`${s2.selector}\``).join(", ")
+        "Following selectors have no specified format: " +
+          selectorsWithoutFormat.map((s2) => `\`${s2.selector}\``).join(", ")
       );
     }
     const picker = new DecisionTree(
@@ -6279,12 +10242,19 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     const limitedWalk = limitedDepthRecursive(
       options.limits.maxDepth,
       recursiveWalk,
-      function(dom, builder) {
+      function (dom, builder) {
         builder.addInline(options.limits.ellipsis || "");
       }
     );
-    return function(html, metadata = void 0) {
-      return process(html, metadata, options, picker, findBaseElements, limitedWalk);
+    return function (html, metadata = void 0) {
+      return process(
+        html,
+        metadata,
+        options,
+        picker,
+        findBaseElements,
+        limitedWalk
+      );
     };
   }
   function process(html, metadata, options, picker, findBaseElements, walk) {
@@ -6295,7 +10265,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       );
       html = html.substring(0, maxInputLength);
     }
-    const document = parseDocument(html, { decodeEntities: options.decodeEntities });
+    const document = parseDocument(html, {
+      decodeEntities: options.decodeEntities,
+    });
     const bases = findBaseElements(document.children);
     const builder = new BlockTextBuilder(options, picker, metadata);
     walk(bases, builder);
@@ -6328,7 +10300,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     if (options.baseElements.orderBy !== "occurrence") {
       results.sort((a, b) => a.selectorIndex - b.selectorIndex);
     }
-    return options.baseElements.returnDomByDefault && results.length === 0 ? dom : results.map((x) => x.element);
+    return options.baseElements.returnDomByDefault && results.length === 0
+      ? dom
+      : results.map((x) => x.element);
   }
   function recursiveWalk(walk, dom, builder) {
     if (!dom) {
@@ -6340,7 +10314,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       dom = dom.slice(0, options.limits.maxChildNodes);
       dom.push({
         data: options.limits.ellipsis,
-        type: "text"
+        type: "text",
       });
     }
     for (const elem of dom) {
@@ -6372,26 +10346,41 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     const replacer = (m, ...cgs) => values[cgs.findIndex((cg) => cg)];
     return (str) => str.replace(regex, replacer);
   }
-  function formatSkip(elem, walk, builder, formatOptions) {
-  }
+  function formatSkip(elem, walk, builder, formatOptions) {}
   function formatInlineString(elem, walk, builder, formatOptions) {
     builder.addLiteral(formatOptions.string || "");
   }
   function formatBlockString(elem, walk, builder, formatOptions) {
-    builder.openBlock({ leadingLineBreaks: formatOptions.leadingLineBreaks || 2 });
+    builder.openBlock({
+      leadingLineBreaks: formatOptions.leadingLineBreaks || 2,
+    });
     builder.addLiteral(formatOptions.string || "");
-    builder.closeBlock({ trailingLineBreaks: formatOptions.trailingLineBreaks || 2 });
+    builder.closeBlock({
+      trailingLineBreaks: formatOptions.trailingLineBreaks || 2,
+    });
   }
   function formatInline(elem, walk, builder, formatOptions) {
     walk(elem.children, builder);
   }
   function formatBlock$1(elem, walk, builder, formatOptions) {
-    builder.openBlock({ leadingLineBreaks: formatOptions.leadingLineBreaks || 2 });
+    builder.openBlock({
+      leadingLineBreaks: formatOptions.leadingLineBreaks || 2,
+    });
     walk(elem.children, builder);
-    builder.closeBlock({ trailingLineBreaks: formatOptions.trailingLineBreaks || 2 });
+    builder.closeBlock({
+      trailingLineBreaks: formatOptions.trailingLineBreaks || 2,
+    });
   }
   function renderOpenTag(elem) {
-    const attrs = elem.attribs && elem.attribs.length ? " " + Object.entries(elem.attribs).map(([k, v]) => v === "" ? k : `${k}=${v.replace(/"/g, "&quot;")}`).join(" ") : "";
+    const attrs =
+      elem.attribs && elem.attribs.length
+        ? " " +
+          Object.entries(elem.attribs)
+            .map(([k, v]) =>
+              v === "" ? k : `${k}=${v.replace(/"/g, "&quot;")}`
+            )
+            .join(" ")
+        : "";
     return `<${elem.name}${attrs}>`;
   }
   function renderCloseTag(elem) {
@@ -6407,7 +10396,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     builder.stopNoWrap();
   }
   function formatBlockTag(elem, walk, builder, formatOptions) {
-    builder.openBlock({ leadingLineBreaks: formatOptions.leadingLineBreaks || 2 });
+    builder.openBlock({
+      leadingLineBreaks: formatOptions.leadingLineBreaks || 2,
+    });
     builder.startNoWrap();
     builder.addLiteral(renderOpenTag(elem));
     builder.stopNoWrap();
@@ -6415,7 +10406,9 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     builder.startNoWrap();
     builder.addLiteral(renderCloseTag(elem));
     builder.stopNoWrap();
-    builder.closeBlock({ trailingLineBreaks: formatOptions.trailingLineBreaks || 2 });
+    builder.closeBlock({
+      trailingLineBreaks: formatOptions.trailingLineBreaks || 2,
+    });
   }
   function formatInlineHtml(elem, walk, builder, formatOptions) {
     builder.startNoWrap();
@@ -6425,13 +10418,17 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     builder.stopNoWrap();
   }
   function formatBlockHtml(elem, walk, builder, formatOptions) {
-    builder.openBlock({ leadingLineBreaks: formatOptions.leadingLineBreaks || 2 });
+    builder.openBlock({
+      leadingLineBreaks: formatOptions.leadingLineBreaks || 2,
+    });
     builder.startNoWrap();
     builder.addLiteral(
       render(elem, { decodeEntities: builder.options.decodeEntities })
     );
     builder.stopNoWrap();
-    builder.closeBlock({ trailingLineBreaks: formatOptions.trailingLineBreaks || 2 });
+    builder.closeBlock({
+      trailingLineBreaks: formatOptions.trailingLineBreaks || 2,
+    });
   }
   function formatInlineSurround(elem, walk, builder, formatOptions) {
     builder.addLiteral(formatOptions.prefix || "");
@@ -6449,7 +10446,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     inlineString: formatInlineString,
     inlineSurround: formatInlineSurround,
     inlineTag: formatInlineTag,
-    skip: formatSkip
+    skip: formatSkip,
   });
   function getRow(matrix, j) {
     if (!matrix[j]) {
@@ -6486,7 +10483,8 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
   }
   function getOrInitOffset(offsets, index) {
     if (offsets[index] === void 0) {
-      offsets[index] = index === 0 ? 0 : 1 + getOrInitOffset(offsets, index - 1);
+      offsets[index] =
+        index === 0 ? 0 : 1 + getOrInitOffset(offsets, index - 1);
     }
     return offsets[index];
   }
@@ -6531,7 +10529,8 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
             for (let j = 0; j < cell.lines.length; j++) {
               const line = cell.lines[j];
               const lineOffset = rowOffsets[y] + j;
-              outputLines[lineOffset] = (outputLines[lineOffset] || "").padEnd(colOffsets[x]) + line;
+              outputLines[lineOffset] =
+                (outputLines[lineOffset] || "").padEnd(colOffsets[x]) + line;
               cellWidth = line.length > cellWidth ? line.length : cellWidth;
             }
             updateOffset(colOffsets, x, cell.colspan, cellWidth + colSpacing);
@@ -6554,25 +10553,39 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     builder.addWordBreakOpportunity();
   }
   function formatHorizontalLine(elem, walk, builder, formatOptions) {
-    builder.openBlock({ leadingLineBreaks: formatOptions.leadingLineBreaks || 2 });
-    builder.addInline("-".repeat(formatOptions.length || builder.options.wordwrap || 40));
-    builder.closeBlock({ trailingLineBreaks: formatOptions.trailingLineBreaks || 2 });
+    builder.openBlock({
+      leadingLineBreaks: formatOptions.leadingLineBreaks || 2,
+    });
+    builder.addInline(
+      "-".repeat(formatOptions.length || builder.options.wordwrap || 40)
+    );
+    builder.closeBlock({
+      trailingLineBreaks: formatOptions.trailingLineBreaks || 2,
+    });
   }
   function formatParagraph(elem, walk, builder, formatOptions) {
-    builder.openBlock({ leadingLineBreaks: formatOptions.leadingLineBreaks || 2 });
+    builder.openBlock({
+      leadingLineBreaks: formatOptions.leadingLineBreaks || 2,
+    });
     walk(elem.children, builder);
-    builder.closeBlock({ trailingLineBreaks: formatOptions.trailingLineBreaks || 2 });
+    builder.closeBlock({
+      trailingLineBreaks: formatOptions.trailingLineBreaks || 2,
+    });
   }
   function formatPre(elem, walk, builder, formatOptions) {
     builder.openBlock({
       isPre: true,
-      leadingLineBreaks: formatOptions.leadingLineBreaks || 2
+      leadingLineBreaks: formatOptions.leadingLineBreaks || 2,
     });
     walk(elem.children, builder);
-    builder.closeBlock({ trailingLineBreaks: formatOptions.trailingLineBreaks || 2 });
+    builder.closeBlock({
+      trailingLineBreaks: formatOptions.trailingLineBreaks || 2,
+    });
   }
   function formatHeading(elem, walk, builder, formatOptions) {
-    builder.openBlock({ leadingLineBreaks: formatOptions.leadingLineBreaks || 2 });
+    builder.openBlock({
+      leadingLineBreaks: formatOptions.leadingLineBreaks || 2,
+    });
     if (formatOptions.uppercase !== false) {
       builder.pushWordTransform((str) => str.toUpperCase());
       walk(elem.children, builder);
@@ -6580,17 +10593,26 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     } else {
       walk(elem.children, builder);
     }
-    builder.closeBlock({ trailingLineBreaks: formatOptions.trailingLineBreaks || 2 });
+    builder.closeBlock({
+      trailingLineBreaks: formatOptions.trailingLineBreaks || 2,
+    });
   }
   function formatBlockquote(elem, walk, builder, formatOptions) {
     builder.openBlock({
       leadingLineBreaks: formatOptions.leadingLineBreaks || 2,
-      reservedLineLength: 2
+      reservedLineLength: 2,
     });
     walk(elem.children, builder);
     builder.closeBlock({
       trailingLineBreaks: formatOptions.trailingLineBreaks || 2,
-      blockTransform: (str) => (formatOptions.trimEmptyLines !== false ? trimCharacter(str, "\n") : str).split("\n").map((line) => "> " + line).join("\n")
+      blockTransform: (str) =>
+        (formatOptions.trimEmptyLines !== false
+          ? trimCharacter(str, "\n")
+          : str
+        )
+          .split("\n")
+          .map((line) => "> " + line)
+          .join("\n"),
     });
   }
   function withBrackets(str, brackets) {
@@ -6602,14 +10624,29 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     return lbr + str + rbr;
   }
   function pathRewrite(path, rewriter, baseUrl, metadata, elem) {
-    const modifiedPath = typeof rewriter === "function" ? rewriter(path, metadata, elem) : path;
-    return modifiedPath[0] === "/" && baseUrl ? trimCharacterEnd(baseUrl, "/") + modifiedPath : modifiedPath;
+    const modifiedPath =
+      typeof rewriter === "function" ? rewriter(path, metadata, elem) : path;
+    return modifiedPath[0] === "/" && baseUrl
+      ? trimCharacterEnd(baseUrl, "/") + modifiedPath
+      : modifiedPath;
   }
   function formatImage(elem, walk, builder, formatOptions) {
     const attribs = elem.attribs || {};
     const alt = attribs.alt ? attribs.alt : "";
-    const src = !attribs.src ? "" : pathRewrite(attribs.src, formatOptions.pathRewrite, formatOptions.baseUrl, builder.metadata, elem);
-    const text = !src ? alt : !alt ? withBrackets(src, formatOptions.linkBrackets) : alt + " " + withBrackets(src, formatOptions.linkBrackets);
+    const src = !attribs.src
+      ? ""
+      : pathRewrite(
+          attribs.src,
+          formatOptions.pathRewrite,
+          formatOptions.baseUrl,
+          builder.metadata,
+          elem
+        );
+    const text = !src
+      ? alt
+      : !alt
+      ? withBrackets(src, formatOptions.linkBrackets)
+      : alt + " " + withBrackets(src, formatOptions.linkBrackets);
     builder.addInline(text, { noWordTransform: true });
   }
   function formatAnchor(elem, walk, builder, formatOptions) {
@@ -6624,7 +10661,13 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       if (formatOptions.noAnchorUrl && href2[0] === "#") {
         return "";
       }
-      href2 = pathRewrite(href2, formatOptions.pathRewrite, formatOptions.baseUrl, builder.metadata, elem);
+      href2 = pathRewrite(
+        href2,
+        formatOptions.pathRewrite,
+        formatOptions.baseUrl,
+        builder.metadata,
+        elem
+      );
       return href2;
     }
     const href = getHref();
@@ -6632,17 +10675,16 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       walk(elem.children, builder);
     } else {
       let text = "";
-      builder.pushWordTransform(
-        (str) => {
-          if (str) {
-            text += str;
-          }
-          return str;
+      builder.pushWordTransform((str) => {
+        if (str) {
+          text += str;
         }
-      );
+        return str;
+      });
       walk(elem.children, builder);
       builder.popWordTransform();
-      const hideSameLink = formatOptions.hideLinkHrefIfSameAsText && href === text;
+      const hideSameLink =
+        formatOptions.hideLinkHrefIfSameAsText && href === text;
       if (!hideSameLink) {
         builder.addInline(
           !text ? href : " " + withBrackets(href, formatOptions.linkBrackets),
@@ -6654,31 +10696,41 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
   function formatList(elem, walk, builder, formatOptions, nextPrefixCallback) {
     const isNestedList = get(elem, ["parent", "name"]) === "li";
     let maxPrefixLength = 0;
-    const listItems = (elem.children || []).filter((child) => child.type !== "text" || !/^\s*$/.test(child.data)).map(function(child) {
-      if (child.name !== "li") {
-        return { node: child, prefix: "" };
-      }
-      const prefix = isNestedList ? nextPrefixCallback().trimStart() : nextPrefixCallback();
-      if (prefix.length > maxPrefixLength) {
-        maxPrefixLength = prefix.length;
-      }
-      return { node: child, prefix };
-    });
+    const listItems = (elem.children || [])
+      .filter((child) => child.type !== "text" || !/^\s*$/.test(child.data))
+      .map(function (child) {
+        if (child.name !== "li") {
+          return { node: child, prefix: "" };
+        }
+        const prefix = isNestedList
+          ? nextPrefixCallback().trimStart()
+          : nextPrefixCallback();
+        if (prefix.length > maxPrefixLength) {
+          maxPrefixLength = prefix.length;
+        }
+        return { node: child, prefix };
+      });
     if (!listItems.length) {
       return;
     }
     builder.openList({
       interRowLineBreaks: 1,
-      leadingLineBreaks: isNestedList ? 1 : formatOptions.leadingLineBreaks || 2,
+      leadingLineBreaks: isNestedList
+        ? 1
+        : formatOptions.leadingLineBreaks || 2,
       maxPrefixLength,
-      prefixAlign: "left"
+      prefixAlign: "left",
     });
     for (const { node, prefix } of listItems) {
       builder.openListItem({ prefix });
       walk([node], builder);
       builder.closeListItem();
     }
-    builder.closeList({ trailingLineBreaks: isNestedList ? 1 : formatOptions.trailingLineBreaks || 2 });
+    builder.closeList({
+      trailingLineBreaks: isNestedList
+        ? 1
+        : formatOptions.trailingLineBreaks || 2,
+    });
   }
   function formatUnorderedList(elem, walk, builder, formatOptions) {
     const prefix = formatOptions.itemPrefix || " * ";
@@ -6727,23 +10779,35 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     const { classes, ids } = splitClassesAndIds(tables);
     const attrClasses = (attr["class"] || "").split(" ");
     const attrIds = (attr["id"] || "").split(" ");
-    return attrClasses.some((x) => classes.includes(x)) || attrIds.some((x) => ids.includes(x));
+    return (
+      attrClasses.some((x) => classes.includes(x)) ||
+      attrIds.some((x) => ids.includes(x))
+    );
   }
   function formatTable(elem, walk, builder, formatOptions) {
-    return isDataTable(elem.attribs, builder.options.tables) ? formatDataTable(elem, walk, builder, formatOptions) : formatBlock(elem, walk, builder, formatOptions);
+    return isDataTable(elem.attribs, builder.options.tables)
+      ? formatDataTable(elem, walk, builder, formatOptions)
+      : formatBlock(elem, walk, builder, formatOptions);
   }
   function formatBlock(elem, walk, builder, formatOptions) {
     builder.openBlock({ leadingLineBreaks: formatOptions.leadingLineBreaks });
     walk(elem.children, builder);
-    builder.closeBlock({ trailingLineBreaks: formatOptions.trailingLineBreaks });
+    builder.closeBlock({
+      trailingLineBreaks: formatOptions.trailingLineBreaks,
+    });
   }
   function formatDataTable(elem, walk, builder, formatOptions) {
     builder.openTable();
     elem.children.forEach(walkTable);
     builder.closeTable({
-      tableToString: (rows) => tableToString(rows, formatOptions.rowSpacing ?? 0, formatOptions.colSpacing ?? 3),
+      tableToString: (rows) =>
+        tableToString(
+          rows,
+          formatOptions.rowSpacing ?? 0,
+          formatOptions.colSpacing ?? 3
+        ),
       leadingLineBreaks: formatOptions.leadingLineBreaks,
-      trailingLineBreaks: formatOptions.trailingLineBreaks
+      trailingLineBreaks: formatOptions.trailingLineBreaks,
     });
     function formatCell(cellNode) {
       const colspan = +get(cellNode, ["attribs", "colspan"]) || 1;
@@ -6756,11 +10820,14 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       if (elem2.type !== "tag") {
         return;
       }
-      const formatHeaderCell = formatOptions.uppercaseHeaderCells !== false ? (cellNode) => {
-        builder.pushWordTransform((str) => str.toUpperCase());
-        formatCell(cellNode);
-        builder.popWordTransform();
-      } : formatCell;
+      const formatHeaderCell =
+        formatOptions.uppercaseHeaderCells !== false
+          ? (cellNode) => {
+              builder.pushWordTransform((str) => str.toUpperCase());
+              formatCell(cellNode);
+              builder.popWordTransform();
+            }
+          : formatCell;
       switch (elem2.name) {
         case "thead":
         case "tbody":
@@ -6805,14 +10872,14 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     pre: formatPre,
     table: formatTable,
     unorderedList: formatUnorderedList,
-    wbr: formatWbr
+    wbr: formatWbr,
   });
   var DEFAULT_OPTIONS = {
     baseElements: {
       selectors: ["body"],
       orderBy: "selectors",
       // 'selectors' | 'occurrence'
-      returnDomByDefault: true
+      returnDomByDefault: true,
     },
     decodeEntities: true,
     encodeCharacters: {},
@@ -6822,12 +10889,12 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       maxBaseElements: void 0,
       maxChildNodes: void 0,
       maxDepth: void 0,
-      maxInputLength: 1 << 24
+      maxInputLength: 1 << 24,
       // 16_777_216
     },
     longWordSplit: {
       forceWrapOnLimit: false,
-      wrapCharacters: []
+      wrapCharacters: [],
     },
     preserveNewlines: false,
     selectors: [
@@ -6840,47 +10907,147 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
           hideLinkHrefIfSameAsText: false,
           ignoreHref: false,
           linkBrackets: ["[", "]"],
-          noAnchorUrl: true
-        }
+          noAnchorUrl: true,
+        },
       },
-      { selector: "article", format: "block", options: { leadingLineBreaks: 1, trailingLineBreaks: 1 } },
-      { selector: "aside", format: "block", options: { leadingLineBreaks: 1, trailingLineBreaks: 1 } },
+      {
+        selector: "article",
+        format: "block",
+        options: { leadingLineBreaks: 1, trailingLineBreaks: 1 },
+      },
+      {
+        selector: "aside",
+        format: "block",
+        options: { leadingLineBreaks: 1, trailingLineBreaks: 1 },
+      },
       {
         selector: "blockquote",
         format: "blockquote",
-        options: { leadingLineBreaks: 2, trailingLineBreaks: 2, trimEmptyLines: true }
+        options: {
+          leadingLineBreaks: 2,
+          trailingLineBreaks: 2,
+          trimEmptyLines: true,
+        },
       },
       { selector: "br", format: "lineBreak" },
-      { selector: "div", format: "block", options: { leadingLineBreaks: 1, trailingLineBreaks: 1 } },
-      { selector: "footer", format: "block", options: { leadingLineBreaks: 1, trailingLineBreaks: 1 } },
-      { selector: "form", format: "block", options: { leadingLineBreaks: 1, trailingLineBreaks: 1 } },
-      { selector: "h1", format: "heading", options: { leadingLineBreaks: 3, trailingLineBreaks: 2, uppercase: true } },
-      { selector: "h2", format: "heading", options: { leadingLineBreaks: 3, trailingLineBreaks: 2, uppercase: true } },
-      { selector: "h3", format: "heading", options: { leadingLineBreaks: 3, trailingLineBreaks: 2, uppercase: true } },
-      { selector: "h4", format: "heading", options: { leadingLineBreaks: 2, trailingLineBreaks: 2, uppercase: true } },
-      { selector: "h5", format: "heading", options: { leadingLineBreaks: 2, trailingLineBreaks: 2, uppercase: true } },
-      { selector: "h6", format: "heading", options: { leadingLineBreaks: 2, trailingLineBreaks: 2, uppercase: true } },
-      { selector: "header", format: "block", options: { leadingLineBreaks: 1, trailingLineBreaks: 1 } },
+      {
+        selector: "div",
+        format: "block",
+        options: { leadingLineBreaks: 1, trailingLineBreaks: 1 },
+      },
+      {
+        selector: "footer",
+        format: "block",
+        options: { leadingLineBreaks: 1, trailingLineBreaks: 1 },
+      },
+      {
+        selector: "form",
+        format: "block",
+        options: { leadingLineBreaks: 1, trailingLineBreaks: 1 },
+      },
+      {
+        selector: "h1",
+        format: "heading",
+        options: {
+          leadingLineBreaks: 3,
+          trailingLineBreaks: 2,
+          uppercase: true,
+        },
+      },
+      {
+        selector: "h2",
+        format: "heading",
+        options: {
+          leadingLineBreaks: 3,
+          trailingLineBreaks: 2,
+          uppercase: true,
+        },
+      },
+      {
+        selector: "h3",
+        format: "heading",
+        options: {
+          leadingLineBreaks: 3,
+          trailingLineBreaks: 2,
+          uppercase: true,
+        },
+      },
+      {
+        selector: "h4",
+        format: "heading",
+        options: {
+          leadingLineBreaks: 2,
+          trailingLineBreaks: 2,
+          uppercase: true,
+        },
+      },
+      {
+        selector: "h5",
+        format: "heading",
+        options: {
+          leadingLineBreaks: 2,
+          trailingLineBreaks: 2,
+          uppercase: true,
+        },
+      },
+      {
+        selector: "h6",
+        format: "heading",
+        options: {
+          leadingLineBreaks: 2,
+          trailingLineBreaks: 2,
+          uppercase: true,
+        },
+      },
+      {
+        selector: "header",
+        format: "block",
+        options: { leadingLineBreaks: 1, trailingLineBreaks: 1 },
+      },
       {
         selector: "hr",
         format: "horizontalLine",
-        options: { leadingLineBreaks: 2, length: void 0, trailingLineBreaks: 2 }
+        options: {
+          leadingLineBreaks: 2,
+          length: void 0,
+          trailingLineBreaks: 2,
+        },
       },
       {
         selector: "img",
         format: "image",
-        options: { baseUrl: null, linkBrackets: ["[", "]"] }
+        options: { baseUrl: null, linkBrackets: ["[", "]"] },
       },
-      { selector: "main", format: "block", options: { leadingLineBreaks: 1, trailingLineBreaks: 1 } },
-      { selector: "nav", format: "block", options: { leadingLineBreaks: 1, trailingLineBreaks: 1 } },
+      {
+        selector: "main",
+        format: "block",
+        options: { leadingLineBreaks: 1, trailingLineBreaks: 1 },
+      },
+      {
+        selector: "nav",
+        format: "block",
+        options: { leadingLineBreaks: 1, trailingLineBreaks: 1 },
+      },
       {
         selector: "ol",
         format: "orderedList",
-        options: { leadingLineBreaks: 2, trailingLineBreaks: 2 }
+        options: { leadingLineBreaks: 2, trailingLineBreaks: 2 },
       },
-      { selector: "p", format: "paragraph", options: { leadingLineBreaks: 2, trailingLineBreaks: 2 } },
-      { selector: "pre", format: "pre", options: { leadingLineBreaks: 2, trailingLineBreaks: 2 } },
-      { selector: "section", format: "block", options: { leadingLineBreaks: 1, trailingLineBreaks: 1 } },
+      {
+        selector: "p",
+        format: "paragraph",
+        options: { leadingLineBreaks: 2, trailingLineBreaks: 2 },
+      },
+      {
+        selector: "pre",
+        format: "pre",
+        options: { leadingLineBreaks: 2, trailingLineBreaks: 2 },
+      },
+      {
+        selector: "section",
+        format: "block",
+        options: { leadingLineBreaks: 1, trailingLineBreaks: 1 },
+      },
       {
         selector: "table",
         format: "table",
@@ -6890,35 +11057,46 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
           maxColumnWidth: 60,
           rowSpacing: 0,
           trailingLineBreaks: 2,
-          uppercaseHeaderCells: true
-        }
+          uppercaseHeaderCells: true,
+        },
       },
       {
         selector: "ul",
         format: "unorderedList",
-        options: { itemPrefix: " * ", leadingLineBreaks: 2, trailingLineBreaks: 2 }
+        options: {
+          itemPrefix: " * ",
+          leadingLineBreaks: 2,
+          trailingLineBreaks: 2,
+        },
       },
-      { selector: "wbr", format: "wbr" }
+      { selector: "wbr", format: "wbr" },
     ],
     tables: [],
     // deprecated
     whitespaceCharacters: " 	\r\n\f\u200B",
-    wordwrap: 80
+    wordwrap: 80,
   };
   var concatMerge = (acc, src, options) => [...acc, ...src];
   var overwriteMerge = (acc, src, options) => [...src];
-  var selectorsMerge = (acc, src, options) => acc.some((s2) => typeof s2 === "object") ? concatMerge(acc, src) : overwriteMerge(acc, src);
+  var selectorsMerge = (acc, src, options) =>
+    acc.some((s2) => typeof s2 === "object")
+      ? concatMerge(acc, src)
+      : overwriteMerge(acc, src);
   function compile(options = {}) {
-    options = (0, import_deepmerge.default)(
-      DEFAULT_OPTIONS,
-      options,
-      {
-        arrayMerge: overwriteMerge,
-        customMerge: (key) => key === "selectors" ? selectorsMerge : void 0
-      }
+    options = (0, import_deepmerge.default)(DEFAULT_OPTIONS, options, {
+      arrayMerge: overwriteMerge,
+      customMerge: (key) => (key === "selectors" ? selectorsMerge : void 0),
+    });
+    options.formatters = Object.assign(
+      {},
+      genericFormatters,
+      textFormatters,
+      options.formatters
     );
-    options.formatters = Object.assign({}, genericFormatters, textFormatters, options.formatters);
-    options.selectors = mergeDuplicatesPreferLast(options.selectors, (s2) => s2.selector);
+    options.selectors = mergeDuplicatesPreferLast(
+      options.selectors,
+      (s2) => s2.selector
+    );
     handleDeprecatedOptions(options);
     return compile$1(options);
   }
@@ -6928,10 +11106,16 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
   function handleDeprecatedOptions(options) {
     if (options.tags) {
       const tagDefinitions = Object.entries(options.tags).map(
-        ([selector, definition]) => ({ ...definition, selector: selector || "*" })
+        ([selector, definition]) => ({
+          ...definition,
+          selector: selector || "*",
+        })
       );
       options.selectors.push(...tagDefinitions);
-      options.selectors = mergeDuplicatesPreferLast(options.selectors, (s2) => s2.selector);
+      options.selectors = mergeDuplicatesPreferLast(
+        options.selectors,
+        (s2) => s2.selector
+      );
     }
     function set(obj, path, value) {
       const valueKey = path.pop();
@@ -6954,10 +11138,17 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       );
     }
     if (options["returnDomByDefault"] !== void 0) {
-      set(options, ["baseElements", "returnDomByDefault"], options["returnDomByDefault"]);
+      set(
+        options,
+        ["baseElements", "returnDomByDefault"],
+        options["returnDomByDefault"]
+      );
     }
     for (const definition of options.selectors) {
-      if (definition.format === "anchor" && get(definition, ["options", "noLinkBrackets"])) {
+      if (
+        definition.format === "anchor" &&
+        get(definition, ["options", "noLinkBrackets"])
+      ) {
         set(definition, ["options", "linkBrackets"], false);
       }
     }
@@ -6985,12 +11176,14 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
         artist.push(artists.name);
       }
     }
-    const description = comic?.desc ? convert(decodeHTML(comic?.desc), { wordwrap: 130 }) : "";
+    const description = comic?.desc
+      ? convert(decodeHTML(comic?.desc), { wordwrap: 130 })
+      : "";
     const arrayTags = [];
     const countryConvert = {
       kr: "Manhwa",
       jp: "Manga",
-      cn: "Manhua"
+      cn: "Manhua",
     };
     if (comic?.country) {
       const id = `type.${comic?.country}`;
@@ -6998,7 +11191,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       if (id && label) {
         arrayTags.push({
           id,
-          label
+          label,
         });
       }
     }
@@ -7006,8 +11199,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       for (const tag of data.genres) {
         const label = tag?.name;
         const id = `genre.${tag?.slug}`;
-        if (!id || !label)
-          continue;
+        if (!id || !label) continue;
         arrayTags.push({ id, label });
       }
     }
@@ -7031,12 +11223,30 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
         status,
         author: author.join(","),
         artist: artist.join(","),
-        tags: [App.createTagSection({ id: "0", label: "genres", tags: arrayTags.map((x) => App.createTag(x)) })],
-        desc: description
-      })
+        tags: [
+          App.createTagSection({
+            id: "0",
+            label: "genres",
+            tags: arrayTags.map((x) => App.createTag(x)),
+          }),
+        ],
+        desc: description,
+      }),
     });
   };
-  var parseChapters = (chapters, data, showTitle2, showVol, chapterScoreFiltering, uploadersToggled, uploadersWhitelisted, aggressiveUploadersFilter, strictNameMatching, uploaders, hideUnreleasedChapters2) => {
+  var parseChapters = (
+    chapters,
+    data,
+    showTitle2,
+    showVol,
+    chapterScoreFiltering,
+    uploadersToggled,
+    uploadersWhitelisted,
+    aggressiveUploadersFilter,
+    strictNameMatching,
+    uploaders,
+    hideUnreleasedChapters2
+  ) => {
     const chaptersData = [];
     if (chapterScoreFiltering) {
       filterChaptersByScore(data.chapters, chaptersData);
@@ -7073,15 +11283,19 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
           continue;
         }
       }
-      chapters.push(App.createChapter({
-        id,
-        name: `Chapter ${chap}${showTitle2 ? chapter?.title ? `: ${chapter?.title}` : "" : ""}`,
-        chapNum,
-        volume: showVol ? !isNaN(volume) ? volume : void 0 : void 0,
-        time: new Date(chapter?.created_at),
-        group: groups?.length !== 0 ? groups?.join(",") : "",
-        langCode: CMLanguages?.getEmoji(chapter?.lang)
-      }));
+      chapters.push(
+        App.createChapter({
+          id,
+          name: `Chapter ${chap}${
+            showTitle2 ? (chapter?.title ? `: ${chapter?.title}` : "") : ""
+          }`,
+          chapNum,
+          volume: showVol ? (!isNaN(volume) ? volume : void 0) : void 0,
+          time: new Date(chapter?.created_at),
+          group: groups?.length !== 0 ? groups?.join(",") : "",
+          langCode: CMLanguages?.getEmoji(chapter?.lang),
+        })
+      );
     }
   };
   var filterChaptersByScore = (chapterData, chapters) => {
@@ -7101,39 +11315,84 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       chapters.push(mapValue.chapter);
     });
   };
-  var filterChaptersByUploaderList = (chapterData, chapters, uploadersWhitelisted, aggressiveUploadersFilter, strictNameMatching, uploaders) => {
-    chapterData.filter((chapter) => {
-      const groups = [];
-      if (chapter?.group_name) {
-        for (const group of chapter.group_name) {
-          groups.push(group);
+  var filterChaptersByUploaderList = (
+    chapterData,
+    chapters,
+    uploadersWhitelisted,
+    aggressiveUploadersFilter,
+    strictNameMatching,
+    uploaders
+  ) => {
+    chapterData
+      .filter((chapter) => {
+        const groups = [];
+        if (chapter?.group_name) {
+          for (const group of chapter.group_name) {
+            groups.push(group);
+          }
         }
-      }
-      if (aggressiveUploadersFilter) {
-        if (uploadersWhitelisted) {
-          if (!groups.every((group) => uploaders.some((uploader) => strictNameMatching && uploader === group || !strictNameMatching && group.toLowerCase().includes(uploader.toLowerCase())))) {
-            return false;
+        if (aggressiveUploadersFilter) {
+          if (uploadersWhitelisted) {
+            if (
+              !groups.every((group) =>
+                uploaders.some(
+                  (uploader) =>
+                    (strictNameMatching && uploader === group) ||
+                    (!strictNameMatching &&
+                      group.toLowerCase().includes(uploader.toLowerCase()))
+                )
+              )
+            ) {
+              return false;
+            }
+          } else {
+            if (
+              groups.some((group) =>
+                uploaders.some(
+                  (uploader) =>
+                    (strictNameMatching && uploader === group) ||
+                    (!strictNameMatching &&
+                      group.toLowerCase().includes(uploader.toLowerCase()))
+                )
+              )
+            ) {
+              return false;
+            }
           }
         } else {
-          if (groups.some((group) => uploaders.some((uploader) => strictNameMatching && uploader === group || !strictNameMatching && group.toLowerCase().includes(uploader.toLowerCase())))) {
-            return false;
+          if (uploadersWhitelisted) {
+            if (
+              !groups.some((group) =>
+                uploaders.some(
+                  (uploader) =>
+                    (strictNameMatching && uploader === group) ||
+                    (!strictNameMatching &&
+                      group.toLowerCase().includes(uploader.toLowerCase()))
+                )
+              )
+            ) {
+              return false;
+            }
+          } else {
+            if (
+              groups.every((group) =>
+                uploaders.some(
+                  (uploader) =>
+                    (strictNameMatching && uploader === group) ||
+                    (!strictNameMatching &&
+                      group.toLowerCase().includes(uploader.toLowerCase()))
+                )
+              )
+            ) {
+              return false;
+            }
           }
         }
-      } else {
-        if (uploadersWhitelisted) {
-          if (!groups.some((group) => uploaders.some((uploader) => strictNameMatching && uploader === group || !strictNameMatching && group.toLowerCase().includes(uploader.toLowerCase())))) {
-            return false;
-          }
-        } else {
-          if (groups.every((group) => uploaders.some((uploader) => strictNameMatching && uploader === group || !strictNameMatching && group.toLowerCase().includes(uploader.toLowerCase())))) {
-            return false;
-          }
-        }
-      }
-      return true;
-    }).forEach((chapter) => {
-      chapters.push(chapter);
-    });
+        return true;
+      })
+      .forEach((chapter) => {
+        chapters.push(chapter);
+      });
   };
   var parseChapterDetails = (data, mangaId, chapterId) => {
     const pages = [];
@@ -7145,7 +11404,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     return App.createChapterDetails({
       id: chapterId,
       mangaId,
-      pages
+      pages,
     });
   };
   var parseTags = (data) => {
@@ -7153,85 +11412,108 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     for (const tag of data) {
       const label = tag?.name;
       const id = tag?.slug;
-      if (!id || !label)
-        continue;
+      if (!id || !label) continue;
       arrayTags.push({ id: `genre.${id}`, label });
     }
     const Sort = [
       {
         label: "Most follows",
-        id: "sort.follow"
+        id: "sort.follow",
       },
       {
         label: "Most views",
-        id: "sort.view"
+        id: "sort.view",
       },
       {
         label: "High rating",
-        id: "sort.rating"
+        id: "sort.rating",
       },
       {
         label: "Last updated",
-        id: "sort.uploaded"
-      }
+        id: "sort.uploaded",
+      },
     ];
     const Demographic = [
       {
         label: "Shonen",
-        id: "demographic.1"
+        id: "demographic.1",
       },
       {
         label: "Shoujo",
-        id: "demographic.2"
+        id: "demographic.2",
       },
       {
         label: "Seinen",
-        id: "demographic.3"
+        id: "demographic.3",
       },
       {
         label: "Josei",
-        id: "demographic.4"
-      }
+        id: "demographic.4",
+      },
     ];
     const Types = [
       {
         label: "Manga",
-        id: "type.jp"
+        id: "type.jp",
       },
       {
         label: "Manhwa",
-        id: "type.kr"
+        id: "type.kr",
       },
       {
         label: "Manhua",
-        id: "type.cn"
-      }
+        id: "type.cn",
+      },
     ];
     const CreatedAt = [
       {
         label: "30 days",
-        id: "createdat.30"
+        id: "createdat.30",
       },
       {
         label: "3 months",
-        id: "createdat.90"
+        id: "createdat.90",
       },
       {
         label: "6 months",
-        id: "createdat.180"
+        id: "createdat.180",
       },
       {
         label: "1 year",
-        id: "createdat.365"
-      }
+        id: "createdat.365",
+      },
     ];
     return [
-      App.createTagSection({ id: "0", label: "NOTE: Ignored if using text search!", tags: [] }),
-      App.createTagSection({ id: "1", label: "Genres", tags: arrayTags.map((x) => App.createTag(x)) }),
-      App.createTagSection({ id: "2", label: "Sort", tags: Sort.map((x) => App.createTag(x)) }),
-      App.createTagSection({ id: "3", label: "Demographic", tags: Demographic.map((x) => App.createTag(x)) }),
-      App.createTagSection({ id: "4", label: "Type", tags: Types.map((x) => App.createTag(x)) }),
-      App.createTagSection({ id: "5", label: "Created At", tags: CreatedAt.map((x) => App.createTag(x)) })
+      App.createTagSection({
+        id: "0",
+        label: "NOTE: Ignored if using text search!",
+        tags: [],
+      }),
+      App.createTagSection({
+        id: "1",
+        label: "Genres",
+        tags: arrayTags.map((x) => App.createTag(x)),
+      }),
+      App.createTagSection({
+        id: "2",
+        label: "Sort",
+        tags: Sort.map((x) => App.createTag(x)),
+      }),
+      App.createTagSection({
+        id: "3",
+        label: "Demographic",
+        tags: Demographic.map((x) => App.createTag(x)),
+      }),
+      App.createTagSection({
+        id: "4",
+        label: "Type",
+        tags: Types.map((x) => App.createTag(x)),
+      }),
+      App.createTagSection({
+        id: "5",
+        label: "Created At",
+        tags: CreatedAt.map((x) => App.createTag(x)),
+      }),
     ];
   };
   var parseHomeSections = (data, id, sectionCallback) => {
@@ -7242,7 +11524,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
           id,
           title: "Most Viewed",
           containsMoreItems: true,
-          type: import_types.HomeSectionType.singleRowLarge
+          type: import_types.HomeSectionType.singleRowLarge,
         });
         break;
       case "follow":
@@ -7250,7 +11532,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
           id,
           title: "Most Followed",
           containsMoreItems: true,
-          type: import_types.HomeSectionType.singleRowNormal
+          type: import_types.HomeSectionType.singleRowNormal,
         });
         break;
       case "uploaded":
@@ -7258,7 +11540,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
           id,
           title: "Latest Uploads",
           containsMoreItems: true,
-          type: import_types.HomeSectionType.singleRowNormal
+          type: import_types.HomeSectionType.singleRowNormal,
         });
         break;
       default:
@@ -7275,55 +11557,59 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       const image = manga?.cover_url ?? "";
       const subtitle = manga?.last_chapter ?? "";
       if (!id) continue;
-      results.push(App.createPartialSourceManga({
-        image,
-        title: decodeHTML(title),
-        mangaId: id,
-        subtitle: decodeHTML(subtitle ? `Chapter ${subtitle}` : "")
-      }));
+      results.push(
+        App.createPartialSourceManga({
+          image,
+          title: decodeHTML(title),
+          mangaId: id,
+          subtitle: decodeHTML(subtitle ? `Chapter ${subtitle}` : ""),
+        })
+      );
     }
     return results;
   };
 
   // src/ComicK/ComicKSettings.ts
   var getLanguages = async (stateManager) => {
-    return await stateManager.retrieve("languages") ?? [];
+    return (await stateManager.retrieve("languages")) ?? [];
   };
   var getLanguageHomeFilter = async (stateManager) => {
-    return await stateManager.retrieve("language_home_filter") ?? false;
+    return (await stateManager.retrieve("language_home_filter")) ?? false;
   };
   var getUploaderInput = async (stateManager) => {
-    return await stateManager.retrieve("uploader") ?? "";
+    return (await stateManager.retrieve("uploader")) ?? "";
   };
   var getUploaders = async (stateManager) => {
-    return await stateManager.retrieve("uploaders") ?? [];
+    return (await stateManager.retrieve("uploaders")) ?? [];
   };
   var getUploadersWhitelisted = async (stateManager) => {
-    return await stateManager.retrieve("uploaders_whitelisted") ?? false;
+    return (await stateManager.retrieve("uploaders_whitelisted")) ?? false;
   };
   var getSelectedUploaders = async (stateManager) => {
-    return await stateManager.retrieve("uploaders_selected") ?? [];
+    return (await stateManager.retrieve("uploaders_selected")) ?? [];
   };
   var getUploadersFiltering = async (stateManager) => {
-    return await stateManager.retrieve("uploaders_toggled") ?? false;
+    return (await stateManager.retrieve("uploaders_toggled")) ?? false;
   };
   var getAggresiveUploadersFiltering = async (stateManager) => {
-    return await stateManager.retrieve("aggressive_uploaders_filtering") ?? false;
+    return (
+      (await stateManager.retrieve("aggressive_uploaders_filtering")) ?? false
+    );
   };
   var getStrictNameMatching = async (stateManager) => {
-    return await stateManager.retrieve("strict_name_matching") ?? false;
+    return (await stateManager.retrieve("strict_name_matching")) ?? false;
   };
   var showTitle = async (stateManager) => {
-    return await stateManager.retrieve("show_title") ?? false;
+    return (await stateManager.retrieve("show_title")) ?? false;
   };
   var showVolumeNumber = async (stateManager) => {
-    return await stateManager.retrieve("show_volume_number") ?? false;
+    return (await stateManager.retrieve("show_volume_number")) ?? false;
   };
   var getChapterScoreFiltering = async (stateManager) => {
-    return await stateManager.retrieve("chapter_score_filtering") ?? false;
+    return (await stateManager.retrieve("chapter_score_filtering")) ?? false;
   };
   var hideUnreleasedChapters = async (stateManager) => {
-    return await stateManager.retrieve("hide_unreleased_chapters") ?? true;
+    return (await stateManager.retrieve("hide_unreleased_chapters")) ?? true;
   };
   var chapterSettings = (stateManager) => {
     return App.createDUINavigationButton({
@@ -7341,14 +11627,19 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
                 label: "Hide Unreleased Chapters",
                 value: App.createDUIBinding({
                   get: () => hideUnreleasedChapters(stateManager),
-                  set: async (newValue) => await stateManager.store("hide_unreleased_chapters", newValue)
-                })
-              })
-            ]
+                  set: async (newValue) =>
+                    await stateManager.store(
+                      "hide_unreleased_chapters",
+                      newValue
+                    ),
+                }),
+              }),
+            ],
           }),
           App.createDUISection({
             id: "contentchapter",
-            footer: "When both enabled, chapter title and volume will be shown or one of them is enabled is gonna show what is enabled.",
+            footer:
+              "When both enabled, chapter title and volume will be shown or one of them is enabled is gonna show what is enabled.",
             isHidden: false,
             rows: async () => [
               App.createDUISwitch({
@@ -7356,21 +11647,23 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
                 label: "Show Chapter Volume",
                 value: App.createDUIBinding({
                   get: () => showVolumeNumber(stateManager),
-                  set: async (newValue) => await stateManager.store("show_volume_number", newValue)
-                })
+                  set: async (newValue) =>
+                    await stateManager.store("show_volume_number", newValue),
+                }),
               }),
               App.createDUISwitch({
                 id: "show_title",
                 label: "Show Chapter Title",
                 value: App.createDUIBinding({
                   get: () => showTitle(stateManager),
-                  set: async (newValue) => await stateManager.store("show_title", newValue)
-                })
-              })
-            ]
-          })
-        ]
-      })
+                  set: async (newValue) =>
+                    await stateManager.store("show_title", newValue),
+                }),
+              }),
+            ],
+          }),
+        ],
+      }),
     });
   };
   var languageSettings = (stateManager) => {
@@ -7381,7 +11674,8 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
         sections: async () => [
           App.createDUISection({
             id: "content",
-            footer: "When enabled, it will filter New & Hot based on which languages that were chosen.",
+            footer:
+              "When enabled, it will filter New & Hot based on which languages that were chosen.",
             isHidden: false,
             rows: async () => [
               App.createDUISelect({
@@ -7391,28 +11685,30 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
                 labelResolver: async (option2) => CMLanguages.getName(option2),
                 value: App.createDUIBinding({
                   get: () => getLanguages(stateManager),
-                  set: async (newValue) => await stateManager.store("languages", newValue)
+                  set: async (newValue) =>
+                    await stateManager.store("languages", newValue),
                 }),
-                allowsMultiselect: true
+                allowsMultiselect: true,
               }),
               App.createDUISwitch({
                 id: "language_home_filter",
                 label: "Filter Homepage Language",
                 value: App.createDUIBinding({
                   get: () => getLanguageHomeFilter(stateManager),
-                  set: async (newValue) => await stateManager.store("language_home_filter", newValue)
-                })
-              })
-            ]
-          })
-        ]
-      })
+                  set: async (newValue) =>
+                    await stateManager.store("language_home_filter", newValue),
+                }),
+              }),
+            ],
+          }),
+        ],
+      }),
     });
   };
   var uploadersSettings = (stateManager) => {
     const uploaderInputBinding = App.createDUIBinding({
       get: () => getUploaderInput(stateManager),
-      set: async (newValue) => await stateManager.store("uploader", newValue)
+      set: async (newValue) => await stateManager.store("uploader", newValue),
     });
     return App.createDUINavigationButton({
       id: "uploaders_settings",
@@ -7422,7 +11718,8 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
           App.createDUISection({
             id: "chapter_score_filtering",
             header: "Filter Chapters by Score",
-            footer: "Show only the uploader with the most upvotes for each chapter.\nDisable to manually manage uploader filtering.",
+            footer:
+              "Show only the uploader with the most upvotes for each chapter.\nDisable to manually manage uploader filtering.",
             isHidden: false,
             rows: async () => [
               App.createDUISwitch({
@@ -7430,10 +11727,14 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
                 label: "Enable Chapter Score Filtering",
                 value: App.createDUIBinding({
                   get: () => getChapterScoreFiltering(stateManager),
-                  set: async (newValue) => await stateManager.store("chapter_score_filtering", newValue)
-                })
-              })
-            ]
+                  set: async (newValue) =>
+                    await stateManager.store(
+                      "chapter_score_filtering",
+                      newValue
+                    ),
+                }),
+              }),
+            ],
           }),
           App.createDUISection({
             id: "modify_uploaders",
@@ -7448,15 +11749,15 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
                   get: () => getSelectedUploaders(stateManager),
                   set: async (newValue) => {
                     await stateManager.store("uploaders_selected", newValue);
-                  }
+                  },
                 }),
                 labelResolver: async (value) => value,
-                allowsMultiselect: true
+                allowsMultiselect: true,
               }),
               App.createDUIInputField({
                 id: "uploader",
                 label: "Uploader Name",
-                value: uploaderInputBinding
+                value: uploaderInputBinding,
               }),
               App.createDUIButton({
                 id: "add_uploader",
@@ -7469,13 +11770,15 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
                   const uploaders = await getUploaders(stateManager);
                   const uploadersSet = new Set(uploaders);
                   if (uploadersSet.has(targetUploader)) {
-                    throw new Error(`Uploader ${targetUploader} already exists!`);
+                    throw new Error(
+                      `Uploader ${targetUploader} already exists!`
+                    );
                   } else {
                     uploaders.push(targetUploader);
                     await stateManager.store("uploaders", uploaders);
                   }
                   await uploaderInputBinding.set("");
-                }
+                },
               }),
               App.createDUIButton({
                 id: "remove_uploader",
@@ -7491,17 +11794,20 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
                     uploaders.splice(uploaders.indexOf(targetUploader), 1);
                     await stateManager.store("uploaders", uploaders);
                   } else {
-                    throw new Error(`Uploader ${targetUploader} does not exists!`);
+                    throw new Error(
+                      `Uploader ${targetUploader} does not exists!`
+                    );
                   }
                   await uploaderInputBinding.set("");
-                }
-              })
-            ]
+                },
+              }),
+            ],
           }),
           App.createDUISection({
             id: "select_uploaders",
             header: "Filtering Settings",
-            footer: "Filter Uploaders by name.\nBy default, selected uploaders are excluded from chapter lists (blacklist mode).",
+            footer:
+              "Filter Uploaders by name.\nBy default, selected uploaders are excluded from chapter lists (blacklist mode).",
             isHidden: await getChapterScoreFiltering(stateManager),
             rows: async () => [
               App.createDUISwitch({
@@ -7509,16 +11815,18 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
                 label: "Enable Uploader filtering",
                 value: App.createDUIBinding({
                   get: () => getUploadersFiltering(stateManager),
-                  set: async (newValue) => await stateManager.store("uploaders_toggled", newValue)
-                })
+                  set: async (newValue) =>
+                    await stateManager.store("uploaders_toggled", newValue),
+                }),
               }),
               App.createDUISwitch({
                 id: "uploaders_switch",
                 label: "Enable whitelist mode",
                 value: App.createDUIBinding({
                   get: () => getUploadersWhitelisted(stateManager),
-                  set: async (newValue) => await stateManager.store("uploaders_whitelisted", newValue)
-                })
+                  set: async (newValue) =>
+                    await stateManager.store("uploaders_whitelisted", newValue),
+                }),
               }),
               App.createDUISwitch({
                 id: "toggle_uploaders_filtering_aggressiveness",
@@ -7526,21 +11834,26 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
                 value: App.createDUIBinding({
                   // default to true if no value is set
                   get: () => getAggresiveUploadersFiltering(stateManager),
-                  set: async (newValue) => await stateManager.store("aggressive_uploaders_filtering", newValue)
-                })
+                  set: async (newValue) =>
+                    await stateManager.store(
+                      "aggressive_uploaders_filtering",
+                      newValue
+                    ),
+                }),
               }),
               App.createDUISwitch({
                 id: "strict_name_matching",
                 label: "Strict uploader name matching",
                 value: App.createDUIBinding({
                   get: () => getStrictNameMatching(stateManager),
-                  set: async (newValue) => await stateManager.store("strict_name_matching", newValue)
-                })
-              })
-            ]
-          })
-        ]
-      })
+                  set: async (newValue) =>
+                    await stateManager.store("strict_name_matching", newValue),
+                }),
+              }),
+            ],
+          }),
+        ],
+      }),
     });
   };
   var resetSettings = (stateManager) => {
@@ -7560,15 +11873,15 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
           stateManager.store("uploaders_toggled", null),
           stateManager.store("uploader", null),
           stateManager.store("strict_name_matching", null),
-          stateManager.store("hide_unreleased_chapters", null)
+          stateManager.store("hide_unreleased_chapters", null),
         ]);
-      }
+      },
     });
   };
 
   // src/ComicK/ComicK.ts
-  var COMICK_DOMAIN = "https://comick.io";
-  var COMICK_API = "https://api.comick.fun";
+  var COMICK_DOMAIN = "https://comick.art";
+  var COMICK_API = "https://comick.art/api";
   var LIMIT = 300;
   var ComicKInfo = {
     version: "2.2.2",
@@ -7579,13 +11892,17 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     description: "Extension that pulls manga from comick.cc.",
     contentRating: import_types2.ContentRating.MATURE,
     websiteBaseURL: COMICK_DOMAIN,
-    intents: import_types2.SourceIntents.HOMEPAGE_SECTIONS | import_types2.SourceIntents.SETTINGS_UI | import_types2.SourceIntents.MANGA_CHAPTERS | import_types2.SourceIntents.CLOUDFLARE_BYPASS_REQUIRED,
+    intents:
+      import_types2.SourceIntents.HOMEPAGE_SECTIONS |
+      import_types2.SourceIntents.SETTINGS_UI |
+      import_types2.SourceIntents.MANGA_CHAPTERS |
+      import_types2.SourceIntents.CLOUDFLARE_BYPASS_REQUIRED,
     sourceTags: [
       {
         text: "Multi Language",
-        type: import_types2.BadgeColor.YELLOW
-      }
-    ]
+        type: import_types2.BadgeColor.YELLOW,
+      },
+    ],
   };
   var ComicK = class {
     constructor() {
@@ -7595,33 +11912,35 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
         interceptor: {
           interceptRequest: async (request) => {
             request.headers = {
-              ...request.headers ?? {},
+              ...(request.headers ?? {}),
               ...{
                 "user-agent": await this.requestManager.getDefaultUserAgent(),
-                "referer": COMICK_DOMAIN
-              }
+                referer: COMICK_DOMAIN,
+              },
             };
             return request;
           },
           interceptResponse: async (response) => {
             return response;
-          }
-        }
+          },
+        },
       });
       this.stateManager = App.createSourceStateManager();
     }
     async getSourceMenu() {
-      return Promise.resolve(App.createDUISection({
-        id: "main",
-        header: "Source Settings",
-        isHidden: false,
-        rows: async () => [
-          languageSettings(this.stateManager),
-          chapterSettings(this.stateManager),
-          uploadersSettings(this.stateManager),
-          resetSettings(this.stateManager)
-        ]
-      }));
+      return Promise.resolve(
+        App.createDUISection({
+          id: "main",
+          header: "Source Settings",
+          isHidden: false,
+          rows: async () => [
+            languageSettings(this.stateManager),
+            chapterSettings(this.stateManager),
+            uploadersSettings(this.stateManager),
+            resetSettings(this.stateManager),
+          ],
+        })
+      );
     }
     getMangaShareUrl(mangaId) {
       return `${COMICK_DOMAIN}/comic/${mangaId}`;
@@ -7629,7 +11948,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     async getMangaDetails(mangaId) {
       const request = App.createRequest({
         url: `${COMICK_API}/comic/${mangaId}?tachiyomi=true`,
-        method: "GET"
+        method: "GET",
       });
       const response = await this.requestManager.schedule(request, 1);
       this.CloudFlareError(response.status);
@@ -7642,15 +11961,25 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       return parseMangaDetails(data, mangaId);
     }
     async getChapters(mangaId) {
-      const showTitle2 = await this.stateManager.retrieve("show_title") ?? false;
-      const showVol = await this.stateManager.retrieve("show_volume_number") ?? false;
-      const chapterScoreFiltering = await this.stateManager.retrieve("chapter_score_filtering") ?? false;
-      const uploadersToggled = await this.stateManager.retrieve("uploaders_toggled") ?? false;
-      const uploadersWhitelisted = await this.stateManager.retrieve("uploaders_whitelisted") ?? false;
-      const aggressiveUploadersFilter = await this.stateManager.retrieve("aggressive_uploaders_filtering") ?? false;
-      const strictNameMatching = await this.stateManager.retrieve("strict_name_matching") ?? false;
-      const uploaders = await this.stateManager.retrieve("uploaders_selected") ?? [];
-      const hideUnreleasedChapters2 = await this.stateManager.retrieve("hide_unreleased_chapters") ?? true;
+      const showTitle2 =
+        (await this.stateManager.retrieve("show_title")) ?? false;
+      const showVol =
+        (await this.stateManager.retrieve("show_volume_number")) ?? false;
+      const chapterScoreFiltering =
+        (await this.stateManager.retrieve("chapter_score_filtering")) ?? false;
+      const uploadersToggled =
+        (await this.stateManager.retrieve("uploaders_toggled")) ?? false;
+      const uploadersWhitelisted =
+        (await this.stateManager.retrieve("uploaders_whitelisted")) ?? false;
+      const aggressiveUploadersFilter =
+        (await this.stateManager.retrieve("aggressive_uploaders_filtering")) ??
+        false;
+      const strictNameMatching =
+        (await this.stateManager.retrieve("strict_name_matching")) ?? false;
+      const uploaders =
+        (await this.stateManager.retrieve("uploaders_selected")) ?? [];
+      const hideUnreleasedChapters2 =
+        (await this.stateManager.retrieve("hide_unreleased_chapters")) ?? true;
       const chapters = [];
       let page = 1;
       let data = await this.createChapterRequest(mangaId, page++);
@@ -7688,10 +12017,12 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     }
     async createChapterRequest(mangaId, page) {
       const LIMIT2 = 1e5;
-      const Languages = await this.stateManager.retrieve("languages") ?? [];
+      const Languages = (await this.stateManager.retrieve("languages")) ?? [];
       const request = App.createRequest({
-        url: `${COMICK_API}/comic/${mangaId}/chapters?page=${page}&limit=${LIMIT2}${!Languages.includes("all") ? `&lang=${Languages.join(",")}` : ""}&tachiyomi=true`,
-        method: "GET"
+        url: `${COMICK_API}/comic/${mangaId}/chapters?page=${page}&limit=${LIMIT2}${
+          !Languages.includes("all") ? `&lang=${Languages.join(",")}` : ""
+        }&tachiyomi=true`,
+        method: "GET",
       });
       const response = await this.requestManager.schedule(request, 1);
       this.CloudFlareError(response.status);
@@ -7706,7 +12037,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     async getChapterDetails(mangaId, chapterId) {
       const request = App.createRequest({
         url: `${COMICK_API}/chapter/${chapterId}/?tachiyomi=true`,
-        method: "GET"
+        method: "GET",
       });
       const response = await this.requestManager.schedule(request, 1);
       this.CloudFlareError(response.status);
@@ -7721,7 +12052,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     async getSearchTags() {
       const request = App.createRequest({
         url: `${COMICK_API}/genre/`,
-        method: "GET"
+        method: "GET",
       });
       const response = await this.requestManager.schedule(request, 1);
       this.CloudFlareError(response.status);
@@ -7742,13 +12073,13 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
         id: sort,
         request: App.createRequest({
           url: `${COMICK_API}/v1.0/search/?tachiyomi=true&page=1&limit=${LIMIT2}&sort=${sort}&t=false`,
-          method: "GET"
-        })
+          method: "GET",
+        }),
       });
       const sections = [
         createSectionRequest("view"),
         createSectionRequest("follow"),
-        createSectionRequest("uploaded")
+        createSectionRequest("uploaded"),
       ];
       for (const s2 of sections) {
         const response = await this.requestManager.schedule(s2.request, 1);
@@ -7776,11 +12107,13 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
           param = `/v1.0/search/?tachiyomi=true&page=${page}&limit=${LIMIT}&sort=uploaded&t=false`;
           break;
         default:
-          throw new Error("Requested to getViewMoreItems for a section ID which doesn't exist");
+          throw new Error(
+            "Requested to getViewMoreItems for a section ID which doesn't exist"
+          );
       }
       const request = App.createRequest({
         url: COMICK_API + param,
-        method: "GET"
+        method: "GET",
       });
       const response = await this.requestManager.schedule(request, 1);
       this.CloudFlareError(response.status);
@@ -7794,7 +12127,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       metadata = data.length === LIMIT ? { page: page + 1 } : void 0;
       return App.createPagedResults({
         results: manga,
-        metadata
+        metadata,
       });
     }
     async getSearchResults(query, metadata) {
@@ -7834,13 +12167,24 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       let request;
       if (query.title) {
         request = App.createRequest({
-          url: `${COMICK_API}/v1.0/search?q=${query.title.replace(/ /g, "%20")}&limit=${LIMIT}&page=${page}&tachiyomi=true`,
-          method: "GET"
+          url: `${COMICK_API}/v1.0/search?q=${query.title.replace(
+            / /g,
+            "%20"
+          )}&limit=${LIMIT}&page=${page}&tachiyomi=true`,
+          method: "GET",
         });
       } else {
         request = App.createRequest({
-          url: `${COMICK_API}/v1.0/search?page=${page}&limit=${LIMIT}${includedGenres.length > 0 ? includedGenres.join("") : ""}${excludedGenres.length > 0 ? excludedGenres.join("") : ""}${Sort.length > 0 ? Sort.join("") : ""}${CreatedAt.length > 0 ? CreatedAt.join("") : ""}${Type.length > 0 ? Type.join("") : ""}${Demographic.length > 0 ? Demographic.join("") : ""}&tachiyomi=true`,
-          method: "GET"
+          url: `${COMICK_API}/v1.0/search?page=${page}&limit=${LIMIT}${
+            includedGenres.length > 0 ? includedGenres.join("") : ""
+          }${excludedGenres.length > 0 ? excludedGenres.join("") : ""}${
+            Sort.length > 0 ? Sort.join("") : ""
+          }${CreatedAt.length > 0 ? CreatedAt.join("") : ""}${
+            Type.length > 0 ? Type.join("") : ""
+          }${
+            Demographic.length > 0 ? Demographic.join("") : ""
+          }&tachiyomi=true`,
+          method: "GET",
         });
       }
       const response = await this.requestManager.schedule(request, 1);
@@ -7855,7 +12199,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
       metadata = data.length === LIMIT ? { page: page + 1 } : void 0;
       return App.createPagedResults({
         results: manga,
-        metadata
+        metadata,
       });
     }
     CloudFlareError(status) {
@@ -7869,12 +12213,15 @@ Please go to the homepage of <${ComicKInfo.name}> and press the cloud icon.`);
         url: COMICK_DOMAIN,
         method: "GET",
         headers: {
-          "referer": `${COMICK_DOMAIN}/`,
-          "user-agent": await this.requestManager.getDefaultUserAgent()
-        }
+          referer: `${COMICK_DOMAIN}/`,
+          "user-agent": await this.requestManager.getDefaultUserAgent(),
+        },
       });
     }
   };
   return __toCommonJS(ComicK_exports);
 })();
-this.Sources = _Sources; if (typeof exports === 'object' && typeof module !== 'undefined') {module.exports.Sources = this.Sources;}
+this.Sources = _Sources;
+if (typeof exports === "object" && typeof module !== "undefined") {
+  module.exports.Sources = this.Sources;
+}
